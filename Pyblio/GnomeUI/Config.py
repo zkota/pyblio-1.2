@@ -240,7 +240,7 @@ class IntegerConfig (StringConfig):
             vmin = 0
             vmax = +100
             
-        adj = gtk.Adjustment (0, vmin, vmax, 1, 10, 1)
+        adj = gtk.Adjustment (0, vmin, vmax, 1, 10, 0)
         self.w = gtk.SpinButton (adj, 1, 0)
         
         if self.key:
