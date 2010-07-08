@@ -1,241 +1,249 @@
-# pybliographer's Portuguese translation.
-# Copyright © 2003, 2004 pybliographer
-# This file is distributed under the same license as the pybliographer package.
-# Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004.
-# Carlos Manuel <crolidge@gmail.com>, 2009.
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2009.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 2.30\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-12-05 22:55+0000\n"
-"PO-Revision-Date: 2009-11-27 23:42+0100\n"
-"Last-Translator: Carlos Manuel <crolidge@gmail.com>\n"
-"Language-Team: Portuguese <gnome_pt@yahoogroups.com>\n"
+"Project-Id-Version: Pybliographer\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliographer&component=general\n"
+"POT-Creation-Date: 2009-10-17 15:36+0000\n"
+"PO-Revision-Date: 2009-12-10 07:33+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
 msgid "warning: can't import %s: %s"
-msgstr "aviso: incapaz de importar %s: %s"
+msgstr "opozorilo: %s ni mogoče uvoziti: %s"
 
 #: ../Pyblio/Config.py:52
 #, python-format
 msgid "value of `%s' should be of type %s"
-msgstr "valor de `%s' deveria ser do tipo %s"
+msgstr "vrednost `%s' bi morala biti vrste %s"
 
 #: ../Pyblio/Config.py:212
 msgid "String"
-msgstr "Expressão"
+msgstr "Niz"
 
 #: ../Pyblio/Config.py:221
 msgid "Boolean"
-msgstr "Boleana"
+msgstr "Boolova vrednost"
 
 #: ../Pyblio/Config.py:240
 msgid "Integer"
-msgstr "Inteiro"
+msgstr "Celo število"
 
 #: ../Pyblio/Config.py:242
 #, python-format
 msgid "Integer under %d"
-msgstr "Inteiro menor do que %d"
+msgstr "Celo število manjše od %d"
 
 #: ../Pyblio/Config.py:244
 #, python-format
 msgid "Integer over %d"
-msgstr "Inteiro maior do que %d"
+msgstr "Celo število večje od %d"
 
 #: ../Pyblio/Config.py:246
 #, python-format
 msgid "Integer between %d and %d"
-msgstr "Inteiro entre %d e %d"
+msgstr "Celo število med %d in %d"
 
 #: ../Pyblio/Config.py:258
 #, python-format
 msgid "Element in `%s'"
-msgstr "Elemento em `%s'"
+msgstr "Element v `%s'"
 
 #: ../Pyblio/Config.py:278
 #, python-format
 msgid "Tuple (%s)"
-msgstr "Tuple (%s)"
+msgstr "n-terica (%s)"
 
 #: ../Pyblio/Config.py:299
 #, python-format
 msgid "List (%s)"
-msgstr "Lista (%s)"
+msgstr "Seznam (%s)"
 
 #: ../Pyblio/Config.py:324
 #, python-format
 msgid "Dictionary (%s, %s)"
-msgstr "Dicionário (%s, %s)"
+msgstr "Slovar (%s, %s)"
 
 #: ../Pyblio/Config.py:344
 #, python-format
 msgid "warning: could not restore setting %r to %r: %s"
-msgstr "aviso: não se pode restaurar a definição %r para %r: %s"
+msgstr "opozorilo: nastavitve %r ni mogoče obnoviti na %r: %s"
 
 #: ../Pyblio/Fields.py:261
 msgid "Illegal year value"
-msgstr "Valor ano inválido"
+msgstr "Neveljavna vrednost za leto"
 
 #: ../Pyblio/Fields.py:265
 msgid "Illegal month value"
-msgstr "Valor mês inválido"
+msgstr "Neveljavna vrednost za mesec"
 
 #: ../Pyblio/Fields.py:269
 msgid "Illegal day value"
-msgstr "Valor dia inválido"
+msgstr "Neveljavna vrednost za dan"
 
 #: ../Pyblio/Fields.py:510
 #, python-format
 msgid "in %s"
-msgstr "em %s"
+msgstr "v %s"
 
-#: ../Pyblio/Format/BibTeX.py:323 ../Pyblio/Format/BibTeX.py:371
+#: ../Pyblio/Format/BibTeX.py:323
+#: ../Pyblio/Format/BibTeX.py:371
 #, python-format
 msgid "key `%s' is malformed"
-msgstr "chave `%s' está mal-formada"
+msgstr "ključ `%s' je napačno oblikovan"
 
-#: ../Pyblio/Format/BibTeX.py:340 ../Pyblio/Format/BibTeX.py:359
+#: ../Pyblio/Format/BibTeX.py:340
+#: ../Pyblio/Format/BibTeX.py:359
 #, python-format
 msgid "%s:%d: key `%s' already defined"
-msgstr "%s:%d: chave `%s' já se encontra definida"
+msgstr "%s:%d: ključ `%s' je že določen"
 
-#: ../Pyblio/GnomeUI/Config.py:147 ../Pyblio/GnomeUI/Fields.py:417
+#: ../Pyblio/GnomeUI/Config.py:147
+#: ../Pyblio/GnomeUI/Fields.py:417
 msgid ""
 "Some changes require to restart Pybliographic\n"
 "to be correctly taken into account"
 msgstr ""
-"Algumas alterações requerem que reinicie o Pybliographic\n"
-"para que tomem efeito"
+"Nekatere spremembe za pravilno delovanje\n"
+"zahtevajo ponoven zagon Pybliographic"
 
 #: ../Pyblio/GnomeUI/Config.py:429
 msgid "Add"
-msgstr "Adicionar"
+msgstr "Dodaj"
 
 #: ../Pyblio/GnomeUI/Config.py:432
 msgid "Update"
-msgstr "Actualizar"
+msgstr "Posodobi"
 
-#: ../Pyblio/GnomeUI/Config.py:435 ../Pyblio/GnomeUI/Config.py:549
+#: ../Pyblio/GnomeUI/Config.py:435
+#: ../Pyblio/GnomeUI/Config.py:549
 msgid "Remove"
-msgstr "Remover"
+msgstr "Odstrani"
 
 #: ../Pyblio/GnomeUI/Config.py:546
 msgid "Set"
-msgstr "Definir"
+msgstr "Nastavi"
 
 #: ../Pyblio/GnomeUI/Config.py:561
 msgid "Key:"
-msgstr "Chave:"
+msgstr "Ključ:"
 
 #: ../Pyblio/GnomeUI/Config.py:563
 msgid "Value:"
-msgstr "Valor:"
+msgstr "Vrednost:"
 
 #. id     stock            label         accel   tooltip   callback
 #: ../Pyblio/GnomeUI/Document.py:145
 msgid "_File"
-msgstr "_Ficheiro"
+msgstr "_Datoteka"
 
-#: ../Pyblio/GnomeUI/Document.py:146 ../Pyblio/GnomeUI/Document.py:195
+#: ../Pyblio/GnomeUI/Document.py:146
+#: ../Pyblio/GnomeUI/Document.py:195
 msgid "_Edit"
-msgstr "_Editar"
+msgstr "_Uredi"
 
 #: ../Pyblio/GnomeUI/Document.py:147
 msgid "_View"
-msgstr "_Ver"
+msgstr "_Pogled"
 
 #: ../Pyblio/GnomeUI/Document.py:148
 msgid "_Cite"
-msgstr "_Citar"
+msgstr "_Navedi"
 
 #: ../Pyblio/GnomeUI/Document.py:149
 msgid "_Settings"
-msgstr "_Definições"
+msgstr "_Nastavitve"
 
 #: ../Pyblio/GnomeUI/Document.py:150
 msgid "_Help"
-msgstr "_Ajuda"
+msgstr "Pomo_č"
 
 #: ../Pyblio/GnomeUI/Document.py:151
 msgid "Recent documents"
-msgstr "Documentos recentes"
+msgstr "Nedavni dokumenti"
 
 #: ../Pyblio/GnomeUI/Document.py:154
 msgid "Open a file"
-msgstr "Abrir um ficheiro"
+msgstr "Odpri datoteko"
 
 #: ../Pyblio/GnomeUI/Document.py:155
 msgid "Open _Location"
-msgstr "Abrir _Local"
+msgstr "Odpri _mesto"
 
 #: ../Pyblio/GnomeUI/Document.py:156
 msgid "Save the current file"
-msgstr "Gravar ficheiro actual"
+msgstr "Shrani trenutno datoteko"
 
 #: ../Pyblio/GnomeUI/Document.py:161
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
 msgid "Merge With..."
-msgstr "Juntar Com..."
+msgstr "Združi z ..."
 
 #: ../Pyblio/GnomeUI/Document.py:162
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
 msgid "Medline Query..."
-msgstr "Consulta Medline..."
+msgstr "Poizvedba Medline ..."
 
 #: ../Pyblio/GnomeUI/Document.py:170
 msgid "Add a new entry"
-msgstr "Criar uma nova entrada"
+msgstr "Dodaj nov vnos"
 
 #: ../Pyblio/GnomeUI/Document.py:174
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "S_ort..."
-msgstr "_Ordenar..."
+msgstr "R_azvrsti ..."
 
 #: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
 msgid "Cite..."
-msgstr "Citar..."
+msgstr "Navedi ..."
 
 #: ../Pyblio/GnomeUI/Document.py:175
 msgid "Cite key(s)"
-msgstr "Chave(s) de citação"
+msgstr "Navedi ključe"
 
 #: ../Pyblio/GnomeUI/Document.py:176
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
 msgid "Format..."
-msgstr "Formato..."
+msgstr "Zapis ..."
 
 #: ../Pyblio/GnomeUI/Document.py:178
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:4
 msgid "Fields..."
-msgstr "Campos..."
+msgstr "Polja ..."
 
 #: ../Pyblio/GnomeUI/Document.py:180
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
 msgid "Forget all changes"
-msgstr "Esquecer todas as alterações"
+msgstr "Pozabi vse spremembe"
 
 #: ../Pyblio/GnomeUI/Document.py:183
 msgid "_Resource"
-msgstr "_Recurso"
+msgstr "_Vir"
 
 #: ../Pyblio/GnomeUI/Document.py:194
 msgid "_About"
-msgstr "_Sobre"
+msgstr "_O programu"
 
 #: ../Pyblio/GnomeUI/Document.py:242
 msgid "Quick search"
-msgstr "Procura rápida"
+msgstr "Hitro iskanje"
 
 #: ../Pyblio/GnomeUI/Document.py:316
 msgid "Unnamed bibliographic database"
-msgstr "Base de dados bibliográfica sem nome"
+msgstr "Neimenovana bibliografska podatkovna zbirka"
 
 #: ../Pyblio/GnomeUI/Document.py:399
 #, python-format
@@ -243,7 +251,7 @@ msgid ""
 "can't open file `%s' for writing:\n"
 "%s"
 msgstr ""
-"incapaz de abrir o ficheiro `%s' para escrita:\n"
+"Datoteke `%s' ni mogoče odpreti za pisanje:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:420
@@ -252,109 +260,111 @@ msgid ""
 "Error while parsing `%s':\n"
 "%s"
 msgstr ""
-"Erro ao processar `%s':\n"
+"Napaka med razčlenjevanjem `%s':\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:436
 msgid "New database"
-msgstr "Nova base de dados"
+msgstr "Nova podatkovna zbirka"
 
-#: ../Pyblio/GnomeUI/Document.py:444 ../Pyblio/GnomeUI/Document.py:448
+#: ../Pyblio/GnomeUI/Document.py:444
+#: ../Pyblio/GnomeUI/Document.py:448
 msgid "[no entry]"
-msgstr "[nenhuma entrada]"
+msgstr "[ni vnosa]"
 
 #: ../Pyblio/GnomeUI/Document.py:445
 msgid "[1 entry]"
-msgstr "[1 entrada]"
+msgstr "[1 vnos]"
 
 #: ../Pyblio/GnomeUI/Document.py:446
 #, python-format
 msgid "[%d entries]"
-msgstr "[%d entradas]"
+msgstr "[%d vnosov]"
 
 #: ../Pyblio/GnomeUI/Document.py:449
 #, python-format
 msgid "[%d/1 entry]"
-msgstr "[%d/1 entradas]"
+msgstr "[%d/1 vnos]"
 
 #: ../Pyblio/GnomeUI/Document.py:450
 #, python-format
 msgid "[%d/%d entries]"
-msgstr "[%d/%d entradas]"
+msgstr "[%d/%d vnosov]"
 
 #: ../Pyblio/GnomeUI/Document.py:455
 msgid "[modified]"
-msgstr "[alterada]"
+msgstr "[spremenjeno]"
 
 #: ../Pyblio/GnomeUI/Document.py:458
 #, python-format
 msgid "view limited to: %s"
-msgstr "vista limitada a: %s"
+msgstr "pogled omejen na: %s"
 
 #: ../Pyblio/GnomeUI/Document.py:471
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
 msgstr ""
-"A base de dados foi alterada.\n"
-"Descartar as alterações?"
+"Podatkovna zbirka je bila spremenjena.\n"
+"Ali naj se spremembe zavržejo?"
 
 #: ../Pyblio/GnomeUI/Document.py:475
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
 msgstr ""
-"A base de dados foi alterada.\n"
-"Gravar as alterações?"
+"Podatkovna zbirka je bila spremenjena.\n"
+"Ali naj se spremembe shranijo?"
 
 #: ../Pyblio/GnomeUI/Document.py:492
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes ?"
 msgstr ""
-"A base de dados foi alterada externamente.\n"
-"Sobrepor as alterações ?"
+"Podatkovna zbirka je bila spremenjena.\n"
+"Ali naj se spremembe prepišejo?"
 
 #. no result.
 #: ../Pyblio/GnomeUI/Document.py:521
 msgid "Your query returned no result"
-msgstr "A sua consulta não devolveu resultados"
+msgstr "Poizvedba ni vrnila zadetkov"
 
 #. get a new file name
 #: ../Pyblio/GnomeUI/Document.py:531
 msgid "Merge file"
-msgstr "Juntar o ficheiro"
+msgstr "Združi datoteko"
 
-#: ../Pyblio/GnomeUI/Document.py:543 ../Pyblio/GnomeUI/Document.py:629
+#: ../Pyblio/GnomeUI/Document.py:543
+#: ../Pyblio/GnomeUI/Document.py:629
 msgid "Open error"
-msgstr "Abrir o erro"
+msgstr "Napaka med odpiranjem"
 
 #: ../Pyblio/GnomeUI/Document.py:567
 msgid "Merge status"
-msgstr "Estado da união"
+msgstr "Stanje združevanja"
 
 #. get a new file name
 #: ../Pyblio/GnomeUI/Document.py:578
 msgid "Open file"
-msgstr "Abrir um ficheiro"
+msgstr "Odpri datoteko"
 
 #: ../Pyblio/GnomeUI/Document.py:616
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
-"Encontrou-se um ficheiro de auto-gravação mais novo que o ficheiro "
-"original.\n"
-"Pretende restaurá-lo?"
+"Najdena je bila samodejno shranjena datoteka, novejša od izvirne datoteke.\n"
+"Ali jo želite obnoviti?"
 
-#: ../Pyblio/GnomeUI/Document.py:650 ../Pyblio/GnomeUI/Document.py:791
+#: ../Pyblio/GnomeUI/Document.py:650
+#: ../Pyblio/GnomeUI/Document.py:791
 #: ../Pyblio/GnomeUI/Document.py:851
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
 "%s"
 msgstr ""
-"Incapaz de remover ficheiro de auto-gravação `%s':\n"
+"Samodejno shranjene datoteke `%s' ni mogoče odstraniti:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:701
@@ -363,7 +373,7 @@ msgid ""
 "Error during autosaving:\n"
 "%s"
 msgstr ""
-"Erro durante auto-gravação:\n"
+"Napaka med samodejnim shranjevanjem:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:729
@@ -372,7 +382,7 @@ msgid ""
 "Unable to save `%s':\n"
 "%s"
 msgstr ""
-"Incapaz de gravar `%s':\n"
+"`%s' ni mogoče shraniti:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:737
@@ -380,12 +390,12 @@ msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
 msgstr ""
-"Ocorreu um erro interno durante a gravação\n"
-"Tente Gravar Como..."
+"Med shranjevanjem je prišlo do notranje napake\n"
+"Poskusite shraniti kot ..."
 
 #: ../Pyblio/GnomeUI/Document.py:752
 msgid "Save As..."
-msgstr "Gravar Como..."
+msgstr "Shrani kot ..."
 
 #: ../Pyblio/GnomeUI/Document.py:758
 #, python-format
@@ -393,8 +403,8 @@ msgid ""
 "The file `%s' already exists.\n"
 "Overwrite it ?"
 msgstr ""
-"O ficheiro `%s' já existe.\n"
-"Sobrepo-lo ?"
+"Datoteka `%s' že obstaja.\n"
+"Ali naj bo prepisana?"
 
 #: ../Pyblio/GnomeUI/Document.py:765
 #, python-format
@@ -402,12 +412,12 @@ msgid ""
 "During opening:\n"
 "%s"
 msgstr ""
-"Durante a abertura:\n"
+"Med odpiranjem:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:803
 msgid "Reopen error"
-msgstr "Reabrir o erro"
+msgstr "Napaka med ponovnim odpiranjem"
 
 #: ../Pyblio/GnomeUI/Document.py:876
 #, python-format
@@ -415,47 +425,48 @@ msgid ""
 "An entry called `%s' already exists.\n"
 "Rename and add it anyway ?"
 msgstr ""
-"Já existe uma entrada chamada `%s'.\n"
-"Ainda assim renomear e adicionar ?"
+"Vnos z imenom `%s' že obstaja.\n"
+"Ali naj se preimenuje in vseeno doda?"
 
 #: ../Pyblio/GnomeUI/Document.py:913
 msgid "Really remove all the entries ?"
-msgstr "Remover mesmo todas as entradas ?"
+msgstr "Ali naj se res odstrani vse vnose?"
 
 #: ../Pyblio/GnomeUI/Document.py:933
 msgid "Create new entry"
-msgstr "Criar uma nova entrada"
+msgstr "Ustvari nov vnos"
 
 #: ../Pyblio/GnomeUI/Document.py:947
 #, python-format
 msgid "Really edit %d entries ?"
-msgstr "Editar mesmo %d entradas ?"
+msgstr "Ali naj se res uredi %d vnosov?"
 
 #: ../Pyblio/GnomeUI/Document.py:993
 #, python-format
 msgid "Remove all the %d entries ?"
-msgstr "Remover todas as %d entradas ?"
+msgstr "Ali naj se odstrani vseh %d vnosov?"
 
 #: ../Pyblio/GnomeUI/Document.py:995
 #, python-format
 msgid "Remove entry `%s' ?"
-msgstr "Remover a entrada `%s' ?"
+msgstr "Odstrani vnos `%s' ?"
 
 #: ../Pyblio/GnomeUI/Document.py:1014
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr ""
-"o seu texto de procura deve conter\n"
-"apenas caracteres latin-1"
+"vaše iskanje mora vsebovati\n"
+"le latin-1 znake"
 
-#: ../Pyblio/GnomeUI/Document.py:1093 ../Pyblio/GnomeUI/Document.py:1101
+#: ../Pyblio/GnomeUI/Document.py:1093
+#: ../Pyblio/GnomeUI/Document.py:1101
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
 "%s"
 msgstr ""
-"Incapaz de se ligar ao LyX:\n"
+"Ni se mogoče povezati z LyX:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:1216
@@ -464,165 +475,175 @@ msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
-"Incapaz de apresentar a documentação:\n"
+"Dokumentacije ni mogoče pokazati:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:1224
 msgid "This program is copyrighted under the GNU GPL"
-msgstr "Esta aplicação tem copyright sob a GPL GNU"
+msgstr "Ta program je avtorsko zaščiten z GNU GPL"
 
 #: ../Pyblio/GnomeUI/Document.py:1225
 msgid "GNOME interface to the Pybliographer system."
-msgstr "Interface GNOME para o sistema Pybliographer."
+msgstr "GNOME vmesnik za sistem Pybliographer."
 
 #: ../Pyblio/GnomeUI/Document.py:1236
 msgid "GNOME Translation Team"
-msgstr "Equipa de Tradução GNOME"
+msgstr "GNOME prevajalska ekipa"
 
 #: ../Pyblio/GnomeUI/Document.py:1241
 msgid "Pybliographer Home Page"
-msgstr "Página do Pybliographer"
+msgstr "Domača stran programa"
 
 #: ../Pyblio/GnomeUI/Editor.py:35
 msgid "Last Name, First Name"
-msgstr "Último Nome, Primeiro Nome"
+msgstr "Ime, Priimek"
 
-#: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1292
-#: ../Pyblio/GnomeUI/Fields.py:39 ../Pyblio/GnomeUI/glade/config1.glade.h:14
+#: ../Pyblio/GnomeUI/Editor.py:36
+#: ../Pyblio/GnomeUI/Editor.py:1292
+#: ../Pyblio/GnomeUI/Fields.py:39
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:14
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:19
 msgid "Text"
-msgstr "Texto"
+msgstr "Besedilo"
 
-#: ../Pyblio/GnomeUI/Editor.py:133 ../Pyblio/GnomeUI/Editor.py:1003
+#: ../Pyblio/GnomeUI/Editor.py:133
+#: ../Pyblio/GnomeUI/Editor.py:1003
 msgid "Error in native string parsing"
-msgstr "Erro no processamento de expressão nativa"
+msgstr "Napaka v razčlenjevanju lastnega niza"
 
 #: ../Pyblio/GnomeUI/Editor.py:312
 msgid "Day"
-msgstr "Dia"
+msgstr "Dan"
 
 #: ../Pyblio/GnomeUI/Editor.py:321
 msgid "Month"
-msgstr "Mês"
+msgstr "Mesec"
 
 #: ../Pyblio/GnomeUI/Editor.py:330
 msgid "Year"
-msgstr "Ano"
+msgstr "Leto"
 
 #: ../Pyblio/GnomeUI/Editor.py:355
 msgid "Invalid day field in date"
-msgstr "Campo dia inválido na data"
+msgstr "Neveljavno polje dneva v datumu"
 
 #: ../Pyblio/GnomeUI/Editor.py:363
 msgid "Invalid month field in date"
-msgstr "Campo mês inválido na data"
+msgstr "Neveljavno polje meseca v datumu"
 
 #: ../Pyblio/GnomeUI/Editor.py:371
 msgid "Invalid year field in date"
-msgstr "Campo ano inválido na data"
+msgstr "Neveljavno polje leta v datumu"
 
 #. A delete button
-#: ../Pyblio/GnomeUI/Editor.py:419 ../Pyblio/GnomeUI/Search.py:86
+#: ../Pyblio/GnomeUI/Editor.py:419
+#: ../Pyblio/GnomeUI/Search.py:86
 msgid "Delete"
-msgstr "Apagar"
+msgstr "Izbriši"
 
-#: ../Pyblio/GnomeUI/Editor.py:430 ../Pyblio/GnomeUI/Editor.py:443
+#: ../Pyblio/GnomeUI/Editor.py:430
+#: ../Pyblio/GnomeUI/Editor.py:443
 #: ../Pyblio/GnomeUI/Editor.py:446
 msgid "[ Drop an Entry here ]"
-msgstr "[ Largar uma Entrada aqui ]"
+msgstr "[ Tukaj spustite vnos ]"
 
 #: ../Pyblio/GnomeUI/Editor.py:502
 msgid "Browse..."
-msgstr "Navegar..."
+msgstr "Prebrskaj ..."
 
 #: ../Pyblio/GnomeUI/Editor.py:525
 msgid "Select file"
-msgstr "Seleccionar ficheiro"
+msgstr "Izbor datoteke"
 
-#: ../Pyblio/GnomeUI/Editor.py:549 ../Pyblio/GnomeUI/Fields.py:236
+#: ../Pyblio/GnomeUI/Editor.py:549
+#: ../Pyblio/GnomeUI/Fields.py:236
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:8
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
 msgid "Entry type"
-msgstr "Tipo de entrada"
+msgstr "Vrsta vnosa"
 
 #: ../Pyblio/GnomeUI/Editor.py:551
 msgid "Key"
-msgstr "Chave"
+msgstr "Ključ"
 
 #: ../Pyblio/GnomeUI/Editor.py:600
 msgid "Create Field"
-msgstr "Criar Campo"
+msgstr "Ustvari polje"
 
 #. navigation buttons
 #: ../Pyblio/GnomeUI/Editor.py:605
 msgid "Back"
-msgstr "Retroceder"
+msgstr "Nazaj"
 
 #: ../Pyblio/GnomeUI/Editor.py:608
 msgid "Next"
-msgstr "Seguinte"
+msgstr "Naprej"
 
-#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Fields.py:451
+#: ../Pyblio/GnomeUI/Editor.py:728
+#: ../Pyblio/GnomeUI/Fields.py:451
 msgid "Mandatory"
-msgstr "Obrigatório"
+msgstr "Obvezno"
 
-#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Fields.py:452
+#: ../Pyblio/GnomeUI/Editor.py:728
+#: ../Pyblio/GnomeUI/Fields.py:452
 msgid "Optional"
-msgstr "Opcional"
+msgstr "Dodatne možnosti"
 
-#: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Editor.py:1207
+#: ../Pyblio/GnomeUI/Editor.py:728
+#: ../Pyblio/GnomeUI/Editor.py:1207
 msgid "Notes"
-msgstr "Notas"
+msgstr "Opombe"
 
 #: ../Pyblio/GnomeUI/Editor.py:728
 msgid "Extra"
-msgstr "Extra"
+msgstr "Dodatno"
 
 #: ../Pyblio/GnomeUI/Editor.py:909
 msgid "Invalid key format"
-msgstr "Formato de chave inválido"
+msgstr "Neveljaven zapis ključa"
 
 #: ../Pyblio/GnomeUI/Editor.py:917
 #, python-format
 msgid "Key `%s' already exists"
-msgstr "Chave `%s' já existe"
+msgstr "Ključ `%s' že obstaja"
 
 #: ../Pyblio/GnomeUI/Editor.py:934
 #, python-format
 msgid "The `%s' field contains a non Latin-1 symbol"
-msgstr "O campo `%s' possui um símbolo que não pertence ao Latin-1"
+msgstr "Polje `%s' vsebuje ne-Latin-1 znak"
 
 #: ../Pyblio/GnomeUI/Editor.py:996
 msgid "Your text contains non Latin-1 symbols"
-msgstr "O seu texto contém caracteres que não pertencem a Latin-1"
+msgstr "Vaše besedilo vsebuje ne-Latin-1 znake"
 
 #: ../Pyblio/GnomeUI/Editor.py:1023
 msgid "Edit entry"
-msgstr "Editar a entrada"
+msgstr "Urejanje vnosa"
 
-#: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1102
+#: ../Pyblio/GnomeUI/Editor.py:1037
+#: ../Pyblio/GnomeUI/Editor.py:1102
 msgid "Native Editing"
-msgstr "Edição Nativa"
+msgstr "Lastno urejanje"
 
 #: ../Pyblio/GnomeUI/Editor.py:1125
 msgid "Standard Editing"
-msgstr "Edição Normal"
+msgstr "Običajno urejanje"
 
 #: ../Pyblio/GnomeUI/Editor.py:1229
 msgid "mandatory"
-msgstr "obrigatório"
+msgstr "obvezno"
 
 #: ../Pyblio/GnomeUI/Editor.py:1295
 msgid "Enter text here"
-msgstr "Introduza o texto aqui"
+msgstr "Sem vnesite besedilo"
 
 #: ../Pyblio/GnomeUI/Editor.py:1347
 msgid "New Annotation Name"
-msgstr "Nome da Nova Anotação"
+msgstr "Novo ime pripombe"
 
 #: ../Pyblio/GnomeUI/Editor.py:1353
 msgid "Name of the new annotation:"
-msgstr "Nome da nova anotação:"
+msgstr "Ime nove pripombe:"
 
 #: ../Pyblio/GnomeUI/Entry.py:114
 #, python-format
@@ -630,78 +651,82 @@ msgid ""
 "Cannot open URL:\n"
 "%s"
 msgstr ""
-"Incapaz de abrir o URL:\n"
+"Naslova URL ni mogoče odpreti:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Fields.py:38
 msgid "Authors"
-msgstr "Autores"
+msgstr "Avtorji"
 
 #: ../Pyblio/GnomeUI/Fields.py:40
 msgid "Long Text"
-msgstr "Texto Extenso"
+msgstr "Dolgo besedilo"
 
-#: ../Pyblio/GnomeUI/Fields.py:41 ../Pyblio/GnomeUI/glade/config1.glade.h:16
+#: ../Pyblio/GnomeUI/Fields.py:41
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:16
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:21
 msgid "URL"
 msgstr "URL"
 
 #: ../Pyblio/GnomeUI/Fields.py:42
 msgid "Reference"
-msgstr "Referência"
+msgstr "Sklic"
 
 #: ../Pyblio/GnomeUI/Fields.py:43
 msgid "Date"
-msgstr "Data"
+msgstr "Datum"
 
-#: ../Pyblio/GnomeUI/Fields.py:124 ../Pyblio/GnomeUI/glade/config1.glade.h:11
+#: ../Pyblio/GnomeUI/Fields.py:124
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:11
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:10
 msgid "Name"
-msgstr "Nome"
+msgstr "Ime"
 
-#: ../Pyblio/GnomeUI/Fields.py:127 ../Pyblio/GnomeUI/glade/config1.glade.h:15
+#: ../Pyblio/GnomeUI/Fields.py:127
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:15
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:20
 msgid "Type"
-msgstr "Tipo"
+msgstr "Vrsta"
 
 #: ../Pyblio/GnomeUI/Fields.py:300
 msgid "Available"
-msgstr "Disponível"
+msgstr "Na voljo"
 
 #: ../Pyblio/GnomeUI/Fields.py:310
 msgid "Associated"
-msgstr "Associada"
+msgstr "Povezan"
 
 #: ../Pyblio/GnomeUI/Fields.py:321
 msgid "Please, select an entry type from previous page."
-msgstr "Seleccione um tipo de entrada da página anterior."
+msgstr "Izberite vrsto vnosa na predhodni strani."
 
 #: ../Pyblio/GnomeUI/Fields.py:332
 #, python-format
 msgid "Fields associated with <b>%s</b> entry type"
-msgstr "Campos associados com o tipo de entrada <b>%s</b>"
+msgstr "Polja povezana z <b>%s</b> vrsto vnosa"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:39
 msgid "File"
-msgstr "Ficheiro"
+msgstr "Datoteka"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:76
 #: ../Pyblio/GnomeUI/glade/openurl.glade.h:2
 msgid "Bibliography type:"
-msgstr "Tipo bibliográfico:"
+msgstr "Vrsta bibliografije:"
 
-#: ../Pyblio/GnomeUI/FileSelector.py:93 ../Pyblio/GnomeUI/OpenURL.py:61
+#: ../Pyblio/GnomeUI/FileSelector.py:93
+#: ../Pyblio/GnomeUI/OpenURL.py:61
 msgid " - According to file suffix - "
-msgstr " - De acordo com sufixo de ficheiro - "
+msgstr " - Glede na pripono datotek - "
 
 #. The root of the search tree is the full database
 #: ../Pyblio/GnomeUI/Search.py:71
 msgid "Full database"
-msgstr "Base de dados cheia"
+msgstr "Polna podatkovna zbirka"
 
 #: ../Pyblio/GnomeUI/Search.py:142
 msgid "internal error during evaluation"
-msgstr "erro interno durante a avaliação"
+msgstr "notranja napaka med vrednotenjem"
 
 #: ../Pyblio/GnomeUI/Search.py:196
 #, python-format
@@ -709,26 +734,26 @@ msgid ""
 "while compiling %s\n"
 "error: %s"
 msgstr ""
-"durante a compilação de %s\n"
-"erro: %s"
+"med prevajanjem %s\n"
+"napaka: %s"
 
 #. These are additional search fields
 #: ../Pyblio/GnomeUI/Sort.py:97
 msgid "[Entry Type]"
-msgstr "[Tipo de Entrada]"
+msgstr "[Vrsta vnosa]"
 
 #: ../Pyblio/GnomeUI/Sort.py:98
 msgid "[Key Value]"
-msgstr "[Valor da Chave]"
+msgstr "[Vrednost ključa]"
 
 #: ../Pyblio/GnomeUI/Utils.py:193
 msgid "The following errors occured:\n"
-msgstr "Ocorreram os seguintes erros:\n"
+msgstr "Prišlo je do naslednjih napak:\n"
 
 #: ../Pyblio/GnomeUI/__init__.py:45
 #, python-format
 msgid "This is Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
-msgstr "Este é o Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
+msgstr "To je Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:1
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:1
@@ -740,16 +765,17 @@ msgstr "*"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:2
 msgid "<b>Entry type</b>"
-msgstr "<b>Tipo de entrada</b>"
+msgstr "<b>Vrsta vnosa</b>"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:3
 msgid "A"
 msgstr "A"
 
+# Tukaj govorimo s katero organizacijo je neki znanstvenik povezan.
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:4
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:2
 msgid "Association"
-msgstr "Associação"
+msgstr "Povezave"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:5
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
@@ -759,42 +785,42 @@ msgstr "Datum"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:6
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:4
 msgid "Editor"
-msgstr "Editor"
+msgstr "Urejevalnik"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:7
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:5
 msgid "Entries"
-msgstr "Entradas"
+msgstr "Vnosi"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:9
 msgid "FIELDS DEFINITION"
-msgstr "DEFINIÇÃO CAMPOS"
+msgstr "DEFINICIJA POLJ"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:10
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:8
 msgid "Fields "
-msgstr "Campos "
+msgstr "Polja "
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:12
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:11
 msgid "Name "
-msgstr "Nome "
+msgstr "Ime "
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:13
 msgid "Pybliographer Configuration"
-msgstr "Configuração Pybliographer"
+msgstr "Nastavitve Pybliographer"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:17
 msgid "standard fields"
-msgstr "campos normais"
+msgstr "običajna polja"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:7
 msgid "Entry types and field names configuration"
-msgstr "Configuração de tipos de entradas e nomes de campos"
+msgstr "Nastavitve vrst vnosov in imen polj"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:9
 msgid "Information for <b>Article</b> entry type"
-msgstr "Informação para o tipo de entrada <b>Artigo</b>"
+msgstr "Podrobnosti za Vrsto vnosa <b>Članek</b>"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:12
 msgid ""
@@ -805,128 +831,129 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Seleccione um tipo de entrada e especifique \n"
-"na página seguinte os seus campos \n"
-"associados (obrigatórios e opcionais).\n"
+"Izberite vrsto vnosa in določite\n"
+"njegova povezana (obvezna in\n"
+"poljubna) polja na naslednji strani.\n"
 "\n"
 "\n"
 "\n"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:1
 msgid "Bibliography style:"
-msgstr "Estilo Bibliography:"
+msgstr "Slog bibliografije:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:2
 msgid "Format entries"
-msgstr "Formatar as entradas"
+msgstr "Oblikovanje vnosov"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:3
 msgid "Output file:"
-msgstr "Ficheiro de saída:"
+msgstr "Odvodna datoteka:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:4
 msgid "Output format:"
-msgstr "Formato de saída:"
+msgstr "Odvodni zapis:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:5
 msgid "Save Formatted as"
-msgstr "Gravar Formatado como"
+msgstr "Shrani oblikovano kot"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:6
 msgid "Style Selection"
-msgstr "Selecção de Estilo"
+msgstr "Izbor sloga"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:2
 msgid "Enter your Medline Query"
-msgstr "Introduza a sua Consulta Medline"
+msgstr "Vnesite svojo poizvedbo Medline"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:3
 msgid "From:"
-msgstr "De:"
+msgstr "Od:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:4
 msgid "Limited to:"
-msgstr "Limitado a:"
+msgstr "Omejeno na:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:5
 msgid ""
 "Maximum number\n"
 "of results:"
 msgstr ""
-"Número máximo\n"
-"de resultados:"
+"Največje število\n"
+"rezultatov:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:7
 msgid "Medline Query"
-msgstr "Consulta Medline"
+msgstr "Poizvedba Medline"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:8
 msgid ""
 "Only items \n"
 "ahead of print"
 msgstr ""
-"Apenas itens \n"
-"antes de impressão"
+"Le nenatisnjeni \n"
+"predmeti"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:10
 msgid ""
 "Only items \n"
 "with abstracts"
 msgstr ""
-"Apenas itens \n"
-"com abstractos"
+"Le predmeti\n"
+"s povzetki"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:12
 msgid ""
 "Search \n"
 "PubMed for:"
 msgstr ""
-"Procurar \n"
-"PubMed por:"
+"Poišči \n"
+"PubMed za:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:14
 msgid ""
 "Starting listing at\n"
 "result number:"
 msgstr ""
-"A iniciar a listagem no\n"
-"número de resultado:"
+"Začenjanje razvrščanja na\n"
+"rezultatu števila:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:16
 msgid "To:"
-msgstr "Para:"
+msgstr "Za:"
 
+# Tukaj se mi zdi sicer bolj smiselna beseda  poljubna (namesto dodatna), ki pa ni na usklajenem seznamu
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:17
 msgid ""
 "Use the format YYYY/MM/DD\n"
 "Month and day are optional."
 msgstr ""
-"Utilize o formato YYYY/MM/DD\n"
-"Mês e dia são opcionais."
+"Uporabite obliko YYYY/MM/DD\n"
+"Mesec in dan sta izbirna."
 
 #: ../Pyblio/GnomeUI/glade/openurl.glade.h:3
 msgid "Enter the location (URI) of the file you would like to open:"
-msgstr "Introduza o local (URI) do ficheiro que pretende abrir:"
+msgstr "Vnesite mesto (URI) datoteke, ki bi jo radi odprli:"
 
 #: ../Pyblio/GnomeUI/glade/openurl.glade.h:4
 msgid "Open Location"
-msgstr "Abrir Localização"
+msgstr "Odpri mesto"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:1
 msgid "Cite"
-msgstr "Citação"
+msgstr "Navedi"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
 msgid "Contents"
-msgstr "Conteúdo"
+msgstr "Vsebina"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
 msgid "Open File"
-msgstr "Abrir Ficheiro"
+msgstr "Odpri datoteko"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:10
 msgid "Previous Documents"
-msgstr "Documentos Anteriores"
+msgstr "Predhodni dokumenti"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
 msgid "Pybliographer"
@@ -934,23 +961,23 @@ msgstr "Pybliographer"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:13
 msgid "Save File"
-msgstr "Gravar Ficheiro"
+msgstr "Shrani datoteko"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:14
 msgid "Settings"
-msgstr "Definições"
+msgstr "Nastavitve"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
 msgid "_Add..."
-msgstr "_Adicionar..."
+msgstr "_Dodaj ..."
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:16
 msgid "_Delete..."
-msgstr "A_pagar..."
+msgstr "I_zbriši ..."
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:17
 msgid "_Edit..."
-msgstr "_Editar..."
+msgstr "_Uredi ..."
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:18
 msgid "_New"
@@ -958,69 +985,71 @@ msgstr "_Novo"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:2
 msgid "Close"
-msgstr "Fechar"
+msgstr "Zapri"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:3
 msgid "Expert Search"
-msgstr "Procura Avançada"
+msgstr "Napredno iskanje"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:4
 msgid "Field"
-msgstr "Campo"
+msgstr "Polje"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:5
 msgid "Pattern"
-msgstr "Padrão"
+msgstr "Vzorec"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:6
 msgid "Query"
-msgstr "Consulta"
+msgstr "Poizvedba"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:7
 msgid "Search"
-msgstr "Procura"
+msgstr "Poišči"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:8
 msgid "Simple Search"
-msgstr "Procura Simples"
+msgstr "Preprosto iskanje"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
 msgid "Select sort criterions"
-msgstr "Seleccione os critérios de ordenação"
+msgstr "Izberi kriterije razvrščanja"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2
 msgid "Set as default"
-msgstr "Definir como omissão"
+msgstr "Nastavi kot privzeto"
 
 #: ../Pyblio/LyX.py:37
 #, python-format
 msgid "no input pipe `%s'"
-msgstr "nenhum canal de entrada `%s'"
+msgstr "ni vhodne cevi `%s'"
 
 #: ../Pyblio/LyX.py:43
 #, python-format
 msgid "no output pipe `%s'"
-msgstr "nenhum canal de saída `%s'"
+msgstr "ni odvodne cevi `%s'"
 
 #: ../Pyblio/Open.py:96
 #, python-format
 msgid "method `%s' provides no opener"
-msgstr "método `%s' não disponibiliza um iniciador"
+msgstr "metoda `%s' ne ponuja odpiralnika"
 
-#: ../Pyblio/Open.py:104 ../Pyblio/Open.py:151
+#: ../Pyblio/Open.py:104
+#: ../Pyblio/Open.py:151
 #, python-format
 msgid "File `%s' does not exist"
-msgstr "Ficheiro `%s' não existe"
+msgstr "Datoteka `%s' ne obstaja"
 
-#: ../Pyblio/Open.py:115 ../Pyblio/Open.py:162
+#: ../Pyblio/Open.py:115
+#: ../Pyblio/Open.py:162
 #, python-format
 msgid "don't know how to open `%s'"
-msgstr "desconhece-se como abrir `%s'"
+msgstr "ni znanega programa za odpiranje `%s'"
 
 #: ../Pyblio/Open.py:143
 #, python-format
 msgid "method `%s' provides no iterator"
-msgstr "método `%s' não disponibiliza um iterador"
+msgstr "metoda `%s' ne ponuja možnosti ponavljanja"
 
 #: ../Pyblio/Resource.py:77
 #, python-format
@@ -1028,17 +1057,17 @@ msgid ""
 "Warning: This URL is marked as Invalid or Approximate: %s\n"
 "Continue?"
 msgstr ""
-"Aviso: Este URL é marcado como Inválido ou Aproximado: %s\n"
-"Continuar?"
+"Opozorilo: Ta URL je označen kot neveljaven ali približen: %s\n"
+"Ali naj se dejanje nadaljuje?"
 
 #: ../Pyblio/Resource.py:81
 msgid "Determining Mime Type ... "
-msgstr "A Determinar Tipo Mime ... "
+msgstr "Določanje Mime vrste  ..."
 
 #: ../Pyblio/Resource.py:86
 #, python-format
 msgid "Cannot determine mime type for item %s "
-msgstr "Impossível determinar tipo mime para o item %s "
+msgstr "Mime vrste za %s ni mogoče določiti"
 
 #: ../Pyblio/Resource.py:87
 #, python-format
@@ -1047,18 +1076,18 @@ msgid ""
 "You should check the url or path given for errors.\n"
 "Details: %s"
 msgstr ""
-"URL em questão é: %s\n"
-"Deve verificar por erros no url ou caminho dado.\n"
-"Detalhes: %s"
+"Vprašljiv URL je: %s\n"
+"Preverite url ali dano pot za napake.\n"
+"Podrobnosti: %s"
 
 #: ../Pyblio/Resource.py:98
 msgid "Accessing resource ..."
-msgstr "A aceder recurso..."
+msgstr "Dostopanje do vira ..."
 
 #: ../Pyblio/Resource.py:116
 #, python-format
 msgid "IOError for item %s: cannot uncompress resource."
-msgstr "Erro IO para o item %s: não se pode descomprimir recurso."
+msgstr "Napaka IO za predmet %s: vira ni mogoče razširiti."
 
 #: ../Pyblio/Resource.py:117
 #, python-format
@@ -1067,15 +1096,15 @@ msgid ""
 "Details: %s"
 msgstr ""
 "URL: %s\n"
-"Detalhes: %s"
+"Podrobnosti: %s"
 
 #: ../Pyblio/Resource.py:137
 msgid "Starting application ..."
-msgstr "A iniciar aplicação ..."
+msgstr "Zaganjanje programa ..."
 
 #: ../Pyblio/Resource.py:140
 msgid "No application to view resource"
-msgstr "Sem aplicação para ver recurso"
+msgstr "Ni programa za ogled vira"
 
 #: ../Pyblio/Resource.py:141
 #, python-format
@@ -1085,48 +1114,51 @@ msgid ""
 "Please consider adding one.\n"
 "URL: %s"
 msgstr ""
-"Para o tipo mime %s, não há registos em \n"
-"visualizadores e no recurso de opção de configuração.\n"
-"Por favor considere adicionar um.\n"
+"Za mime vrsto %s, ni mogoče najti vnosa\n"
+"v viru/pregledovalniku nastavitvene možnosti .\n"
+"Dodajte ga.\n"
 "URL: %s"
 
 #: ../Pyblio/Style/Parser.py:261
 #, python-format
 msgid "missing '%s' attribute"
-msgstr "atributo '%s' em falta"
+msgstr "manjka '%s' atribut"
 
 #: ../Pyblio/Style/Parser.py:271
 #, python-format
 msgid "invalid opening tag: %s"
-msgstr "etiqueta de abertura inválida: %s"
+msgstr "neveljavna oznaka odpiranja : %s"
 
 #: ../Pyblio/Style/Parser.py:281
 #, python-format
 msgid "invalid closing tag: %s"
-msgstr "etiqueta de fecho inválida: %s"
+msgstr "neveljavna oznaka zapiranja : %s"
 
 #: ../pybliographer.py:43
 #, python-format
 msgid "This is %s, version %s"
-msgstr "Este é o %s, versão %s"
+msgstr "To je %s, različica %s"
 
-#: ../pybliographer.py:47 ../pybliographer.py:54
+#: ../pybliographer.py:47
+#: ../pybliographer.py:54
 msgid "This is free software with ABSOLUTELY NO WARRANTY."
-msgstr "Esta é uma aplicação livre SEM QUALQUER GARANTIA."
+msgstr "To je prosta programska oprema brez KAKRŠNEGAKOLI JAMSTVA."
 
+# Ta niz tukaj se prevaja ali ne ???
 #: ../pybliographer.py:48
 msgid "For details, type `warranty'."
-msgstr "Para detalhes, escreva `warranty'."
+msgstr "Za podrobnosti vnesite `warranty'."
 
-#: ../pybliographer.py:111 ../pybliographer.py:163
+#: ../pybliographer.py:111
+#: ../pybliographer.py:163
 #, python-format
 msgid "%s: error: can't open file `%s'"
-msgstr "%s: erro: incapaz de abrir o ficheiro `%s'"
+msgstr "%s: napaka: datoteke `%s' ni mogoče odpreti"
 
 #: ../pybliographer.py:124
 #, python-format
 msgid "For help, run %s and type `help' at the prompt"
-msgstr "Para obter ajuda, execute %s e escreva `help' na linha de comando"
+msgstr "Za pomoč zaženite %s in v poziv vtipkajte `pomoč'"
 
 #: ../pybliographer.py:133
 msgid ""
@@ -1134,57 +1166,58 @@ msgid ""
 "\thelp     to get some help\n"
 "\tquit     to quit\n"
 msgstr ""
-"Comandos úteis:\n"
-"\thelp     para obter alguma ajuda\n"
-"\tquit     para sair\n"
+"Uporabni ukazi:\n"
+"\tpomoč     za pomoč\n"
+"\tquit     za končanje\n"
 
 #. save history
 #: ../pybliographic.desktop.in.h:1
 msgid "Bibliography Manager"
-msgstr "Gestor Bibliográfico"
+msgstr "Upravljalnik bibliografije"
 
 #: ../pybliographic.desktop.in.h:2
 msgid "Manage bibliographic databases"
-msgstr "Efectue a gestão de bases de dados bibliográficas"
+msgstr "Upravljanje bibliografskih podatkovnih zbirk"
 
 #: ../pybliographic.desktop.in.h:3
 msgid "Pybliographic Bibliography Manager"
-msgstr "Gestor Bibliográfico Pybliographic"
+msgstr "Upravljalnik bibliografije pybliographic"
 
 #: ../scripts/pybcheck.py:31
 msgid "usage: pybcheck <file | directory>..."
-msgstr "utilização: pybcheck <ficheiro | directório>..."
+msgstr "uporaba: pybcheck <datoteka | mapa> ..."
 
 #: ../scripts/pybcheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
-msgstr "ficheiro `%s' está ok [%d entradas]"
+msgstr "datoteka `%s' je v redu [%d vnosov]"
 
 #: ../scripts/pybcompact.py:30
 msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "utilização: pybcompact <ficheirolatex> <ficheirostextobib...>"
+msgstr "uporaba: pybcompact <datoteka latex> <datoteke bibtex ...>"
 
 #: ../scripts/pybcompact.py:34
 #, python-format
 msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: erro: %s\n"
+msgstr "pybcompact: napaka: %s\n"
 
 #: ../scripts/pybcompact.py:99
 msgid "no entry"
-msgstr "nenhuma entrada"
+msgstr "ni vnosa"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybcompact.py:162
+#: ../scripts/pybtext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
-msgstr "incapaz de encontrar as seguintes entradas: %s"
+msgstr "naslednjih vnosov ni mogoče najti: %s"
 
 #: ../scripts/pybconvert.py:29
 msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "utilização: pybconvert <origem>..<destino> <entrada> [saída]"
+msgstr "uporaba: pybconvert <vir>..<cilj> <vhod> [odvod]"
 
 #: ../scripts/pybconvert.py:38
 msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: erro: formato de conversão inválido"
+msgstr "pybconvert: napaka: slab zapis pretvorbe"
 
 #: ../scripts/pybformat.py:34
 msgid ""
@@ -1201,164 +1234,152 @@ msgid ""
 "      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"utilização: pybformat [opções] <base de dados...>\n"
+"uporaba: pybformat [možnosti] <podatkovna zbirka ...>\n"
 "\n"
-"    opções:\n"
-"      -o ficheiro, --output=ficheiro\t\tespecificar um ficheiro de saída\n"
-"      -s estilo, --style=estilo\t\tespecificar um estilo de bibliografia\n"
-"      -f formato, --format=formato\tespecificar um formato de saída\n"
-"      -H cabeçalho, --header=cabeçalho\tdefine um ficheiro de cabeçalho\n"
-"      -F rodapé, --footer=rodapé\tdefine um ficheiro de rodapé\n"
-"      -l 'saída', --list='saída'\tlista os formatos de saída disponíveis\n"
-"      -h, --help\t\t\tapresenta esta mensagem de ajuda\n"
-"      -v, --version\t\t\tapresenta esta mensagem de ajuda\n"
-"    "
+"    možnosti:\n"
+"       -o datoteka, --odvod=datoteka\t\t določi ime datoteke odvoda\n"
+"       -s slog, --style=style\t\t določi slog bibliografije\n"
+"       -f zapis, --format=format\t določi zapis odvoda\n"
+"       -H glava, --header=header\t določi datoteko glave\n"
+"       -F noga, --footer=footer\t določi datoteko noge\n"
+"       -l 'odvod', --list='output'\t razvrsti razpoložljive možnosti zapisa odvoda\n"
+"       -h, --help\t\t\t prikaže to sporočilo pomoči\n"
+"       -v, --version\t\t\t prikaže to sporočilo pomoči\n"
+" "
 
 #: ../scripts/pybformat.py:49
 #, python-format
 msgid "pybformat: error: %s\n"
-msgstr "pybformat: erro: %s\n"
+msgstr "pybformat: napaka: %s\n"
 
 #: ../scripts/pybformat.py:55
 #, python-format
 msgid "pybformat: warning: %s\n"
-msgstr "pybformat: aviso: %s\n"
+msgstr "pybformat: opozorilo: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pybformat.py:90
+#: ../scripts/pybtext.py:252
+#: ../scripts/pybtext.py:278
+#: ../scripts/pybtext.py:321
 #, python-format
 msgid "can't open `%s': %s"
-msgstr "incapaz de abrir `%s': %s"
+msgstr "`%s' ni mogoče odpreti: %s"
 
 #: ../scripts/pybformat.py:97
 #, python-format
 msgid "unknown list `%s'"
-msgstr "lista `%s' desconhecida"
+msgstr "neznan seznam `%s'"
 
 #: ../scripts/pybformat.py:100
 #, python-format
 msgid "pybformat: available values for `%s':"
-msgstr "pybformat: valores disponíveis para `%s':"
+msgstr "pybformat: razpoložljive vrednosti za `%s':"
 
 #: ../scripts/pybformat.py:104
 #, python-format
 msgid "empty value list `%s'"
-msgstr "lista de valores `%s' vazia"
+msgstr "prazen seznam vrednosti `%s'"
 
 #: ../scripts/pybformat.py:132
 msgid "too few arguments"
-msgstr "número insuficiente de argumentos"
+msgstr "premalo argumenotv"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pybformat.py:139
+#: ../scripts/pybtext.py:117
 #, python-format
 msgid "unknown output format `%s'"
-msgstr "formato de saída `%s' desconhecido"
+msgstr "Neznana vrsta zapisa odvoda `%s'"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
+#: ../scripts/pybformat.py:152
+#: ../scripts/pybtex.py:86
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
-msgstr "incapaz de encontrar o estilo `%s'"
+msgstr "sloga `%s' ni mogoče najti"
 
 #: ../scripts/pybformat.py:155
 #, python-format
 msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: a utilizar o estilo `%s', formato `%s'\n"
+msgstr "pybformat: uporaba sloga `%s', oblika `%s'\n"
 
 #: ../scripts/pybformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
-msgstr "incapaz de abrir o cabeçalho `%s': %s"
+msgstr "glave `%s' ni mogoče odpreti: %s"
 
 #: ../scripts/pybformat.py:178
 #, python-format
 msgid "can't open database: %s"
-msgstr "incapaz de abrir a base de dados: %s"
+msgstr "zbirke podatkov ni mogoče odpreti: %s"
 
 #: ../scripts/pybformat.py:193
 #, python-format
 msgid "can't open footer `%s': %s"
-msgstr "incapaz de abrir o rodapé `%s': %s"
+msgstr "noge `%s' ni mogoče odpreti: %s"
 
 #: ../scripts/pybtex.py:34
 msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "utilização: pybtex <ficheirolatex> [ficheirostextobib...]"
+msgstr "uporaba: pybtex <datoteka latex> [datoteke bibtex ...]"
 
 #: ../scripts/pybtex.py:38
 #, python-format
 msgid "pybtex: error: %s\n"
-msgstr "pybtex: erro: %s\n"
+msgstr "pybtex: napaka: %s\n"
 
 #. warn the user that some entries were not found
 #: ../scripts/pybtex.py:59
 msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: aviso: não foram resolvidas as seguintes chaves"
+msgstr "pybtex: opozorilo: sledeči ključi niso bili razrešeni"
 
 #. If the LaTeX document declares no style...
 #: ../scripts/pybtex.py:64
 msgid "no style defined"
-msgstr "nenhum estilo definido"
+msgstr "Ni določenega sloga"
 
 #: ../scripts/pybtext.py:41
 msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr ""
-"utilização: pybtext [-o ficheirosaída] [-s estilo] <ficheirotexto> "
-"<ficheirosbib...>"
+msgstr "uporaba: pybtext [-o odvodna datoteka] [-s slog] <besedilna datoteka> <bibdatoteke ...>"
 
 #: ../scripts/pybtext.py:45
 #, python-format
 msgid "pybtext: error: %s\n"
-msgstr "pybtext: erro: %s\n"
+msgstr "pybtext: napaka: %s\n"
 
 #: ../scripts/pybtext.py:50
 #, python-format
 msgid "pybtext: warning: %s\n"
-msgstr "pybtext: aviso: %s\n"
+msgstr "pybtext: opozorilo: %s\n"
 
 #: ../scripts/pybtext.py:124
 #, python-format
 msgid "File already exists: `%s'"
-msgstr "O ficheiro já existe: `%s'"
+msgstr "Datoteka že obstaja: `%s'"
 
 #: ../scripts/pybtext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
-msgstr "Já existe um ficheiro com o mesmo nome: `%s'"
+msgstr "Datoteka z enakim imenom že obstaja: `%s'"
 
 #: ../scripts/pybtext.py:178
 msgid "no citation found"
-msgstr "nenhuma citação encontrada"
+msgstr "citata ni mogoče najti"
 
 #: ../scripts/pybtext.py:193
 #, python-format
 msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: a utilizar o estilo `%s', formato `%s'\n"
+msgstr "pybtext: uporaba sloga `%s', oblika `%s'\n"
 
 #: ../scripts/pybtext.py:316
 #, python-format
 msgid "can't create `%s'"
-msgstr "incapaz de criar `%s'"
+msgstr "`%s' ni mogoče ustvariti"
 
 #: ../scripts/pybtext.py:342
 #, python-format
 msgid "can't remove `%s'"
-msgstr "incapaz de remover `%s'"
+msgstr "`%s' ni mogoče odstraniti"
 
 #: ../scripts/pybtext.py:344
 msgid "Done"
-msgstr "Terminado"
+msgstr "Končano"
 
-#~ msgid "Add..."
-#~ msgstr "Adicionar..."
-
-#~ msgid "Edit..."
-#~ msgstr "Editar..."
-
-#~ msgid "Delete..."
-#~ msgstr "Apagar..."
-
-#~ msgid "Delete text first, then you can delete the field."
-#~ msgstr "Apague primeiro o texto, depois poderá apagar o campo."
-
-#~ msgid "usage: pybformat [bibtexfiles...]\n"
-#~ msgstr "utilização: pybformat [ficheirostextobib...]\n"
