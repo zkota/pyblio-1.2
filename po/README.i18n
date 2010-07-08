@@ -15,8 +15,7 @@ Adding a translation
 
   - add your po file in the po/ directory
 
-  - add the name of your translation in po/Makefile.am, in the
-    LANGUAGES variable
+  - add the name of your translation in po/LINGUAS
 
   - done!
 
