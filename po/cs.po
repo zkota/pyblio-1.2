@@ -4,13 +4,13 @@
 # This file is distributed under the same license as the pybliographer package.
 # Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
 # Marek Černocký <marek@manet.cz>, 2009.
-# Petr Kovar <pknbe@volny.cz>, 2009.
+# Petr Kovar <pknbe@volny.cz>, 2009, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer gnome-master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-10-17 17:35+0200\n"
-"PO-Revision-Date: 2009-10-17 17:35+0200\n"
+"POT-Creation-Date: 2010-07-11 17:46+0200\n"
+"PO-Revision-Date: 2010-06-28 19:54+0200\n"
 "Last-Translator: Petr Kovar <pknbe@volny.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: ../Pyblio/Autoload.py:78
 #, python-format
 msgid "warning: can't import %s: %s"
-msgstr "varování: nemohu importovat %s: %s"
+msgstr "varování: nelze importovat %s: %s"
 
 #: ../Pyblio/Config.py:52
 #, python-format
@@ -246,7 +246,7 @@ msgid ""
 "can't open file `%s' for writing:\n"
 "%s"
 msgstr ""
-"nemohu otevřít soubor „%s“ pro zápis:\n"
+"nelze otevřít soubor „%s“ pro zápis:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:420
@@ -357,7 +357,7 @@ msgid ""
 "Unable to remove autosave file `%s':\n"
 "%s"
 msgstr ""
-"Nemohu odstranit soubor automatického ukládání „%s“:\n"
+"Nelze odstranit soubor automatického ukládání „%s“:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:701
@@ -375,7 +375,7 @@ msgid ""
 "Unable to save `%s':\n"
 "%s"
 msgstr ""
-"Nemohu uložit „%s“:\n"
+"Nelze uložit „%s“:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:737
@@ -458,7 +458,7 @@ msgid ""
 "Can't connect to LyX:\n"
 "%s"
 msgstr ""
-"Nemohu se připojit k LyX:\n"
+"Nelze se připojit k LyX:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:1216
@@ -467,7 +467,7 @@ msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
-"Nemohu zobrazit dokumentaci:\n"
+"Nelze zobrazit dokumentaci:\n"
 "%s"
 
 # Sheesh.
@@ -635,7 +635,7 @@ msgid ""
 "Cannot open URL:\n"
 "%s"
 msgstr ""
-"Nemohu otevřít URL:\n"
+"Nelze otevřít URL:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Fields.py:38
@@ -1021,7 +1021,7 @@ msgstr "Soubor „%s“ neexistuje"
 #: ../Pyblio/Open.py:115 ../Pyblio/Open.py:162
 #, python-format
 msgid "don't know how to open `%s'"
-msgstr "nevím, jak otevřít „%s“"
+msgstr "není známo, jak otevřít „%s“"
 
 #: ../Pyblio/Open.py:143
 #, python-format
@@ -1127,7 +1127,7 @@ msgstr "Pro detaily napište „warranty“."
 #: ../pybliographer.py:111 ../pybliographer.py:163
 #, python-format
 msgid "%s: error: can't open file `%s'"
-msgstr "%s: chyba: nemohu otevřít soubor „%s“"
+msgstr "%s: chyba: nelze otevřít soubor „%s“"
 
 #: ../pybliographer.py:124
 #, python-format
@@ -1182,7 +1182,7 @@ msgstr "žádná položka"
 #: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
-msgstr "nemohu najít následující položky: %s"
+msgstr "nelze najít následující položky: %s"
 
 #: ../scripts/pybconvert.py:29
 msgid "usage: pybconvert <source>..<target> <input> [output]"
@@ -1234,7 +1234,7 @@ msgstr "pybformat: varování: %s\n"
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
 #, python-format
 msgid "can't open `%s': %s"
-msgstr "nemohu otevřít „%s“: %s"
+msgstr "nelze otevřít „%s“: %s"
 
 #: ../scripts/pybformat.py:97
 #, python-format
@@ -1264,27 +1264,27 @@ msgstr "neznámý formát výstupu „%s“"
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
-msgstr "nemohu najít styl „%s“"
+msgstr "nelze najít styl „%s“"
 
 #: ../scripts/pybformat.py:155
 #, python-format
 msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: používám styl „%s“, formát „%s“\n"
+msgstr "pybformat: používá se styl „%s“, formát „%s“\n"
 
 #: ../scripts/pybformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
-msgstr "nemohu otevřít hlavičku „%s“: %s"
+msgstr "nelze otevřít hlavičku „%s“: %s"
 
 #: ../scripts/pybformat.py:178
 #, python-format
 msgid "can't open database: %s"
-msgstr "nemohu otevřít databázi: %s"
+msgstr "nelze otevřít databázi: %s"
 
 #: ../scripts/pybformat.py:193
 #, python-format
 msgid "can't open footer `%s': %s"
-msgstr "nemohu otevřít patičku „%s“: %s"
+msgstr "nelze otevřít patičku „%s“: %s"
 
 #: ../scripts/pybtex.py:34
 msgid "usage: pybtex <latexfile> [bibtexfiles...]"
@@ -1337,17 +1337,17 @@ msgstr "citace nenalezena"
 #: ../scripts/pybtext.py:193
 #, python-format
 msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: používám styl „%s“, formát „%s“\n"
+msgstr "pybtext: používá se styl „%s“, formát „%s“\n"
 
 #: ../scripts/pybtext.py:316
 #, python-format
 msgid "can't create `%s'"
-msgstr "nemohu vytvořit „%s“"
+msgstr "nelze vytvořit „%s“"
 
 #: ../scripts/pybtext.py:342
 #, python-format
 msgid "can't remove `%s'"
-msgstr "nemohu odstranit „%s“"
+msgstr "nelze odstranit „%s“"
 
 #: ../scripts/pybtext.py:344
 msgid "Done"
