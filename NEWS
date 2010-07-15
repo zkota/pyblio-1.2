@@ -1,5 +1,10 @@
 -*- text -*-
 
+New in 1.2.13 - 2010-07-15
+
+       * Some minor gtk related fixes
+       * Updated translations (Gnome I18n team)
+
 New in 1.2.12 - 2008-11-26
 
        * Fixed the Ovid writer
