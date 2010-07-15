@@ -20,7 +20,7 @@
 
 LANGUAGES = $(shell grep -v '^\#' LINGUAS | tr '\n' ' ')
 
-EXTRA_DIST = $(LANGUAGES:%=%.po)
+EXTRA_DIST = $(LANGUAGES:%=%.po) LINGUAS
 
 MO = $(LANGUAGES:%=%.mo)
 
