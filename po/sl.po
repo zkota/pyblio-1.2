@@ -1,14 +1,15 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2009.
+# Slovenian translations for pybliographer.
+# Copyright (C) 2009 epiphany-extensions's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pybliographer package.
+#
+# Andrej Žnidaršič <andrej.znidarsic@gmail.com>, 2009 - 2010.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Pybliographer\n"
+"Project-Id-Version: pybliographer master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliographer&component=general\n"
 "POT-Creation-Date: 2009-10-17 15:36+0000\n"
-"PO-Revision-Date: 2009-12-10 07:33+0100\n"
+"PO-Revision-Date: 2010-07-23 18:38+0100\n"
 "Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -27,7 +28,7 @@ msgstr "opozorilo: %s ni mogoče uvoziti: %s"
 #: ../Pyblio/Config.py:52
 #, python-format
 msgid "value of `%s' should be of type %s"
-msgstr "vrednost `%s' bi morala biti vrste %s"
+msgstr "vrednost `%s' mora biti vrste %s"
 
 #: ../Pyblio/Config.py:212
 msgid "String"
@@ -59,7 +60,7 @@ msgstr "Celo število med %d in %d"
 #: ../Pyblio/Config.py:258
 #, python-format
 msgid "Element in `%s'"
-msgstr "Element v `%s'"
+msgstr "Predmet v `%s'"
 
 #: ../Pyblio/Config.py:278
 #, python-format
@@ -305,7 +306,7 @@ msgid ""
 "The database has been modified.\n"
 "Discard changes?"
 msgstr ""
-"Podatkovna zbirka je bila spremenjena.\n"
+"Podatkovna zbirka je spremenjena.\n"
 "Ali naj se spremembe zavržejo?"
 
 #: ../Pyblio/GnomeUI/Document.py:475
@@ -313,7 +314,7 @@ msgid ""
 "The database has been modified.\n"
 "Save changes?"
 msgstr ""
-"Podatkovna zbirka je bila spremenjena.\n"
+"Podatkovna zbirka je spremenjena.\n"
 "Ali naj se spremembe shranijo?"
 
 #: ../Pyblio/GnomeUI/Document.py:492
@@ -321,7 +322,7 @@ msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes ?"
 msgstr ""
-"Podatkovna zbirka je bila spremenjena.\n"
+"Podatkovna zbirka je spremenjena.\n"
 "Ali naj se spremembe prepišejo?"
 
 #. no result.
@@ -353,7 +354,7 @@ msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
-"Najdena je bila samodejno shranjena datoteka, novejša od izvirne datoteke.\n"
+"Najdena je bila samodejno shranjena datoteka, novejša od izvorne datoteke.\n"
 "Ali jo želite obnoviti?"
 
 #: ../Pyblio/GnomeUI/Document.py:650
@@ -390,7 +391,7 @@ msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
 msgstr ""
-"Med shranjevanjem je prišlo do notranje napake\n"
+"Prišlo je do notranje napake.\n"
 "Poskusite shraniti kot ..."
 
 #: ../Pyblio/GnomeUI/Document.py:752
@@ -666,7 +667,7 @@ msgstr "Dolgo besedilo"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:16
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:21
 msgid "URL"
-msgstr "URL"
+msgstr "Naslov URL"
 
 #: ../Pyblio/GnomeUI/Fields.py:42
 msgid "Reference"
@@ -1057,7 +1058,7 @@ msgid ""
 "Warning: This URL is marked as Invalid or Approximate: %s\n"
 "Continue?"
 msgstr ""
-"Opozorilo: Ta URL je označen kot neveljaven ali približen: %s\n"
+"Opozorilo: naslov URL je označen kot neveljaven ali približen: %s\n"
 "Ali naj se dejanje nadaljuje?"
 
 #: ../Pyblio/Resource.py:81
@@ -1076,13 +1077,13 @@ msgid ""
 "You should check the url or path given for errors.\n"
 "Details: %s"
 msgstr ""
-"Vprašljiv URL je: %s\n"
-"Preverite url ali dano pot za napake.\n"
+"Vprašljiv naslov URL je: %s\n"
+"Preverite naslov ali podano pot za napake.\n"
 "Podrobnosti: %s"
 
 #: ../Pyblio/Resource.py:98
 msgid "Accessing resource ..."
-msgstr "Dostopanje do vira ..."
+msgstr "Dostop do vira ..."
 
 #: ../Pyblio/Resource.py:116
 #, python-format
@@ -1095,7 +1096,7 @@ msgid ""
 "URL: %s\n"
 "Details: %s"
 msgstr ""
-"URL: %s\n"
+"Naslov URL: %s\n"
 "Podrobnosti: %s"
 
 #: ../Pyblio/Resource.py:137
@@ -1117,7 +1118,7 @@ msgstr ""
 "Za mime vrsto %s, ni mogoče najti vnosa\n"
 "v viru/pregledovalniku nastavitvene možnosti .\n"
 "Dodajte ga.\n"
-"URL: %s"
+"Naslov URL: %s"
 
 #: ../Pyblio/Style/Parser.py:261
 #, python-format
@@ -1382,4 +1383,3 @@ msgstr "`%s' ni mogoče odstraniti"
 #: ../scripts/pybtext.py:344
 msgid "Done"
 msgstr "Končano"
-
