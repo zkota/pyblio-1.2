@@ -241,8 +241,8 @@ class Document (Connector.Publisher):
         h.pack_start(self.quick_search, False, False)
 ##      self.toolbartips.set_tip(self.quick_search, _('Quick search'))
 
-	if Config.get ('gnome/tooltips').data:
-		self.quick_search.set_tooltip_text (_('Quick search'))
+        if Config.get ('gnome/tooltips').data:
+            self.quick_search.set_tooltip_text (_('Quick search'))
 
         i = gtk.ToolItem()
         i.add(h)
