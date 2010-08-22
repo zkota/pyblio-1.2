@@ -234,12 +234,15 @@ class Document (Connector.Publisher):
         h.pack_start(i, False, False)
 
         # create a tooltips object
-        self.toolbartips = gtk.Tooltips()
+##      self.toolbartips = gtk.Tooltips()
 
         self.quick_search = gtk.Entry()
         self.quick_search.connect('activate', self.simple_search)
         h.pack_start(self.quick_search, False, False)
-        self.toolbartips.set_tip(self.quick_search, _('Quick search'))
+##      self.toolbartips.set_tip(self.quick_search, _('Quick search'))
+
+	if Config.get ('gnome/tooltips').data:
+		self.quick_search.set_tooltip_text (_('Quick search'))
 
         i = gtk.ToolItem()
         i.add(h)

@@ -53,8 +53,8 @@ class ConfigDialog (Utils.GladeWindow):
 
         content.pack_start (self.w)
 
-        tooltips = gtk.Tooltips ()
-        tooltips.enable ()
+##      tooltips = gtk.Tooltips ()
+##      tooltips.enable ()
         
         self.warning = 0
         self.parent = parent

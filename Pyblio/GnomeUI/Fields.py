@@ -60,8 +60,8 @@ class FieldsDialog (Utils.GladeWindow):
         self.dialog = self.xml.get_widget ('fields1')
         self.w = self.xml.get_widget ('notebook')
 
-        tooltips = gtk.Tooltips ()
-        tooltips.enable ()
+##      tooltips = gtk.Tooltips ()
+##      tooltips.enable ()
         
         self.warning = 0
         self.parent = parent
