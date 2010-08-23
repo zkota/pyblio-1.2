@@ -89,8 +89,8 @@ AC_CONFIG_FILES(
 	Pyblio/Output/Makefile
 	Pyblio/ConfDir/Makefile
 	Pyblio/Style/Makefile
-	doc/Makefile
-	doc/C/Makefile
+	help/Makefile
+	help/C/Makefile
 	Styles/Makefile
 )
 

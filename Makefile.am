@@ -28,7 +28,7 @@ SUBDIRS = 	Pyblio 		\
 		tests		\
 		Styles		\
 		po		\
-		doc
+		help
 
 
 appicondir = $(datadir)/pixmaps
