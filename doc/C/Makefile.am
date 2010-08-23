@@ -24,10 +24,7 @@ docname = pybliographer
 lang = C
 omffile = pybliographer-C.omf
 
-entities = 						\
-	legal.xml authors.xml commandline.xml 		\
-	config.xml gui.xml preface.xml 			\
-	script.xml start.xml styles.xml
+entities = legal.xml
 
 include $(top_srcdir)/xmldocs.make
 
