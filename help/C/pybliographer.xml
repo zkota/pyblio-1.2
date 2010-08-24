@@ -17,6 +17,10 @@
 <book id="index" lang="en">
     <title>&app; Manual V&manrevision;</title>
   <bookinfo>
+    <abstract role="description">
+      <para>&app; is a tool for managing bibliographic databases. It can be
+      used for searching, editing, reformatting, etc.</para>
+    </abstract>
     <copyright> 
       <year>2003-2010</year>
       <holder>Zolt&#225;n K&#243;ta</holder> 
@@ -29,7 +33,7 @@
     &legal;
 
     <authorgroup> 
-      <author> 
+      <author role="maintainer">
 		<firstname>Zolt&#225;n</firstname> 
 		<surname>K&#243;ta</surname> 
       </author> 
@@ -42,36 +46,15 @@
 
     <revhistory>
       <revision> 
-		<revnumber>&app; Manual V&manrevision;</revnumber> 
-		<date>&date;</date> 
+		<revnumber>&app; Documentation</revnumber> 
+		<date>1999</date> 
 		<revdescription> 
-	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
-	  	</revdescription> 
-      </revision> 
+	  		<para role="author">Fr&#233;d&#233;ric Gobry</para>
+		</revdescription> 
+      </revision>
       <revision> 
-		<revnumber>&app; Manual V2.6</revnumber> 
-		<date>October 2008</date> 
-		<revdescription> 
-	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
-	  	</revdescription> 
-      </revision> 
-      <revision> 
-		<revnumber>&app; Manual V2.5</revnumber> 
-		<date>February 2005</date> 
-		<revdescription> 
-	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
-	  	</revdescription> 
-      </revision> 
-      <revision> 
-		<revnumber>&app; Manual V2.4</revnumber> 
-		<date>November 2004</date>
-		<revdescription> 
-	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
-	  	</revdescription> 
-      </revision> 
-      <revision> 
-		<revnumber>&app; Manual V2.3</revnumber> 
-		<date>June 2004</date>
+		<revnumber>&app; Manual V2.1</revnumber> 
+		<date>January 2004</date>
 		<revdescription> 
 	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
 	  	</revdescription> 
@@ -84,18 +67,39 @@
 	  	</revdescription> 
       </revision> 
       <revision> 
-		<revnumber>&app; Manual V2.1</revnumber> 
-		<date>January 2004</date>
+		<revnumber>&app; Manual V2.3</revnumber> 
+		<date>June 2004</date>
 		<revdescription> 
 	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
 	  	</revdescription> 
       </revision> 
       <revision> 
-		<revnumber>&app; Documentation</revnumber> 
-		<date>1999</date> 
+		<revnumber>&app; Manual V2.4</revnumber> 
+		<date>November 2004</date>
 		<revdescription> 
-	  		<para role="author">Fr&#233;d&#233;ric Gobry</para>
-		</revdescription> 
+	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
+	  	</revdescription> 
+      </revision> 
+      <revision> 
+		<revnumber>&app; Manual V2.5</revnumber> 
+		<date>February 2005</date> 
+		<revdescription> 
+	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
+	  	</revdescription> 
+      </revision> 
+      <revision> 
+		<revnumber>&app; Manual V2.6</revnumber> 
+		<date>October 2008</date> 
+		<revdescription> 
+	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
+	  	</revdescription> 
+      </revision> 
+      <revision> 
+		<revnumber>&app; Manual V&manrevision;</revnumber> 
+		<date>&date;</date> 
+		<revdescription> 
+	  		<para role="author">Zolt&#225;n K&#243;ta, Fr&#233;d&#233;ric Gobry</para>
+	  	</revdescription> 
       </revision> 
     </revhistory> 
 
@@ -206,10 +210,10 @@
       <title>What's New in &app; &appversion;</title>
       <para>
         You can find a list of bugs fixed and features added
-        in the <filename>News</filename> file supplied with the package. 
+        in the <filename>News</filename> and <filename>ChangeLog
+        </filename> files supplied with the package. 
         See the source tarball of pybliographer, or the default doc directory 
-        of your distribution (e.g. /usr/share/doc/pybliographer). You can 
-        also browse the source code repository online.
+        of your distribution (e.g. /usr/share/doc/pybliographer).
       </para>
 
     </sect1>

@@ -57,7 +57,8 @@ EXTRA_DIST = 	setup-check.py			\
 		pybliographic.desktop.in	\
 		pybliographic.png		\
 		pybliographic-logo.png		\
-		pybliographic-viewer.png	
+		pybliographic-viewer.png	\
+		gnome-doc-utils.make
 
 
 dist-hook:

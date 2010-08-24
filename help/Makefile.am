@@ -18,7 +18,23 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 # 
 
-SUBDIRS = C
+AUTOMAKE_OPTIONS = -Wno-portability
 
-doc:
-	happydoc -d api $(top_srcdir)/Pyblio
+include $(top_srcdir)/gnome-doc-utils.make
+dist-hook: doc-dist-hook
+
+DOC_MODULE = pybliographer
+DOC_ENTITIES = legal.xml
+DOC_INCLUDES = 
+DOC_FIGURES =	figures/edit.png	\
+		figures/edit2.png	\
+		figures/fields.png	\
+		figures/format.png	\
+		figures/main.png	\
+		figures/medline.png	\
+		figures/open.png	\
+		figures/search.png	\
+		figures/sort.png
+
+DOC_LINGUAS =
+

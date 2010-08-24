@@ -24,6 +24,8 @@ run ()
     $* || error "while running $*"
 }
 
+run gnome-doc-prepare --copy --force
+
 run aclocal ${aclocal_extra}
 run autoconf
 run automake -a

@@ -76,6 +76,9 @@ fi
 
 dnl NLS is now hand-managed for python.
 
+# Documentation
+GNOME_DOC_INIT
+
 AC_CONFIG_FILES(	
 	Makefile 
 	po/Makefile
@@ -90,7 +93,6 @@ AC_CONFIG_FILES(
 	Pyblio/ConfDir/Makefile
 	Pyblio/Style/Makefile
 	help/Makefile
-	help/C/Makefile
 	Styles/Makefile
 )
 
