@@ -31,7 +31,7 @@ datarootdir="@datarootdir@"
 datadir="@datadir@"
 libpyb="${libdir}/@PACKAGE@"
 datapyb="${datadir}/@PACKAGE@"
-localedir="${datadir}/locale"
+localedir="@localedir@"
 
 bindir="@bindir@"
 
@@ -44,6 +44,6 @@ s%@datapyb@%${datapyb}%g
 s%@python_path@%@Python@%g
 s%@package@%@PACKAGE@%g
 s%@version@%@VERSION@%g
-s%@localedir@%${localedir}%g
+s%@locale_dir@%${localedir}%g
 s%@p_datadir@%${datadir}%g
 "

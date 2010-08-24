@@ -24,7 +24,7 @@ version  = "@version@"
 progname = "@package@"
 
 data_pybdir = "@datapyb@"
-localedir   = "@localedir@"
+localedir   = "@locale_dir@"
 
 import sys
 
