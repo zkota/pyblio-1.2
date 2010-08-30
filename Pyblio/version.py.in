@@ -2,6 +2,6 @@
 
 datadir   = "@p_datadir@"
 pybdir    = "@datapyb@"
-localedir = "@localedir@"
+localedir = "@locale_dir@"
 version   = "@version@"
 
