@@ -41,7 +41,6 @@ def usage ():
       -F footer, --footer=footer	defines a footer file
       -l 'output', --list='output'	lists the available output formats
       -h, --help			show this help message
-      -v, --version			show this help message
     """).encode (charset)
     return
 
@@ -57,16 +56,20 @@ def warning (text, exit = 0):
         sys.exit (1)
     return
 
-optlist, args = getopt.getopt (sys.argv [2:],
-			       'H:F:o:l:vhs:f:',
+try:
+    optlist, args = getopt.getopt (sys.argv [2:],
+			       'H:F:o:l:hs:f:',
 			       ['header=',
 				'footer=',
                                 'output=',
                                 'list=',
                                 'style=',
                                 'format=',
-				'version',
 				'help'])
+except getopt.GetoptError, err:
+    usage ()
+    error (str(err).decode (charset))
+
 
 header  = None
 footer  = None
@@ -118,12 +121,6 @@ for opt, value in optlist:
         format = value
         continue
     
-
-    if opt == '-v' or opt == '--version':
-        usage ()
-        sys.exit (0)
-        continue
-
 
 # test input arguments
 if len (args) < 1:
