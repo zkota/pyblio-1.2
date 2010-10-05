@@ -1,23 +1,23 @@
 # Czech translation of pybliographer.
-# Copyright (C) 2003, 2004, 2005, 2009 the author(s) of pybliographer.
+# Copyright (C) 2003, 2004, 2005, 2009, 2010 the author(s) of pybliographer.
 # Copyright (C) 2003, 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
 # This file is distributed under the same license as the pybliographer package.
 # Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
-# Marek Černocký <marek@manet.cz>, 2009.
+# Marek Černocký <marek@manet.cz>, 2009, 2010.
 # Petr Kovar <pknbe@volny.cz>, 2009, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: pybliographer gnome-master\n"
+"Project-Id-Version: pybliographer\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-07-11 17:46+0200\n"
-"PO-Revision-Date: 2010-06-28 19:54+0200\n"
-"Last-Translator: Petr Kovar <pknbe@volny.cz>\n"
+"POT-Creation-Date: 2010-09-10 20:48+0200\n"
+"PO-Revision-Date: 2010-09-07 19:16+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Lokalize 1.0\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -232,15 +232,15 @@ msgstr "Zd_roj"
 msgid "_About"
 msgstr "O _aplikaci"
 
-#: ../Pyblio/GnomeUI/Document.py:242
+#: ../Pyblio/GnomeUI/Document.py:245
 msgid "Quick search"
 msgstr "Rychlé hledání"
 
-#: ../Pyblio/GnomeUI/Document.py:316
+#: ../Pyblio/GnomeUI/Document.py:319
 msgid "Unnamed bibliographic database"
 msgstr "Nepojmenovaná bibliografická databáze"
 
-#: ../Pyblio/GnomeUI/Document.py:399
+#: ../Pyblio/GnomeUI/Document.py:402
 #, python-format
 msgid ""
 "can't open file `%s' for writing:\n"
@@ -249,7 +249,7 @@ msgstr ""
 "nelze otevřít soubor „%s“ pro zápis:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:420
+#: ../Pyblio/GnomeUI/Document.py:423
 #, python-format
 msgid ""
 "Error while parsing `%s':\n"
@@ -258,43 +258,43 @@ msgstr ""
 "Chyba při zpracovávání „%s“:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:436
+#: ../Pyblio/GnomeUI/Document.py:439
 msgid "New database"
 msgstr "Nová databáze"
 
-#: ../Pyblio/GnomeUI/Document.py:444 ../Pyblio/GnomeUI/Document.py:448
+#: ../Pyblio/GnomeUI/Document.py:447 ../Pyblio/GnomeUI/Document.py:451
 msgid "[no entry]"
 msgstr "[žádná položka]"
 
-#: ../Pyblio/GnomeUI/Document.py:445
+#: ../Pyblio/GnomeUI/Document.py:448
 msgid "[1 entry]"
 msgstr "[1 položka]"
 
-#: ../Pyblio/GnomeUI/Document.py:446
+#: ../Pyblio/GnomeUI/Document.py:449
 #, python-format
 msgid "[%d entries]"
 msgstr "[%d položek]"
 
-#: ../Pyblio/GnomeUI/Document.py:449
+#: ../Pyblio/GnomeUI/Document.py:452
 #, python-format
 msgid "[%d/1 entry]"
 msgstr "[%d/1 položka]"
 
-#: ../Pyblio/GnomeUI/Document.py:450
+#: ../Pyblio/GnomeUI/Document.py:453
 #, python-format
 msgid "[%d/%d entries]"
 msgstr "[%d/%d položek]"
 
-#: ../Pyblio/GnomeUI/Document.py:455
+#: ../Pyblio/GnomeUI/Document.py:458
 msgid "[modified]"
 msgstr "[změněno]"
 
-#: ../Pyblio/GnomeUI/Document.py:458
+#: ../Pyblio/GnomeUI/Document.py:461
 #, python-format
 msgid "view limited to: %s"
 msgstr "pohled omezen na: %s"
 
-#: ../Pyblio/GnomeUI/Document.py:471
+#: ../Pyblio/GnomeUI/Document.py:474
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
@@ -302,7 +302,7 @@ msgstr ""
 "Databáze byla změněna.\n"
 "Zahodit změny?"
 
-#: ../Pyblio/GnomeUI/Document.py:475
+#: ../Pyblio/GnomeUI/Document.py:478
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
@@ -310,7 +310,7 @@ msgstr ""
 "Databáze byla změněna.\n"
 "Uložit změny?"
 
-#: ../Pyblio/GnomeUI/Document.py:492
+#: ../Pyblio/GnomeUI/Document.py:495
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes ?"
@@ -319,29 +319,29 @@ msgstr ""
 "Přepsat změny?"
 
 #. no result.
-#: ../Pyblio/GnomeUI/Document.py:521
+#: ../Pyblio/GnomeUI/Document.py:524
 msgid "Your query returned no result"
 msgstr "Váš dotaz nevrátil žádný výsledek"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:531
+#: ../Pyblio/GnomeUI/Document.py:534
 msgid "Merge file"
 msgstr "Sloučit soubor"
 
-#: ../Pyblio/GnomeUI/Document.py:543 ../Pyblio/GnomeUI/Document.py:629
+#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
 msgid "Open error"
 msgstr "Chyba při otevírání"
 
-#: ../Pyblio/GnomeUI/Document.py:567
+#: ../Pyblio/GnomeUI/Document.py:570
 msgid "Merge status"
 msgstr "Stav sloučení"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:578
+#: ../Pyblio/GnomeUI/Document.py:581
 msgid "Open file"
 msgstr "Otevřít soubor"
 
-#: ../Pyblio/GnomeUI/Document.py:616
+#: ../Pyblio/GnomeUI/Document.py:619
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -350,8 +350,8 @@ msgstr ""
 "soubor.\n"
 "Chcete jej obnovit?"
 
-#: ../Pyblio/GnomeUI/Document.py:650 ../Pyblio/GnomeUI/Document.py:791
-#: ../Pyblio/GnomeUI/Document.py:851
+#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
+#: ../Pyblio/GnomeUI/Document.py:854
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -360,7 +360,7 @@ msgstr ""
 "Nelze odstranit soubor automatického ukládání „%s“:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:701
+#: ../Pyblio/GnomeUI/Document.py:704
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -369,7 +369,7 @@ msgstr ""
 "Chyba při automatickém ukládání:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:729
+#: ../Pyblio/GnomeUI/Document.py:732
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -378,7 +378,7 @@ msgstr ""
 "Nelze uložit „%s“:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:737
+#: ../Pyblio/GnomeUI/Document.py:740
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -386,11 +386,11 @@ msgstr ""
 "Při ukládání došlo k interní chybě\n"
 "Zkuste Uložit jako…"
 
-#: ../Pyblio/GnomeUI/Document.py:752
+#: ../Pyblio/GnomeUI/Document.py:755
 msgid "Save As..."
 msgstr "Uložit jako…"
 
-#: ../Pyblio/GnomeUI/Document.py:758
+#: ../Pyblio/GnomeUI/Document.py:761
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -399,7 +399,7 @@ msgstr ""
 "Soubor „%s“ již existuje.\n"
 "Přepsat jej?"
 
-#: ../Pyblio/GnomeUI/Document.py:765
+#: ../Pyblio/GnomeUI/Document.py:768
 #, python-format
 msgid ""
 "During opening:\n"
@@ -408,11 +408,11 @@ msgstr ""
 "Při otevírání:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:803
+#: ../Pyblio/GnomeUI/Document.py:806
 msgid "Reopen error"
 msgstr "Chyba při opětovném otevření"
 
-#: ../Pyblio/GnomeUI/Document.py:876
+#: ../Pyblio/GnomeUI/Document.py:879
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -421,30 +421,30 @@ msgstr ""
 "Položka nazvaná „%s“ již existuje.\n"
 "Přejmenovat ji a přesto přidat?"
 
-#: ../Pyblio/GnomeUI/Document.py:913
+#: ../Pyblio/GnomeUI/Document.py:916
 msgid "Really remove all the entries ?"
 msgstr "Opravdu odstranit všechny položky?"
 
-#: ../Pyblio/GnomeUI/Document.py:933
+#: ../Pyblio/GnomeUI/Document.py:936
 msgid "Create new entry"
 msgstr "Vytvořit novou položku"
 
-#: ../Pyblio/GnomeUI/Document.py:947
+#: ../Pyblio/GnomeUI/Document.py:950
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "Opravdu opravit %d položek?"
 
-#: ../Pyblio/GnomeUI/Document.py:993
+#: ../Pyblio/GnomeUI/Document.py:996
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "Odstranit všech %d položek?"
 
-#: ../Pyblio/GnomeUI/Document.py:995
+#: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "Odstranit položku „%s“?"
 
-#: ../Pyblio/GnomeUI/Document.py:1014
+#: ../Pyblio/GnomeUI/Document.py:1017
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -452,7 +452,7 @@ msgstr ""
 "vámi hledaný text musí obsahovat\n"
 "pouze znaky latin-1"
 
-#: ../Pyblio/GnomeUI/Document.py:1093 ../Pyblio/GnomeUI/Document.py:1101
+#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -461,7 +461,7 @@ msgstr ""
 "Nelze se připojit k LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1216
+#: ../Pyblio/GnomeUI/Document.py:1219
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -471,19 +471,19 @@ msgstr ""
 "%s"
 
 # Sheesh.
-#: ../Pyblio/GnomeUI/Document.py:1224
+#: ../Pyblio/GnomeUI/Document.py:1227
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Tento program je chráněn copyrightem a šířen pod podmínkami GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1225
+#: ../Pyblio/GnomeUI/Document.py:1228
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Rozhraní pro GNOME k systému Pybliographer."
 
-#: ../Pyblio/GnomeUI/Document.py:1236
+#: ../Pyblio/GnomeUI/Document.py:1239
 msgid "GNOME Translation Team"
 msgstr "Překladatelský tým GNOME"
 
-#: ../Pyblio/GnomeUI/Document.py:1241
+#: ../Pyblio/GnomeUI/Document.py:1244
 msgid "Pybliographer Home Page"
 msgstr "Domovská stránka Pybliographeru"
 
@@ -1204,7 +1204,6 @@ msgid ""
 "      -F footer, --footer=footer\tdefines a footer file\n"
 "      -l 'output', --list='output'\tlists the available output formats\n"
 "      -h, --help\t\t\tshow this help message\n"
-"      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
 "použití: pybformat [přepínače] <databáze…>\n"
@@ -1217,71 +1216,70 @@ msgstr ""
 "      -F patička, --footer=patička\tdefinuje soubor patičky\n"
 "      -l 'výstup', --list='výstup'\tvypíše dostupné formáty výstupu\n"
 "      -h, --help\t\t\tzobrazit tuto zprávu s nápovědou\n"
-"      -v, --version\t\t\tzobrazit tuto zprávu s nápovědou\n"
 "    "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pybformat.py:48
 #, python-format
 msgid "pybformat: error: %s\n"
 msgstr "pybformat: chyba: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pybformat.py:54
 #, python-format
 msgid "pybformat: warning: %s\n"
 msgstr "pybformat: varování: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
+#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "nelze otevřít „%s“: %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pybformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr "neznámý seznam „%s“"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pybformat.py:103
 #, python-format
 msgid "pybformat: available values for `%s':"
 msgstr "pybformat: dostupné hodnoty pro „%s“:"
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pybformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr "prázdný seznam hodnot „%s“"
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pybformat.py:129
 msgid "too few arguments"
 msgstr "příliš málo parametrů"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "neznámý formát výstupu „%s“"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
+#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "nelze najít styl „%s“"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pybformat.py:152
 #, python-format
 msgid "pybformat: using style `%s', format `%s'\n"
 msgstr "pybformat: používá se styl „%s“, formát „%s“\n"
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pybformat.py:167
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "nelze otevřít hlavičku „%s“: %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pybformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr "nelze otevřít databázi: %s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pybformat.py:190
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "nelze otevřít patičku „%s“: %s"
