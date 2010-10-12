@@ -1,5 +1,16 @@
 -*- text -*-
 
+New in 1.2.14 - 2010-10-12
+
+       * Added German translation of the 
+         documentation (Gnome I18n team)
+       * Fixes on pybformat command line options
+       * Documentation migrated to use gnome-doc-utils
+       * Fixed path expansion bug of localedir
+       * Updated Tooltips objects. Pybliographer now requires
+         pygtk 2.12.0 or newer
+       * Updated translations (Gnome I18n team)
+
 New in 1.2.13 - 2010-07-15
 
        * Some minor gtk related fixes
