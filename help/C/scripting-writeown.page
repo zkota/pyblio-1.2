@@ -1,0 +1,81 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="scripting-writeown">
+
+  <info>
+    <link type="guide" xref="index#scripting"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Writing your own scripts.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Writing your own scripts</title>
+
+    <p>To start writing your own script, you can read what follows,
+    and then have a look at the existing scripts. Trying to adapt them
+    to fit your  personal needs can be a good way  of testing what you
+    read.</p>
+
+    <section id="script-scripting-writing-concepts">
+      <title>Some concepts</title>
+
+      <p>This section describes some basic classes and ideas that
+      are useful to understand how <app>Pybliographer</app> works.</p>
+
+      <p>In the following, all the  modules that will be refered to
+	belong to  the <em>Pyblio</em> domain.   So, to access
+	the members  of the <em>Open</em>  module, you'll have
+	to write at the beginning of your script something like</p>
+
+      <screen>from Pyblio import Open</screen>
+      
+      <p>The <em>Base</em>  module contains some  of the most
+	basical classes used in the application:</p>
+
+      <list>
+	<item>
+	  <p><em>Base.Entry</em> represents a specific bibliographic entry,
+	    with all its fields. It behaves like a hash table which returns
+	    the content of a field given its name</p>
+	</item>
+	<item>
+	  <p><em>Base.DataBase</em> is the class from which every database
+          type inherits. It behaves like a hash table that returns a
+	  Base.Entry given a Base.Key</p>
+	</item>
+      </list>
+      
+      <p><em>Key.Key</em>  is the  object  that uniquely
+	identifies an  entry.  This object  must be unique  over the
+	whole application, and is composed of a database part and an
+	entry part.</p>
+
+      <p>An <em>Iterator</em> is  an object that provides a
+	way to access a sequence of items in order. These iterators are
+	used extensively in <app>Pybliographer</app>, because they hide
+	the underlying access mechanism, and provide the same access on
+	any database. They are also perfectly suited for implementing
+	transparent filtering and sorting of entries: the
+	<em>Selection.Selection</em>  class for  example takes
+	an iterator (on  a database for example) and  return a new one
+	which will only iterate on  a subset of the entries, according
+	to a search criterion.</p>
+
+    </section>
+
+
+</page>

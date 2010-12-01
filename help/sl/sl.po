@@ -1,0 +1,122 @@
+# Slovenian translation for pybliographer help.
+# Copyright (C) 2010 pybliographer's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pybliographer package.
+#
+# Ime Priimek <email>, leto
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pybliographer help master\n"
+"POT-Creation-Date: 2010-10-29 21:02+0000\n"
+"PO-Revision-Date: 2010-11-07 15:39+0100\n"
+"Last-Translator: Andrej Žnidaršič <andrej.znidarsic@gmail.com>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n%100==4 ? 3 : 0);\n"
+"X-Poedit-Country: SLOVENIA\n"
+"X-Poedit-Language: Slovenian\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/index.page:24(None)
+msgid "@@image: 'figures/pybliographic-logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
+msgstr ""
+
+#: C/index.page:7(title)
+#: C/index.page:8(title)
+msgid "Pybliographer Bibliography manager"
+msgstr "Pybliographer upravljalnik bibliografij"
+
+#: C/index.page:11(name)
+msgid "Zoltán Kóta"
+msgstr "Zoltán Kóta"
+
+#: C/index.page:12(email)
+msgid "zoltank@gmail.com"
+msgstr "zoltank@gmail.com"
+
+#: C/index.page:15(name)
+msgid "Frédéric Gobry"
+msgstr "Frédéric Gobry"
+
+#: C/index.page:16(email)
+msgid "frederic.gobry@epfl.ch"
+msgstr "frederic.gobry@epfl.ch"
+
+#: C/index.page:19(p)
+msgid "Creative Commons Share Alike 3.0"
+msgstr "Dovoljenje Creative Commons -  deljenje pod istimi pogoji 3.0"
+
+#: C/index.page:23(title)
+msgid "<media type=\"image\" mime=\"image/png\" src=\"figures/pybliographic-logo.png\">Pybliographer logo</media> Pybliographer Bibliography manager"
+msgstr "<media type=\"image\" mime=\"image/png\" src=\"figures/pybliographic-logo.png\"> logotip Pybliographer</media> Upravljalnik bibliografije Pybliographer"
+
+#: C/index.page:29(title)
+msgid "Preface"
+msgstr "Uvod"
+
+#: C/index.page:33(title)
+msgid "Usage"
+msgstr "Uporaba"
+
+#: C/index.page:37(title)
+msgid "The Scripting Language"
+msgstr "Skriptni jezik"
+
+#: C/index.page:41(title)
+msgid "Customization"
+msgstr "Prilagoditev"
+
+#: C/index.page:45(title)
+msgid "Creating New Styles"
+msgstr "Ustvarjanje novih slogov"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/index.page:0(None)
+msgid "translator-credits"
+msgstr "Andrej Žnidaršič"
+
+#~ msgid "@@image: 'figures/open.png'; md5=ad69c2047262f00a361f1ac860773b8a"
+#~ msgstr "@@image: 'figures/open.png'; md5=ad69c2047262f00a361f1ac860773b8a"
+#~ msgid "@@image: 'figures/main.png'; md5=bf9ce1d3e626213520d3220eb46558dd"
+#~ msgstr "@@image: 'figures/main.png'; md5=bf9ce1d3e626213520d3220eb46558dd"
+#~ msgid "@@image: 'figures/search.png'; md5=584e9a19da7d5bc43929fd7926c3602b"
+#~ msgstr "@@image: 'figures/search.png'; md5=584e9a19da7d5bc43929fd7926c3602b"
+#~ msgid "@@image: 'figures/sort.png'; md5=c7a4506cb27428d7b2a0d10b9d3a98b2"
+#~ msgstr "@@image: 'figures/sort.png'; md5=c7a4506cb27428d7b2a0d10b9d3a98b2"
+#~ msgid "@@image: 'figures/edit.png'; md5=8c5c88ea0416f223dad77ad0c5d498f4"
+#~ msgstr "@@image: 'figures/edit.png'; md5=8c5c88ea0416f223dad77ad0c5d498f4"
+#~ msgid "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
+#~ msgstr "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
+#~ msgid "@@image: 'figures/format.png'; md5=734464fc1276ef9b3f2bc8cb34f2504e"
+#~ msgstr "@@image: 'figures/format.png'; md5=734464fc1276ef9b3f2bc8cb34f2504e"
+#~ msgid "@@image: 'figures/medline.png'; md5=09532a6de80c9c22b06efefb6401558c"
+#~ msgstr ""
+#~ "@@image: 'figures/medline.png'; md5=09532a6de80c9c22b06efefb6401558c"
+#~ msgid "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
+#~ msgstr "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
+#~ msgid "2003-2010"
+#~ msgstr "2003-2010"
+#~ msgid "1999-2010"
+#~ msgstr "1999-2010"
+#~ msgid "Zoltán"
+#~ msgstr "Zoltán"
+#~ msgid "Kóta"
+#~ msgstr "Kóta"
+#~ msgid "Frédéric"
+#~ msgstr "Frédéric"
+#~ msgid "Gobry"
+#~ msgstr "Gobry"
+#~ msgid "1999"
+#~ msgstr "1999"
+#~ msgid "Applications"
+#~ msgstr "Programi"
+#~ msgid "Filenames"
+#~ msgstr "Imena datotek"
+#~ msgid "Tip"
+#~ msgstr "Namig"
+

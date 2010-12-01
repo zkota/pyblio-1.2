@@ -1,0 +1,72 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="typcon">
+
+  <info>
+    <link type="guide" xref="index#preface"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Typographical conventions used in this documentation.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+	<title>Typographical Conventions</title>
+	<p>In this book, we'll mark some words with special typography:
+        </p>
+
+	<list>
+  	<item><p><app>Applications</app></p></item>
+  	<item><p><cmd>Commands</cmd> you type at the command line</p></item>
+  	<item><p><file>Filenames</file></p></item>
+  	<item><p><var>Replaceable text</var></p></item>
+  	<item><p><gui>Labels</gui> for buttons and other portions of the
+		graphical interface</p></item>
+  	<item><p>Menu selections look like this: <guiseq><gui>Menu
+		</gui><gui>Submenu</gui><gui>Menu Item</gui></guiseq></p></item>
+  	<item><p><gui>Buttons</gui> you can click</p></item>
+  	<item><p><input>Anything you type in</input></p></item>
+	</list>
+
+	<p>We'll provide assorted bits of additional information in tips 
+        	and notes as well.</p>
+
+	  <note style="tip" id="example-tip">
+	      <title>Tip</title>
+	      <p>
+		Tips and bits of extra information will look like
+		this.
+	      </p>
+	    </note>
+          
+           <note id="example-note">
+               <title>Note</title>
+	      <p>
+		Notes will look like this.
+	      </p>
+           </note>
+
+        <p>
+         We'll have warnings, in cases where you should be careful:</p>
+
+	    <note style="warning" id="example-warning">
+	      <title>Example Warning</title>
+	      <p>
+		This is what a warning looks like. If there's a chance
+		you'll run into trouble, we'll warn you beforehand.
+	      </p>
+	  </note>
+
+</page>

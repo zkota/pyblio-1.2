@@ -1,9 +1,9 @@
 <?xml version="1.0" standalone="no"?>
 <omf>
   <resource>
-    <subject category="GNOME|Applications|Office"/>
+    <subject category="Applications|Office"/>
     <type>user's guide</type>
     <relation seriesid="ef478e44-3f87-11d8-99e5-aa7db3d8400c"/>
-    <rights type="GNU FDL" license.version="1.1" holder="Frederic Gobry"/>
+    <rights type="Creative Commons" license.version="3.0" holder="Frederic Gobry"/>
   </resource>
 </omf>

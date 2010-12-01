@@ -1,0 +1,41 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-creating">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      How to create a new database.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Creating a new database</title>
+
+    <p>When <app>Pybliographic</app> is opened, you  can immediately begin
+    to create a new database. The type of this database will be determined
+    when you will save it the first time.</p>
+
+    <p>To add a new entry, you can use the <guiseq><gui>Edit</gui>
+        <gui>Add</gui></guiseq> menu, directly the <gui>Add</gui> 
+        toolbar button or click with the right button in the list window 
+        and select <gui>Add</gui>.
+    </p>
+    
+    <p>You will find more information on the main window's usage in
+      <link xref="gui-navigating"/>.</p>
+
+</page>

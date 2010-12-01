@@ -1,0 +1,80 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="customization">
+
+  <info>
+    <link type="guide" xref="index#advusage"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      How to customize this application to match your needs.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+  <title>Advanced Configuration</title>
+  
+  <p>The configuration  system is heavily based  on <app>Python</app>'s
+    module system. The configuration files are standard <app>Pybliographer</app>
+    scripts (that is, python code making use of <app>Pybliographer</app>
+    extra classes and functions), whose  single special feature is to be
+    automatically parsed at startup or when needed.</p>
+  
+  <section id="config-customization-files">
+    <title>Files involved</title>
+    
+    <p>The first file to be parsed is <file>${prefix}/share/pybliographer/pybrc.py
+      </file>. It serves as a bootstrap for the general configuration mechanism,
+      and defines:</p>
+    
+    <list>
+      <item>
+	<p>the available input and output formats</p>
+      </item>
+      
+      <item>
+	<p>where to find the configuration directories.</p>
+      </item>
+    </list>
+    
+    <p>A configuration directory holds a list of files which are parsed
+      when needed. For example, if a method requires some configuration data
+      for the bibtex module, it will import the corresponding file in this
+      directory.</p>
+
+    <p> This mechanism allows more flexibility to add new formats:
+      the new format can be installed with a default configuration
+      without messing with the global configuration file. In addition,
+      the program imports only  what is needed, decreasing its startup
+      time.</p>
+    
+    <p>Finally, if the user provides a file called <file>.pybrc.py</file>
+      in its home directory, this file is then parsed. Of course it can
+      also define a private configuration directory, and override what has
+      been defined before.</p>
+  </section>
+  
+  <section id="config-customization-configmodule">
+    <title>The <sys>Config</sys> module</title>
+    
+    <p>All the data that can be configured should be handled by the
+      so-called  <sys>Config</sys> module.  It  provides a
+      standard  interface   to  set/get  and   document  configuration
+      items.</p>
+    
+  </section>
+
+    
+  </page>
+

@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-formats">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Other file formats which you can also use.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Saving selected entries in different formats</title>
+
+    <p>Selected entries can be saved in different formats using  
+    the <guiseq><gui>Cite</gui><gui>Format...</gui></guiseq> menu item,
+    see the following window:
+    </p>
+
+    <p><media type="image" mime="image/png" src="figures/format.png">
+    Formatting entries
+    </media></p>
+
+
+    <p>As a result, a formatted output file is generated according 
+    to a bibliographic style, either in HTML, LaTeX, Raw or Text format. 
+    The <app>Pybliographer</app> package contains some bibliographic styles,
+    but own styles can also be created easily. See also 
+    <link xref="scripting-existing#script-scripting-existing-pybformat" />.</p> 
+    
+  </page>
+

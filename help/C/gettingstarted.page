@@ -1,0 +1,91 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gettingstarted">
+
+  <info>
+    <link type="guide" xref="index#usage"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Your first steps in <app>Pybliographer</app>.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+	<title>Getting Started</title>
+
+	 <section>
+	  <title>What is <app>Pybliographer</app>?</title>
+	   <p>
+	   Pybliographer  is a  tool for  working  with bibliographic
+	   databases. It provides a general framework that can be used to
+	   manipulate these databases  with a simple graphical interface,
+	   but  that  can  also be  easily  extended  by  the mean  of  a
+	   scripting language, to fit a wide range of needs.
+	   </p>
+	 </section>
+
+	 <section>
+	  <title>How to start <app>Pybliographer</app>?</title>
+	   <p>
+	    You can start <app>Pybliographer</app> in the following ways:
+	   </p>
+	   <section>
+	     <title>Graphical mode</title>
+	      <p>	
+	       To start <app>Pybliographer</app> in graphical mode from a
+	       command line, type the following command, then press
+	       <key>Return</key>: <cmd>pybliographic</cmd>.
+	       For more information on the graphical interface, see
+               <link xref="gui"/>.
+	      </p>
+
+	       <p>It is possible to set the PYBLIOGRAPHER_DATABASE environment
+	       variable to an admissible bibliography file in order to open it
+	       always on startup, if no files are specified on the command line.
+	       Example:</p>
+
+	       <screen>
+    	       <output>bash$ </output><input>export PYBLIOGRAPHER_DATABASE=<var>my/database.bib</var></input>
+    	       <output>bash$ </output><input>pybliographic</input>
+    	       </screen>
+    	       <p>It is equivalent to</p>
+    	       <screen>
+    	       <output>bash$ </output><input>pybliographic <var>my/database.bib</var></input>
+    	       </screen>
+
+	   </section>
+
+	   <section>
+		<title>Command line mode</title>
+	      <p>
+	       You can start <app>Pybliographer</app> also in command
+	       line mode by typing the following command followed by pressing
+	       <key>Return</key>: <cmd>pybliographer</cmd>. For more
+	       information, see <link xref="command-line"/>.</p>
+
+	     </section>
+
+	     <section>
+	     <title>From the GNOME menu</title>
+	      <p>
+	       If the <file>*.desktop</file> file of the package is correctly
+	       installed in your sytem, you can find a launcher under the GNOME menu
+	       to start the graphical interface of <app>Pybliographer</app>.
+	      </p>
+	     </section>
+
+	 </section>
+
+</page>

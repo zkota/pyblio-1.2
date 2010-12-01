@@ -1,15 +1,16 @@
-# Norwegian translation of pybliographer (bokmål dialect).
+# Norwegian bokmål translation of pybliographer.
 # Copyright (C) 2000, 2001 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 2000, 2001.
+# Kjartan Maraas <kmaraas@gnome.org>, 2000-2010.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer 1.0.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-06-07 16:09+0200\n"
-"PO-Revision-Date: 2008-06-07 16:11+0200\n"
+"POT-Creation-Date: 2010-10-29 15:20+0200\n"
+"PO-Revision-Date: 2010-10-29 15:33+0200\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
+"Language: no\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8-bit\n"
@@ -230,15 +231,15 @@ msgstr "_Ressurs"
 msgid "_About"
 msgstr "_Om"
 
-#: ../Pyblio/GnomeUI/Document.py:242
+#: ../Pyblio/GnomeUI/Document.py:245
 msgid "Quick search"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:316
+#: ../Pyblio/GnomeUI/Document.py:319
 msgid "Unnamed bibliographic database"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:399
+#: ../Pyblio/GnomeUI/Document.py:402
 #, python-format
 msgid ""
 "can't open file `%s' for writing:\n"
@@ -247,7 +248,7 @@ msgstr ""
 "kan ikke åpne fil `%s' for skriving:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:420
+#: ../Pyblio/GnomeUI/Document.py:423
 #, python-format
 msgid ""
 "Error while parsing `%s':\n"
@@ -256,44 +257,44 @@ msgstr ""
 "Feil under lesing av `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:436
+#: ../Pyblio/GnomeUI/Document.py:439
 msgid "New database"
 msgstr "Ny database"
 
 # .././Pyblio/GnomeUI/Document.py:270 :274
-#: ../Pyblio/GnomeUI/Document.py:444 ../Pyblio/GnomeUI/Document.py:448
+#: ../Pyblio/GnomeUI/Document.py:447 ../Pyblio/GnomeUI/Document.py:451
 msgid "[no entry]"
 msgstr "[ingen oppføring]"
 
-#: ../Pyblio/GnomeUI/Document.py:445
+#: ../Pyblio/GnomeUI/Document.py:448
 msgid "[1 entry]"
 msgstr "[en oppføring]"
 
-#: ../Pyblio/GnomeUI/Document.py:446
+#: ../Pyblio/GnomeUI/Document.py:449
 #, python-format
 msgid "[%d entries]"
 msgstr "[%d oppføringer]"
 
-#: ../Pyblio/GnomeUI/Document.py:449
+#: ../Pyblio/GnomeUI/Document.py:452
 #, python-format
 msgid "[%d/1 entry]"
 msgstr "[%d/1 oppføring]"
 
-#: ../Pyblio/GnomeUI/Document.py:450
+#: ../Pyblio/GnomeUI/Document.py:453
 #, python-format
 msgid "[%d/%d entries]"
 msgstr "[%d/%d oppføringer]"
 
-#: ../Pyblio/GnomeUI/Document.py:455
+#: ../Pyblio/GnomeUI/Document.py:458
 msgid "[modified]"
 msgstr "[endret]"
 
-#: ../Pyblio/GnomeUI/Document.py:458
+#: ../Pyblio/GnomeUI/Document.py:461
 #, fuzzy, python-format
 msgid "view limited to: %s"
 msgstr "Begrenset til:"
 
-#: ../Pyblio/GnomeUI/Document.py:471
+#: ../Pyblio/GnomeUI/Document.py:474
 #, fuzzy
 msgid ""
 "The database has been modified.\n"
@@ -302,16 +303,15 @@ msgstr ""
 "Databasen er endret.\n"
 "Forkast endringer?"
 
-#: ../Pyblio/GnomeUI/Document.py:475
-#, fuzzy
+#: ../Pyblio/GnomeUI/Document.py:478
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
 msgstr ""
 "Databasen er endret.\n"
-"Forkast endringer?"
+"Lagre endringer?"
 
-#: ../Pyblio/GnomeUI/Document.py:492
+#: ../Pyblio/GnomeUI/Document.py:495
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes ?"
@@ -320,37 +320,37 @@ msgstr ""
 "Overskriv endingene?"
 
 #. no result.
-#: ../Pyblio/GnomeUI/Document.py:521
+#: ../Pyblio/GnomeUI/Document.py:524
 msgid "Your query returned no result"
 msgstr "Spørringen ga ingen resultater"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:531
+#: ../Pyblio/GnomeUI/Document.py:534
 msgid "Merge file"
 msgstr "Flett fil"
 
 # .././Pyblio/GnomeUI/Document.py:319 :379
-#: ../Pyblio/GnomeUI/Document.py:543 ../Pyblio/GnomeUI/Document.py:629
+#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
 msgid "Open error"
 msgstr "Feil under åpning"
 
-#: ../Pyblio/GnomeUI/Document.py:567
+#: ../Pyblio/GnomeUI/Document.py:570
 msgid "Merge status"
 msgstr "Flettestatus"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:578
+#: ../Pyblio/GnomeUI/Document.py:581
 msgid "Open file"
 msgstr "Åpne fil"
 
-#: ../Pyblio/GnomeUI/Document.py:616
+#: ../Pyblio/GnomeUI/Document.py:619
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:650 ../Pyblio/GnomeUI/Document.py:791
-#: ../Pyblio/GnomeUI/Document.py:851
+#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
+#: ../Pyblio/GnomeUI/Document.py:854
 #, fuzzy, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -359,7 +359,7 @@ msgstr ""
 "Kan ikke lagre `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:701
+#: ../Pyblio/GnomeUI/Document.py:704
 #, fuzzy, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -368,7 +368,7 @@ msgstr ""
 "Under åpning:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:729
+#: ../Pyblio/GnomeUI/Document.py:732
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -377,7 +377,7 @@ msgstr ""
 "Kan ikke lagre `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:737
+#: ../Pyblio/GnomeUI/Document.py:740
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -385,11 +385,11 @@ msgstr ""
 "En intern feil oppsto under lagring\n"
 "Prøv Lagre som..."
 
-#: ../Pyblio/GnomeUI/Document.py:752
+#: ../Pyblio/GnomeUI/Document.py:755
 msgid "Save As..."
 msgstr "Lagre som..."
 
-#: ../Pyblio/GnomeUI/Document.py:758
+#: ../Pyblio/GnomeUI/Document.py:761
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -398,7 +398,7 @@ msgstr ""
 "Filen `%s' eksisterer allerede.\n"
 "Overskriv den?"
 
-#: ../Pyblio/GnomeUI/Document.py:765
+#: ../Pyblio/GnomeUI/Document.py:768
 #, python-format
 msgid ""
 "During opening:\n"
@@ -407,11 +407,11 @@ msgstr ""
 "Under åpning:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:803
+#: ../Pyblio/GnomeUI/Document.py:806
 msgid "Reopen error"
 msgstr "Feil under gjenåpning"
 
-#: ../Pyblio/GnomeUI/Document.py:876
+#: ../Pyblio/GnomeUI/Document.py:879
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -420,37 +420,37 @@ msgstr ""
 "En oppføring kalt `%s' eksisterer allerede.\n"
 "Endre navn og legg den til uansett?"
 
-#: ../Pyblio/GnomeUI/Document.py:913
+#: ../Pyblio/GnomeUI/Document.py:916
 msgid "Really remove all the entries ?"
 msgstr "Vil du virkelig fjerne alle oppføringer?"
 
-#: ../Pyblio/GnomeUI/Document.py:933
+#: ../Pyblio/GnomeUI/Document.py:936
 msgid "Create new entry"
 msgstr "Opprett ny oppføring"
 
-#: ../Pyblio/GnomeUI/Document.py:947
+#: ../Pyblio/GnomeUI/Document.py:950
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "Vil du virkelig redigere %d oppføringer?"
 
-#: ../Pyblio/GnomeUI/Document.py:993
+#: ../Pyblio/GnomeUI/Document.py:996
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "Fjern alle %d oppføringene?"
 
-#: ../Pyblio/GnomeUI/Document.py:995
+#: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "Fjern oppføring «%s»?"
 
-#: ../Pyblio/GnomeUI/Document.py:1014
+#: ../Pyblio/GnomeUI/Document.py:1017
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr ""
 
 # .././Pyblio/GnomeUI/Document.py:661 :668
-#: ../Pyblio/GnomeUI/Document.py:1093 ../Pyblio/GnomeUI/Document.py:1101
+#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -459,7 +459,7 @@ msgstr ""
 "Kan ikke koble til LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1216
+#: ../Pyblio/GnomeUI/Document.py:1219
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -468,19 +468,19 @@ msgstr ""
 "Kan ikke vise dokumentasjon:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1224
+#: ../Pyblio/GnomeUI/Document.py:1227
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Dette programmet er utgitt under GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1225
+#: ../Pyblio/GnomeUI/Document.py:1228
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Gnome grensesnitt for Pybliographer-systemet."
 
-#: ../Pyblio/GnomeUI/Document.py:1236
+#: ../Pyblio/GnomeUI/Document.py:1239
 msgid "GNOME Translation Team"
 msgstr "GNOME oversettelseslag"
 
-#: ../Pyblio/GnomeUI/Document.py:1241
+#: ../Pyblio/GnomeUI/Document.py:1244
 msgid "Pybliographer Home Page"
 msgstr "Pybliographer nettside"
 
@@ -1181,21 +1181,20 @@ msgid ""
 "      -F footer, --footer=footer\tdefines a footer file\n"
 "      -l 'output', --list='output'\tlists the available output formats\n"
 "      -h, --help\t\t\tshow this help message\n"
-"      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pybformat.py:48
 #, python-format
 msgid "pybformat: error: %s\n"
 msgstr "pybformat: feil: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pybformat.py:54
 #, python-format
 msgid "pybformat: warning: %s\n"
 msgstr "pybformat: advarsel: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
+#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
 #, fuzzy, python-format
 msgid "can't open `%s': %s"
@@ -1203,54 +1202,54 @@ msgstr ""
 "kan ikke åpne fil `%s' for skriving:\n"
 "%s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pybformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr "ukjent liste «%s»"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pybformat.py:103
 #, python-format
 msgid "pybformat: available values for `%s':"
 msgstr ""
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pybformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr ""
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pybformat.py:129
 msgid "too few arguments"
 msgstr "for få argumenter"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
 #, fuzzy, python-format
 msgid "unknown output format `%s'"
 msgstr "mangler rør for utdata `%s'"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
+#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "kan ikke finne stil `%s'"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pybformat.py:152
 #, python-format
 msgid "pybformat: using style `%s', format `%s'\n"
 msgstr ""
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pybformat.py:167
 #, fuzzy, python-format
 msgid "can't open header `%s': %s"
 msgstr ""
 "kan ikke åpne fil `%s' for skriving:\n"
 "%s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pybformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr ""
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pybformat.py:190
 #, fuzzy, python-format
 msgid "can't open footer `%s': %s"
 msgstr ""

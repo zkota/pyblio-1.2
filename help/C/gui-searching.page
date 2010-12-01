@@ -1,0 +1,113 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-searching">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      How to find a certain entry in the database.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Searching</title>
+    
+    <p><app>Pybliographic</app> offers a quite powerful searching mechanism.
+      For searching you can use the quick search entry of the toolbar or the
+      search dialog. To open the search dialog, click on <guiseq><gui>Edit</gui>
+      <gui>Search</gui></guiseq> in the menu. The dialog that appears (see
+      the picture below) displays a search form at the top.</p>
+
+    <p><media type="image" mime="image/png" src="figures/search.png">
+    The Search dialog
+    </media></p>
+    
+    <section id="gui-searching-simple">
+      <title>Simple searches</title>
+      
+      <p>With a simple search, you can select the field that will be searched
+        and you can specify a regular expression to be matched. <gui>- any
+        field -</gui> means that all the  existing fields will be searched.
+	This is usually more time-consuming.</p>
+
+    </section>
+    
+    <section id="gui-searching-expert">
+      <title>Expert searches</title>
+      
+      <p>An expert search is an expression that looks like:</p>
+      
+      <code>has('author','name') | -has('title','test')</code>
+      
+      <p> Such an expression means: select the entries where the field
+        <em>author</em> matches <em>name</em>, or (symbol <em>|</em>)
+	where the field <em>title</em> does <em>not</em> match <em>test</em>.
+	The boolean <var>and</var> is noted <em>&amp;</em>.</p>
+      
+      <p>There  are  other  commands  available for  this  type  of
+	search:</p>
+      
+      <list>
+	<item>
+	  <p><cmd>has_key(<var>keyname</var>)</cmd>
+	    searches on a key name.</p>
+	</item>
+	<item>
+	  <p><cmd>has_type(<var>typename</var>)</cmd>
+	    searches for entries of a given type name.</p>
+	</item>
+	<item>
+	  <p><cmd>any_has(<var>value</var>)</cmd>
+	    searches  for the  given value  in  all the  fields of  an
+	    entry.</p>
+	</item>
+	<item>
+	  <p><cmd>before(<var>field</var>, <var>year</var>, <var>month</var>,
+            <var>day</var>)</cmd> searches for entries where the specified
+	    date field is older than the specified date.</p>
+	</item>
+	<item>
+	  <p><cmd>after(<var>field</var>, <var>year</var>, <var>month</var>,
+            <var>day</var>)</cmd> searches for entries where the specified
+ 	    date field is younger than the specified date.</p>
+	</item>
+      </list>
+    </section>
+    
+    <section id="gui-searching-hierarchical">
+      <title>Hierarchical searches</title>
+      
+      <p>After a  search, only the selected items  are displayed in
+	the main window.  It makes it convenient to  select a specific
+	author, and then browse its publications for example.</p>
+      
+      <p> In addition, the results  of all the searches are kept in
+	the  tree located  below  the search  form.  Therefore, a  new
+	search can  be a refinement of  a previous one.  If you select
+	the tree  item corresponding for  example to all  the articles
+	written  by a certain  Nostradamus, you'll  be able  to select
+	only those whose title contains the word eclipse.</p>
+      
+      <p>Right-clicking in this tree pops up a contextual menu that
+	allows you to remove unuseful searches.</p>
+
+      <p>To select the full list of database entries again, just
+        click on the <gui>Full database</gui> item at the top
+        of the search tree, or push the 'Esc' button on the keyboard when 
+        you are in the main window.</p>
+    </section>
+    
+  </page>

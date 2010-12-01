@@ -1,0 +1,86 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="command-line">
+
+  <info>
+    <link type="guide" xref="index#usage"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Using <app>Pybliographer</app> with a terminal.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>The command line interface</title>
+
+  <p>To start <app>Pybliographer</app> in command line mode, type the following 
+  command:</p>
+  <screen>
+  <output>bash$ </output><input>pybliographer</input>
+  This is pybliographer, version 1.2.12
+  Copyright (C) 1998-2004 Frederic GOBRY
+  This is free software with ABSOLUTELY NO WARRANTY.
+  For details, type `warranty'.
+  Useful commands:
+         help     to get some help
+         quit     to quit
+                                                                                
+  >>
+  </screen>
+
+  <p>To get some help about how to use <app>Pybliographer</app> in this
+  mode, type <cmd>help</cmd> at the <app>Pybliographer</app> prompt.</p>
+
+  <p>The next example shows how to open a database and make a simple 
+  search in it. See the following commands and the output:</p>
+  <screen>
+  >> db = bibopen ("database.bib")
+  >> iterator = search (db, 'author = Mantsch')
+  >> ls (iterator)
+  The Use and Misuse of FTIR Spectro  Jackson, Michael; Mantsc  [JM95            ]
+  Phospholipid phase transitions in   Mantsch, H. H.; McElhane  [MM01            ]
+  >> 
+  </screen>
+  <p>To see the complete entries listed by the command <cmd>ls (iterator)</cmd>:
+  </p>
+  <screen>
+  >> more (iterator)
+  Article [JM95]
+  ----------------------------------------------------------------------
+    Author         Jackson, Michael; Mantsch, Henry H.
+    Title          The Use and Misuse of FTIR Spectroscopy in the
+                   Determination of Protein Structure
+    Journal        Critical Reviews in Biochemistry and Molecular Biology
+    Date           1995
+    Volume         30
+    Number         2
+    Pages          95-120
+    keywords       infrared spectroscopy; proteins; secondary structure;
+                   quantitation
+    comments       Review
+ 
+  Article [MM01]
+  ----------------------------------------------------------------------
+    Author         Mantsch, H. H.; McElhaney, R. N.
+    Title          Phospholipid phase transitions in model and biological
+                   membranes as studied by infrared spectroscopy
+    Journal        Chemistry and Physics of Lipids
+    Date           1991
+    Volume         57
+  --More--
+  </screen>
+
+
+</page>

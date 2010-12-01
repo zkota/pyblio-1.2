@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.help.master\n"
-"POT-Creation-Date: 2010-11-22 20:26+0000\n"
-"PO-Revision-Date: 2010-11-26 12:02+0100\n"
+"POT-Creation-Date: 2010-11-07 18:41+0000\n"
+"PO-Revision-Date: 2010-11-18 17:10+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -28,11 +28,7 @@ msgstr ""
 "@@image: 'figures/pybliographic-logo.png'; "
 "md5=c888cd1f42ad752bb1f156fe56e7ae86"
 
-#: C/index.page:7(title)
-msgid "Pybliographer manual"
-msgstr "Manual de Pybliographer"
-
-#: C/index.page:8(title)
+#: C/index.page:7(title) C/index.page:8(title)
 msgid "Pybliographer Bibliography manager"
 msgstr "Gestor bibliográfico Pybliographer"
 
@@ -73,10 +69,6 @@ msgid "Usage"
 msgstr "Modo de empleo"
 
 #: C/index.page:37(title)
-msgid "Advanced Usage"
-msgstr "Uso avanzado"
-
-#: C/index.page:41(title)
 msgid "The Scripting Language"
 msgstr "El lenguaje de «scripting»"
 
@@ -114,6 +106,9 @@ msgstr ""
 
 #~ msgid "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
 #~ msgstr "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
+
+#~ msgid "Pybliographer Manual V2.7"
+#~ msgstr "Manual de Pybliographer V2.7"
 
 #~ msgid ""
 #~ "Pybliographer is a tool for managing bibliographic databases. It can be "

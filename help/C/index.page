@@ -1,0 +1,45 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="index">
+
+  <info>
+    <title type="link">Pybliographer manual</title>
+    <title type="text">Pybliographer Bibliography manager</title>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+  <title>
+    <media type="image" mime="image/png" src="figures/pybliographic-logo.png">Pybliographer logo</media>
+    Pybliographer Bibliography manager
+  </title>
+
+  <section id="preface" style="2column">
+    <title>Preface</title>
+  </section>
+
+  <section id="usage" style="2column">
+    <title>Usage</title>
+  </section>
+
+  <section id="advusage" style="2column">
+    <title>Advanced Usage</title>
+  </section>
+
+  <section id="scripting" style="2column">
+    <title>The Scripting Language</title>
+  </section>
+
+</page>

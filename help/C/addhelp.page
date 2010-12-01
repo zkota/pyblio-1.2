@@ -1,0 +1,35 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="addhelp">
+
+  <info>
+    <link type="guide" xref="index#preface"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Where you can get additional help.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+	<title>Additional Help Sources</title>
+	<p>For additional information, please, visit the  
+	<link href="http://pybliographer.org/" type="http">Pybliographer
+	website</link>.
+ 	There is a <link href="http://pybliographer.org/Mailing_lists"
+        type="http">mailing list</link> also, where you can get answers
+        for your questions, you can report bugs, etc.
+	</p> 
+      
+</page>

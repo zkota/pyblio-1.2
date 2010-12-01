@@ -1,0 +1,53 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-usinglyx">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Interaction with the <app>LyX</app> document processor.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+<title>Using <app>Pybliographic</app> with <app>LyX</app></title>
+    
+    <p>It is possible to directly use <app>Pybliographer</app> in order
+      to insert bibliographic references into <app>LyX</app>. It is done
+      through the <app>LyX</app> <em>server</em>. The path of the <app>LyX</app>
+      server pipe can be defined in the <guiseq><gui>Tools</gui>
+      <gui>Preferences</gui></guiseq> dialog of LyX.
+      The same path should be given in <app>Pybliographer</app>'s settings 
+      (the default value is <file>~/.lyx/lyxpipe)</file>.</p>
+      
+    <p>Then, in <app>Pybliographic</app>, it is possible to select one or
+      several entries and insert their references into a running <app>LyX</app>
+      simply by clicking the <gui>Cite</gui> toolbar button, or selecting the
+      <guiseq><gui>Cite</gui><gui>Cite...</gui></guiseq> menu item.</p>
+
+    <p>For the moment, it is the user's job  to ensure that he/she
+      inserts entries corresponding to the actual database being used.
+      <app>Pybliographic</app> does not handle the full job of bibliography
+      generation; therefore it is necessary to use <cmd>bibtex</cmd> as
+      described in the <app>LyX</app> documentation.</p>
+    <note>
+    <p><app>Pybliographic</app> can interact with <app>Kile</app>
+     (&gt;= 1.6) practically in the same way, since <app>Kile</app> can also
+     read <em>lyx pipe</em>.</p>
+    </note>
+    
+  </page>
+

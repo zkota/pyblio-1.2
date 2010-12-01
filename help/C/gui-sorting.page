@@ -1,0 +1,59 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-sorting">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Customize the sort order of the entries.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Sorting</title>
+
+    <p>Clicking on the title of each column in the main index
+    provides some rudimentary way of sorting a database. A much
+    powerful method is to open the sort dialog (in <guiseq>
+    <gui>Edit</gui><gui>Sort</gui></guiseq>). This menu, displayed in
+    the picture below, gives a list of fields which can be used as sort       
+    criterions, plus a flag indicating how they are currently used. By clicking
+    twice on the item, it is possible to choose how the field will be used:</p>
+      <list>
+	<item>
+	  <p>Nothing means the field is not in use.</p>
+	</item>
+	<item>
+	  <p>A <em>triangle</em>-like symbol means sort in
+	    <em>ascending order</em>.</p>
+	</item>
+	<item>
+	  <p>An <em>upside down triangle</em>-like symbol
+             means sort in <em>descending order</em>.</p>
+	</item>
+      </list>
+
+    <p>The order in which the sorting is performed depends on the
+    order in the list. To modify this order, simply drag and drop an
+    item to change its position. To make this sort order default, it 
+    can be saved by clicking on the <gui>Set as default</gui> 
+    button.</p>
+
+<p><media type="image" mime="image/png" src="figures/sort.png">
+The Sort dialog
+</media></p>
+
+</page>

@@ -1,0 +1,48 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-opening">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+    How to open an existing database.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Opening a database</title>
+    
+    <p>To open an existing database, click on the <gui>Open</gui> toolbar
+       button or go in the <gui>File</gui> menu, and select <guiseq>
+      <gui>File</gui><gui>Open</gui></guiseq>.</p>
+    
+    <p><media type="image" mime="image/png" src="figures/open.png">
+    Opening a database
+    </media></p> 
+   
+    <p>A file selection dialog will pop up (see the picture above) and
+      let you select a file. The type of the database can also be selected.
+      Opening an existing database, the type can be guessed if you select
+      <gui>- According to file suffix -</gui>.
+    </p>
+    <p>
+      It is also possible to open a file at a remote location (as well as a
+      local file) by typing the URI of the file (e.g. <var>http://my.remote.site/   
+      pyblio.bib</var>) using the <gui>Open Location</gui> dialog, which can be
+      invoked by the <guiseq><gui>File</gui><gui>Open Location</gui></guiseq>
+      menu item.
+    </p>
+</page>

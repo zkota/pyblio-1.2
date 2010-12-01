@@ -1,0 +1,38 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui">
+
+  <info>
+    <link type="guide" xref="index#usage"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Explanations about the graphical interface of <app>Pybliographer</app>.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+	<title>The Graphical Interface</title>
+
+  <p>The graphical user interface is called <app>Pybliographic</app>. It
+    provides a simple access to the most common features of the underlying
+    engine, <app>Pybliographer</app> and lets you search, sort and modify
+    bibliographic entries. Moreover, direct insertion of references into 
+    <link href="http://www.lyx.org/" type="http"><app>Lyx</app></link> and
+    <link href="http://kile.sourceforge.net/" type="http"><app>Kile</app></link>,
+    direct queries on Medline, and saving selected references in different
+    formats are also possible.
+  </p>
+
+</page>

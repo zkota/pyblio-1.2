@@ -1,0 +1,44 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-pubmed">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Using Pubmed for your searches.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Searching in PubMed</title>
+    
+    <p>With <app>Pybliographic</app>, it is possible to perform a Medline search.
+    To use this option, click on the <guiseq><gui>File</gui><gui>Medline query...
+    </gui></guiseq> menu item. The upcoming window is represented in
+    the picture below.</p>
+
+    <p><media type="image" mime="image/png" src="figures/medline.png">
+    Medline query
+    </media></p>
+
+     <p>The keyword, you are looking for, should be written into the 
+     <em>Search PubMed for</em> field. As it can be seen in the picture above,
+     a number of options (limitations) can be set, which can help to obtain
+     an optimal search result. The matched references, resulted in by the query,
+     appear in the main window as a new database.</p>
+    
+  </page>
+

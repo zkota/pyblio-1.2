@@ -1,0 +1,49 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="scripting-basics">
+
+  <info>
+    <link type="guide" xref="index#scripting"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Basic information about scripting with <app>Pybliographer</app>.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Basics</title>
+
+  <p><app>Pybliographer</app> is in fact a simple set of classes and
+    functions written in python, and  that provides with a simple and
+    homogenous access to bibliographic databases. Therefore, it is possible
+    to write python scripts that make use of these specialized functions.
+    The graphical interface, <app>Pybliographic</app>, is itself a simple
+    script on top of <app>Pybliographer</app>.</p>
+
+  <p>To execute a script written for <app>Pybliographer</app>, simply run </p>
+
+  <screen>
+    <output>bash$ </output><cmd>pybliographer [--quiet] </cmd><var>myscript.py</var>
+  </screen>
+
+  <p>You can alternatively start your script by</p>
+    <screen>
+      #!/path/to/pybliographer
+
+      <var>...rest of your script...</var>
+    </screen>
+    <p>and make it executable.</p>
+      
+</page>

@@ -1,0 +1,201 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="scripting-existing">
+
+  <info>
+    <link type="guide" xref="index#scripting"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      How to use the scripts shipped with <app>Pybliographer</app>.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Existing scripts</title>
+
+    <p>Some scripts are provided with <app>Pybliographer</app>, both as
+      example and as useful tools. They are quite short and should be
+      readable with basical knowledge of <app>Python</app>.</p>
+  
+    <section id="script-scripting-existing-pybcheck">
+      <title>pybcheck</title>
+      
+      <synopsis>
+      	<p>This tool takes a list  of files or directory, and check if
+        they are valid (syntax, no entries with the same key,...)</p>
+      </synopsis>
+
+      <p>It is possible to use its output directly in an emacs compile
+        buffer, in order to jump directly to the encountered errors.
+        To do so, type <keyseq><key>M</key><key>x</key></keyseq>
+        <cmd>compile</cmd>, then the command <cmd>pybcheck
+	<var>yourfiles</var></cmd>, and use the middle button of the
+        mouse to jump into the faulty file.</p>
+    </section>
+
+    <section id="script-scripting-existing-pybcompact">
+      <title>pybcompact</title>
+      
+      <synopsis>
+	<p>This  tool  extracts  the  citations  made  in  a  LaTeX
+	document    and   generates    a   BibTeX    file   containing
+	them.</p>
+      </synopsis>
+      
+      <p>Usually, one stores its bibliographies in one or several large
+	BibTeX files, and lets <cmd>bibtex</cmd> extract the entries used
+	in a LaTeX document. But it is sometime	convenient to create a
+	self-contained package (for example to share it in native form with
+	somebody else, or to store it),	with a minimalistic BibTeX file
+	holding exactly the entries used in LaTeX. This tool does exactly
+	that: it reads a LaTeX <file>.aux</file> file, and extract from the
+	specified BibTeX databases the corresponding entries.</p>
+    </section>
+
+    <section id="script-scripting-existing-pybconvert">
+      <title>pybconvert</title>
+      
+      <synopsis>
+	<p>This  tool  converts from  one  bibliographic format  to
+	another.</p>
+      </synopsis>
+
+      <p>The general syntax is pretty simple. To convert from Refer
+	to BibTeX for example, just run: </p>
+
+      <screen>
+	<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>
+      </screen>
+    </section>
+
+    <section id="script-scripting-existing-pybformat">
+      <title>pybformat</title>
+
+      <synopsis>
+	<p>This  script generates a  bibliography according  to a
+	bibliographic style, and outputs it in a specific format (like
+	HTML, LaTeX,...) as it should appear in a document.</p>
+      </synopsis>
+      
+      <p>The general form of the command is</p>
+      <screen>
+	<output>bash$ </output><cmd>pybformat</cmd> <var>[options] database...</var>
+      </screen>
+
+      <p>This command without options will use the style called 
+	<em>alpha</em> to create a bibliography in 
+	<em>Text</em> format. Several options are available to 
+	create these documents:</p>
+
+      <list>
+	<item>
+	  <p><cmd>--style=...</cmd> or <cmd>-s ...</cmd>: specify a
+	    bibliography style. This can be a full path to an existing
+	    XML file, or a name which will be searched in the standard
+	    places. Default is Alpha.</p>
+	</item>
+	<item>
+	  <p><cmd>--format=...</cmd> or <cmd>-f ...</cmd>: specify an
+	  output format (HTML, LaTeX, Raw, Text, Textau, Textnum). Default is
+	  Text. (Textau and Textnum are just slightly modified versions of Text. 
+          See <link xref="#script-scripting-existing-pybtext" /> for more 
+          details.)</p>
+	</item>
+	<item>
+	  <p><cmd>--output=...</cmd> or <cmd>-o  ...</cmd>:  specify an
+	    output filename. STDOUT is the default.</p>
+	</item>
+	<item>
+	  <p><cmd>--header=...</cmd> or <cmd>-H  ...</cmd>: defines  a
+	    file that will be prepended to the output file.</p>
+	</item>
+	<item>
+	  <p><cmd>--footer=...</cmd> or <cmd>-F  ...</cmd>: defines  a
+	    file that will be appended to the output file.</p>
+	</item>
+	<item>
+	  <p><cmd>--list=output</cmd> or <cmd>-l output</cmd>: lists the
+	    available output formats</p>
+	</item>
+      </list>
+    </section>
+
+    <section id="script-scripting-existing-pybtex">
+      <title>pybtex</title>
+      
+      <synopsis>
+	<p>This tool searches for the citations in a LaTeX 
+	document and generates a LaTeX bibliography file.</p>
+      </synopsis>
+      
+      <p>This tool reads a LaTeX <file>.aux</file> file, and extracting
+	the corresponding entries from the specified BibTeX databases
+	creates a LaTeX <file>.bbl</file> file.</p>
+
+      <p>The form of the command is</p>
+      <screen>
+	<output>bash$ </output><cmd>pybtex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]
+      </screen>
+    </section>
+
+    <section id="script-scripting-existing-pybtext">
+      <title>pybtext</title>
+
+      <synopsis>
+	<p>This tool processes a text file containing citations 
+	and appends a bibliography according to a given style.</p>
+      </synopsis>
+      
+      <p>The script searches for citations like [key] or [key1,key2...] 
+      in a text file (for example: ...This is a text fragment with  
+      citations [AKM95,MPJ+03] inserted from pybliographer...). First, 
+      according to the keys found in the text file, 
+      it generates a reference list. Using an appropriate style (see below), it 
+      replaces the database keys in the text body with the new keys generated 
+      by the style module, and finally it appends the reference list to the 
+      text resulting a new file.</p>
+
+      <note>
+      <p>The keys of selected entries can be copied easily from 
+      pybliographer into a text editor or terminal by <em>copy and paste  
+      </em> or <em>drag and drop</em>.</p>
+      </note>
+
+      <p>The general form of the command is</p>
+      <screen>
+	<output>bash$ </output><cmd>pybtext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>
+      </screen>
+
+      <p>This command without the options will use the style called 
+	<em>Abbrev</em> and <file>textfile.pyb</file> as 
+        outputfile for processing. <file>textfile</file> is the name 
+        of the file to be processed and <file>bibfiles</file> is one 
+        or more bibliographic database file.</p>
+
+      <p>There are three different <em>styles</em> which are 
+      designed for pybtext. 
+      Using <em>abbrvbib</em> results in keys as they are defined 
+      in the database. With the style <em>abbrvau</em>, author-year 
+      type keys (e.g. Jackson et al., 2004) can be generated. Using 
+      <em>abbrvnum</em>, the script produces a simple numbered list. 
+      For abbrvau and abbrvnum, the formats Textau and Textnum are used, 
+      respectively. They are just simple modifications of the Text format, 
+      optimized for these styles. Using other styles (Alpha, Abbrev 
+      or apa4e), the text body is not processed, but the reference list is 
+      appended in the form that corresponds to the used style.</p>
+
+    </section>
+
+</page>

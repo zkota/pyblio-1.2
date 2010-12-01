@@ -23,9 +23,7 @@ AUTOMAKE_OPTIONS = -Wno-portability
 include $(top_srcdir)/gnome-doc-utils.make
 dist-hook: doc-dist-hook
 
-DOC_MODULE = pybliographer
-DOC_ENTITIES = legal.xml
-DOC_INCLUDES = 
+DOC_ID = pybliographer
 DOC_FIGURES =	figures/edit.png	\
 		figures/edit2.png	\
 		figures/fields.png	\
@@ -36,5 +34,30 @@ DOC_FIGURES =	figures/edit.png	\
 		figures/search.png	\
 		figures/sort.png
 
-DOC_LINGUAS = de
+DOC_PAGES = 	about.page		\
+		addhelp.page		\
+		command-line.page	\
+		customization.page	\
+		gettingstarted.page	\
+		gui-creating.page	\
+		gui-edit.page		\
+		gui-formats.page	\
+		gui-navigating.page	\
+		gui-opening.page	\
+		gui.page		\
+		gui-pubmed.page		\
+		gui-searching.page	\
+		gui-settings.page	\
+		gui-sorting.page	\
+		gui-styles.page		\
+		gui-usinglyx.page	\
+		index.page		\
+		license.page		\
+		scripting-basics.page	\
+		scripting-existing.page	\
+		scripting-writeown.page	\
+		typcon.page		\
+		whatsnew.page
+
+DOC_LINGUAS = de es sl
 

@@ -1,0 +1,101 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-navigating">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      Explanations about the navigation in the database.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Navigating in the entries</title>
+    
+    <p>Once you have opened a  database, or started to create a new one, the
+      main window (see the picture below) displays a list of all the
+      entries on the top part of it. The fields displayed here can be configured
+      under the <guiseq><gui>Settings</gui><gui>Preferences</gui></guiseq> 
+      menu item.</p>
+
+    <note style="tip">
+    <p>It is possible to display two types of combined fields: 
+      <em>-author/editor</em> and <em>-author/title-</em>.
+    </p>
+    </note>
+
+    <p>Clicking on an entry displays its full content on the lower part of 
+      the window. It is also possible to use the arrow keys to navigate in the 
+      upper list.
+    </p>
+
+    <p>If an entry contains an <em>URL</em> field, clicking on the small
+      button next to the url, the appropriate application is launched to view
+      the target object (e.g. PDF viewer for pdf files, web browser for http
+      address). See <link xref="gui-edit"/> about how to add an URL field to 
+      an entry. Alternatively, you can open the URL with the help of the 
+      <guiseq><gui>View</gui><gui>Resource</gui></guiseq> submenu item or the
+      <guiseq><gui>Resource</gui></guiseq> pop up menu provided for the item list.
+      If an item contains one or more viewable fields (like url) containing
+      viewable resources, it is marked with an icon at the left edge of the
+      item in the upper part of the main window (see the picture below).
+    </p>
+
+    <note style="tip">
+    <p>You can set the viewable fields and the applications used to view
+       the resources in the <gui>Resource</gui> tab under the
+       <guiseq><gui>Settings</gui><gui>Preferences</gui></guiseq> menu.
+    </p>
+    </note>
+
+    
+    <p>Clicking on an entry while pressing the <key>Shift</key> key
+      extends the selection to the clicked entry. A click while pressing
+      the <key>Control</key> key toggles the entry without altering the
+      state of the rest of the selection. With copy and paste, or by
+      drag and drop you can copy one or more selected entries into a
+      new window or database.</p>
+
+     <p><media type="image" mime="image/png" src="figures/main.png">
+     The main window
+     </media></p>
+
+     <p>Clicking the right button of the mouse in the list opens a
+      contextual menu. With this menu you can:</p>
+    
+    <list>
+      <item>
+	<p>add a new entry</p>
+      </item>
+      <item>
+	<p>edit the currently selected items</p>
+      </item>
+      <item>
+	<p>view the resource associated with the selected item</p>
+      </item>
+      <item>
+	<p>delete the currently selected items</p>
+      </item>
+    </list>
+    
+    <p>Note that some  of these menu options can  be disabled for a
+      given database or entry,  provided that the corresponding action
+      can't be  performed.</p>
+    
+    <p>By clicking  on the column  titles of the list,  you'll sort
+      the entries according to the corresponding field.</p>
+
+</page>

@@ -1,0 +1,58 @@
+<page xmlns="http://projectmallard.org/1.0/"
+      xmlns:e="http://projectmallard.org/experimental/"
+      type="guide"
+      id="gui-settings">
+
+  <info>
+    <link type="guide" xref="gui"/>
+    <revision pkgversion="1.2.14" version="0.1" date="2010-05-04" status="incomplete"/>
+    <revision pkgversion="1.2.15" version="0.2" date="2010-11-29" status="final"/>
+    <desc>
+      How to change settings and preferences.
+    </desc>
+    <credit type="author">
+      <name>Zolt&#225;n K&#243;ta</name>
+      <email>zoltank@gmail.com</email>
+    </credit>
+    <credit type="author">
+      <name>Fr&#233;d&#233;ric Gobry</name>
+      <email>frederic.gobry@epfl.ch</email>
+    </credit>
+    <license>
+      <p>Creative Commons Share Alike 3.0</p>
+    </license>    
+  </info>
+
+    <title>Configuration</title>
+    
+    <p>Under the <guiseq><gui>Settings</gui></guiseq> menu, you can find some
+      options to customize <app>Pybliographer</app>.</p>
+
+  <section id="gui-settings-fields">
+    <title>Entry types and field names configuration</title>
+
+    <p><media type="image" mime="image/png" src="figures/fields.png">
+    Configuration of fields and entry types
+    </media></p>
+
+    <p>Selecting the <guiseq><gui>Settings</gui><gui>Fields</gui>
+    </guiseq> menu item, it is possible to add or remove fields, to set their
+    type, and to define which fields should be associated with a given type of 
+    entry. In addition, the mandatory and optional fields are also can
+    be varied. In the window displayed above, as an example, the association of
+    the <em>Article</em> entry type can be seen.</p>
+  </section>
+
+  <section id="gui-settings-pref">
+    <title>Preferences</title>
+
+    <p>Clicking on the <guiseq><gui>Settings</gui><gui>Preferences</gui>
+    </guiseq> menu item, a lot of configuration options can be controlled.
+    Such options are, for instance, settings of the different type of
+    bibliographic database formats, autosave, size of history, default editing
+    mode, the default type of a newly created entry, and resource configuration.
+    </p>
+  </section>
+    
+  </page>
+
