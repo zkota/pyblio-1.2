@@ -28,6 +28,7 @@ DOC_FIGURES =	figures/edit.png	\
 		figures/edit2.png	\
 		figures/fields.png	\
 		figures/format.png	\
+		figures/logo.png	\
 		figures/main.png	\
 		figures/medline.png	\
 		figures/open.png	\
