@@ -1,12 +1,11 @@
 [Desktop Entry]
-Encoding=UTF-8
 _Name=Pybliographic Bibliography Manager
 _GenericName=Bibliography Manager
 _Comment=Manage bibliographic databases
-Icon=pybliographic.png
+Icon=pybliographic
 Exec=pybliographic
 Terminal=false
 Type=Application
-Categories=GNOME;Application;Office;
+Categories=GNOME;GTK;Office;Database;
 StartupNotify=true
 MimeType=text/x-bibtex;
