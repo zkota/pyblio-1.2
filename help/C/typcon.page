@@ -34,8 +34,8 @@
   	<item><p><var>Replaceable text</var></p></item>
   	<item><p><gui>Labels</gui> for buttons and other portions of the
 		graphical interface</p></item>
-  	<item><p>Menu selections look like this: <guiseq><gui>Menu
-		</gui><gui>Submenu</gui><gui>Menu Item</gui></guiseq></p></item>
+  	<item><p>Menu selections look like this: <guiseq><gui>Menu</gui>
+		<gui>Submenu</gui><gui>Menu Item</gui></guiseq></p></item>
   	<item><p><gui>Buttons</gui> you can click</p></item>
   	<item><p><input>Anything you type in</input></p></item>
 	</list>
