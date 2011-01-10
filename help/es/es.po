@@ -3,13 +3,13 @@
 # Copyright (C) 2010 pybliographer's COPYRIGHT HOLDER
 # This file is distributed under the same license as the pybliographer package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.help.master\n"
-"POT-Creation-Date: 2010-12-01 14:35+0000\n"
-"PO-Revision-Date: 2010-11-29 13:59+0100\n"
+"POT-Creation-Date: 2011-01-06 09:56+0000\n"
+"PO-Revision-Date: 2011-01-08 11:09+0100\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: C/whatsnew.page:10(desc)
 msgid "New features in <app>Pybliographer</app> 1.2.14."
-msgstr ""
+msgstr "Nuevas funcionalidades en <app>Pybliographer</app> 1.2.14."
 
 #: C/whatsnew.page:14(name) C/typcon.page:14(name)
 #: C/scripting-writeown.page:14(name) C/scripting-existing.page:14(name)
@@ -96,7 +96,7 @@ msgstr "Creative Commons Compartir Igual 3.0"
 
 #: C/whatsnew.page:26(title)
 msgid "What's New in Pybliographer 1.2.14"
-msgstr ""
+msgstr "Lo nuevo de Pybliographer 1.2.14"
 
 #: C/whatsnew.page:27(p)
 msgid ""
@@ -105,22 +105,24 @@ msgid ""
 "source tarball of pybliographer, or the default doc directory of your "
 "distribution (e.g. <file>/usr/share/doc/pybliographer</file>)."
 msgstr ""
+"Puede encontrar una lista de errores corregidos y de características en los "
+"archivos <file>NEWS</file> y <file>ChangeLog</file>, proporcionados con el "
+"paquete. Consulte el paquete de código fuente de pybliographer o la carpeta "
+"de documentación predeterminada de su distribución (ej. <file>/usr/share/doc/"
+"pybliographer</file>)."
 
 #: C/typcon.page:10(desc)
-#, fuzzy
-#| msgid "Typographical conventions"
 msgid "Typographical conventions used in this documentation."
-msgstr "Convenciones tipográficas"
+msgstr "Convenciones tipográficas usadas en esta documentación."
 
 #: C/typcon.page:26(title)
-#, fuzzy
-#| msgid "Typographical conventions"
 msgid "Typographical Conventions"
-msgstr "Convenciones tipográficas"
+msgstr "Convenciones tipográficas"
 
 #: C/typcon.page:27(p)
 msgid "In this book, we'll mark some words with special typography:"
 msgstr ""
+"En este libro, marcaremos algunas palabras con una tipografía especial:"
 
 #: C/typcon.page:31(app)
 msgid "Applications"
@@ -128,7 +130,7 @@ msgstr "Aplicaciones"
 
 #: C/typcon.page:32(p)
 msgid "<cmd>Commands</cmd> you type at the command line"
-msgstr ""
+msgstr "<cmd>Comandos</cmd> que escribe en la línea de comandos"
 
 #: C/typcon.page:33(file)
 msgid "Filenames"
@@ -136,26 +138,29 @@ msgstr "Nombres de archivo"
 
 #: C/typcon.page:34(var)
 msgid "Replaceable text"
-msgstr ""
+msgstr "Texto reemplazable"
 
 #: C/typcon.page:35(p)
 msgid ""
 "<gui>Labels</gui> for buttons and other portions of the graphical interface"
 msgstr ""
+"<gui>Etiquetas</gui> para botones y otras porciones de la interfaz gráfica"
 
 #: C/typcon.page:37(p)
 msgid ""
 "Menu selections look like this: <guiseq><gui>Menu </gui><gui>Submenu</"
 "gui><gui>Menu Item</gui></guiseq>"
 msgstr ""
+"Las selecciones de menú se parecen a esto: <guiseq><gui>Menú</"
+"gui><gui>Submenú</gui><gui>Elemento del menú</gui></guiseq>"
 
 #: C/typcon.page:39(p)
 msgid "<gui>Buttons</gui> you can click"
-msgstr ""
+msgstr "<gui>Botones</gui> que puede pulsar"
 
 #: C/typcon.page:40(input)
 msgid "Anything you type in"
-msgstr ""
+msgstr "Cualquier cosa que escriba"
 
 #: C/typcon.page:43(p)
 msgid ""
@@ -185,7 +190,7 @@ msgstr ""
 
 #: C/typcon.page:65(title)
 msgid "Example Warning"
-msgstr ""
+msgstr "Ejemplo de advertencia"
 
 #: C/typcon.page:66(p)
 msgid ""
@@ -195,11 +200,11 @@ msgstr ""
 
 #: C/scripting-writeown.page:10(desc)
 msgid "Writing your own scripts."
-msgstr ""
+msgstr "Escribir sus propios scripts."
 
 #: C/scripting-writeown.page:26(title)
 msgid "Writing your own scripts"
-msgstr ""
+msgstr "Escribir sus propios scripts"
 
 #: C/scripting-writeown.page:28(p)
 msgid ""
@@ -207,16 +212,22 @@ msgid ""
 "look at the existing scripts. Trying to adapt them to fit your personal "
 "needs can be a good way of testing what you read."
 msgstr ""
+"Para empezar a escribir su propio script, puede leer lo que viene a "
+"continuación y echar un vistazo a los scripts existentes. Intentar "
+"adaptarlos para que se ajusten a sus necesidades personales puede ser una "
+"buena de probar lo que ha leído"
 
 #: C/scripting-writeown.page:34(title)
 msgid "Some concepts"
-msgstr ""
+msgstr "Algunos conceptos"
 
 #: C/scripting-writeown.page:36(p)
 msgid ""
 "This section describes some basic classes and ideas that are useful to "
 "understand how <app>Pybliographer</app> works."
 msgstr ""
+"Esta sección describe algunas clases e ideas básicas, útiles para entender "
+"como trabaja <app>Pybliographer</app>."
 
 #: C/scripting-writeown.page:39(p)
 msgid ""
@@ -235,6 +246,8 @@ msgid ""
 "The <em>Base</em> module contains some of the most basical classes used in "
 "the application:"
 msgstr ""
+"El módulo <em>Base</em> contiene algunas de clases más básicas usadas en la "
+"aplicación:"
 
 #: C/scripting-writeown.page:51(p)
 msgid ""
@@ -242,12 +255,18 @@ msgid ""
 "fields. It behaves like a hash table which returns the content of a field "
 "given its name"
 msgstr ""
+"<em>Base.Entry</em> representa una entrada bibliográfica específica, con "
+"todos sus campos. Se comporta como una tabla indexada que devuelve el "
+"contenido de un campo a partir de su nombre"
 
 #: C/scripting-writeown.page:56(p)
 msgid ""
 "<em>Base.DataBase</em> is the class from which every database type inherits. "
 "It behaves like a hash table that returns a Base.Entry given a Base.Key"
 msgstr ""
+"<em>Base.DataBase</em> es la clase de la que heredan todos los tipos de "
+"bases de datos. Se comporta como una tabla indexada que devuelve un valor "
+"«Base.Entry» a partir de un valor «Base.Key» dado."
 
 #: C/scripting-writeown.page:62(p)
 msgid ""
@@ -255,6 +274,9 @@ msgid ""
 "object must be unique over the whole application, and is composed of a "
 "database part and an entry part."
 msgstr ""
+"<em>Key.Key</em> es el objeto que identifica inequívocamente a una entrada. "
+"Este objeto debe ser único en toda la aplicación, y se compone de una de "
+"base de datos y de una entrada."
 
 #: C/scripting-writeown.page:67(p)
 msgid ""
@@ -274,7 +296,7 @@ msgstr ""
 
 #: C/scripting-existing.page:26(title)
 msgid "Existing scripts"
-msgstr ""
+msgstr "Scripts existentes"
 
 #: C/scripting-existing.page:28(p)
 msgid ""
@@ -282,16 +304,21 @@ msgid ""
 "as useful tools. They are quite short and should be readable with basical "
 "knowledge of <app>Python</app>."
 msgstr ""
+"Algunos scripts se proporcionan con <app>Pybliographer</app>, como ejemplos "
+"y herramientas útiles. Son bastante cortos y deberían entenderse con un "
+"conocimiento básico de <app>Python</app>."
 
 #: C/scripting-existing.page:33(title)
 msgid "pybcheck"
-msgstr ""
+msgstr "pybcheck"
 
 #: C/scripting-existing.page:36(p)
 msgid ""
 "This tool takes a list of files or directory, and check if they are valid "
 "(syntax, no entries with the same key,...)"
 msgstr ""
+"Esta herramienta coge una lista de de archivos o carpetas y comprueba si son "
+"válidos (sintaxis, que no haya entradas con la misma clave, etc.)"
 
 #: C/scripting-existing.page:40(p)
 msgid ""
@@ -304,13 +331,15 @@ msgstr ""
 
 #: C/scripting-existing.page:49(title)
 msgid "pybcompact"
-msgstr ""
+msgstr "pybcompact"
 
 #: C/scripting-existing.page:52(p)
 msgid ""
 "This tool extracts the citations made in a LaTeX document and generates a "
 "BibTeX file containing them."
 msgstr ""
+"Esta herramienta extrae las citas hechas en un documento LaTeX y genera un "
+"archivo BibTeX que las contiene."
 
 #: C/scripting-existing.page:57(p)
 msgid ""
@@ -325,17 +354,19 @@ msgstr ""
 
 #: C/scripting-existing.page:68(title)
 msgid "pybconvert"
-msgstr ""
+msgstr "pybconvert"
 
 #: C/scripting-existing.page:71(p)
 msgid "This tool converts from one bibliographic format to another."
-msgstr ""
+msgstr "Esta herramienta convierte de un formato bibliográfico a otro."
 
 #: C/scripting-existing.page:75(p)
 msgid ""
 "The general syntax is pretty simple. To convert from Refer to BibTeX for "
 "example, just run:"
 msgstr ""
+"La sintaxis general es muy sencilla. Por ejemplo, para convertir de Refer a "
+"BibTeX ejecute:"
 
 #: C/scripting-existing.page:78(screen)
 #, no-wrap
@@ -344,10 +375,13 @@ msgid ""
 "\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
 "      "
 msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"      "
 
 #: C/scripting-existing.page:84(title) C/scripting-existing.page:94(cmd)
 msgid "pybformat"
-msgstr ""
+msgstr "pybformat"
 
 #: C/scripting-existing.page:87(p)
 msgid ""
@@ -355,10 +389,13 @@ msgid ""
 "outputs it in a specific format (like HTML, LaTeX,...) as it should appear "
 "in a document."
 msgstr ""
+"Este script genera una bibliografía siguiendo un estilo bibliográfico, y lo "
+"genera en un formato específico (similar a HTML, LaTeX, …) como debería "
+"aparecer en un documento."
 
 #: C/scripting-existing.page:92(p) C/scripting-existing.page:176(p)
 msgid "The general form of the command is"
-msgstr ""
+msgstr "El formato general del comando es"
 
 #: C/scripting-existing.page:94(output) C/scripting-basics.page:38(output)
 #: C/gettingstarted.page:60(output) C/gettingstarted.page:61(output)
@@ -368,7 +405,7 @@ msgstr "bash$"
 
 #: C/scripting-existing.page:94(var)
 msgid "[options] database..."
-msgstr ""
+msgstr "[opciones] base de datos..."
 
 #: C/scripting-existing.page:97(p)
 msgid ""
@@ -383,6 +420,10 @@ msgid ""
 "This can be a full path to an existing XML file, or a name which will be "
 "searched in the standard places. Default is Alpha."
 msgstr ""
+"<cmd>--style=...</cmd> o <cmd>-s ...</cmd>: especifica un estilo "
+"bibliográfico. Éste puede ser una ruta completa a un archivo XML existente o "
+"a un nombre que se buscará en los lugares habituales. El predeterminado es "
+"«Alpha»."
 
 #: C/scripting-existing.page:110(p)
 msgid ""
@@ -391,34 +432,47 @@ msgid ""
 "Textnum are just slightly modified versions of Text. See <link xref="
 "\"#script-scripting-existing-pybtext\"/> for more details.)"
 msgstr ""
+"<cmd>--format=...</cmd> o <cmd>-f ...</cmd>: especifica un formato de salida "
+"(HTML, LaTeX, Raw, Text, Textau, Textnum). El predeterminado es «Text». "
+"(Textau y Textnum son versiones ligeramente modificadas de Text. Consulte la "
+"<link xref=\"#script-scripting-existing-pybtext\"/> para obtener más "
+"detalles.)"
 
 #: C/scripting-existing.page:117(p)
 msgid ""
 "<cmd>--output=...</cmd> or <cmd>-o ...</cmd>: specify an output filename. "
 "STDOUT is the default."
 msgstr ""
+"<cmd>--output=...</cmd> o <cmd>-o ...</cmd>: especificar un nombre de "
+"archivo de salida. El predeterminado es la salida estándar (STDOUT)."
 
 #: C/scripting-existing.page:121(p)
 msgid ""
 "<cmd>--header=...</cmd> or <cmd>-H ...</cmd>: defines a file that will be "
 "prepended to the output file."
 msgstr ""
+"<cmd>--header=...</cmd> o <cmd>-H ...</cmd>: define un archivo que se "
+"antepondrá al archivo de salida."
 
 #: C/scripting-existing.page:125(p)
 msgid ""
 "<cmd>--footer=...</cmd> or <cmd>-F ...</cmd>: defines a file that will be "
 "appended to the output file."
 msgstr ""
+"<cmd>--footer=...</cmd> o <cmd>-F ...</cmd>: define un archivo que se "
+"añadirá al archivo de salida."
 
 #: C/scripting-existing.page:129(p)
 msgid ""
 "<cmd>--list=output</cmd> or <cmd>-l output</cmd>: lists the available output "
 "formats"
 msgstr ""
+"<cmd>--list=output</cmd> o <cmd>-l output</cmd>: lista los formatos de "
+"salida disponibles"
 
 #: C/scripting-existing.page:136(title)
 msgid "pybtex"
-msgstr ""
+msgstr "pybtex"
 
 #: C/scripting-existing.page:139(p)
 msgid ""
@@ -435,7 +489,7 @@ msgstr ""
 
 #: C/scripting-existing.page:147(p)
 msgid "The form of the command is"
-msgstr ""
+msgstr "El formato del comando es"
 
 #: C/scripting-existing.page:148(screen)
 #, no-wrap
@@ -444,16 +498,21 @@ msgid ""
 "\t<output>bash$ </output><cmd>pybtex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
 "      "
 msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pybtex</cmd> <file>archivo-latex</file> [<file>archivos-bibtex</file>...]\n"
+"      "
 
 #: C/scripting-existing.page:154(title)
 msgid "pybtext"
-msgstr ""
+msgstr "pybtext"
 
 #: C/scripting-existing.page:157(p)
 msgid ""
 "This tool processes a text file containing citations and appends a "
 "bibliography according to a given style."
 msgstr ""
+"Esta herramienta procesa un archivo de texto que contenga citas y añade una "
+"bibliografía siguiendo un estilo dado."
 
 #: C/scripting-existing.page:161(p)
 msgid ""
@@ -480,6 +539,9 @@ msgid ""
 "\t<output>bash$ </output><cmd>pybtext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
 "      "
 msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pybtext</cmd> [-o archivo_de_salida] [-s style] <file>archivo_de_texto</file> <file>archivos_bib...</file>\n"
+"      "
 
 #: C/scripting-existing.page:181(p)
 msgid ""
@@ -504,11 +566,11 @@ msgstr ""
 
 #: C/scripting-basics.page:10(desc)
 msgid "Basic information about scripting with <app>Pybliographer</app>."
-msgstr ""
+msgstr "Información básica sobre scripts con <app>Pybliographer</app>."
 
 #: C/scripting-basics.page:26(title)
 msgid "Basics"
-msgstr ""
+msgstr "Conceptos básicos"
 
 #: C/scripting-basics.page:28(p)
 msgid ""
@@ -523,20 +585,20 @@ msgstr ""
 #: C/scripting-basics.page:35(p)
 msgid "To execute a script written for <app>Pybliographer</app>, simply run"
 msgstr ""
+"Para ejecutar un guión escrito para <app>Pybliographer</app>, simplemente "
+"ejecute"
 
 #: C/scripting-basics.page:38(cmd)
-#, fuzzy
-#| msgid "pybliographer"
 msgid "pybliographer [--quiet]"
-msgstr "pybliographer"
+msgstr "pybliographer [--quiet]"
 
 #: C/scripting-basics.page:38(var)
 msgid "myscript.py"
-msgstr ""
+msgstr "myscript.py"
 
 #: C/scripting-basics.page:41(p)
 msgid "You can alternatively start your script by"
-msgstr ""
+msgstr "Alternativamente puede iniciar su script"
 
 #: C/scripting-basics.page:42(screen)
 #, no-wrap
@@ -547,18 +609,23 @@ msgid ""
 "      <var>...rest of your script...</var>\n"
 "    "
 msgstr ""
+"\n"
+"      #!/ruta/de/pybliographer\n"
+"\n"
+"      <var>...resto de su script...</var>\n"
+"    "
 
 #: C/scripting-basics.page:47(p)
 msgid "and make it executable."
-msgstr ""
+msgstr "y hágalo ejecutable."
 
 #: C/license.page:9(desc)
 msgid "Legal information."
-msgstr ""
+msgstr "Información legal."
 
 #: C/license.page:12(title)
 msgid "License"
-msgstr ""
+msgstr "Licencia"
 
 #: C/license.page:13(p)
 msgid ""
@@ -568,33 +635,31 @@ msgstr ""
 
 #: C/license.page:21(p)
 msgid "You are free:"
-msgstr ""
+msgstr "Es libre de:"
 
 #: C/license.page:26(em)
 msgid "To share"
-msgstr ""
+msgstr "Compartir"
 
 #: C/license.page:27(p)
 msgid "To copy, distribute and transmit the work."
-msgstr ""
+msgstr "Copiar, distribuir y transmitir el trabajo."
 
 #: C/license.page:30(em)
 msgid "To remix"
-msgstr ""
+msgstr "Hacer obras derivadas"
 
 #: C/license.page:31(p)
 msgid "To adapt the work."
-msgstr ""
+msgstr "Adaptar el trabajo."
 
 #: C/license.page:34(p)
 msgid "Under the following conditions:"
-msgstr ""
+msgstr "Bajo las siguientes condiciones:"
 
 #: C/license.page:39(em)
-#, fuzzy
-#| msgid "Contributions:"
 msgid "Attribution"
-msgstr "Contribuciones:"
+msgstr "Atribución"
 
 #: C/license.page:40(p)
 msgid ""
@@ -602,16 +667,21 @@ msgid ""
 "licensor (but not in any way that suggests that they endorse you or your use "
 "of the work)."
 msgstr ""
+"Debe reconocer los créditos de la obra de la manera especificada por el "
+"autor o el licenciador (pero no de una manera que sugiera que tiene su apoyo "
+"o apoyan el uso que hace de su obra)."
 
 #: C/license.page:47(em)
 msgid "Share Alike"
-msgstr ""
+msgstr "Compartir igual"
 
 #: C/license.page:48(p)
 msgid ""
 "If you alter, transform, or build upon this work, you may distribute the "
 "resulting work only under the same, similar or a compatible license."
 msgstr ""
+"Si altera, transforma o modifica esta obra, sólo puede distribuir la obra "
+"resultante bajo la misma licencia, una similar o una compatible."
 
 #: C/license.page:54(p)
 msgid ""
@@ -620,18 +690,16 @@ msgid ""
 "link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
 "sa/3.0/\">Commons Deed</link>."
 msgstr ""
+"Para ver el texto completo de la licencia consulte la <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">página web de Creative "
+"Commons</link> o lea el <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\"> Escrito de Commons</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/index.page:25(None)
-#, fuzzy
-#| msgid ""
-#| "@@image: 'figures/pybliographic-logo.png'; "
-#| "md5=c888cd1f42ad752bb1f156fe56e7ae86"
 msgid "@@image: 'figures/logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
-msgstr ""
-"@@image: 'figures/pybliographic-logo.png'; "
-"md5=c888cd1f42ad752bb1f156fe56e7ae86"
+msgstr "@@image: 'figures/logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
 
 #: C/index.page:7(title)
 msgid "Pybliographer manual"
@@ -642,16 +710,12 @@ msgid "Pybliographer Bibliography manager"
 msgstr "Gestor bibliográfico Pybliographer"
 
 #: C/index.page:24(title)
-#, fuzzy
-#| msgid ""
-#| "<media type=\"image\" mime=\"image/png\" src=\"figures/pybliographic-logo."
-#| "png\">Pybliographer logo</media> Pybliographer Bibliography manager"
 msgid ""
 "<media type=\"image\" mime=\"image/png\" src=\"figures/logo.png"
 "\">Pybliographer logo</media> Pybliographer Bibliography manager"
 msgstr ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/pybliographic-logo.png"
-"\">Logo de Pybliographer</media> Gestor bibliográfico Pybliographer"
+"<media type=\"image\" mime=\"image/png\" src=\"figures/logo.png\">Logo de "
+"Pybliographer</media> Gestor bibliográfico Pybliographer"
 
 #: C/index.page:30(title)
 msgid "Preface"
@@ -671,11 +735,11 @@ msgstr "El lenguaje de «scripting»"
 
 #: C/gui-usinglyx.page:10(desc)
 msgid "Interaction with the <app>LyX</app> document processor."
-msgstr ""
+msgstr "Interacción con el procesador de documentos <app>LyX</app>."
 
 #: C/gui-usinglyx.page:26(title)
 msgid "Using <app>Pybliographic</app> with <app>LyX</app>"
-msgstr ""
+msgstr "Usar <app>Pybliographic</app> con <app>LyX</app>"
 
 #: C/gui-usinglyx.page:28(p)
 msgid ""
@@ -713,11 +777,11 @@ msgstr ""
 
 #: C/gui-styles.page:10(desc)
 msgid "Creating your own styles for <app>Pybliographer</app>."
-msgstr ""
+msgstr "Crear sus propios estilos para <app>Pybliographer</app>."
 
 #: C/gui-styles.page:26(title)
 msgid "New Styles"
-msgstr ""
+msgstr "Estilos nuevos"
 
 #: C/gui-styles.page:28(p)
 msgid ""
@@ -732,6 +796,9 @@ msgid ""
 "      &lt;?xml version=\"1.0\"?&gt;\n"
 "    "
 msgstr ""
+"\n"
+"      &lt;?xml version=\"1.0\"?&gt;\n"
+"    "
 
 #: C/gui-styles.page:36(p)
 msgid ""
@@ -744,7 +811,7 @@ msgstr ""
 
 #: C/gui-styles.page:43(title)
 msgid "Global formatting"
-msgstr ""
+msgstr "Formateado global"
 
 #: C/gui-styles.page:45(p)
 msgid ""
@@ -773,6 +840,13 @@ msgid ""
 "    &lt;define method=\"keys\"&gt;string_keys&lt;/define&gt;\n"
 "  &lt;/module&gt;\n"
 msgstr ""
+"\n"
+"  &lt;module name=\"generic\"&gt;\n"
+"    &lt;define field=\"author\"&gt;full_authors&lt;/define&gt;\n"
+"    &lt;define field=\"editor\"&gt;first_last_full_authors&lt;/define&gt;\n"
+"    &lt;define field=\"date\"&gt;european_date&lt;/define&gt;\n"
+"    &lt;define method=\"keys\"&gt;string_keys&lt;/define&gt;\n"
+"  &lt;/module&gt;\n"
 
 #: C/gui-styles.page:65(p)
 msgid ""
@@ -790,7 +864,7 @@ msgstr ""
 #: C/gui-styles.page:73(code)
 #, no-wrap
 msgid "Autoload.preregister ('style','Generic','Pyblio.Style.Generic')"
-msgstr ""
+msgstr "Autoload.preregister ('style','Generic','Pyblio.Style.Generic')"
 
 #: C/gui-styles.page:76(p)
 msgid ""
@@ -799,10 +873,8 @@ msgid ""
 msgstr ""
 
 #: C/gui-styles.page:82(title)
-#, fuzzy
-#| msgid "Pybliographer Documentation"
 msgid "Bibliography definition"
-msgstr "Documentación de Pybliographer"
+msgstr "Definición bibliográfica"
 
 #: C/gui-styles.page:84(p)
 msgid ""
@@ -812,17 +884,19 @@ msgstr ""
 
 #: C/gui-styles.page:90(p)
 msgid "&lt;style name=\"<var>stylename</var>\"&gt;"
-msgstr ""
+msgstr "&lt;style name=\"<var>stylename</var>\"&gt;"
 
 #: C/gui-styles.page:92(p)
 msgid ""
 "This tag specifies the current display style, among <em>bold, italic, "
 "slanted, emph</em>."
 msgstr ""
+"Esta etiqueta especifica el estilo de visualización actual, entre <em>bold, "
+"italic, slanted, emph</em>."
 
 #: C/gui-styles.page:97(p)
 msgid "&lt;inentry name=\"<var>entryname</var>\"&gt;"
-msgstr ""
+msgstr "&lt;inentry name=\"<var>entryname</var>\"&gt;"
 
 #: C/gui-styles.page:99(p)
 msgid ""
@@ -832,7 +906,7 @@ msgstr ""
 
 #: C/gui-styles.page:104(p)
 msgid "&lt;notinentry name=\"<var>entryname</var>\"&gt;"
-msgstr ""
+msgstr "&lt;notinentry name=\"<var>entryname</var>\"&gt;"
 
 #: C/gui-styles.page:106(p)
 msgid ""
@@ -842,7 +916,7 @@ msgstr ""
 
 #: C/gui-styles.page:112(p)
 msgid "&lt;infield name=\"<var>fieldname</var>\"&gt;"
-msgstr ""
+msgstr "&lt;infield name=\"<var>fieldname</var>\"&gt;"
 
 #: C/gui-styles.page:114(p)
 msgid ""
@@ -852,7 +926,7 @@ msgstr ""
 
 #: C/gui-styles.page:121(p)
 msgid "&lt;notinfield name=\"<var>fieldname</var>\"&gt;"
-msgstr ""
+msgstr "&lt;notinfield name=\"<var>fieldname</var>\"&gt;"
 
 #: C/gui-styles.page:123(p)
 msgid ""
@@ -862,7 +936,7 @@ msgstr ""
 
 #: C/gui-styles.page:129(p)
 msgid "&lt;content <var>name=</var>\"<var>fieldname</var>\"/&gt;"
-msgstr ""
+msgstr "&lt;content <var>name=</var>\"<var>fieldname</var>\"/&gt;"
 
 #: C/gui-styles.page:131(p)
 msgid ""
@@ -873,7 +947,7 @@ msgstr ""
 
 #: C/gui-styles.page:137(p)
 msgid "&lt;separator&gt;"
-msgstr ""
+msgstr "&lt;separator&gt;"
 
 #: C/gui-styles.page:139(p)
 msgid ""
@@ -884,11 +958,11 @@ msgstr ""
 
 #: C/gui-styles.page:147(p)
 msgid "The existing style files are a good source of examples."
-msgstr ""
+msgstr "Los archivos de estilo existentes son una buena fuente de ejemplos."
 
 #: C/gui-styles.page:151(title)
 msgid "Future of the format"
-msgstr ""
+msgstr "Futuro del formato"
 
 #: C/gui-styles.page:153(p)
 msgid ""
@@ -906,7 +980,7 @@ msgstr "@@image: 'figures/sort.png'; md5=c7a4506cb27428d7b2a0d10b9d3a98b2"
 
 #: C/gui-sorting.page:10(desc)
 msgid "Customize the sort order of the entries."
-msgstr ""
+msgstr "Personalizar el orden de colocación de las entradas."
 
 #: C/gui-sorting.page:26(title)
 msgid "Sorting"
@@ -925,11 +999,13 @@ msgstr ""
 
 #: C/gui-sorting.page:37(p)
 msgid "Nothing means the field is not in use."
-msgstr ""
+msgstr "Nada indica que el campo no está en uso."
 
 #: C/gui-sorting.page:40(p)
 msgid "A <em>triangle</em>-like symbol means sort in <em>ascending order</em>."
 msgstr ""
+"Un símbolo similar a un <em>triángulo</em> significa colocar en <em>orden "
+"ascendente</em>."
 
 #: C/gui-sorting.page:44(p)
 msgid ""
@@ -947,7 +1023,7 @@ msgstr ""
 
 #: C/gui-sorting.page:55(media)
 msgid "The Sort dialog"
-msgstr ""
+msgstr "El diálogo «Ordenar»"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -957,7 +1033,7 @@ msgstr "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
 
 #: C/gui-settings.page:10(desc)
 msgid "How to change settings and preferences."
-msgstr ""
+msgstr "Cómo cambiar configuraciones y preferencias."
 
 #: C/gui-settings.page:26(title)
 msgid "Configuration"
@@ -968,6 +1044,8 @@ msgid ""
 "Under the <guiseq><gui>Settings</gui></guiseq> menu, you can find some "
 "options to customize <app>Pybliographer</app>."
 msgstr ""
+"En el menú <guiseq><gui>Configuración</gui></guiseq> puede encontrar algunas "
+"opciones para personalizar <app>Pybliographer</app>."
 
 #: C/gui-settings.page:32(title)
 msgid "Entry types and field names configuration"
@@ -975,7 +1053,7 @@ msgstr "Tipos de entradas y configuración de nombres de campos"
 
 #: C/gui-settings.page:34(media)
 msgid "Configuration of fields and entry types"
-msgstr ""
+msgstr "Configuración de campos y tipos de entrada"
 
 #: C/gui-settings.page:38(p)
 msgid ""
@@ -1008,7 +1086,7 @@ msgstr "@@image: 'figures/search.png'; md5=584e9a19da7d5bc43929fd7926c3602b"
 
 #: C/gui-searching.page:10(desc)
 msgid "How to find a certain entry in the database."
-msgstr ""
+msgstr "Cómo encontrar una entrada determinada en la base de datos."
 
 #: C/gui-searching.page:26(title)
 msgid "Searching"
@@ -1024,14 +1102,12 @@ msgid ""
 msgstr ""
 
 #: C/gui-searching.page:34(media)
-#, fuzzy
-#| msgid "Searching"
 msgid "The Search dialog"
-msgstr "Buscando"
+msgstr "El diálogo «Buscar»"
 
 #: C/gui-searching.page:39(title)
 msgid "Simple searches"
-msgstr ""
+msgstr "Búsquedas simples"
 
 #: C/gui-searching.page:41(p)
 msgid ""
@@ -1043,16 +1119,16 @@ msgstr ""
 
 #: C/gui-searching.page:49(title)
 msgid "Expert searches"
-msgstr ""
+msgstr "Búsquedas avanzadas"
 
 #: C/gui-searching.page:51(p)
 msgid "An expert search is an expression that looks like:"
-msgstr ""
+msgstr "Una búsqueda avanzada es una expresión similar a:"
 
 #: C/gui-searching.page:53(code)
 #, no-wrap
 msgid "has('author','name') | -has('title','test')"
-msgstr ""
+msgstr "has('author','name') | -has('title','test')"
 
 #: C/gui-searching.page:55(p)
 msgid ""
@@ -1064,11 +1140,12 @@ msgstr ""
 
 #: C/gui-searching.page:60(p)
 msgid "There are other commands available for this type of search:"
-msgstr ""
+msgstr "Hay otros comandos disponibles para este tipo de búsqueda:"
 
 #: C/gui-searching.page:65(p)
 msgid "<cmd>has_key(<var>keyname</var>)</cmd> searches on a key name."
 msgstr ""
+"<cmd>has_key(<var>keyname</var>)</cmd> busca en el nombre de una clave."
 
 #: C/gui-searching.page:69(p)
 msgid ""
@@ -1098,7 +1175,7 @@ msgstr ""
 
 #: C/gui-searching.page:91(title)
 msgid "Hierarchical searches"
-msgstr ""
+msgstr "Búsquedas jerárquicas"
 
 #: C/gui-searching.page:93(p)
 msgid ""
@@ -1137,13 +1214,11 @@ msgstr "@@image: 'figures/medline.png'; md5=09532a6de80c9c22b06efefb6401558c"
 
 #: C/gui-pubmed.page:10(desc)
 msgid "Using Pubmed for your searches."
-msgstr ""
+msgstr "Usar Pubmed en sus búsquedas."
 
 #: C/gui-pubmed.page:26(title)
-#, fuzzy
-#| msgid "Searching"
 msgid "Searching in PubMed"
-msgstr "Buscando"
+msgstr "Buscar en PubMed"
 
 #: C/gui-pubmed.page:28(p)
 msgid ""
@@ -1155,7 +1230,7 @@ msgstr ""
 
 #: C/gui-pubmed.page:33(media)
 msgid "Medline query"
-msgstr ""
+msgstr "Consulta Medline"
 
 #: C/gui-pubmed.page:37(p)
 msgid ""
@@ -1172,7 +1247,7 @@ msgstr ""
 
 #: C/gui.page:26(title)
 msgid "The Graphical Interface"
-msgstr ""
+msgstr "La interfaz gráfica"
 
 #: C/gui.page:28(p)
 msgid ""
@@ -1194,11 +1269,11 @@ msgstr "@@image: 'figures/open.png'; md5=ad69c2047262f00a361f1ac860773b8a"
 
 #: C/gui-opening.page:10(desc)
 msgid "How to open an existing database."
-msgstr ""
+msgstr "Cómo abrir una base de datos existente."
 
 #: C/gui-opening.page:26(title) C/gui-opening.page:32(media)
 msgid "Opening a database"
-msgstr ""
+msgstr "Abrir una base de datos"
 
 #: C/gui-opening.page:28(p)
 msgid ""
@@ -1300,11 +1375,11 @@ msgstr ""
 
 #: C/gui-navigating.page:81(p)
 msgid "add a new entry"
-msgstr ""
+msgstr "añadir una entrada nueva"
 
 #: C/gui-navigating.page:84(p)
 msgid "edit the currently selected items"
-msgstr ""
+msgstr "editar los elementos seleccionados actualmente"
 
 #: C/gui-navigating.page:87(p)
 msgid "view the resource associated with the selected item"
@@ -1312,7 +1387,7 @@ msgstr ""
 
 #: C/gui-navigating.page:90(p)
 msgid "delete the currently selected items"
-msgstr ""
+msgstr "eliminar los elementos seleccionados actualmente"
 
 #: C/gui-navigating.page:94(p)
 msgid ""
@@ -1349,7 +1424,7 @@ msgstr ""
 
 #: C/gui-formats.page:33(media)
 msgid "Formatting entries"
-msgstr ""
+msgstr "Formatear entradas"
 
 #: C/gui-formats.page:38(p)
 msgid ""
@@ -1373,10 +1448,8 @@ msgid "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
 msgstr "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
 
 #: C/gui-edit.page:10(desc)
-#, fuzzy
-#| msgid "Editing"
 msgid "Editing entries."
-msgstr "Editando"
+msgstr "Editar entradas."
 
 #: C/gui-edit.page:25(title)
 msgid "Editing"
@@ -1387,10 +1460,8 @@ msgid "Basic editing"
 msgstr "Edición básica"
 
 #: C/gui-edit.page:31(media)
-#, fuzzy
-#| msgid "The main window"
 msgid "The Edition window"
-msgstr "La ventana principal"
+msgstr "La ventana «Edición»"
 
 #: C/gui-edit.page:35(p)
 msgid ""
@@ -1453,20 +1524,24 @@ msgstr ""
 msgid ""
 "<keyseq><key>Ctrl</key><key>TAB</key></keyseq> to jump to the next field"
 msgstr ""
+"<keyseq><key>Ctrl</key><key>Tab</key></keyseq> para saltar al siguiente campo"
 
 #: C/gui-edit.page:87(p)
 msgid ""
 "<keyseq><key>Shift</key><key>TAB</key></keyseq> to jump to the previous field"
 msgstr ""
+"<keyseq><key>Shift</key><key>Tab</key></keyseq> para saltar al campo anterior"
 
 #: C/gui-edit.page:92(p)
 msgid ""
 "<keyseq><key>Ctrl</key><key>Enter</key></keyseq> to accept the modifications"
 msgstr ""
+"<keyseq><key>Ctrl</key><key>Intro</key></keyseq> para aceptar las "
+"modificaciones"
 
 #: C/gui-edit.page:97(p)
 msgid "<key>Esc</key> to cancel the edition"
-msgstr ""
+msgstr "<key>Esc</key> para cancelar la edición"
 
 #: C/gui-edit.page:101(p)
 msgid ""
@@ -1478,10 +1553,8 @@ msgid ""
 msgstr ""
 
 #: C/gui-edit.page:109(title)
-#, fuzzy
-#| msgid "Basic editing"
 msgid "Native editing"
-msgstr "Edición básica"
+msgstr "Edición nativa"
 
 #: C/gui-edit.page:111(p)
 msgid ""
@@ -1504,11 +1577,11 @@ msgstr ""
 
 #: C/gui-creating.page:10(desc)
 msgid "How to create a new database."
-msgstr ""
+msgstr "Cómo crear una base de datos nueva."
 
 #: C/gui-creating.page:26(title)
 msgid "Creating a new database"
-msgstr ""
+msgstr "Crea una base de datos nueva"
 
 #: C/gui-creating.page:28(p)
 msgid ""
@@ -1516,6 +1589,9 @@ msgid ""
 "a new database. The type of this database will be determined when you will "
 "save it the first time."
 msgstr ""
+"Cuando se abre <app>Pybliographic</app> puede empezar inmediatamente a crear "
+"una base de datos nueva. El tipo de esta base de datos se determinará cuando "
+"la guarde por primera vez."
 
 #: C/gui-creating.page:32(p)
 msgid ""
@@ -1536,11 +1612,11 @@ msgstr ""
 
 #: C/gettingstarted.page:26(title)
 msgid "Getting Started"
-msgstr ""
+msgstr "Primeros pasos"
 
 #: C/gettingstarted.page:29(title)
 msgid "What is <app>Pybliographer</app>?"
-msgstr ""
+msgstr "¿Qué es <app>Pybliographer</app>?"
 
 #: C/gettingstarted.page:30(p)
 msgid ""
@@ -1552,11 +1628,11 @@ msgstr ""
 
 #: C/gettingstarted.page:40(title)
 msgid "How to start <app>Pybliographer</app>?"
-msgstr ""
+msgstr "¿Cómo iniciar <app>Pybliographer</app>?"
 
 #: C/gettingstarted.page:41(p)
 msgid "You can start <app>Pybliographer</app> in the following ways:"
-msgstr ""
+msgstr "Puede iniciar <app>Pybliographer</app> de las siguientes maneras:"
 
 #: C/gettingstarted.page:45(title)
 msgid "Graphical mode"
@@ -1579,11 +1655,11 @@ msgstr ""
 
 #: C/gettingstarted.page:60(var) C/gettingstarted.page:65(var)
 msgid "my/database.bib"
-msgstr ""
+msgstr "my/database.bib"
 
 #: C/gettingstarted.page:60(input)
 msgid "export PYBLIOGRAPHER_DATABASE=<placeholder-1/>"
-msgstr ""
+msgstr "export PYBLIOGRAPHER_DATABASE=<placeholder-1/>"
 
 #: C/gettingstarted.page:61(input)
 msgid "pybliographic"
@@ -1594,14 +1670,12 @@ msgid "It is equivalent to"
 msgstr "Es equivalente a"
 
 #: C/gettingstarted.page:65(input)
-#, fuzzy
-#| msgid "pybliographer"
 msgid "pybliographic <placeholder-1/>"
-msgstr "pybliographer"
+msgstr "pybliographic <placeholder-1/>"
 
 #: C/gettingstarted.page:71(title)
 msgid "Command line mode"
-msgstr ""
+msgstr "Modo línea de comandos"
 
 #: C/gettingstarted.page:72(p)
 msgid ""
@@ -1613,7 +1687,7 @@ msgstr ""
 
 #: C/gettingstarted.page:81(title)
 msgid "From the GNOME menu"
-msgstr ""
+msgstr "Desde el menú de GNOME"
 
 #: C/gettingstarted.page:82(p)
 msgid ""
@@ -1627,10 +1701,8 @@ msgid "How to customize this application to match your needs."
 msgstr ""
 
 #: C/customization.page:26(title)
-#, fuzzy
-#| msgid "Configuration"
 msgid "Advanced Configuration"
-msgstr "Configuración"
+msgstr "Configuración avanzada"
 
 #: C/customization.page:28(p)
 msgid ""
@@ -1643,7 +1715,7 @@ msgstr ""
 
 #: C/customization.page:35(title)
 msgid "Files involved"
-msgstr ""
+msgstr "Archivos involucrados"
 
 #: C/customization.page:37(p)
 msgid ""
@@ -1654,11 +1726,11 @@ msgstr ""
 
 #: C/customization.page:43(p)
 msgid "the available input and output formats"
-msgstr ""
+msgstr "los formatos de entrada y salida disponibles"
 
 #: C/customization.page:47(p)
 msgid "where to find the configuration directories."
-msgstr ""
+msgstr "donde encontrar las carpetas de configuración."
 
 #: C/customization.page:51(p)
 msgid ""
@@ -1684,7 +1756,7 @@ msgstr ""
 
 #: C/customization.page:69(title)
 msgid "The <sys>Config</sys> module"
-msgstr ""
+msgstr "El módulo <sys>Config</sys>"
 
 #: C/customization.page:71(p)
 msgid ""
@@ -1695,17 +1767,19 @@ msgstr ""
 
 #: C/command-line.page:10(desc)
 msgid "Using <app>Pybliographer</app> with a terminal."
-msgstr ""
+msgstr "Usar <app>Pybliographer</app> en una terminal."
 
 #: C/command-line.page:26(title)
 msgid "The command line interface"
-msgstr ""
+msgstr "La interfaz de la línea de comandos"
 
 #: C/command-line.page:28(p)
 msgid ""
 "To start <app>Pybliographer</app> in command line mode, type the following "
 "command:"
 msgstr ""
+"Para iniciar <app>Pybliographer</app> en una línea de comandos, escriba el "
+"siguiente comando:"
 
 #: C/command-line.page:30(screen)
 #, no-wrap
@@ -1787,11 +1861,11 @@ msgstr ""
 
 #: C/addhelp.page:10(desc)
 msgid "Where you can get additional help."
-msgstr ""
+msgstr "Donde puede obtener ayuda adicional."
 
 #: C/addhelp.page:26(title)
 msgid "Additional Help Sources"
-msgstr ""
+msgstr "Fuentes de ayuda adicional"
 
 #: C/addhelp.page:27(p)
 msgid ""
@@ -1804,7 +1878,7 @@ msgstr ""
 
 #: C/about.page:10(desc)
 msgid "Information about <app>Pybliographer</app>."
-msgstr ""
+msgstr "Información acerca de <app>Pybliographer</app>."
 
 #: C/about.page:26(title)
 msgid "Authors"
@@ -1815,6 +1889,8 @@ msgid ""
 "<app>Pybliographer</app> was originally written by Frédéric Gobry. Many "
 "thanks to all contributors for their fruitful work."
 msgstr ""
+"Frédéric Gobry escribió <app>Pybliographer</app>. Muchas gracias a todos los "
+"que han contribuido por su fructífero trabajo."
 
 #: C/about.page:31(em)
 msgid "Contributions:"
@@ -1822,11 +1898,11 @@ msgstr "Contribuciones:"
 
 #: C/about.page:34(p)
 msgid "Yuri Bongiorno"
-msgstr ""
+msgstr "Yuri Bongiorno"
 
 #: C/about.page:34(desc)
 msgid "Documentation, translations"
-msgstr ""
+msgstr "Documentación, traducciones"
 
 #: C/about.page:35(p)
 msgid "Hervé Dréau"
@@ -1839,10 +1915,12 @@ msgstr ""
 #: C/about.page:36(desc)
 msgid "Project maintainer, core application, Gnome interface, documentation"
 msgstr ""
+"Mantenedor del proyecto, núcleo de la aplicación, interfaz de GNOME, "
+"documentación"
 
 #: C/about.page:38(desc)
 msgid "Documentation, packaging, ui code"
-msgstr ""
+msgstr "Documentación, empaquetado, código de la IU"
 
 #: C/about.page:40(p)
 msgid "Travis Oliphant"
@@ -1854,7 +1932,7 @@ msgstr ""
 
 #: C/about.page:41(p)
 msgid "Darrell Rudmann"
-msgstr ""
+msgstr "Darrell Rudmann"
 
 #: C/about.page:41(desc)
 msgid "APA 4th edition style"
@@ -1862,7 +1940,7 @@ msgstr ""
 
 #: C/about.page:42(p)
 msgid "Peter Schulte-Stracke"
-msgstr ""
+msgstr "Peter Schulte-Stracke"
 
 #: C/about.page:42(desc)
 msgid "Application design, requirement docs, import and ui code"
@@ -1879,30 +1957,40 @@ msgstr ""
 #: C/about.page:47(p)
 msgid "Thanks to everyone who helped out with the bug tracking process."
 msgstr ""
+"Gracias a todos los que han ayudado con el proceso de seguimiento de errores."
 
 #: C/about.page:50(p)
 msgid ""
 "Many thanks also to the Documentation Translators and the Gnome Translation "
 "Teams."
 msgstr ""
+"Gracias también a los traductores de la documentación y a los equipos de "
+"traducción de GNOME."
 
 #: C/about.page:54(p)
 msgid ""
 "This manual was written with the help of the <link href=\"http://live.gnome."
 "org/DocumentationProject\" type=\"http\">GNOME Documentation Project</link>."
 msgstr ""
+"Este manual se ha escrito con la ayuda del <link href=\"http://live.gnome."
+"org/DocumentationProject\" type=\"http\">Proyecto de documentación de GNOME</"
+"link>."
 
 #: C/about.page:59(p)
 msgid ""
 "If you contributed to this project but do not see your name here, please "
 "contact the project maintainer and he'll list you."
 msgstr ""
+"Si ha contribuido con este proyecto pero no ve su nombre aquí, contacte con "
+"el mantenedor del proyecto y él le incluirá en la lista"
 
 #: C/about.page:63(p)
 msgid ""
 "For more information please visit the <link href=\"http://pybliographer.org/"
 "\" type=\"http\"><app>Pybliographer</app> website</link>."
 msgstr ""
+"Para más información, visite la <link href=\"http://pybliographer.org/\" "
+"type=\"http\">página web de <app>Pybliographer</app></link>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/index.page:0(None)

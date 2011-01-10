@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: pybliographer master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliographer&component=general\n"
 "POT-Creation-Date: 2010-09-11 16:41+0000\n"
-"PO-Revision-Date: 2010-12-06 13:31+0100\n"
+"PO-Revision-Date: 2010-12-07 16:20+0100\n"
 "Last-Translator: Andrej Žnidaršič <andrej.znidarsic@gmail.com>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -161,7 +161,7 @@ msgstr "_Pogled"
 
 #: ../Pyblio/GnomeUI/Document.py:148
 msgid "_Cite"
-msgstr "_Navedi"
+msgstr "_Citiraj"
 
 #: ../Pyblio/GnomeUI/Document.py:149
 msgid "_Settings"
@@ -209,11 +209,11 @@ msgstr "R_azvrsti ..."
 #: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
 msgid "Cite..."
-msgstr "Navedi ..."
+msgstr "Citiraj ..."
 
 #: ../Pyblio/GnomeUI/Document.py:175
 msgid "Cite key(s)"
-msgstr "Navedi ključe"
+msgstr "Citiraj ključ(e)"
 
 #: ../Pyblio/GnomeUI/Document.py:176
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
@@ -942,7 +942,7 @@ msgstr "Odpri mesto"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:1
 msgid "Cite"
-msgstr "Navedi"
+msgstr "Citiraj"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
 msgid "Contents"
