@@ -541,7 +541,8 @@ class Document (Connector.Publisher):
             
         except (Exceptions.ParserError,
                 Exceptions.FormatError,
-                Exceptions.FileError), error:
+                Exceptions.FileError,
+                Exceptions.DateError), error:
             
             Utils.error_dialog (_("Open error"), error,
                                 parent = self.w)
@@ -626,7 +627,8 @@ class Document (Connector.Publisher):
             
         except (Exceptions.ParserError,
                 Exceptions.FormatError,
-                Exceptions.FileError), error:
+                Exceptions.FileError,
+                Exceptions.DateError), error:
             
             Utils.set_cursor (self.w, 'normal')
             Utils.error_dialog (_("Open error"), error,
