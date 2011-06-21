@@ -1,13 +1,13 @@
 # Norwegian bokmål translation of pybliographer.
 # Copyright (C) 2000, 2001 Free Software Foundation, Inc.
-# Kjartan Maraas <kmaraas@gnome.org>, 2000-2010.
+# Kjartan Maraas <kmaraas@gnome.org>, 2000-2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer 1.0.8\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-10-29 15:20+0200\n"
-"PO-Revision-Date: 2010-10-29 15:33+0200\n"
+"POT-Creation-Date: 2011-02-23 22:29+0100\n"
+"PO-Revision-Date: 2011-02-23 22:34+0100\n"
 "Last-Translator: Kjartan Maraas <kmaraas@gnome.org>\n"
 "Language-Team: Norwegian <i18n-nb@lister.ping.uio.no>\n"
 "Language: no\n"
@@ -182,7 +182,7 @@ msgstr "Lagre denne filen"
 #: ../Pyblio/GnomeUI/Document.py:161
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
 msgid "Merge With..."
-msgstr "Flett med..."
+msgstr "Flett med …"
 
 #: ../Pyblio/GnomeUI/Document.py:162
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
@@ -196,12 +196,12 @@ msgstr "Legg til ny oppføring"
 #: ../Pyblio/GnomeUI/Document.py:174
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "S_ort..."
-msgstr "S_orter..."
+msgstr "S_orter …"
 
 #: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
 msgid "Cite..."
-msgstr "Siter..."
+msgstr "Siter …"
 
 #: ../Pyblio/GnomeUI/Document.py:175
 #, fuzzy
@@ -211,12 +211,12 @@ msgstr "Liste (%s)"
 #: ../Pyblio/GnomeUI/Document.py:176
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
 msgid "Format..."
-msgstr "Format..."
+msgstr "Format …"
 
 #: ../Pyblio/GnomeUI/Document.py:178
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:4
 msgid "Fields..."
-msgstr "Felt..."
+msgstr "Felt …"
 
 #: ../Pyblio/GnomeUI/Document.py:180
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
@@ -233,11 +233,11 @@ msgstr "_Om"
 
 #: ../Pyblio/GnomeUI/Document.py:245
 msgid "Quick search"
-msgstr ""
+msgstr "Hurtigsøk"
 
 #: ../Pyblio/GnomeUI/Document.py:319
 msgid "Unnamed bibliographic database"
-msgstr ""
+msgstr "Bibliografisk database uten navn"
 
 #: ../Pyblio/GnomeUI/Document.py:402
 #, python-format
@@ -290,18 +290,17 @@ msgid "[modified]"
 msgstr "[endret]"
 
 #: ../Pyblio/GnomeUI/Document.py:461
-#, fuzzy, python-format
+#, python-format
 msgid "view limited to: %s"
-msgstr "Begrenset til:"
+msgstr "vis begrenset til: %s"
 
 #: ../Pyblio/GnomeUI/Document.py:474
-#, fuzzy
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
 msgstr ""
-"Databasen er endret.\n"
-"Forkast endringer?"
+"Databasen har blitt endret.\n"
+"Forkast endringene?"
 
 #: ../Pyblio/GnomeUI/Document.py:478
 msgid ""
@@ -330,27 +329,27 @@ msgid "Merge file"
 msgstr "Flett fil"
 
 # .././Pyblio/GnomeUI/Document.py:319 :379
-#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
+#: ../Pyblio/GnomeUI/Document.py:547 ../Pyblio/GnomeUI/Document.py:634
 msgid "Open error"
 msgstr "Feil under åpning"
 
-#: ../Pyblio/GnomeUI/Document.py:570
+#: ../Pyblio/GnomeUI/Document.py:571
 msgid "Merge status"
 msgstr "Flettestatus"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:581
+#: ../Pyblio/GnomeUI/Document.py:582
 msgid "Open file"
 msgstr "Åpne fil"
 
-#: ../Pyblio/GnomeUI/Document.py:619
+#: ../Pyblio/GnomeUI/Document.py:620
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
-#: ../Pyblio/GnomeUI/Document.py:854
+#: ../Pyblio/GnomeUI/Document.py:655 ../Pyblio/GnomeUI/Document.py:796
+#: ../Pyblio/GnomeUI/Document.py:856
 #, fuzzy, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -359,7 +358,7 @@ msgstr ""
 "Kan ikke lagre `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:704
+#: ../Pyblio/GnomeUI/Document.py:706
 #, fuzzy, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -368,7 +367,7 @@ msgstr ""
 "Under åpning:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:732
+#: ../Pyblio/GnomeUI/Document.py:734
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -377,19 +376,19 @@ msgstr ""
 "Kan ikke lagre `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:740
+#: ../Pyblio/GnomeUI/Document.py:742
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
 msgstr ""
 "En intern feil oppsto under lagring\n"
-"Prøv Lagre som..."
+"Prøv Lagre som …"
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:757
 msgid "Save As..."
-msgstr "Lagre som..."
+msgstr "Lagre som …"
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:763
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -398,7 +397,7 @@ msgstr ""
 "Filen `%s' eksisterer allerede.\n"
 "Overskriv den?"
 
-#: ../Pyblio/GnomeUI/Document.py:768
+#: ../Pyblio/GnomeUI/Document.py:770
 #, python-format
 msgid ""
 "During opening:\n"
@@ -407,11 +406,11 @@ msgstr ""
 "Under åpning:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:806
+#: ../Pyblio/GnomeUI/Document.py:808
 msgid "Reopen error"
 msgstr "Feil under gjenåpning"
 
-#: ../Pyblio/GnomeUI/Document.py:879
+#: ../Pyblio/GnomeUI/Document.py:881
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -420,37 +419,37 @@ msgstr ""
 "En oppføring kalt `%s' eksisterer allerede.\n"
 "Endre navn og legg den til uansett?"
 
-#: ../Pyblio/GnomeUI/Document.py:916
+#: ../Pyblio/GnomeUI/Document.py:918
 msgid "Really remove all the entries ?"
 msgstr "Vil du virkelig fjerne alle oppføringer?"
 
-#: ../Pyblio/GnomeUI/Document.py:936
+#: ../Pyblio/GnomeUI/Document.py:938
 msgid "Create new entry"
 msgstr "Opprett ny oppføring"
 
-#: ../Pyblio/GnomeUI/Document.py:950
+#: ../Pyblio/GnomeUI/Document.py:952
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "Vil du virkelig redigere %d oppføringer?"
 
-#: ../Pyblio/GnomeUI/Document.py:996
+#: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "Fjern alle %d oppføringene?"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "Fjern oppføring «%s»?"
 
-#: ../Pyblio/GnomeUI/Document.py:1017
+#: ../Pyblio/GnomeUI/Document.py:1019
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr ""
 
 # .././Pyblio/GnomeUI/Document.py:661 :668
-#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
+#: ../Pyblio/GnomeUI/Document.py:1098 ../Pyblio/GnomeUI/Document.py:1106
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -459,7 +458,7 @@ msgstr ""
 "Kan ikke koble til LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1219
+#: ../Pyblio/GnomeUI/Document.py:1221
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -468,19 +467,19 @@ msgstr ""
 "Kan ikke vise dokumentasjon:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1227
+#: ../Pyblio/GnomeUI/Document.py:1229
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Dette programmet er utgitt under GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1228
+#: ../Pyblio/GnomeUI/Document.py:1230
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Gnome grensesnitt for Pybliographer-systemet."
 
-#: ../Pyblio/GnomeUI/Document.py:1239
+#: ../Pyblio/GnomeUI/Document.py:1241
 msgid "GNOME Translation Team"
 msgstr "GNOME oversettelseslag"
 
-#: ../Pyblio/GnomeUI/Document.py:1244
+#: ../Pyblio/GnomeUI/Document.py:1246
 msgid "Pybliographer Home Page"
 msgstr "Pybliographer nettside"
 
@@ -534,7 +533,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Editor.py:502
 msgid "Browse..."
-msgstr "Bla gjennom..."
+msgstr "Bla gjennom …"
 
 #: ../Pyblio/GnomeUI/Editor.py:525
 msgid "Select file"
@@ -929,15 +928,15 @@ msgstr "Innstillinger"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
 msgid "_Add..."
-msgstr "_Legg til..."
+msgstr "_Legg til …"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:16
 msgid "_Delete..."
-msgstr "_Slett..."
+msgstr "_Slett …"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:17
 msgid "_Edit..."
-msgstr "R_ediger..."
+msgstr "R_ediger …"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:18
 msgid "_New"
@@ -1120,31 +1119,30 @@ msgstr ""
 
 #. save history
 #: ../pybliographic.desktop.in.h:1
-#, fuzzy
 msgid "Bibliography Manager"
-msgstr "Type bibliografi:"
+msgstr "Bibliografihåndtering"
 
 #: ../pybliographic.desktop.in.h:2
 msgid "Manage bibliographic databases"
-msgstr ""
+msgstr "Håndter bibliografiske databaser"
 
 #: ../pybliographic.desktop.in.h:3
 msgid "Pybliographic Bibliography Manager"
-msgstr ""
+msgstr "Pybliographic bibliografihåndtering"
 
 #: ../scripts/pybcheck.py:31
 msgid "usage: pybcheck <file | directory>..."
-msgstr ""
+msgstr "bruk: pybcheck <fil | katalog> …"
 
 # .././Pyblio/Open.py:105 :151
 #: ../scripts/pybcheck.py:60
-#, fuzzy, python-format
+#, python-format
 msgid "file `%s' is ok [%d entries]"
-msgstr "Fil `%s' eksisterer ikke"
+msgstr "Fil «%s« er ok [%d oppføringer]"
 
 #: ../scripts/pybcompact.py:30
 msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "bruk: pybcompact <latexfil> <bibtexfiler...>"
+msgstr "bruk: pybcompact <latexfil> <bibtexfiler …>"
 
 #: ../scripts/pybcompact.py:34
 #, python-format
@@ -1165,9 +1163,8 @@ msgid "usage: pybconvert <source>..<target> <input> [output]"
 msgstr "bruk: pybconvert <kilde>..<mål> <inndata> [utdata]"
 
 #: ../scripts/pybconvert.py:38
-#, fuzzy
 msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: ugyldig konverteringsformat"
+msgstr "pybconvert: feil: ugyldig konverteringsformat"
 
 #: ../scripts/pybformat.py:34
 msgid ""
@@ -1196,11 +1193,9 @@ msgstr "pybformat: advarsel: %s\n"
 
 #: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
-#, fuzzy, python-format
+#, python-format
 msgid "can't open `%s': %s"
-msgstr ""
-"kan ikke åpne fil `%s' for skriving:\n"
-"%s"
+msgstr "kan ikke åpne «%s»: %s"
 
 #: ../scripts/pybformat.py:100
 #, python-format
@@ -1222,9 +1217,9 @@ msgid "too few arguments"
 msgstr "for få argumenter"
 
 #: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
-#, fuzzy, python-format
+#, python-format
 msgid "unknown output format `%s'"
-msgstr "mangler rør for utdata `%s'"
+msgstr "ukjent utdataformat «%s»"
 
 #: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
 #: ../scripts/pybtext.py:94
@@ -1258,7 +1253,7 @@ msgstr ""
 
 #: ../scripts/pybtex.py:34
 msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "bruk: pybtex <latexfil> [bibtexfiler...]"
+msgstr "bruk: pybtex <latexfil> [bibtexfiler …]"
 
 #: ../scripts/pybtex.py:38
 #, python-format
@@ -1277,7 +1272,7 @@ msgstr "ingen stil definert"
 
 #: ../scripts/pybtext.py:41
 msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr "bruk: pybtext [-o utdatafil] [-s stil] <tekstfil> <bibfiler...>"
+msgstr "bruk: pybtext [-o utdatafil] [-s stil] <tekstfil> <bibfiler …>"
 
 #: ../scripts/pybtext.py:45
 #, python-format

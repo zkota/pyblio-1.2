@@ -4,19 +4,22 @@
 # Li Shaojie <storm-119@163.com>, 2004.
 # lainme <lainme993@gmail.com>, 2010.
 #   QAed by Yunqiang Su <wzssyqa@gmail.com>, 2010.
+# YunQiang Su <wzssyqa@gmail.com>, 2011.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pybliographer&component=general\n"
-"POT-Creation-Date: 2010-08-31 01:50+0000\n"
-"PO-Revision-Date: 2010-09-05 03:16+0800\n"
-"Last-Translator: lainme <lainme993@gmail.com>\n"
+"product=pybliographer&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-03-19 00:35+0000\n"
+"PO-Revision-Date: 2011-04-10 16:21+0800\n"
+"Last-Translator: YunQiang Su <wzssyqa@gmail.com>\n"
 "Language-Team: Chinese (simplified) <i18n-zh@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -43,12 +46,12 @@ msgstr "整数"
 #: ../Pyblio/Config.py:242
 #, python-format
 msgid "Integer under %d"
-msgstr "%d 以下的整数"
+msgstr "小于 %d 的整数"
 
 #: ../Pyblio/Config.py:244
 #, python-format
 msgid "Integer over %d"
-msgstr "%d 以上的整数"
+msgstr "大于 %d 的整数"
 
 #: ../Pyblio/Config.py:246
 #, python-format
@@ -63,7 +66,7 @@ msgstr "“%s”中的元素"
 #: ../Pyblio/Config.py:278
 #, python-format
 msgid "Tuple (%s)"
-msgstr "Tuple (%s)"
+msgstr "元组 (%s)"
 
 #: ../Pyblio/Config.py:299
 #, python-format
@@ -82,15 +85,15 @@ msgstr "警告：无法将设置 %r 恢复到 %r: %s"
 
 #: ../Pyblio/Fields.py:261
 msgid "Illegal year value"
-msgstr "非法的年值"
+msgstr "非法的年份值"
 
 #: ../Pyblio/Fields.py:265
 msgid "Illegal month value"
-msgstr "非法的月值"
+msgstr "非法的月份值"
 
 #: ../Pyblio/Fields.py:269
 msgid "Illegal day value"
-msgstr "非法的日值"
+msgstr "非法的日期值"
 
 #: ../Pyblio/Fields.py:510
 #, python-format
@@ -325,20 +328,20 @@ msgstr "您的查询没有返回结果"
 msgid "Merge file"
 msgstr "合并文件"
 
-#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
+#: ../Pyblio/GnomeUI/Document.py:547 ../Pyblio/GnomeUI/Document.py:634
 msgid "Open error"
 msgstr "打开错误"
 
-#: ../Pyblio/GnomeUI/Document.py:570
+#: ../Pyblio/GnomeUI/Document.py:571
 msgid "Merge status"
 msgstr "合并状态"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:581
+#: ../Pyblio/GnomeUI/Document.py:582
 msgid "Open file"
 msgstr "打开文件"
 
-#: ../Pyblio/GnomeUI/Document.py:619
+#: ../Pyblio/GnomeUI/Document.py:620
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -346,8 +349,8 @@ msgstr ""
 "发现了比原始文件新的自动保存文件。\n"
 "您是否想要恢复？"
 
-#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
-#: ../Pyblio/GnomeUI/Document.py:854
+#: ../Pyblio/GnomeUI/Document.py:655 ../Pyblio/GnomeUI/Document.py:796
+#: ../Pyblio/GnomeUI/Document.py:856
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -356,7 +359,7 @@ msgstr ""
 "无法删除自动保存文件“%s”：\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:704
+#: ../Pyblio/GnomeUI/Document.py:706
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -365,7 +368,7 @@ msgstr ""
 "自动保存时出错：\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:732
+#: ../Pyblio/GnomeUI/Document.py:734
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -374,7 +377,7 @@ msgstr ""
 "不能保存“%s”:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:740
+#: ../Pyblio/GnomeUI/Document.py:742
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -382,11 +385,11 @@ msgstr ""
 "保存时发生内部错误\n"
 "请尝试另存为..."
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:757
 msgid "Save As..."
 msgstr "另存为..."
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:763
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -395,7 +398,7 @@ msgstr ""
 "文件“%s”已经存在。\n"
 "覆盖它吗？"
 
-#: ../Pyblio/GnomeUI/Document.py:768
+#: ../Pyblio/GnomeUI/Document.py:770
 #, python-format
 msgid ""
 "During opening:\n"
@@ -404,11 +407,11 @@ msgstr ""
 "打开时：\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:806
+#: ../Pyblio/GnomeUI/Document.py:808
 msgid "Reopen error"
 msgstr "重新打开错误"
 
-#: ../Pyblio/GnomeUI/Document.py:879
+#: ../Pyblio/GnomeUI/Document.py:881
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -417,36 +420,36 @@ msgstr ""
 "名为“%s”的项已经存在。\n"
 "无论如何重命名和添加它？"
 
-#: ../Pyblio/GnomeUI/Document.py:916
+#: ../Pyblio/GnomeUI/Document.py:918
 msgid "Really remove all the entries ?"
 msgstr "真的删除所有项吗？"
 
-#: ../Pyblio/GnomeUI/Document.py:936
+#: ../Pyblio/GnomeUI/Document.py:938
 msgid "Create new entry"
 msgstr "创建新项"
 
-#: ../Pyblio/GnomeUI/Document.py:950
+#: ../Pyblio/GnomeUI/Document.py:952
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "真的编辑 %d 项"
 
-#: ../Pyblio/GnomeUI/Document.py:996
+#: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "删除所有 %d 项吗？"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "删除项“%s”吗？"
 
-#: ../Pyblio/GnomeUI/Document.py:1017
+#: ../Pyblio/GnomeUI/Document.py:1019
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr "搜索词只能包含 latin-1 字符"
 
-#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
+#: ../Pyblio/GnomeUI/Document.py:1098 ../Pyblio/GnomeUI/Document.py:1106
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -455,7 +458,7 @@ msgstr ""
 "不能连接到 LyX：\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1219
+#: ../Pyblio/GnomeUI/Document.py:1221
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -464,19 +467,19 @@ msgstr ""
 "不能显示文档：\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1227
+#: ../Pyblio/GnomeUI/Document.py:1229
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "此软件版权遵照 GNU GPL "
 
-#: ../Pyblio/GnomeUI/Document.py:1228
+#: ../Pyblio/GnomeUI/Document.py:1230
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Gnome 到 Pybliographer 系统的接口。"
 
-#: ../Pyblio/GnomeUI/Document.py:1239
+#: ../Pyblio/GnomeUI/Document.py:1241
 msgid "GNOME Translation Team"
 msgstr "Gnome 翻译小组"
 
-#: ../Pyblio/GnomeUI/Document.py:1244
+#: ../Pyblio/GnomeUI/Document.py:1246
 msgid "Pybliographer Home Page"
 msgstr "Pybliographer 主页"
 
@@ -619,7 +622,7 @@ msgstr "新批注名称"
 
 #: ../Pyblio/GnomeUI/Editor.py:1353
 msgid "Name of the new annotation:"
-msgstr "新批驻的名称："
+msgstr "新批注的名称："
 
 #: ../Pyblio/GnomeUI/Entry.py:114
 #, python-format
@@ -685,7 +688,7 @@ msgstr "文件"
 #: ../Pyblio/GnomeUI/FileSelector.py:76
 #: ../Pyblio/GnomeUI/glade/openurl.glade.h:2
 msgid "Bibliography type:"
-msgstr "书目类型："
+msgstr "参考文献类型："
 
 #: ../Pyblio/GnomeUI/FileSelector.py:93 ../Pyblio/GnomeUI/OpenURL.py:61
 msgid " - According to file suffix - "
@@ -1184,6 +1187,20 @@ msgid "pybconvert: error: bad conversion format"
 msgstr "pybconvert：错误：错误的转换格式"
 
 #: ../scripts/pybformat.py:34
+#, fuzzy
+#| msgid ""
+#| "usage: pybformat [options] <database...>\n"
+#| "\n"
+#| "    options:\n"
+#| "      -o file, --output=file\t\tspecify an output filename\n"
+#| "      -s style, --style=style\t\tspecify a bibliography style\n"
+#| "      -f format, --format=format\tspecify an output format\n"
+#| "      -H header, --header=header\tdefines a header file\n"
+#| "      -F footer, --footer=footer\tdefines a footer file\n"
+#| "      -l 'output', --list='output'\tlists the available output formats\n"
+#| "      -h, --help\t\t\tshow this help message\n"
+#| "      -v, --version\t\t\tshow this help message\n"
+#| "    "
 msgid ""
 "usage: pybformat [options] <database...>\n"
 "\n"
@@ -1195,7 +1212,6 @@ msgid ""
 "      -F footer, --footer=footer\tdefines a footer file\n"
 "      -l 'output', --list='output'\tlists the available output formats\n"
 "      -h, --help\t\t\tshow this help message\n"
-"      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
 "用法：pybformat [选项] <数据库...>\n"
@@ -1211,68 +1227,68 @@ msgstr ""
 "      -v, --version\t\t\t显示版本信息\n"
 "    "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pybformat.py:48
 #, python-format
 msgid "pybformat: error: %s\n"
 msgstr "pybformat：错误：%s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pybformat.py:54
 #, python-format
 msgid "pybformat: warning: %s\n"
 msgstr "pybformat：警告：%s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
+#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "不能打开“%s”：%s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pybformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr "未知列表“%s”"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pybformat.py:103
 #, python-format
 msgid "pybformat: available values for `%s':"
 msgstr "pybformat：“%s”的可用值："
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pybformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr "空的值列表“%s”"
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pybformat.py:129
 msgid "too few arguments"
 msgstr "参数太少"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "未知的输出管道格式“%s”"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
+#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "找不到样式“%s”"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pybformat.py:152
 #, python-format
 msgid "pybformat: using style `%s', format `%s'\n"
 msgstr "pybformat：使用样式“%s”，格式“%s”\n"
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pybformat.py:167
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "不能打开页眉“%s”：%s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pybformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr "无法打开数据库：%s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pybformat.py:190
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "不能打开页脚“%s”：%s"

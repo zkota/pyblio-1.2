@@ -1,10 +1,12 @@
-# Czech translation of pybliographer.
+# Czech translation 18;5~of pybliographer.
 # Copyright (C) 2003, 2004, 2005, 2009, 2010 the author(s) of pybliographer.
 # Copyright (C) 2003, 2004, 2005 Miloslav Trmac <mitr@volny.cz>.
 # This file is distributed under the same license as the pybliographer package.
+#
 # Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
 # Marek Černocký <marek@manet.cz>, 2009, 2010.
 # Petr Kovar <pknbe@volny.cz>, 2009, 2010.
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer\n"
@@ -35,7 +37,7 @@ msgstr "Řetězec"
 
 #: ../Pyblio/Config.py:221
 msgid "Boolean"
-msgstr "Booleovská hodnota"
+msgstr "Pravdivostní hodnota"
 
 #: ../Pyblio/Config.py:240
 msgid "Integer"
@@ -193,7 +195,7 @@ msgstr "Dotaz Medline…"
 
 #: ../Pyblio/GnomeUI/Document.py:170
 msgid "Add a new entry"
-msgstr "Přidat novou položku"
+msgstr "Přidat nový záznam"
 
 #: ../Pyblio/GnomeUI/Document.py:174
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
@@ -264,26 +266,26 @@ msgstr "Nová databáze"
 
 #: ../Pyblio/GnomeUI/Document.py:447 ../Pyblio/GnomeUI/Document.py:451
 msgid "[no entry]"
-msgstr "[žádná položka]"
+msgstr "[žádný záznam]"
 
 #: ../Pyblio/GnomeUI/Document.py:448
 msgid "[1 entry]"
-msgstr "[1 položka]"
+msgstr "[1 záznam]"
 
 #: ../Pyblio/GnomeUI/Document.py:449
 #, python-format
 msgid "[%d entries]"
-msgstr "[%d položek]"
+msgstr "[%d záznamů]"
 
 #: ../Pyblio/GnomeUI/Document.py:452
 #, python-format
 msgid "[%d/1 entry]"
-msgstr "[%d/1 položka]"
+msgstr "[%d/1 záznam]"
 
 #: ../Pyblio/GnomeUI/Document.py:453
 #, python-format
 msgid "[%d/%d entries]"
-msgstr "[%d/%d položek]"
+msgstr "[%d/%d záznamů]"
 
 #: ../Pyblio/GnomeUI/Document.py:458
 msgid "[modified]"
@@ -339,7 +341,7 @@ msgstr "Stav sloučení"
 #. get a new file name
 #: ../Pyblio/GnomeUI/Document.py:581
 msgid "Open file"
-msgstr "Otevřít soubor"
+msgstr "Otevření souboru"
 
 #: ../Pyblio/GnomeUI/Document.py:619
 msgid ""
@@ -418,31 +420,31 @@ msgid ""
 "An entry called `%s' already exists.\n"
 "Rename and add it anyway ?"
 msgstr ""
-"Položka nazvaná „%s“ již existuje.\n"
-"Přejmenovat ji a přesto přidat?"
+"Záznam nazvaný „%s“ již existuje.\n"
+"Přejmenovat jej a přesto přidat?"
 
 #: ../Pyblio/GnomeUI/Document.py:916
 msgid "Really remove all the entries ?"
-msgstr "Opravdu odstranit všechny položky?"
+msgstr "Opravdu odstranit všechny záznamy?"
 
 #: ../Pyblio/GnomeUI/Document.py:936
 msgid "Create new entry"
-msgstr "Vytvořit novou položku"
+msgstr "Vytvořit nový záznam"
 
 #: ../Pyblio/GnomeUI/Document.py:950
 #, python-format
 msgid "Really edit %d entries ?"
-msgstr "Opravdu opravit %d položek?"
+msgstr "Opravdu opravit %d záznamů?"
 
 #: ../Pyblio/GnomeUI/Document.py:996
 #, python-format
 msgid "Remove all the %d entries ?"
-msgstr "Odstranit všech %d položek?"
+msgstr "Odstranit všech %d záznamů?"
 
 #: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
 msgid "Remove entry `%s' ?"
-msgstr "Odstranit položku „%s“?"
+msgstr "Odstranit záznam „%s“?"
 
 #: ../Pyblio/GnomeUI/Document.py:1017
 msgid ""
@@ -533,7 +535,7 @@ msgstr "Odstranit"
 #: ../Pyblio/GnomeUI/Editor.py:430 ../Pyblio/GnomeUI/Editor.py:443
 #: ../Pyblio/GnomeUI/Editor.py:446
 msgid "[ Drop an Entry here ]"
-msgstr "[ Pusťte sem položku ]"
+msgstr "[ Upusťte zde záznam ]"
 
 #: ../Pyblio/GnomeUI/Editor.py:502
 msgid "Browse..."
@@ -547,7 +549,7 @@ msgstr "Výběr souboru"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:8
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
 msgid "Entry type"
-msgstr "Typ položky"
+msgstr "Typ záznamu"
 
 #: ../Pyblio/GnomeUI/Editor.py:551
 msgid "Key"
@@ -584,7 +586,7 @@ msgstr "Přídavné"
 
 #: ../Pyblio/GnomeUI/Editor.py:909
 msgid "Invalid key format"
-msgstr "Neplatný formát klíček"
+msgstr "Neplatný formát klíče"
 
 #: ../Pyblio/GnomeUI/Editor.py:917
 #, python-format
@@ -603,7 +605,7 @@ msgstr "Váš text obsahuje symboly mimo Latin-1"
 
 #: ../Pyblio/GnomeUI/Editor.py:1023
 msgid "Edit entry"
-msgstr "Upravit položku"
+msgstr "Úprava záznamu"
 
 #: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1102
 msgid "Native Editing"
@@ -675,16 +677,16 @@ msgstr "Dostupné"
 
 #: ../Pyblio/GnomeUI/Fields.py:310
 msgid "Associated"
-msgstr "Související"
+msgstr "Přidruženo"
 
 #: ../Pyblio/GnomeUI/Fields.py:321
 msgid "Please, select an entry type from previous page."
-msgstr "Vyberte prosím typ položky na předchozí straně."
+msgstr "Vyberte prosím typ záznamu na předchozí straně."
 
 #: ../Pyblio/GnomeUI/Fields.py:332
 #, python-format
 msgid "Fields associated with <b>%s</b> entry type"
-msgstr "Pole asociovaná s typem pole <b>%s</b>"
+msgstr "Pole přidružená k typu záznamu <b>%s</b>"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:39
 msgid "File"
@@ -720,7 +722,7 @@ msgstr ""
 #. These are additional search fields
 #: ../Pyblio/GnomeUI/Sort.py:97
 msgid "[Entry Type]"
-msgstr "[Typ položky]"
+msgstr "[Typ záznamu]"
 
 #: ../Pyblio/GnomeUI/Sort.py:98
 msgid "[Key Value]"
@@ -745,7 +747,7 @@ msgstr "*"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:2
 msgid "<b>Entry type</b>"
-msgstr "<b>Typ položky</b>"
+msgstr "<b>Typ záznamu</b>"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:3
 msgid "A"
@@ -754,7 +756,7 @@ msgstr "A"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:4
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:2
 msgid "Association"
-msgstr "Souvislost"
+msgstr "Přidružení"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:5
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
@@ -769,7 +771,7 @@ msgstr "Editor"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:7
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:5
 msgid "Entries"
-msgstr "Položky"
+msgstr "Záznamy"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:9
 msgid "FIELDS DEFINITION"
@@ -795,11 +797,11 @@ msgstr "standardní pole"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:7
 msgid "Entry types and field names configuration"
-msgstr "Nastavení typů položek a názvů polí"
+msgstr "Nastavení typů záznamů a názvů polí"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:9
 msgid "Information for <b>Article</b> entry type"
-msgstr "Informace o typu pole <b>Článek</b>"
+msgstr "Informace o typu záznamu <b>Článek</b>"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:12
 msgid ""
@@ -810,8 +812,8 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Vyberte typ pole a určete jemu\n"
-"přiřazená (povinná a nepovinná)\n"
+"Vyberte typ záznamu a určete k němu\n"
+"přidružená (povinná a nepovinná)\n"
 "pole na následující straně.\n"
 "\n"
 "\n"
@@ -823,7 +825,7 @@ msgstr "Styl bibliografie:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:2
 msgid "Format entries"
-msgstr "Formátovat položky"
+msgstr "Formátování záznamů"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:3
 msgid "Output file:"
@@ -967,7 +969,7 @@ msgstr "Zavřít"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:3
 msgid "Expert Search"
-msgstr "Hledání pro experty"
+msgstr "Pokročilé hledání"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:4
 msgid "Field"
@@ -991,7 +993,7 @@ msgstr "Jednoduché hledání"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
 msgid "Select sort criterions"
-msgstr "Vyberte kráká kritéria"
+msgstr "Vyběr kritérií řazení"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2
 msgid "Set as default"
@@ -1091,9 +1093,9 @@ msgid ""
 "Please consider adding one.\n"
 "URL: %s"
 msgstr ""
-"K typu MIME %s nebyla nalezena žádná položka \n"
+"K typu MIME %s nebyl nalezen žádný záznam \n"
 "ve volbách nastavení zdroje/prohlížečů.\n"
-"Měli byste jednu přidat.\n"
+"Měli byste nějaký přidat.\n"
 "URL: %s"
 
 #: ../Pyblio/Style/Parser.py:261
@@ -1118,7 +1120,7 @@ msgstr "Toto je %s, verze %s"
 
 #: ../pybliographer.py:47 ../pybliographer.py:54
 msgid "This is free software with ABSOLUTELY NO WARRANTY."
-msgstr "Toto je free software ABSOLUTNĚ BEZ ZÁRUKY."
+msgstr "Toto je svobodný software ABSOLUTNĚ BEZ ZÁRUKY."
 
 #: ../pybliographer.py:48
 msgid "For details, type `warranty'."
@@ -1164,11 +1166,11 @@ msgstr "použití: pybcheck <soubor | složka>…"
 #: ../scripts/pybcheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
-msgstr "soubor „%s“ je v pořádku [%d položek]"
+msgstr "soubor „%s“ je v pořádku [%d záznamů]"
 
 #: ../scripts/pybcompact.py:30
 msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "použití: pybcompact <souborlatex> <souborybibtex…>"
+msgstr "použití: pybcompact <soubor_latex> <soubory_bibtex…>"
 
 #: ../scripts/pybcompact.py:34
 #, python-format
@@ -1177,12 +1179,12 @@ msgstr "fpybcompact: chyba: %s\n"
 
 #: ../scripts/pybcompact.py:99
 msgid "no entry"
-msgstr "žádná položka"
+msgstr "žádný záznam"
 
 #: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
-msgstr "nelze najít následující položky: %s"
+msgstr "nelze najít následující záznamy: %s"
 
 #: ../scripts/pybconvert.py:29
 msgid "usage: pybconvert <source>..<target> <input> [output]"
@@ -1214,7 +1216,7 @@ msgstr ""
 "      -f formát, --format=formát\turčení formátu výstupu\n"
 "      -H hlavička, --header=hlavička\tdefinuje soubor hlavičky\n"
 "      -F patička, --footer=patička\tdefinuje soubor patičky\n"
-"      -l 'výstup', --list='výstup'\tvypíše dostupné formáty výstupu\n"
+"      -l 'output', --list='output'\tvypíše dostupné formáty výstupu\n"
 "      -h, --help\t\t\tzobrazit tuto zprávu s nápovědou\n"
 "    "
 
