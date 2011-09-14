@@ -7,10 +7,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer master\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pybliographer&component=general\n"
-"POT-Creation-Date: 2010-08-30 13:54+0000\n"
-"PO-Revision-Date: 2010-08-31 10:45+0900\n"
-"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
+"product=pybliographer&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-08-01 19:34+0000\n"
+"PO-Revision-Date: 2011-08-21 18:46+0900\n"
+"Last-Translator: OKANO Takayoshi <kano@na.rim.or.jp>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -325,27 +325,27 @@ msgstr ""
 msgid "Merge file"
 msgstr "ファイルの結合"
 
-#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
+#: ../Pyblio/GnomeUI/Document.py:547 ../Pyblio/GnomeUI/Document.py:634
 msgid "Open error"
 msgstr "開くときのエラー"
 
-#: ../Pyblio/GnomeUI/Document.py:570
+#: ../Pyblio/GnomeUI/Document.py:571
 msgid "Merge status"
 msgstr "結合状態"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:581
+#: ../Pyblio/GnomeUI/Document.py:582
 msgid "Open file"
 msgstr "ファイルを開く"
 
-#: ../Pyblio/GnomeUI/Document.py:619
+#: ../Pyblio/GnomeUI/Document.py:620
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
-#: ../Pyblio/GnomeUI/Document.py:854
+#: ../Pyblio/GnomeUI/Document.py:655 ../Pyblio/GnomeUI/Document.py:796
+#: ../Pyblio/GnomeUI/Document.py:856
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -354,7 +354,7 @@ msgstr ""
 "自動保存ファイル `%s' を削除できません:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:704
+#: ../Pyblio/GnomeUI/Document.py:706
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -363,7 +363,7 @@ msgstr ""
 "自動保存中にエラー:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:732
+#: ../Pyblio/GnomeUI/Document.py:734
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -372,7 +372,7 @@ msgstr ""
 "`%s'を開けません:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:740
+#: ../Pyblio/GnomeUI/Document.py:742
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -380,11 +380,11 @@ msgstr ""
 "保存するときに内部エラーが発生しました\n"
 "別名で保存してください..."
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:757
 msgid "Save As..."
 msgstr "別名で保存..."
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:763
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -393,7 +393,7 @@ msgstr ""
 "`%s'はすでに存在します。\n"
 "上書きしますか?"
 
-#: ../Pyblio/GnomeUI/Document.py:768
+#: ../Pyblio/GnomeUI/Document.py:770
 #, python-format
 msgid ""
 "During opening:\n"
@@ -402,11 +402,11 @@ msgstr ""
 "開いているときに:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:806
+#: ../Pyblio/GnomeUI/Document.py:808
 msgid "Reopen error"
 msgstr "再オープンエラー"
 
-#: ../Pyblio/GnomeUI/Document.py:879
+#: ../Pyblio/GnomeUI/Document.py:881
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -415,36 +415,36 @@ msgstr ""
 "`%s'というエントリがすでに存在します。\n"
 "名前を変更してとにかく追加しますか?"
 
-#: ../Pyblio/GnomeUI/Document.py:916
+#: ../Pyblio/GnomeUI/Document.py:918
 msgid "Really remove all the entries ?"
 msgstr "本当にすべてのエントリを削除しますか?"
 
-#: ../Pyblio/GnomeUI/Document.py:936
+#: ../Pyblio/GnomeUI/Document.py:938
 msgid "Create new entry"
 msgstr "新規エントリの作成"
 
-#: ../Pyblio/GnomeUI/Document.py:950
+#: ../Pyblio/GnomeUI/Document.py:952
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "本当に%dエントリを編集しますか?"
 
-#: ../Pyblio/GnomeUI/Document.py:996
+#: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "%dエントリをすべて削除しますか?"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "エントリ`%s'を削除しますか?"
 
-#: ../Pyblio/GnomeUI/Document.py:1017
+#: ../Pyblio/GnomeUI/Document.py:1019
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
+#: ../Pyblio/GnomeUI/Document.py:1098 ../Pyblio/GnomeUI/Document.py:1106
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -453,26 +453,26 @@ msgstr ""
 "LyXに接続できません:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1219
+#: ../Pyblio/GnomeUI/Document.py:1221
 #, python-format
 msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
 
-#: ../Pyblio/GnomeUI/Document.py:1227
+#: ../Pyblio/GnomeUI/Document.py:1229
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "このプログラムはGNU GPLのもとに著作権があります"
 
-#: ../Pyblio/GnomeUI/Document.py:1228
+#: ../Pyblio/GnomeUI/Document.py:1230
 msgid "GNOME interface to the Pybliographer system."
-msgstr "PybliobrapherシステムのGNOMEインターフェースです。"
+msgstr "PybliographerシステムのGNOMEインターフェースです。"
 
-#: ../Pyblio/GnomeUI/Document.py:1239
+#: ../Pyblio/GnomeUI/Document.py:1241
 msgid "GNOME Translation Team"
 msgstr "GNOME翻訳チーム"
 
-#: ../Pyblio/GnomeUI/Document.py:1244
+#: ../Pyblio/GnomeUI/Document.py:1246
 msgid "Pybliographer Home Page"
 msgstr "Pybliographerホームページ"
 
@@ -1162,72 +1162,71 @@ msgid ""
 "      -F footer, --footer=footer\tdefines a footer file\n"
 "      -l 'output', --list='output'\tlists the available output formats\n"
 "      -h, --help\t\t\tshow this help message\n"
-"      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pybformat.py:48
 #, python-format
 msgid "pybformat: error: %s\n"
 msgstr "pybformat: エラー: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pybformat.py:54
 #, python-format
 msgid "pybformat: warning: %s\n"
 msgstr "pybformat: 注意: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
+#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
 #: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "ファイル`%s'を開けません: %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pybformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr ""
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pybformat.py:103
 #, python-format
 msgid "pybformat: available values for `%s':"
 msgstr ""
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pybformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr ""
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pybformat.py:129
 msgid "too few arguments"
 msgstr ""
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr ""
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
+#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
 #: ../scripts/pybtext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "スタイル`%s'を検索できません"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pybformat.py:152
 #, python-format
 msgid "pybformat: using style `%s', format `%s'\n"
 msgstr ""
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pybformat.py:167
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "ヘッダ '%s' を開けません: %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pybformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr "データベースを開けません: %s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pybformat.py:190
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "フッタ '%s' を開けません: %s"
