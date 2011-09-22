@@ -523,7 +523,11 @@ class Document (Connector.Publisher):
             # no result.
             self.w.error (_("Your query returned no result"))
             return
-        
+        elif url is -1:
+            # error
+            self.w.error (_("An error occured during Medline Query"))
+            return
+
         self.open_in_new(url, 'medline', no_name=True)
         return
 

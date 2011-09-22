@@ -23,13 +23,20 @@
 Search a keyword in a medline database
 
 This code has been contributed by: John Vu <jvu001@umaryland.edu>
+
+Updated by Z. Kota in 2011 for eutils. 
 """
 
 # The time module is added for querying date ranges of publications
 import urllib, urllib2, sys, re, string, time, tempfile, os
+from xml.dom.minidom import parse
 
-query_url = 'http://www.ncbi.nlm.nih.gov/entrez/utils/pmqty.fcgi'
-fetch_url = 'http://www.ncbi.nlm.nih.gov/entrez/utils/pmfetch.fcgi'
+
+query_url = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi'
+fetch_url = 'http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi'
+
+toolName = 'pybliographer'
+adminEmail = 'webmaster@pybliographer.org'
 
 
 def query_info (searchterm, field, displaynum, displaystart, edate):
@@ -38,50 +45,30 @@ def query_info (searchterm, field, displaynum, displaystart, edate):
             'db': 'pubmed',
             'term' : searchterm,  # searchterm is user inputted text, modified by limits if applied
             'field' : field,
-            'dopt' : 'd',
-            'dispmax' : displaynum,
-            'dispstart' : displaystart - 1, # minus 1 because the count starts at 0 and not at 1
-            'relentrezdate' : edate  # two different search options given, depending on whether the user provides a relative entrez date
+            'reldate' : edate,  # two different search options given, depending on whether the user provides a relative entrez date
+            'usehistory' : 'y',
+            'tool' : toolName,
+            'email' : adminEmail
             })
     else:
         params = urllib.urlencode ({
             'db': 'pubmed',
             'term' : searchterm,  # searchterm is user inputted text, modified by limits
             'field' : field,
-            'dopt' : 'd',
-            'dispmax' : displaynum,
-            'dispstart' : displaystart - 1
+            'usehistory' : 'y',
+            'tool' : toolName,
+            'email' : adminEmail
             })
 
     f = urllib2.urlopen("%s?%s" % (query_url, params))
-    uids = []
-    in_body = 0
-    uid_re = re.compile (r'^([\d]+)<br>')
 
-    while 1:
-        line = f.readline ()
-        if line == '': break
-
-        if in_body:
-            line = string.strip (string.lower (line))
-
-            if line == '</body>': break
-
-            ret = uid_re.match (line)
-            if not ret:
-                print "unknown line: %s" % line
-                continue
-
-            uids.append (int (ret.group (1)))
-        else:
-            line = string.strip (string.lower (line))
-
-            if line == '<body>':
-                in_body = 1
-                continue
+    myquery = parse (f)
+    count = myquery.getElementsByTagName('Count')[0].firstChild.data
+    querykey = myquery.getElementsByTagName('QueryKey')[0].firstChild.data
+    webenv = myquery.getElementsByTagName('WebEnv')[0].firstChild.data
 
     f.close ()
-    return uids
+    return count, querykey, webenv
 
 
 def medline_query (keyword,maxcount,displaystart,field,abstract,epubahead,pubtype,language,subset,agerange,humananimal,gender,entrezdate,pubdate,fromdate,todate):
@@ -251,23 +238,35 @@ def medline_query (keyword,maxcount,displaystart,field,abstract,epubahead,pubtyp
             if pubdate == 'Publication Date': keyword = keyword + ' ' + fromdate + ':' + todate + '[dp]'
             elif pubdate == 'Entrez Date': keyword = keyword + ' ' + fromdate + ':' + todate + '[edat]'
 
-    # Below is the actual call to the URL (PubMed's cgi): first to gain the pubmed UIDs
-    # and then to get the entries that is passed to pyblio to open
-    uids = query_info (keyword, field, maxcount, displaystart, entrezdate) # get the pubmed UIDs and dump into uids variable
-    
-    uids = string.replace (str(uids),'[','') # get rid of open bracket in string
-    uids = string.replace (str(uids),']','') # get rid of close bracket in the string
-    uids = string.replace (str(uids),' ','') # get rid of all the spaces in the string
 
-    if uids.strip () == '': return None
-    
+    # Below is the actual call to the URL (PubMed's cgi): first to gain the count, querykey, and webenv
+    # parameters, and then to get the entries that is passed to pyblio to open
+
+    try:
+        count, querykey, webenv = query_info (keyword, field, maxcount, displaystart, entrezdate) # pubmed query using the history option
+
+    except:
+        # print sys.exc_info()[:2]
+        return -1
+
+
+    if count == '0' : return None
+
+ 
     params = urllib.urlencode ({
-        'db'     : 'pubmed',
-        'report' : 'medline',
-        'mode'   : 'text'
+        'db'       : 'pubmed',
+        'rettype'  : 'medline',
+        'retmode'  : 'text',
+        'retmax'   : maxcount,
+        'retstart' : displaystart - 1,
+        'query_key': querykey,
+        'WebEnv'   : webenv,
+        'tool'     : toolName,
+        'email'    : adminEmail
         })
 
-    url = "%s?%s&id=%s" % (fetch_url, params, str(uids))
+
+    url = "%s?%s" % (fetch_url, params)
 
     content = urllib2.urlopen(url)
     fd, fn = tempfile.mkstemp('.medline', 'pyblio-')
