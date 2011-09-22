@@ -5,15 +5,16 @@
 #
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.HEAD.es\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pybliographer&component=general\n"
-"POT-Creation-Date: 2010-09-07 12:41+0000\n"
-"PO-Revision-Date: 2010-09-09 20:43+0200\n"
-"Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
+"POT-Creation-Date: 2010-12-02 18:27+0000\n"
+"PO-Revision-Date: 2011-09-15 17:03+0200\n"
+"Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -1157,7 +1158,7 @@ msgstr "Gestor de bibliografías Pybliographic"
 
 #: ../scripts/pybcheck.py:31
 msgid "usage: pybcheck <file | directory>..."
-msgstr "uso: pybcheck <archivo | directorio>…"
+msgstr "uso: pybcheck <archivo | carpeta>…"
 
 #: ../scripts/pybcheck.py:60
 #, python-format
@@ -1191,19 +1192,6 @@ msgid "pybconvert: error: bad conversion format"
 msgstr "pybconvert: error: formato de conversión erróneo"
 
 #: ../scripts/pybformat.py:34
-#| msgid ""
-#| "usage: pybformat [options] <database...>\n"
-#| "\n"
-#| "    options:\n"
-#| "      -o file, --output=file\t\tspecify an output filename\n"
-#| "      -s style, --style=style\t\tspecify a bibliography style\n"
-#| "      -f format, --format=format\tspecify an output format\n"
-#| "      -H header, --header=header\tdefines a header file\n"
-#| "      -F footer, --footer=footer\tdefines a footer file\n"
-#| "      -l 'output', --list='output'\tlists the available output formats\n"
-#| "      -h, --help\t\t\tshow this help message\n"
-#| "      -v, --version\t\t\tshow this help message\n"
-#| "    "
 msgid ""
 "usage: pybformat [options] <database...>\n"
 "\n"
