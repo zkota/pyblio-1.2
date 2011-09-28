@@ -1218,8 +1218,9 @@ class Document (Connector.Publisher):
     def on_documentation (self, *args):
         import gobject
 
+        timestamp = gtk.gdk.CURRENT_TIME
         try:
-            gnome.help_display ('pybliographer', None)
+            gtk.show_uri (None, "ghelp:pybliographer", timestamp)
             
         except gobject.GError, msg:
             self.w.error (_("Can't display documentation:\n%s") % msg)
