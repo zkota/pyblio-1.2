@@ -8,8 +8,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.help.master\n"
-"POT-Creation-Date: 2011-02-08 20:01+0000\n"
-"PO-Revision-Date: 2011-02-21 15:47+0100\n"
+"POT-Creation-Date: 2011-09-22 13:49+0000\n"
+"PO-Revision-Date: 2011-09-22 17:39+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,8 +19,9 @@ msgstr ""
 "X-Generator: KBabel 1.11.4\n"
 
 #: C/whatsnew.page:10(desc)
-msgid "New features in <app>Pybliographer</app> 1.2.14."
-msgstr "Nuevas funcionalidades en <app>Pybliographer</app> 1.2.14."
+#| msgid "New features in <app>Pybliographer</app> 1.2.14."
+msgid "New features in <app>Pybliographer</app> 1.2.15."
+msgstr "Nuevas funcionalidades en <app>Pybliographer</app> 1.2.15."
 
 #: C/whatsnew.page:14(name) C/typcon.page:14(name)
 #: C/scripting-writeown.page:14(name) C/scripting-existing.page:14(name)
@@ -95,8 +96,9 @@ msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Compartir Igual 3.0"
 
 #: C/whatsnew.page:26(title)
-msgid "What's New in Pybliographer 1.2.14"
-msgstr "Lo nuevo de Pybliographer 1.2.14"
+#| msgid "What's New in Pybliographer 1.2.14"
+msgid "What's New in Pybliographer 1.2.15"
+msgstr "Lo nuevo de Pybliographer 1.2.15"
 
 #: C/whatsnew.page:27(p)
 msgid ""

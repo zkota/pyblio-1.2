@@ -7,11 +7,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliographer&component=general\n"
-"POT-Creation-Date: 2010-09-11 16:41+0000\n"
-"PO-Revision-Date: 2010-12-07 16:20+0100\n"
-"Last-Translator: Andrej Žnidaršič <andrej.znidarsic@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliographer&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-09-22 15:39+0000\n"
+"PO-Revision-Date: 2011-09-22 22:17+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -330,26 +331,31 @@ msgstr ""
 msgid "Your query returned no result"
 msgstr "Poizvedba ni vrnila zadetkov"
 
+#. error
+#: ../Pyblio/GnomeUI/Document.py:528
+msgid "An error occured during Medline Query"
+msgstr "Prišlo je do napake med poizvedbo Medline"
+
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:534
+#: ../Pyblio/GnomeUI/Document.py:538
 msgid "Merge file"
 msgstr "Združi datoteko"
 
-#: ../Pyblio/GnomeUI/Document.py:546
-#: ../Pyblio/GnomeUI/Document.py:632
+#: ../Pyblio/GnomeUI/Document.py:551
+#: ../Pyblio/GnomeUI/Document.py:638
 msgid "Open error"
 msgstr "Napaka med odpiranjem"
 
-#: ../Pyblio/GnomeUI/Document.py:570
+#: ../Pyblio/GnomeUI/Document.py:575
 msgid "Merge status"
 msgstr "Stanje združevanja"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:581
+#: ../Pyblio/GnomeUI/Document.py:586
 msgid "Open file"
 msgstr "Odpri datoteko"
 
-#: ../Pyblio/GnomeUI/Document.py:619
+#: ../Pyblio/GnomeUI/Document.py:624
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -357,9 +363,9 @@ msgstr ""
 "Najdena je bila samodejno shranjena datoteka, novejša od izvorne datoteke.\n"
 "Ali jo želite obnoviti?"
 
-#: ../Pyblio/GnomeUI/Document.py:653
-#: ../Pyblio/GnomeUI/Document.py:794
-#: ../Pyblio/GnomeUI/Document.py:854
+#: ../Pyblio/GnomeUI/Document.py:659
+#: ../Pyblio/GnomeUI/Document.py:800
+#: ../Pyblio/GnomeUI/Document.py:860
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -368,7 +374,7 @@ msgstr ""
 "Samodejno shranjene datoteke `%s' ni mogoče odstraniti:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:704
+#: ../Pyblio/GnomeUI/Document.py:710
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -377,7 +383,7 @@ msgstr ""
 "Napaka med samodejnim shranjevanjem:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:732
+#: ../Pyblio/GnomeUI/Document.py:738
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -386,7 +392,7 @@ msgstr ""
 "`%s' ni mogoče shraniti:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:740
+#: ../Pyblio/GnomeUI/Document.py:746
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -394,11 +400,11 @@ msgstr ""
 "Prišlo je do notranje napake.\n"
 "Poskusite shraniti kot ..."
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:761
 msgid "Save As..."
 msgstr "Shrani kot ..."
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:767
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -407,7 +413,7 @@ msgstr ""
 "Datoteka `%s' že obstaja.\n"
 "Ali naj bo prepisana?"
 
-#: ../Pyblio/GnomeUI/Document.py:768
+#: ../Pyblio/GnomeUI/Document.py:774
 #, python-format
 msgid ""
 "During opening:\n"
@@ -416,11 +422,11 @@ msgstr ""
 "Med odpiranjem:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:806
+#: ../Pyblio/GnomeUI/Document.py:812
 msgid "Reopen error"
 msgstr "Napaka med ponovnim odpiranjem"
 
-#: ../Pyblio/GnomeUI/Document.py:879
+#: ../Pyblio/GnomeUI/Document.py:885
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -429,30 +435,30 @@ msgstr ""
 "Vnos z imenom `%s' že obstaja.\n"
 "Ali naj se preimenuje in vseeno doda?"
 
-#: ../Pyblio/GnomeUI/Document.py:916
+#: ../Pyblio/GnomeUI/Document.py:922
 msgid "Really remove all the entries ?"
 msgstr "Ali naj se res odstrani vse vnose?"
 
-#: ../Pyblio/GnomeUI/Document.py:936
+#: ../Pyblio/GnomeUI/Document.py:942
 msgid "Create new entry"
 msgstr "Ustvari nov vnos"
 
-#: ../Pyblio/GnomeUI/Document.py:950
+#: ../Pyblio/GnomeUI/Document.py:956
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "Ali naj se res uredi %d vnosov?"
 
-#: ../Pyblio/GnomeUI/Document.py:996
+#: ../Pyblio/GnomeUI/Document.py:1002
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "Ali naj se odstrani vseh %d vnosov?"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1004
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "Odstrani vnos `%s' ?"
 
-#: ../Pyblio/GnomeUI/Document.py:1017
+#: ../Pyblio/GnomeUI/Document.py:1023
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -460,8 +466,8 @@ msgstr ""
 "vaše iskanje mora vsebovati\n"
 "le latin-1 znake"
 
-#: ../Pyblio/GnomeUI/Document.py:1096
-#: ../Pyblio/GnomeUI/Document.py:1104
+#: ../Pyblio/GnomeUI/Document.py:1102
+#: ../Pyblio/GnomeUI/Document.py:1110
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -470,7 +476,7 @@ msgstr ""
 "Ni se mogoče povezati z LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1219
+#: ../Pyblio/GnomeUI/Document.py:1225
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -479,19 +485,19 @@ msgstr ""
 "Dokumentacije ni mogoče pokazati:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1227
+#: ../Pyblio/GnomeUI/Document.py:1233
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Ta program je avtorsko zaščiten z GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1228
+#: ../Pyblio/GnomeUI/Document.py:1234
 msgid "GNOME interface to the Pybliographer system."
 msgstr "GNOME vmesnik za sistem Pybliographer."
 
-#: ../Pyblio/GnomeUI/Document.py:1239
+#: ../Pyblio/GnomeUI/Document.py:1245
 msgid "GNOME Translation Team"
 msgstr "GNOME prevajalska ekipa"
 
-#: ../Pyblio/GnomeUI/Document.py:1244
+#: ../Pyblio/GnomeUI/Document.py:1250
 msgid "Pybliographer Home Page"
 msgstr "Domača stran programa"
 

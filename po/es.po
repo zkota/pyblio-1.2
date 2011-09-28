@@ -11,9 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.HEAD.es\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pybliographer&component=general\n"
-"POT-Creation-Date: 2010-12-02 18:27+0000\n"
-"PO-Revision-Date: 2011-09-15 17:03+0200\n"
+"product=pybliographer&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-09-22 13:25+0000\n"
+"PO-Revision-Date: 2011-09-22 17:34+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -324,25 +324,31 @@ msgstr ""
 msgid "Your query returned no result"
 msgstr "Su consulta no devolvió ningún resultado"
 
+#. error
+#: ../Pyblio/GnomeUI/Document.py:528
+#| msgid "Enter your Medline Query"
+msgid "An error occured during Medline Query"
+msgstr "Ocurrió un error durante la consulta Medline"
+
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:534
+#: ../Pyblio/GnomeUI/Document.py:538
 msgid "Merge file"
 msgstr "Combinar archivo"
 
-#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
+#: ../Pyblio/GnomeUI/Document.py:551 ../Pyblio/GnomeUI/Document.py:638
 msgid "Open error"
 msgstr "Error al abrir"
 
-#: ../Pyblio/GnomeUI/Document.py:570
+#: ../Pyblio/GnomeUI/Document.py:575
 msgid "Merge status"
 msgstr "Estado de la combinación"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:581
+#: ../Pyblio/GnomeUI/Document.py:586
 msgid "Open file"
 msgstr "Abrir archivo"
 
-#: ../Pyblio/GnomeUI/Document.py:619
+#: ../Pyblio/GnomeUI/Document.py:624
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -351,8 +357,8 @@ msgstr ""
 "original.\n"
 "¿Quiere restaurarlo?"
 
-#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
-#: ../Pyblio/GnomeUI/Document.py:854
+#: ../Pyblio/GnomeUI/Document.py:659 ../Pyblio/GnomeUI/Document.py:800
+#: ../Pyblio/GnomeUI/Document.py:860
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -361,7 +367,7 @@ msgstr ""
 "No se puede quitar el archivo de autoguardado «%s»:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:704
+#: ../Pyblio/GnomeUI/Document.py:710
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -370,7 +376,7 @@ msgstr ""
 "Error durante la apertura:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:732
+#: ../Pyblio/GnomeUI/Document.py:738
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -379,7 +385,7 @@ msgstr ""
 "No se puede guardar «%s»:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:740
+#: ../Pyblio/GnomeUI/Document.py:746
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -387,11 +393,11 @@ msgstr ""
 "Ocurrió un error interno durante el guardado\n"
 "Intente guardar como…"
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:761
 msgid "Save As..."
 msgstr "Guardar como…"
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:767
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -400,7 +406,7 @@ msgstr ""
 "El archivo «%s» ya existe.\n"
 "¿Quiere sobreescribirlo?"
 
-#: ../Pyblio/GnomeUI/Document.py:768
+#: ../Pyblio/GnomeUI/Document.py:774
 #, python-format
 msgid ""
 "During opening:\n"
@@ -409,11 +415,11 @@ msgstr ""
 "Durante la apertura:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:806
+#: ../Pyblio/GnomeUI/Document.py:812
 msgid "Reopen error"
 msgstr "Error al reabrir"
 
-#: ../Pyblio/GnomeUI/Document.py:879
+#: ../Pyblio/GnomeUI/Document.py:885
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -422,30 +428,30 @@ msgstr ""
 "Una entrada llamada «%s» ya existe.\n"
 "¿Quiere renombrarla y añadirla de todas formas?"
 
-#: ../Pyblio/GnomeUI/Document.py:916
+#: ../Pyblio/GnomeUI/Document.py:922
 msgid "Really remove all the entries ?"
 msgstr "¿Seguro que quiere quitar todas las entradas?"
 
-#: ../Pyblio/GnomeUI/Document.py:936
+#: ../Pyblio/GnomeUI/Document.py:942
 msgid "Create new entry"
 msgstr "Crear una entrada nueva"
 
-#: ../Pyblio/GnomeUI/Document.py:950
+#: ../Pyblio/GnomeUI/Document.py:956
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "¿Seguro que quiere editar %d entradas?"
 
-#: ../Pyblio/GnomeUI/Document.py:996
+#: ../Pyblio/GnomeUI/Document.py:1002
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "¿Seguro que quiere eliminar las %d entradas?"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1004
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "¿Seguro que quiere eliminar la entrada «%s»?"
 
-#: ../Pyblio/GnomeUI/Document.py:1017
+#: ../Pyblio/GnomeUI/Document.py:1023
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -453,7 +459,7 @@ msgstr ""
 "su texto de búsqueda debe contener\n"
 "únicamente caracteres latin-1"
 
-#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
+#: ../Pyblio/GnomeUI/Document.py:1102 ../Pyblio/GnomeUI/Document.py:1110
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -462,7 +468,7 @@ msgstr ""
 "No se puede conectar con LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1219
+#: ../Pyblio/GnomeUI/Document.py:1225
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -471,19 +477,19 @@ msgstr ""
 "No se puede mostrar la documentación:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1227
+#: ../Pyblio/GnomeUI/Document.py:1233
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Este programa tiene copyright bajo la GPL de GNU"
 
-#: ../Pyblio/GnomeUI/Document.py:1228
+#: ../Pyblio/GnomeUI/Document.py:1234
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Interfaz GNOME para el sistema Pybliographer."
 
-#: ../Pyblio/GnomeUI/Document.py:1239
+#: ../Pyblio/GnomeUI/Document.py:1245
 msgid "GNOME Translation Team"
 msgstr "Equipo de traducción de GNOME"
 
-#: ../Pyblio/GnomeUI/Document.py:1244
+#: ../Pyblio/GnomeUI/Document.py:1250
 msgid "Pybliographer Home Page"
 msgstr "Página web de Pybliographer"
 

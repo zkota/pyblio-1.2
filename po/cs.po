@@ -4,21 +4,22 @@
 # This file is distributed under the same license as the pybliographer package.
 #
 # Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
-# Marek Černocký <marek@manet.cz>, 2009, 2010.
 # Petr Kovar <pknbe@volny.cz>, 2009, 2010.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-10 20:48+0200\n"
-"PO-Revision-Date: 2010-09-07 19:16+0200\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=pybliographer&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-09-22 13:25+0000\n"
+"PO-Revision-Date: 2011-09-25 14:20+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
-"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 
 #: ../Pyblio/Autoload.py:78
@@ -325,25 +326,31 @@ msgstr ""
 msgid "Your query returned no result"
 msgstr "Váš dotaz nevrátil žádný výsledek"
 
+#. error
+#: ../Pyblio/GnomeUI/Document.py:528
+#| msgid "Enter your Medline Query"
+msgid "An error occured during Medline Query"
+msgstr "Vyskytla se chyba při dotazu Medline"
+
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:534
+#: ../Pyblio/GnomeUI/Document.py:538
 msgid "Merge file"
 msgstr "Sloučit soubor"
 
-#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:632
+#: ../Pyblio/GnomeUI/Document.py:551 ../Pyblio/GnomeUI/Document.py:638
 msgid "Open error"
 msgstr "Chyba při otevírání"
 
-#: ../Pyblio/GnomeUI/Document.py:570
+#: ../Pyblio/GnomeUI/Document.py:575
 msgid "Merge status"
 msgstr "Stav sloučení"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:581
+#: ../Pyblio/GnomeUI/Document.py:586
 msgid "Open file"
 msgstr "Otevření souboru"
 
-#: ../Pyblio/GnomeUI/Document.py:619
+#: ../Pyblio/GnomeUI/Document.py:624
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -352,8 +359,8 @@ msgstr ""
 "soubor.\n"
 "Chcete jej obnovit?"
 
-#: ../Pyblio/GnomeUI/Document.py:653 ../Pyblio/GnomeUI/Document.py:794
-#: ../Pyblio/GnomeUI/Document.py:854
+#: ../Pyblio/GnomeUI/Document.py:659 ../Pyblio/GnomeUI/Document.py:800
+#: ../Pyblio/GnomeUI/Document.py:860
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -362,7 +369,7 @@ msgstr ""
 "Nelze odstranit soubor automatického ukládání „%s“:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:704
+#: ../Pyblio/GnomeUI/Document.py:710
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -371,7 +378,7 @@ msgstr ""
 "Chyba při automatickém ukládání:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:732
+#: ../Pyblio/GnomeUI/Document.py:738
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -380,7 +387,7 @@ msgstr ""
 "Nelze uložit „%s“:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:740
+#: ../Pyblio/GnomeUI/Document.py:746
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -388,11 +395,11 @@ msgstr ""
 "Při ukládání došlo k interní chybě\n"
 "Zkuste Uložit jako…"
 
-#: ../Pyblio/GnomeUI/Document.py:755
+#: ../Pyblio/GnomeUI/Document.py:761
 msgid "Save As..."
 msgstr "Uložit jako…"
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:767
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -401,7 +408,7 @@ msgstr ""
 "Soubor „%s“ již existuje.\n"
 "Přepsat jej?"
 
-#: ../Pyblio/GnomeUI/Document.py:768
+#: ../Pyblio/GnomeUI/Document.py:774
 #, python-format
 msgid ""
 "During opening:\n"
@@ -410,11 +417,11 @@ msgstr ""
 "Při otevírání:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:806
+#: ../Pyblio/GnomeUI/Document.py:812
 msgid "Reopen error"
 msgstr "Chyba při opětovném otevření"
 
-#: ../Pyblio/GnomeUI/Document.py:879
+#: ../Pyblio/GnomeUI/Document.py:885
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -423,30 +430,30 @@ msgstr ""
 "Záznam nazvaný „%s“ již existuje.\n"
 "Přejmenovat jej a přesto přidat?"
 
-#: ../Pyblio/GnomeUI/Document.py:916
+#: ../Pyblio/GnomeUI/Document.py:922
 msgid "Really remove all the entries ?"
 msgstr "Opravdu odstranit všechny záznamy?"
 
-#: ../Pyblio/GnomeUI/Document.py:936
+#: ../Pyblio/GnomeUI/Document.py:942
 msgid "Create new entry"
 msgstr "Vytvořit nový záznam"
 
-#: ../Pyblio/GnomeUI/Document.py:950
+#: ../Pyblio/GnomeUI/Document.py:956
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "Opravdu opravit %d záznamů?"
 
-#: ../Pyblio/GnomeUI/Document.py:996
+#: ../Pyblio/GnomeUI/Document.py:1002
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "Odstranit všech %d záznamů?"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1004
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "Odstranit záznam „%s“?"
 
-#: ../Pyblio/GnomeUI/Document.py:1017
+#: ../Pyblio/GnomeUI/Document.py:1023
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -454,7 +461,7 @@ msgstr ""
 "vámi hledaný text musí obsahovat\n"
 "pouze znaky latin-1"
 
-#: ../Pyblio/GnomeUI/Document.py:1096 ../Pyblio/GnomeUI/Document.py:1104
+#: ../Pyblio/GnomeUI/Document.py:1102 ../Pyblio/GnomeUI/Document.py:1110
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -463,7 +470,7 @@ msgstr ""
 "Nelze se připojit k LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1219
+#: ../Pyblio/GnomeUI/Document.py:1225
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -473,19 +480,19 @@ msgstr ""
 "%s"
 
 # Sheesh.
-#: ../Pyblio/GnomeUI/Document.py:1227
+#: ../Pyblio/GnomeUI/Document.py:1233
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Tento program je chráněn copyrightem a šířen pod podmínkami GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1228
+#: ../Pyblio/GnomeUI/Document.py:1234
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Rozhraní pro GNOME k systému Pybliographer."
 
-#: ../Pyblio/GnomeUI/Document.py:1239
+#: ../Pyblio/GnomeUI/Document.py:1245
 msgid "GNOME Translation Team"
 msgstr "Překladatelský tým GNOME"
 
-#: ../Pyblio/GnomeUI/Document.py:1244
+#: ../Pyblio/GnomeUI/Document.py:1250
 msgid "Pybliographer Home Page"
 msgstr "Domovská stránka Pybliographeru"
 
