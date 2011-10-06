@@ -1,5 +1,17 @@
 -*- text -*-
 
+New in 1.2.15 - 2011-10-06
+
+       * The documentation is now in Mallard format
+       * Updated Medline query
+       * Some Gnome cosmetics
+       * Fixed DateError bug
+       * New method to open documentation. Pybliographer
+         now requires pygtk 2.14.0 or newer
+       * Added new translations of the 
+         documentation (Gnome I18n team)
+       * Updated translations (Gnome I18n team)
+
 New in 1.2.14 - 2010-10-12
 
        * Added German translation of the 
