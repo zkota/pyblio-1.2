@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer help 1.2.15\n"
 "POT-Creation-Date: 2011-09-22 13:49+0000\n"
-"PO-Revision-Date: 2011-09-23 23:16+0100\n"
+"PO-Revision-Date: 2011-10-02 15:37+0100\n"
 "Last-Translator: Mario Blättermann <mariobl@freenet.de>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -1111,7 +1111,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-sorting.page:55(None)
-#, fuzzy
 msgid "@@image: 'figures/sort.png'; md5=c7a4506cb27428d7b2a0d10b9d3a98b2"
 msgstr "translated"
 
@@ -1179,7 +1178,6 @@ msgstr "Der Sortierdialog"
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-settings.page:34(None)
-#, fuzzy
 msgid "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
 msgstr "translated"
 
@@ -1244,7 +1242,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-searching.page:34(None)
-#, fuzzy
 msgid "@@image: 'figures/search.png'; md5=584e9a19da7d5bc43929fd7926c3602b"
 msgstr "translated"
 
@@ -1413,7 +1410,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-pubmed.page:33(None)
-#, fuzzy
 msgid "@@image: 'figures/medline.png'; md5=09532a6de80c9c22b06efefb6401558c"
 msgstr "translated"
 
@@ -1485,7 +1481,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-opening.page:32(None)
-#, fuzzy
 msgid "@@image: 'figures/open.png'; md5=ad69c2047262f00a361f1ac860773b8a"
 msgstr "translated"
 
@@ -1535,7 +1530,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-navigating.page:72(None)
-#, fuzzy
 msgid "@@image: 'figures/main.png'; md5=bf9ce1d3e626213520d3220eb46558dd"
 msgstr "translated"
 
@@ -1679,7 +1673,6 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-formats.page:33(None)
-#, fuzzy
 msgid "@@image: 'figures/format.png'; md5=734464fc1276ef9b3f2bc8cb34f2504e"
 msgstr "translated"
 
@@ -1722,14 +1715,12 @@ msgstr ""
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-edit.page:31(None)
-#, fuzzy
 msgid "@@image: 'figures/edit.png'; md5=8c5c88ea0416f223dad77ad0c5d498f4"
 msgstr "translated"
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/gui-edit.page:73(None)
-#, fuzzy
 msgid "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
 msgstr "translated"
 
