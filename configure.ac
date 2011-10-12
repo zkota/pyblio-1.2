@@ -23,8 +23,8 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.57)
 
-AC_INIT
-AM_INIT_AUTOMAKE(pybliographer, 1.2.15)
+AC_INIT([pybliographer], [1.2.15])
+AM_INIT_AUTOMAKE
 
 AC_CONFIG_SRCDIR(pybliographer.py)
 
@@ -40,9 +40,11 @@ dnl Python version
 MINIMUM_VERSION="2.2"
 
 # PACKAGERS
-AC_ARG_ENABLE(depchecks, 
-[  --disable-depchecks     skip dependency checks (while building packages for instance)],,
- enable_depchecks="yes")
+AC_ARG_ENABLE([depchecks],
+   [AS_HELP_STRING([--disable-depchecks],
+      [skip dependency checks (while building packages for instance)])],
+   [],
+   [enable_depchecks=yes])
 
 AC_MSG_CHECKING([python requirements])
 
