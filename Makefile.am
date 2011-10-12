@@ -46,9 +46,6 @@ app_DATA = pybliographic.desktop
 bin_SCRIPTS = pybliographer
 
 EXTRA_DIST = 	setup-check.py			\
-		COPYING-DOCS			\
-		xmldocs.make			\
-		omf.make			\
 		pybrc.py 			\
 	 	pybliographer.py 		\
 		etc/installer.in		\
