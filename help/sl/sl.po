@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer help master\n"
-"POT-Creation-Date: 2010-12-05 18:30+0000\n"
-"PO-Revision-Date: 2010-12-07 16:17+0100\n"
+"POT-Creation-Date: 2012-03-17 09:03+0000\n"
+"PO-Revision-Date: 2012-04-09 10:17+0200\n"
 "Last-Translator: Andrej Žnidaršič <andrej.znidarsic@gmail.com>\n"
 "Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
 "Language: \n"
@@ -21,8 +21,8 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: C/whatsnew.page:10(desc)
-msgid "New features in <app>Pybliographer</app> 1.2.14."
-msgstr "Nove zmožnosti v <app>Pybliographer</app> 1.2.14."
+msgid "New features in <app>Pybliographer</app> 1.2.15."
+msgstr "Nove zmožnosti v <app>Pybliographer</app> 1.2.15."
 
 #: C/whatsnew.page:14(name)
 #: C/typcon.page:14(name)
@@ -157,8 +157,8 @@ msgid "Creative Commons Share Alike 3.0"
 msgstr "Dovoljenje Creative Commons -  deljenje pod istimi pogoji 3.0"
 
 #: C/whatsnew.page:26(title)
-msgid "What's New in Pybliographer 1.2.14"
-msgstr "Kaj je novega v Pybliographer 1.2.14."
+msgid "What's New in Pybliographer 1.2.15"
+msgstr "Kaj je novega v Pybliographer 1.2.15."
 
 #: C/whatsnew.page:27(p)
 msgid "You can find a list of bugs fixed and features added in the <file>NEWS</file> and <file>ChangeLog</file> files supplied with the package. See the source tarball of pybliographer, or the default doc directory of your distribution (e.g. <file>/usr/share/doc/pybliographer</file>)."
@@ -197,7 +197,7 @@ msgid "<gui>Labels</gui> for buttons and other portions of the graphical interfa
 msgstr "<gui>Oznake</gui> za gumbe in druge dele grafičnega vmesnika"
 
 #: C/typcon.page:37(p)
-msgid "Menu selections look like this: <guiseq><gui>Menu </gui><gui>Submenu</gui><gui>Menu Item</gui></guiseq>"
+msgid "Menu selections look like this: <guiseq><gui>Menu</gui><gui>Submenu</gui><gui>Menu Item</gui></guiseq>"
 msgstr "Izbire menijev so videti tako: <guiseq><gui>Meni </gui><gui>Podmeni</gui><gui>Predmet menija</gui></guiseq>"
 
 #: C/typcon.page:39(p)
@@ -275,11 +275,11 @@ msgstr "Modul <em>Base</em> vsebuje nekaj najbolj osnovnih razredov, uporabljeni
 
 #: C/scripting-writeown.page:51(p)
 msgid "<em>Base.Entry</em> represents a specific bibliographic entry, with all its fields. It behaves like a hash table which returns the content of a field given its name"
-msgstr "<em>Base.Entry</em> predstavlja določen bibliografski vnos z vsemi njegovimi polji. Obnaša se kot preglednica razpršil, ki vrne vsebino danega polja glede na njegovo ime"
+msgstr "<em>Base.Entry</em> predstavlja določen bibliografski vnos z vsemi njegovimi polji. Obnaša se kot razpredelnica razpršil, ki vrne vsebino danega polja glede na njegovo ime"
 
 #: C/scripting-writeown.page:56(p)
 msgid "<em>Base.DataBase</em> is the class from which every database type inherits. It behaves like a hash table that returns a Base.Entry given a Base.Key"
-msgstr "<em>Base.DataBase</em> je razred, ki ga podeduje vsaka vrsta podatkovnih zbirk. Obnaša se kot preglednica razpršil, ki vrne Base.Entry za dan Base.Key"
+msgstr "<em>Base.DataBase</em> je razred, ki ga podeduje vsaka vrsta podatkovnih zbirk. Obnaša se kot razpredelnica razpršil, ki vrne Base.Entry za dan Base.Key"
 
 #: C/scripting-writeown.page:62(p)
 msgid "<em>Key.Key</em> is the object that uniquely identifies an entry. This object must be unique over the whole application, and is composed of a database part and an entry part."
@@ -570,9 +570,8 @@ msgstr "Za polno besedilo licence si oglejte link href=\"http://creativecommons.
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
 #: C/index.page:25(None)
-#, fuzzy
 msgid "@@image: 'figures/logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
-msgstr "@@image: 'figures/edit.png'; md5=8c5c88ea0416f223dad77ad0c5d498f4"
+msgstr "@@image: 'figures/logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
 
 #: C/index.page:7(title)
 msgid "Pybliographer manual"
@@ -1576,16 +1575,21 @@ msgstr "Andrej Žnidaršič"
 
 #~ msgid "2003-2010"
 #~ msgstr "2003-2010"
+
 #~ msgid "1999-2010"
 #~ msgstr "1999-2010"
+
 #~ msgid "Zoltán"
 #~ msgstr "Zoltán"
+
 #~ msgid "Kóta"
 #~ msgstr "Kóta"
+
 #~ msgid "Frédéric"
 #~ msgstr "Frédéric"
+
 #~ msgid "Gobry"
 #~ msgstr "Gobry"
+
 #~ msgid "1999"
 #~ msgstr "1999"
-

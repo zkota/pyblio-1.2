@@ -1,14 +1,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011.
+# Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>, 2011, 2012.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pybliographer&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-04-10 08:22+0000\n"
-"PO-Revision-Date: 2011-09-25 17:14+0300\n"
+"POT-Creation-Date: 2011-09-25 18:40+0000\n"
+"PO-Revision-Date: 2012-03-15 19:53+0200\n"
 "Last-Translator: Rūdolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
 "Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -323,35 +323,41 @@ msgstr ""
 msgid "Your query returned no result"
 msgstr "Vaicājums neatgrieza rezultātus"
 
+#. error
+#: ../Pyblio/GnomeUI/Document.py:528
+#| msgid "Enter your Medline Query"
+msgid "An error occured during Medline Query"
+msgstr "Gadījās kļūda, veicot Medline vaicājumu"
+
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:534
+#: ../Pyblio/GnomeUI/Document.py:538
 msgid "Merge file"
 msgstr "Apvienot failu"
 
-#: ../Pyblio/GnomeUI/Document.py:547 ../Pyblio/GnomeUI/Document.py:634
+#: ../Pyblio/GnomeUI/Document.py:551 ../Pyblio/GnomeUI/Document.py:638
 msgid "Open error"
 msgstr "Atvēršanas kļūda"
 
-#: ../Pyblio/GnomeUI/Document.py:571
+#: ../Pyblio/GnomeUI/Document.py:575
 msgid "Merge status"
 msgstr "Apvienošanas status"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:582
+#: ../Pyblio/GnomeUI/Document.py:586
 msgid "Open file"
 msgstr "Atvērt failu"
 
-#: ../Pyblio/GnomeUI/Document.py:620
+#: ../Pyblio/GnomeUI/Document.py:624
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
-"Tika atrasts automātiskās saglabāšanas fails, kas ir jaunāks par "
-"oriģinālo failu.\n"
+"Tika atrasts automātiskās saglabāšanas fails, kas ir jaunāks par oriģinālo "
+"failu.\n"
 "Vai vēlaties to atjaunot?"
 
-#: ../Pyblio/GnomeUI/Document.py:655 ../Pyblio/GnomeUI/Document.py:796
-#: ../Pyblio/GnomeUI/Document.py:856
+#: ../Pyblio/GnomeUI/Document.py:659 ../Pyblio/GnomeUI/Document.py:800
+#: ../Pyblio/GnomeUI/Document.py:860
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -360,7 +366,7 @@ msgstr ""
 "Nevarēja izņemt automātiskās saglabāšanas failu `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:706
+#: ../Pyblio/GnomeUI/Document.py:710
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -369,7 +375,7 @@ msgstr ""
 "Kļūda, automātiski saglabājot:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:734
+#: ../Pyblio/GnomeUI/Document.py:738
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -378,7 +384,7 @@ msgstr ""
 "Neizdevās saglabāt `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:742
+#: ../Pyblio/GnomeUI/Document.py:746
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -386,11 +392,11 @@ msgstr ""
 "Saglabājot gadījās iekšēja kļūda\n"
 "Mēģiniet Saglabāt kā..."
 
-#: ../Pyblio/GnomeUI/Document.py:757
+#: ../Pyblio/GnomeUI/Document.py:761
 msgid "Save As..."
 msgstr "Saglabāt kā..."
 
-#: ../Pyblio/GnomeUI/Document.py:763
+#: ../Pyblio/GnomeUI/Document.py:767
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
@@ -399,7 +405,7 @@ msgstr ""
 "Fails `%s' jau eksistē.\n"
 "To pārrakstīt?"
 
-#: ../Pyblio/GnomeUI/Document.py:770
+#: ../Pyblio/GnomeUI/Document.py:774
 #, python-format
 msgid ""
 "During opening:\n"
@@ -408,11 +414,11 @@ msgstr ""
 "Atverot:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:808
+#: ../Pyblio/GnomeUI/Document.py:812
 msgid "Reopen error"
 msgstr "Atkal-atvēršanas kļūda"
 
-#: ../Pyblio/GnomeUI/Document.py:881
+#: ../Pyblio/GnomeUI/Document.py:885
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
@@ -421,30 +427,30 @@ msgstr ""
 "Ieraksts ar nosaukumu `%s' jau eksistē.\n"
 "Tomēr pārsaukt un pievienot?"
 
-#: ../Pyblio/GnomeUI/Document.py:918
+#: ../Pyblio/GnomeUI/Document.py:922
 msgid "Really remove all the entries ?"
 msgstr "Tiešam izņemt visus ierakstus?"
 
-#: ../Pyblio/GnomeUI/Document.py:938
+#: ../Pyblio/GnomeUI/Document.py:942
 msgid "Create new entry"
 msgstr "Izveidot jaunu ierakstu"
 
-#: ../Pyblio/GnomeUI/Document.py:952
+#: ../Pyblio/GnomeUI/Document.py:956
 #, python-format
 msgid "Really edit %d entries ?"
 msgstr "Tiešām rediģēt %d ierakstus?"
 
-#: ../Pyblio/GnomeUI/Document.py:998
+#: ../Pyblio/GnomeUI/Document.py:1002
 #, python-format
 msgid "Remove all the %d entries ?"
 msgstr "Izņemt visus %d ierakstus?"
 
-#: ../Pyblio/GnomeUI/Document.py:1000
+#: ../Pyblio/GnomeUI/Document.py:1004
 #, python-format
 msgid "Remove entry `%s' ?"
 msgstr "Izņemt ierakstu `%s' ?"
 
-#: ../Pyblio/GnomeUI/Document.py:1019
+#: ../Pyblio/GnomeUI/Document.py:1023
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -452,7 +458,7 @@ msgstr ""
 "meklējamais teksts drīkst saturēt tikai \n"
 "latin-1 rakstzīmes"
 
-#: ../Pyblio/GnomeUI/Document.py:1098 ../Pyblio/GnomeUI/Document.py:1106
+#: ../Pyblio/GnomeUI/Document.py:1102 ../Pyblio/GnomeUI/Document.py:1110
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -461,7 +467,7 @@ msgstr ""
 "Nevar savienoties ar LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1221
+#: ../Pyblio/GnomeUI/Document.py:1225
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -470,19 +476,19 @@ msgstr ""
 "Nevar attēlot dokumentāciju:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1229
+#: ../Pyblio/GnomeUI/Document.py:1233
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Šī programma ir licencēta ar GNU GPL licenci"
 
-#: ../Pyblio/GnomeUI/Document.py:1230
+#: ../Pyblio/GnomeUI/Document.py:1234
 msgid "GNOME interface to the Pybliographer system."
 msgstr "GNOME saskarne Pybliographer sistēmai."
 
-#: ../Pyblio/GnomeUI/Document.py:1241
+#: ../Pyblio/GnomeUI/Document.py:1245
 msgid "GNOME Translation Team"
 msgstr "GNOME tulkotāju komanda"
 
-#: ../Pyblio/GnomeUI/Document.py:1246
+#: ../Pyblio/GnomeUI/Document.py:1250
 msgid "Pybliographer Home Page"
 msgstr "Pybliographer tīmekļa vietne"
 
