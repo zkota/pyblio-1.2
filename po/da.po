@@ -1188,45 +1188,45 @@ msgstr "Håndter bibliografiske databaser"
 msgid "Pybliographic Bibliography Manager"
 msgstr "Pybliographic - bibliografihåndtering"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr "brug: pybcheck <fil | mappe>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "brug: pybliocheck <fil | mappe>..."
 
 # .././Pyblio/Open.py:105 :151
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "fil '%s' er okay [%d indgange]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "brug: pybcompact <latexfil> <bibtexfiler...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "brug: pybliocompact <latexfil> <bibtexfiler...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: fejl: %s\n"
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: fejl: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "ingen indgang"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "kan ikke finde de følgende indgange: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "brug: pybconvert <kilde>..<mål> <inddata> [uddata]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "brug: pyblioconvert <kilde>..<mål> <inddata> [uddata]"
 
-#: ../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: fejl: dårligt konverteringsformat"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
+msgstr "pyblioconvert: fejl: dårligt konverteringsformat"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1238,7 +1238,7 @@ msgid ""
 "      -h, --help\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"brug: pybformat [indstillinger] <database...>\n"
+"brug: pyblioformat [indstillinger] <database...>\n"
 "\n"
 "    indstillinger:\n"
 "      -o fil, --output=fil\t\tangiv et uddatafilnavn\n"
@@ -1250,134 +1250,134 @@ msgstr ""
 "      -h, --help\t\t\tvis denne hjælpetekst\n"
 "    "
 
-#: ../scripts/pybformat.py:48
+#: ../scripts/pyblioformat.py:48
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: fejl: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: fejl: %s\n"
 
-#: ../scripts/pybformat.py:54
+#: ../scripts/pyblioformat.py:54
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: advarsel: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: advarsel: %s\n"
 
-#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:93 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "kan ikke åbne '%s': %s"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr "ukendt liste '%s'"
 
-#: ../scripts/pybformat.py:103
+#: ../scripts/pyblioformat.py:103
 #, python-format
-msgid "pybformat: available values for `%s':"
-msgstr "pybformat: tilgængelige værdier for '%s':"
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: tilgængelige værdier for '%s':"
 
-#: ../scripts/pybformat.py:107
+#: ../scripts/pyblioformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr "tom værdiliste '%s'"
 
-#: ../scripts/pybformat.py:129
+#: ../scripts/pyblioformat.py:129
 msgid "too few arguments"
 msgstr "for få argumenter"
 
-#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:136 ../scripts/pybliotext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "ukendt uddataformat '%s'"
 
-#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:149 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "kan ikke finde stil '%s'"
 
-#: ../scripts/pybformat.py:152
+#: ../scripts/pyblioformat.py:152
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: bruger stil '%s', format '%s'\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: bruger stil '%s', format '%s'\n"
 
-#: ../scripts/pybformat.py:167
+#: ../scripts/pyblioformat.py:167
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "kan ikke åbne teksthoved '%s': %s"
 
-#: ../scripts/pybformat.py:175
+#: ../scripts/pyblioformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr "kan ikke åbne database: %s"
 
-#: ../scripts/pybformat.py:190
+#: ../scripts/pyblioformat.py:190
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "kan ikke åbne fodnote '%s': %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "brug: pybtex <latexfil> [bibtexfiler...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "brug: pybliotex <latexfil> [bibtexfiler...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: fejl: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: fejl: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: advarsel: de følgende nøgler blev ikke løst"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: advarsel: de følgende nøgler blev ikke løst"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "ingen stil defineret"
 
-#: ../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr "brug: pybtext [-o uddatafil] [-s stil] <tekstfil> <bibfiler...>"
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+msgstr "brug: pybliotext [-o uddatafil] [-s stil] <tekstfil> <bibfiler...>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-msgid "pybtext: error: %s\n"
-msgstr "pybtext: fejl: %s\n"
+msgid "pybliotext: error: %s\n"
+msgstr "pybliotext: fejl: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-msgid "pybtext: warning: %s\n"
-msgstr "pybtext: advarsel: %s\n"
+msgid "pybliotext: warning: %s\n"
+msgstr "pybliotext: advarsel: %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 msgid "File already exists: `%s'"
 msgstr "Fil findes allerede: '%s'"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "En fil med det samme navn findes allerede: '%s'"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "ingen citering fundet"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: bruger stil '%s', format '%s'\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: bruger stil '%s', format '%s'\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 msgid "can't create `%s'"
 msgstr "kan ikke oprette '%s'"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 msgid "can't remove `%s'"
 msgstr "kan ikke fjerne '%s'"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Færdig"

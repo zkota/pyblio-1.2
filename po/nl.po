@@ -1101,44 +1101,44 @@ msgstr "Bibliografische gegevensbanken beheren"
 msgid "Pybliographic Bibliography Manager"
 msgstr "Pybliografische Bibliografiebeheerder"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr "gebruik: pybcheck <bestand | map>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "gebruik: pybliocheck <bestand | map>..."
 
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "bestand `%s' is goed [%d ingangen]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "gebruik: pybcompact <latexbestand> <bibtexbestanden...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "gebruik: pybliocompact <latexbestand> <bibtexbestanden...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: fout: %s\n"
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: fout: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "geen ingang"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "kan de volgende ingangen niet vinden: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "gebruik: pybconvert <bron>..<doel> <invoer> [uitvoer]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "gebruik: pyblioconvert <bron>..<doel> <invoer> [uitvoer]"
 
-#: ../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: fout: slecht conversieformaat"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
+msgstr "pyblioconvert: fout: slecht conversieformaat"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1151,7 +1151,7 @@ msgid ""
 "      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"gebruik: pybformat [opties] <gegevensbank...>\n"
+"gebruik: pyblioformat [opties] <gegevensbank...>\n"
 "\n"
 "    opties:\n"
 "      -o BESTAND, --output=BESTAND\t\teen uitvoerbestandsnaam opgeven\n"
@@ -1164,137 +1164,137 @@ msgstr ""
 "      -v, --version\t\t\tdit hulpbericht weergeven\n"
 "    "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pyblioformat.py:49
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: fout: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: fout: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pyblioformat.py:55
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: waarschuwing: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: waarschuwing: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:90 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "kan `%s' niet openen: %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pyblioformat.py:97
 #, python-format
 msgid "unknown list `%s'"
 msgstr "onbekende lijst `%s'"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
-msgid "pybformat: available values for `%s':"
-msgstr "pybformat: beschikbare waarden voor `%s':"
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: beschikbare waarden voor `%s':"
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pyblioformat.py:104
 #, python-format
 msgid "empty value list `%s'"
 msgstr "lege waardenlijst `%s'"
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pyblioformat.py:132
 msgid "too few arguments"
 msgstr "te weinig argumenten"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:139 ../scripts/pybliotext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "onbekend uitvoerformaat: `%s'"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:152 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "kan stijl `%s' niet vinden"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pyblioformat.py:155
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: stijl `%s' en formaat `%s' worden gebruikt\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: stijl `%s' en formaat `%s' worden gebruikt\n"
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pyblioformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "kan kop niet openen: `%s': %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pyblioformat.py:178
 #, python-format
 msgid "can't open database: %s"
 msgstr "kan gegevensbank niet openen: %s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pyblioformat.py:193
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "kan voeter `%s' niet openen: %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "gebruik: pybtex <latexbestand> [bibtexbestanden...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "gebruik: pybliotex <latexbestand> [bibtexbestanden...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: fout: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: fout: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: waarschuwing: de volgende sleutels kon niet worden gevonden"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: waarschuwing: de volgende sleutels kon niet worden gevonden"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "geen stijl gedefinieerd"
 
-#: ../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 msgstr ""
-"gebruik: pybtext [-o uitvoerbestand] [-s stijl] <tekstbestand> "
+"gebruik: pybliotext [-o uitvoerbestand] [-s stijl] <tekstbestand> "
 "<bibbestanden...>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-msgid "pybtext: error: %s\n"
-msgstr "pybtext: fout: %s\n"
+msgid "pybliotext: error: %s\n"
+msgstr "pybliotext: fout: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-msgid "pybtext: warning: %s\n"
-msgstr "pybtext: waarschuwing: %s\n"
+msgid "pybliotext: warning: %s\n"
+msgstr "pybliotext: waarschuwing: %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 msgid "File already exists: `%s'"
 msgstr "Bestand bestaat al: `%s'"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "Een bestand met dezelfde naam bestaat al: `%s'"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "geen citatie gevonden"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: stijl `%s' en formaat `%s' worden gebruikt\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: stijl `%s' en formaat `%s' worden gebruikt\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 msgid "can't create `%s'"
 msgstr "kan `%s' niet maken"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 msgid "can't remove `%s'"
 msgstr "kan `%s' niet verwijderen"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Klaar"
 

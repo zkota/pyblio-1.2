@@ -1129,44 +1129,44 @@ msgstr "Hallitse lähdetietokantoja"
 msgid "Pybliographic Bibliography Manager"
 msgstr "Pybliographic lähdeluettelojen hallinta"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr "käyttö: pybcheck <tiedosto|kansio>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "käyttö: pybliocheck <tiedosto|kansio>..."
 
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "Tiedosto \"%s\" on ok [%d kohtaa]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "usage: pybcompact <latex-tiedosto> <bibtex-tiedostot...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "usage: pybliocompact <latex-tiedosto> <bibtex-tiedostot...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: virhe: %s\n"
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: virhe: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "ei merkintöjä"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "seuraavia merkintöjä ei löydy: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "käyttö: pybconvert <lähde>..<kohde> <syöte> [tuloste]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "käyttö: pyblioconvert <lähde>..<kohde> <syöte> [tuloste]"
 
-#: ../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
 msgstr "pybconvertin virhe: väärä muunnosmuoto"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1179,7 +1179,7 @@ msgid ""
 "      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"käyttö: pybformat [valitsimet] <tietokanta...>\n"
+"käyttö: pyblioformat [valitsimet] <tietokanta...>\n"
 "\n"
 "    valitsimet:\n"
 "      -o tiedosto, --output=tiedost\t\tanna tulostiedoston nimi\n"
@@ -1192,136 +1192,136 @@ msgstr ""
 "      -v, --version\t\t\tnäyttää tämän ohjeviestin\n"
 "    "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pyblioformat.py:49
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: virhe: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: virhe: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pyblioformat.py:55
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: varoitus: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: varoitus: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:90 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "tiedostoa \"%s\" ei voi avata: %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pyblioformat.py:97
 #, python-format
 msgid "unknown list `%s'"
 msgstr "tuntematon lista \"%s\""
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
-msgid "pybformat: available values for `%s':"
-msgstr "pybformat: saatavilla olevat arvot kentälle \"%s\":"
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: saatavilla olevat arvot kentälle \"%s\":"
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pyblioformat.py:104
 #, python-format
 msgid "empty value list `%s'"
 msgstr "tyhjä arvolista \"%s\""
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pyblioformat.py:132
 msgid "too few arguments"
 msgstr "liian vähän argumentteja"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:139 ../scripts/pybliotext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "tuntematon tulosmuoto \"%s\""
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:152 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "tyyliä '%s' ei löydy"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pyblioformat.py:155
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: käytetään tyyliä \"%s\", muotoilua \"%s\"\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: käytetään tyyliä \"%s\", muotoilua \"%s\"\n"
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pyblioformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "Yläviitettä \"%s\" ei voi avata: %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pyblioformat.py:178
 #, python-format
 msgid "can't open database: %s"
 msgstr "Tietokantaa ei voi avata: %s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pyblioformat.py:193
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "Alaviitettä \"%s\" ei voi avata: %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "käyttö: pybtex <latex-tiedosto> [bibtex-tiedostot...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "käyttö: pybliotex <latex-tiedosto> [bibtex-tiedostot...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: virhe: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: virhe: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: varoitus: ei voitu selvittää seuraavia avaimia"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: varoitus: ei voitu selvittää seuraavia avaimia"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "tyyliä ei ole määritelty"
 
-#: ../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr "käyttö: pybtext [-o tulostiedosto] [-s tyyli] <tekstitiedosto> "
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+msgstr "käyttö: pybliotext [-o tulostiedosto] [-s tyyli] <tekstitiedosto> "
 "<lähdetiedostot>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-msgid "pybtext: error: %s\n"
+msgid "pybliotext: error: %s\n"
 msgstr "pybtextin virhe: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-msgid "pybtext: warning: %s\n"
+msgid "pybliotext: warning: %s\n"
 msgstr "pybtextin varoitus: %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 msgid "File already exists: `%s'"
 msgstr "Tiedosto \"%s\" on jo olemassa"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "Saman niminen tieosto on jo olemassa: %s"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "lainausta ei löydy"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: käytetään tyyliä \"%s\", muotoilua \"%s\"\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: käytetään tyyliä \"%s\", muotoilua \"%s\"\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 msgid "can't create `%s'"
 msgstr "Tiedostoa \"%s\" ei voi luoda"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 msgid "can't remove `%s'"
 msgstr "Tiedostoa \"%s\" ei voi poistaa"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Valmis"
 
@@ -1494,8 +1494,8 @@ msgstr "Valmis"
 #~ msgid "Use this sort criterion as the default for new files"
 #~ msgstr "Käytä tätä järjestysmäärittelyä oletuksena uusille tiedostoille"
 
-#~ msgid "usage: pybformat [bibtexfiles...]\n"
-#~ msgstr "käyttö: pybformat [bibtex-tiedostot...]\n"
+#~ msgid "usage: pyblioformat [bibtexfiles...]\n"
+#~ msgstr "käyttö: pyblioformat [bibtex-tiedostot...]\n"
 
 #~ msgid "Submit a Bug Report"
 #~ msgstr "Lähetä virheraportti"

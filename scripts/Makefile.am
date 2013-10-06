@@ -22,31 +22,31 @@
 pybdir  = $(datadir)/$(PACKAGE)
 
 bin_SCRIPTS = 	pybliographic	\
-		pybcheck	\
-		pybconvert	\
-		pybcompact	\
-		pybtex		\
-		pybformat	\
-		pybtext
+		pybliocheck	\
+		pyblioconvert	\
+		pybliocompact	\
+		pybliotex	\
+		pyblioformat	\
+		pybliotext
 
 pyb_DATA = 	pybliographic.py	\
-		pybcheck.py 		\
-		pybconvert.py 		\
-		pybcompact.py 		\
-		pybtex.py		\
-		pybformat.py		\
-		pybtext.py	
+		pybliocheck.py 		\
+		pyblioconvert.py 	\
+		pybliocompact.py 	\
+		pybliotex.py		\
+		pyblioformat.py		\
+		pybliotext.py
 
 noinst_SCRIPTS = pybscript
 
 EXTRA_DIST = 	pybscript.in			\
 	 	pybliographic.py 		\
-		pybcheck.py			\
-		pybconvert.py			\
-		pybtex.py			\
-		pybformat.py			\
-		pybcompact.py			\
-		pybtext.py
+		pybliocheck.py			\
+		pyblioconvert.py		\
+		pybliotex.py			\
+		pyblioformat.py			\
+		pybliocompact.py		\
+		pybliotext.py
 
 #pybliographic pybcheck pybconvert pybcompact pybtex pybformat pybtext:
 $(bin_SCRIPTS):

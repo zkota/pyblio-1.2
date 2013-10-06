@@ -3,23 +3,23 @@
 # Copyright (C) 2010 pybliographer's COPYRIGHT HOLDER
 # This file is distributed under the same license as the pybliographer package.
 # Jorge González <jorgegonz@svn.gnome.org>, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2010, 2011, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.help.master\n"
-"POT-Creation-Date: 2011-09-22 13:49+0000\n"
-"PO-Revision-Date: 2011-09-22 17:39+0200\n"
+"POT-Creation-Date: 2013-09-01 20:04+0000\n"
+"PO-Revision-Date: 2013-09-03 14:53+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
 "X-Generator: KBabel 1.11.4\n"
 
 #: C/whatsnew.page:10(desc)
-#| msgid "New features in <app>Pybliographer</app> 1.2.14."
 msgid "New features in <app>Pybliographer</app> 1.2.15."
 msgstr "Nuevas funcionalidades en <app>Pybliographer</app> 1.2.15."
 
@@ -96,7 +96,6 @@ msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Compartir Igual 3.0"
 
 #: C/whatsnew.page:26(title)
-#| msgid "What's New in Pybliographer 1.2.14"
 msgid "What's New in Pybliographer 1.2.15"
 msgstr "Lo nuevo de Pybliographer 1.2.15"
 
@@ -326,8 +325,9 @@ msgstr ""
 "conocimiento básico de <app>Python</app>."
 
 #: C/scripting-existing.page:33(title)
-msgid "pybcheck"
-msgstr "pybcheck"
+#| msgid "pybcheck"
+msgid "pybliocheck"
+msgstr "pybliocheck"
 
 #: C/scripting-existing.page:36(p)
 msgid ""
@@ -338,22 +338,29 @@ msgstr ""
 "válidos (sintaxis, que no haya entradas con la misma clave, etc.)"
 
 #: C/scripting-existing.page:40(p)
+#| msgid ""
+#| "It is possible to use its output directly in an emacs compile buffer, in "
+#| "order to jump directly to the encountered errors. To do so, type "
+#| "<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, then the "
+#| "command <cmd>pybcheck <var>yourfiles</var></cmd>, and use the middle "
+#| "button of the mouse to jump into the faulty file."
 msgid ""
 "It is possible to use its output directly in an emacs compile buffer, in "
 "order to jump directly to the encountered errors. To do so, type "
 "<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, then the "
-"command <cmd>pybcheck <var>yourfiles</var></cmd>, and use the middle button "
-"of the mouse to jump into the faulty file."
+"command <cmd>pybliocheck <var>yourfiles</var></cmd>, and use the middle "
+"button of the mouse to jump into the faulty file."
 msgstr ""
 "Es posible usar su salida directamente en un búfer de compilación de emacs, "
 "para saltar directamente a los errores encontrados. Para hacerlo, escriba "
 "<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, y el comando "
-"<cmd>pybcheck <var>yourfiles</var></cmd>, y use el botón central para saltar "
-"al archivo que ha fallado."
+"<cmd>pybliocheck <var>yourfiles</var></cmd>, y use el botón central para "
+"saltar al archivo que ha fallado."
 
 #: C/scripting-existing.page:49(title)
-msgid "pybcompact"
-msgstr "pybcompact"
+#| msgid "pybcompact"
+msgid "pybliocompact"
+msgstr "pybliocompact"
 
 #: C/scripting-existing.page:52(p)
 msgid ""
@@ -383,8 +390,9 @@ msgstr ""
 "bases de datos BibTeX especificadas."
 
 #: C/scripting-existing.page:68(title)
-msgid "pybconvert"
-msgstr "pybconvert"
+#| msgid "pybconvert"
+msgid "pyblioconvert"
+msgstr "pyblioconvert"
 
 #: C/scripting-existing.page:71(p)
 msgid "This tool converts from one bibliographic format to another."
@@ -400,18 +408,23 @@ msgstr ""
 
 #: C/scripting-existing.page:78(screen)
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+#| "      "
 msgid ""
 "\n"
-"\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
 "      "
 msgstr ""
 "\n"
-"\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
 "      "
 
 #: C/scripting-existing.page:84(title) C/scripting-existing.page:94(cmd)
-msgid "pybformat"
-msgstr "pybformat"
+#| msgid "pybformat"
+msgid "pyblioformat"
+msgstr "pyblioformat"
 
 #: C/scripting-existing.page:87(p)
 msgid ""
@@ -504,8 +517,8 @@ msgstr ""
 "salida disponibles"
 
 #: C/scripting-existing.page:136(title)
-msgid "pybtex"
-msgstr "pybtex"
+msgid "pybliotex"
+msgstr "pybliotex"
 
 #: C/scripting-existing.page:139(p)
 msgid ""
@@ -531,18 +544,23 @@ msgstr "El formato del comando es"
 
 #: C/scripting-existing.page:148(screen)
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "\t<output>bash$ </output><cmd>pybtex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
+#| "      "
 msgid ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
+"\t<output>bash$ </output><cmd>pybliotex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
 "      "
 msgstr ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtex</cmd> <file>archivo-latex</file> [<file>archivos-bibtex</file>...]\n"
+"\t<output>bash$ </output><cmd>pybliotex</cmd> <file>archivo-latex</file> [<file>archivos-bibtex</file>...]\n"
 "      "
 
 #: C/scripting-existing.page:154(title)
-msgid "pybtext"
-msgstr "pybtext"
+#| msgid "pybtext"
+msgid "pybliotext"
+msgstr "pybliotext"
 
 #: C/scripting-existing.page:157(p)
 msgid ""
@@ -583,13 +601,17 @@ msgstr ""
 
 #: C/scripting-existing.page:177(screen)
 #, no-wrap
+#| msgid ""
+#| "\n"
+#| "\t<output>bash$ </output><cmd>pybtext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
+#| "      "
 msgid ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
 "      "
 msgstr ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtext</cmd> [-o archivo_de_salida] [-s style] <file>archivo_de_texto</file> <file>archivos_bib...</file>\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o archivo_de_salida] [-s estilo] <file>archivo_de_texto</file> <file>archivos_bib...</file>\n"
 "      "
 
 #: C/scripting-existing.page:181(p)
@@ -606,8 +628,18 @@ msgstr ""
 "bibliográficas."
 
 #: C/scripting-existing.page:187(p)
+#| msgid ""
+#| "There are three different <em>styles</em> which are designed for pybtext. "
+#| "Using <em>abbrvbib</em> results in keys as they are defined in the "
+#| "database. With the style <em>abbrvau</em>, author-year type keys (e.g. "
+#| "Jackson et al., 2004) can be generated. Using <em>abbrvnum</em>, the "
+#| "script produces a simple numbered list. For abbrvau and abbrvnum, the "
+#| "formats Textau and Textnum are used, respectively. They are just simple "
+#| "modifications of the Text format, optimized for these styles. Using other "
+#| "styles (Alpha, Abbrev or apa4e), the text body is not processed, but the "
+#| "reference list is appended in the form that corresponds to the used style."
 msgid ""
-"There are three different <em>styles</em> which are designed for pybtext. "
+"There are three different <em>styles</em> which are designed for pybliotext. "
 "Using <em>abbrvbib</em> results in keys as they are defined in the database. "
 "With the style <em>abbrvau</em>, author-year type keys (e.g. Jackson et al., "
 "2004) can be generated. Using <em>abbrvnum</em>, the script produces a "
@@ -617,7 +649,7 @@ msgid ""
 "or apa4e), the text body is not processed, but the reference list is "
 "appended in the form that corresponds to the used style."
 msgstr ""
-"Hay tres <em>estilos</em> diferentes diseñados para pybtext. Usando "
+"Hay tres <em>estilos</em> diferentes diseñados para pybliotext. Usando "
 "<em>abbrvbib</em> las claves son como se han definido en la base de datos. "
 "Con el estilo <em>abbrvau</em>, se puede generar las claves tipo autor-año "
 "(ej. Jackson et al., 2004). Usando <em>abbrvnum</em>, el script produce una "
@@ -2426,6 +2458,9 @@ msgid "translator-credits"
 msgstr ""
 "Jorge González <jorgegonz@svn.gnome.org>, 2010\n"
 "Daniel Mustieles <daniel.mustieles@gmail.com>, 2010"
+
+#~ msgid "pybtex"
+#~ msgstr "pybtex"
 
 #~ msgid ""
 #~ "Pybliographer is a tool for managing bibliographic databases. It can be "

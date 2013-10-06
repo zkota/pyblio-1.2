@@ -23,7 +23,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ(2.57)
 
-AC_INIT([pybliographer], [1.2.15])
+AC_INIT([pybliographer], [1.2.16])
 AM_INIT_AUTOMAKE
 
 AC_CONFIG_SRCDIR(pybliographer.py)

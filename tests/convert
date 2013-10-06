@@ -4,7 +4,7 @@
 
 tst_start
 
-com="../pybliographer -q ${srcdir}/../scripts/pybconvert.py"
+com="../pybliographer -q ${srcdir}/../scripts/pyblioconvert.py"
 
 for file in medline pubmed ; do
 

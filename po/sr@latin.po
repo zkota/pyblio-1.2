@@ -1204,46 +1204,46 @@ msgstr "Upravljajte bazama bibliografskih podataka"
 msgid "Pybliographic Bibliography Manager"
 msgstr "Pibliotekar bibliografski upravnik"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr "upotreba: pybcheck <datoteka | direktorijum>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "upotreba: pybliocheck <datoteka | direktorijum>..."
 
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 #| msgid "File `%s' does not exist"
 msgid "file `%s' is ok [%d entries]"
 msgstr "datoteka „%s“ je u redu [%d stavke]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "upotreba: pybcompact <lateks-datoteka> <bibteks-datoteke...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "upotreba: pybliocompact <lateks-datoteka> <bibteks-datoteke...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: greška: %s\n"
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: greška: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "nema unosa"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "ne mogu da nađem naredne unose: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "upotreba: pybconvert <izvor>..<odredište> <ulaz> [izlaz]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "upotreba: pyblioconvert <izvor>..<odredište> <ulaz> [izlaz]"
 
-#: ../scripts/pybconvert.py:38
-#| msgid "pybconvert: bad conversion format"
-msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: greška: loš oblik pretvaranja"
+#: ../scripts/pyblioconvert.py:38
+#| msgid "pyblioconvert: bad conversion format"
+msgid "pyblioconvert: error: bad conversion format"
+msgstr "pyblioconvert: greška: loš oblik pretvaranja"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1255,7 +1255,7 @@ msgid ""
 "      -h, --help\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"upotreba: pybformat [mogućnosti] <baza-podataka...>\n"
+"upotreba: pyblioformat [mogućnosti] <baza-podataka...>\n"
 "\n"
 "    mogućnosti:\n"
 "      -o datoteka, --output=datoteka    navodi naziv izlazne datoteke\n"
@@ -1267,18 +1267,18 @@ msgstr ""
 "      -h,          --help\t\tprikazuje ovu poruku pomoći\n"
 "    "
 
-#: ../scripts/pybformat.py:48
+#: ../scripts/pyblioformat.py:48
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: greška: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: greška: %s\n"
 
-#: ../scripts/pybformat.py:54
+#: ../scripts/pyblioformat.py:54
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: upozorenje: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: upozorenje: %s\n"
 
-#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:93 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #, python-format
 #| msgid ""
 #| "can't open file `%s' for writing:\n"
@@ -1286,43 +1286,43 @@ msgstr "pybformat: upozorenje: %s\n"
 msgid "can't open `%s': %s"
 msgstr "ne mogu da otvorim „%s“: %s"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr "nepoznat spisak „%s“"
 
-#: ../scripts/pybformat.py:103
+#: ../scripts/pyblioformat.py:103
 #, python-format
-msgid "pybformat: available values for `%s':"
-msgstr "pybformat: dostupne vrednosti za „%s“:"
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: dostupne vrednosti za „%s“:"
 
-#: ../scripts/pybformat.py:107
+#: ../scripts/pyblioformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr "prazan spisak vrednosti „%s“"
 
-#: ../scripts/pybformat.py:129
+#: ../scripts/pyblioformat.py:129
 msgid "too few arguments"
 msgstr "premalo argumenata"
 
-#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:136 ../scripts/pybliotext.py:117
 #, python-format
 #| msgid "no output pipe `%s'"
 msgid "unknown output format `%s'"
 msgstr "nepoznat izlazni oblik „%s“"
 
-#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:149 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "ne mogu da nađem stil „%s“"
 
-#: ../scripts/pybformat.py:152
+#: ../scripts/pyblioformat.py:152
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: koristim stil „%s“, oblika „%s“\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: koristim stil „%s“, oblika „%s“\n"
 
-#: ../scripts/pybformat.py:167
+#: ../scripts/pyblioformat.py:167
 #, python-format
 #| msgid ""
 #| "can't open file `%s' for writing:\n"
@@ -1330,12 +1330,12 @@ msgstr "pybformat: koristim stil „%s“, oblika „%s“\n"
 msgid "can't open header `%s': %s"
 msgstr "ne mogu da otvorim zaglavlje „%s“: %s"
 
-#: ../scripts/pybformat.py:175
+#: ../scripts/pyblioformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr "ne mogu da otvorim bazu podataka: %s"
 
-#: ../scripts/pybformat.py:190
+#: ../scripts/pyblioformat.py:190
 #, python-format
 #| msgid ""
 #| "can't open file `%s' for writing:\n"
@@ -1343,77 +1343,77 @@ msgstr "ne mogu da otvorim bazu podataka: %s"
 msgid "can't open footer `%s': %s"
 msgstr "ne mogu da otvorim podnožje „%s“: %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "upotreba: pybtex <lateks-datoteka> [bibteks-datoteke...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "upotreba: pybliotex <lateks-datoteka> [bibteks-datoteke...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: greška: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: greška: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: upozorenje: naredni ključevi nisu razrešeni"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: upozorenje: naredni ključevi nisu razrešeni"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "stil nije određen"
 
-#: ../scripts/pybtext.py:41
-#| msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+#: ../scripts/pybliotext.py:41
+#| msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 msgstr ""
-"upotreba: pybtext [-o izlazna datoteka] [-s stil] <datoteka teksta> "
+"upotreba: pybliotext [-o izlazna datoteka] [-s stil] <datoteka teksta> "
 "<datoteka bibliografije...>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-#| msgid "pybtex: error: %s\n"
-msgid "pybtext: error: %s\n"
-msgstr "pybtext: greška: %s\n"
+#| msgid "pybliotex: error: %s\n"
+msgid "pybliotext: error: %s\n"
+msgstr "pybliotext: greška: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-#| msgid "pybformat: warning: %s\n"
-msgid "pybtext: warning: %s\n"
-msgstr "pybtext: upozorenje: %s\n"
+#| msgid "pyblioformat: warning: %s\n"
+msgid "pybliotext: warning: %s\n"
+msgstr "pybliotext: upozorenje: %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 #| msgid "Key `%s' already exists"
 msgid "File already exists: `%s'"
 msgstr "Datoteka već postoji: „%s“"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "Datoteka sa istim nazivom već postoji: „%s“"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "nije pronađen citat"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: koristim stil „%s“, oblika „%s“\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: koristim stil „%s“, oblika „%s“\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 #| msgid "can't find style `%s'"
 msgid "can't create `%s'"
 msgstr "ne mogu da napravim „%s“"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 #| msgid "can't find style `%s'"
 msgid "can't remove `%s'"
 msgstr "ne mogu da uklonim „%s“"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Urađeno"
 
@@ -1426,8 +1426,8 @@ msgstr "Urađeno"
 #~ msgid "Delete..."
 #~ msgstr "Obriši..."
 
-#~ msgid "usage: pybformat [bibtexfiles...]\n"
-#~ msgstr "upotrba: pybformat [bibteh-datoteke...]\n"
+#~ msgid "usage: pyblioformat [bibtexfiles...]\n"
+#~ msgstr "upotrba: pyblioformat [bibteh-datoteke...]\n"
 
 #~ msgid "Choose your preferences"
 #~ msgstr "Izaberite vaše postavke"

@@ -553,59 +553,59 @@ msgstr ""
 "\thelp    biraz yardım almaq üçün\n"
 "\tquit    çıxmaq üçün\n"
 
-#: ../scripts/pybcompact.py:29
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "istifadə qaydası: pybcompact <latexfaylı> <bibtexfaylları...>"
+#: ../scripts/pybliocompact.py:29
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "istifadə qaydası: pybliocompact <latexfaylı> <bibtexfaylları...>"
 
-#: ../scripts/pybcompact.py:33
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: xəta: %s\n"
+#: ../scripts/pybliocompact.py:33
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: xəta: %s\n"
 
-#: ../scripts/pybcompact.py:96
+#: ../scripts/pybliocompact.py:96
 msgid "no entry"
 msgstr "giriş yoxdur"
 
-#: ../scripts/pybcompact.py:141
+#: ../scripts/pybliocompact.py:141
 msgid "can't find the following entries: %s"
 msgstr "yandaki giriş tapılmadı: %s"
 
-#: ../scripts/pybconvert.py:28
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "kullanım: pybconvert <kaynak>..<hedef> <girdi> [çıktı]"
+#: ../scripts/pyblioconvert.py:28
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "kullanım: pyblioconvert <kaynak>..<hedef> <girdi> [çıktı]"
 
-#: ../scripts/pybconvert.py:37
-msgid "pybconvert: bad conversion format"
-msgstr "pybconvert: kötü çevirme şəkli"
+#: ../scripts/pyblioconvert.py:37
+msgid "pyblioconvert: bad conversion format"
+msgstr "pyblioconvert: kötü çevirme şəkli"
 
-#: ../scripts/pybformat.py:33
-msgid "usage: pybformat [bibtexfiles...]\n"
-msgstr "kullanım: pybformat [bibtexfaylları...]\n"
+#: ../scripts/pyblioformat.py:33
+msgid "usage: pyblioformat [bibtexfiles...]\n"
+msgstr "kullanım: pyblioformat [bibtexfaylları...]\n"
 
-#: ../scripts/pybformat.py:37
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: xəta: %s\n"
+#: ../scripts/pyblioformat.py:37
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: xəta: %s\n"
 
-#: ../scripts/pybformat.py:43
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: xəbərdarlıq: %s\n"
+#: ../scripts/pyblioformat.py:43
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: xəbərdarlıq: %s\n"
 
-#: ../scripts/pybformat.py:140 ../scripts/pybtex.py:85
+#: ../scripts/pyblioformat.py:140 ../scripts/pybliotex.py:85
 msgid "can't find style `%s'"
 msgstr "tərz `%s' tapılmadı"
 
-#: ../scripts/pybtex.py:33
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "kullanım: pybtex <latexfaylı> [bibtexfaylları...]"
+#: ../scripts/pybliotex.py:33
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "kullanım: pybliotex <latexfaylı> [bibtexfaylları...]"
 
-#: ../scripts/pybtex.py:37
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: xəta: %s\n"
+#: ../scripts/pybliotex.py:37
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: xəta: %s\n"
 
-#: ../scripts/pybtex.py:58
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: xəbərdarlıq: aşağıdakı açarlar həll edilə bilmədi"
+#: ../scripts/pybliotex.py:58
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: xəbərdarlıq: aşağıdakı açarlar həll edilə bilmədi"
 
-#: ../scripts/pybtex.py:63
+#: ../scripts/pybliotex.py:63
 msgid "no style defined"
 msgstr "tərz bildirilməyib"
 

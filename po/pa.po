@@ -911,67 +911,67 @@ msgid ""
 "\tquit     to quit\n"
 msgstr ""
 
-#: scripts/pybcompact.py:29
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
+#: scripts/pybliocompact.py:29
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
 msgstr ""
 
-#: scripts/pybcompact.py:33
+#: scripts/pybliocompact.py:33
 #, python-format
-msgid "pybcompact: error: %s\n"
+msgid "pybliocompact: error: %s\n"
 msgstr ""
 
-#: scripts/pybcompact.py:96
+#: scripts/pybliocompact.py:96
 msgid "no entry"
 msgstr "ਕੋਈ ਇੰਦਰਾਜ ਨਹੀਂ"
 
-#: scripts/pybcompact.py:141
+#: scripts/pybliocompact.py:141
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr ""
 
-#: scripts/pybconvert.py:28
-msgid "usage: pybconvert <source>..<target> <input> [output]"
+#: scripts/pyblioconvert.py:28
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
 msgstr ""
 
-#: scripts/pybconvert.py:37
-msgid "pybconvert: bad conversion format"
+#: scripts/pyblioconvert.py:37
+msgid "pyblioconvert: bad conversion format"
 msgstr ""
 
-#: scripts/pybformat.py:33
-msgid "usage: pybformat [bibtexfiles...]\n"
+#: scripts/pyblioformat.py:33
+msgid "usage: pyblioformat [bibtexfiles...]\n"
 msgstr ""
 
-#: scripts/pybformat.py:37
+#: scripts/pyblioformat.py:37
 #, python-format
-msgid "pybformat: error: %s\n"
+msgid "pyblioformat: error: %s\n"
 msgstr ""
 
-#: scripts/pybformat.py:43
+#: scripts/pyblioformat.py:43
 #, python-format
-msgid "pybformat: warning: %s\n"
+msgid "pyblioformat: warning: %s\n"
 msgstr ""
 
-#: scripts/pybformat.py:140 scripts/pybtex.py:85
+#: scripts/pyblioformat.py:140 scripts/pybliotex.py:85
 #, python-format
 msgid "can't find style `%s'"
 msgstr "ਸ਼ੈਲੀ %s ਨਹੀਂ ਲੱਭੀ ਨਹੀਂ ਹੈ"
 
-#: scripts/pybtex.py:33
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
+#: scripts/pybliotex.py:33
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
 msgstr ""
 
-#: scripts/pybtex.py:37
+#: scripts/pybliotex.py:37
 #, python-format
-msgid "pybtex: error: %s\n"
+msgid "pybliotex: error: %s\n"
 msgstr ""
 
 #. warn the user that some entries were not found
-#: scripts/pybtex.py:58
-msgid "pybtex: warning: the following keys were not resolved"
+#: scripts/pybliotex.py:58
+msgid "pybliotex: warning: the following keys were not resolved"
 msgstr ""
 
 #. If the LaTeX document declares no style...
-#: scripts/pybtex.py:63
+#: scripts/pybliotex.py:63
 msgid "no style defined"
 msgstr "ਕੋਈ ਸ਼ੈਲੀ ਪ੍ਰਭਾਸ਼ਿਤ ਨਹੀਂ"
 

@@ -1,21 +1,21 @@
 # Czech translation for pybliographer.
 # Copyright (C) 2011 pybliographer's COPYRIGHT HOLDER
 # This file is distributed under the same license as the pybliographer package.
-#
-# Marek Černocký <marek@manet.cz>, 2011.
+# Marek Černocký <marek@manet.cz>, 2011, 2013.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer master\n"
-"POT-Creation-Date: 2011-09-25 12:21+0000\n"
-"PO-Revision-Date: 2011-12-14 19:23+0100\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2013-09-01 20:04+0000\n"
+"PO-Revision-Date: 2013-09-04 21:24+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.6\n"
 
 #: C/whatsnew.page:10(desc)
 msgid "New features in <app>Pybliographer</app> 1.2.15."
@@ -317,8 +317,8 @@ msgstr ""
 "dobře čitelné i se základními znalostmi jazyka <app>Python</app>."
 
 #: C/scripting-existing.page:33(title)
-msgid "pybcheck"
-msgstr "pybcheck"
+msgid "pybliocheck"
+msgstr "pybliocheck"
 
 #: C/scripting-existing.page:36(p)
 msgid ""
@@ -333,18 +333,18 @@ msgid ""
 "It is possible to use its output directly in an emacs compile buffer, in "
 "order to jump directly to the encountered errors. To do so, type "
 "<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, then the "
-"command <cmd>pybcheck <var>yourfiles</var></cmd>, and use the middle button "
-"of the mouse to jump into the faulty file."
+"command <cmd>pybliocheck <var>yourfiles</var></cmd>, and use the middle "
+"button of the mouse to jump into the faulty file."
 msgstr ""
 "Jeho výstup je možné použít přímo v překladové vyrovnávací paměti emacs, ke "
 "skoku přímo na chybu, která se udála. Uděláte to tak, že vyťukáte "
 "<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, pak příkaz "
-"<cmd>pybcheck <var>vaše_soubory</var></cmd> a použijete prostřední tlačítko "
+"<cmd>pybliocheck <var>vaše_soubory</var></cmd> a použijete prostřední tlačítko "
 "myši k přechodu na soubor, který selhal."
 
 #: C/scripting-existing.page:49(title)
-msgid "pybcompact"
-msgstr "pybcompact"
+msgid "pybliocompact"
+msgstr "pybliocompact"
 
 #: C/scripting-existing.page:52(p)
 msgid ""
@@ -373,8 +373,8 @@ msgstr ""
 "aux</file> a získá z něj určené databáze BibTeX odpovídajících záznamů."
 
 #: C/scripting-existing.page:68(title)
-msgid "pybconvert"
-msgstr "pybconvert"
+msgid "pyblioconvert"
+msgstr "pyblioconvert"
 
 #: C/scripting-existing.page:71(p)
 msgid "This tool converts from one bibliographic format to another."
@@ -392,16 +392,16 @@ msgstr ""
 #, no-wrap
 msgid ""
 "\n"
-"\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
 "      "
 msgstr ""
 "\n"
-"\t<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
 "      "
 
 #: C/scripting-existing.page:84(title) C/scripting-existing.page:94(cmd)
-msgid "pybformat"
-msgstr "pybformat"
+msgid "pyblioformat"
+msgstr "pyblioformat"
 
 #: C/scripting-existing.page:87(p)
 msgid ""
@@ -492,8 +492,8 @@ msgstr ""
 "výstupních formátů"
 
 #: C/scripting-existing.page:136(title)
-msgid "pybtex"
-msgstr "pybtex"
+msgid "pybliotex"
+msgstr "pybliotex"
 
 #: C/scripting-existing.page:139(p)
 msgid ""
@@ -521,16 +521,16 @@ msgstr "Forma příkazu je"
 #, no-wrap
 msgid ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
+"\t<output>bash$ </output><cmd>pybliotex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
 "      "
 msgstr ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtex</cmd> <file>soubor_latex</file> [<file>soubory_bibtex</file>…]\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> <file>soubor_latex</file> [<file>soubory_bibtex</file>…]\n"
 "      "
 
 #: C/scripting-existing.page:154(title)
-msgid "pybtext"
-msgstr "pybtext"
+msgid "pybliotext"
+msgstr "pybliotext"
 
 #: C/scripting-existing.page:157(p)
 msgid ""
@@ -571,11 +571,11 @@ msgstr ""
 #, no-wrap
 msgid ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
 "      "
 msgstr ""
 "\n"
-"\t<output>bash$ </output><cmd>pybtext</cmd> [-o výstupní_soubor] [-s styl] <file>textový_soubor</file> <file>soubory_bib…</file>\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o výstupní_soubor] [-s styl] <file>textový_soubor</file> <file>soubory_bib…</file>\n"
 "      "
 
 #: C/scripting-existing.page:181(p)
@@ -592,7 +592,7 @@ msgstr ""
 
 #: C/scripting-existing.page:187(p)
 msgid ""
-"There are three different <em>styles</em> which are designed for pybtext. "
+"There are three different <em>styles</em> which are designed for pybliotext. "
 "Using <em>abbrvbib</em> results in keys as they are defined in the database. "
 "With the style <em>abbrvau</em>, author-year type keys (e.g. Jackson et al., "
 "2004) can be generated. Using <em>abbrvnum</em>, the script produces a "
@@ -602,7 +602,7 @@ msgid ""
 "or apa4e), the text body is not processed, but the reference list is "
 "appended in the form that corresponds to the used style."
 msgstr ""
-"Pro pybtext jsou navrženy tři rozdílné <em>styly</em>. Použití <em>abbrvbib</"
+"Pro pybliotext jsou navrženy tři rozdílné <em>styly</em>. Použití <em>abbrvbib</"
 "em> dává jako výsledky klíče tak, jak jsou definovány v databázi. Se stylem "
 "<em>abbrvau</em> jsou generovány klíče typu autor-rok (např. Satrapa a kol., "
 "2004). Použitím <em>abbrvnum</em> skript vyprodukuje jednoduše očíslovaný "
@@ -723,7 +723,7 @@ msgid ""
 "of the work)."
 msgstr ""
 "Musíte dílo označit v souladu s požadavky autora nebo licence (ale ne žádným "
-"způsobem, který předpokládá, že schvalují vás nebo vaše použití díla)."
+"způsobem, který předpokládá, že podporují vás nebo vaše použití díla)."
 
 #: C/license.page:47(em)
 msgid "Share Alike"
@@ -1321,8 +1321,8 @@ msgid ""
 "var>)</cmd> searches for entries where the specified date field is younger "
 "than the specified date."
 msgstr ""
-"<cmd>after(<var>pole</var>, <var>rok</var>, <var>měsíc</var>, <var>den</var>)"
-"</cmd> hledá záznamy, ve kterých je zadané pole s datem novějším než je "
+"<cmd>after(<var>pole</var>, <var>rok</var>, <var>měsíc</var>, <var>den</"
+"var>)</cmd> hledá záznamy, ve kterých je zadané pole s datem novějším než je "
 "uvedené datum"
 
 #: C/gui-searching.page:91(title)

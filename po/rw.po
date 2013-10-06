@@ -1097,40 +1097,40 @@ msgstr "Ububikoshingiro"
 msgid "Pybliographic Bibliography Manager"
 msgstr ""
 
-#: scripts/pybcheck.py:31
+#: scripts/pybliocheck.py:31
 #, fuzzy
-msgid "usage: pybcheck <file | directory>..."
+msgid "usage: pybliocheck <file | directory>..."
 msgstr "Ikoresha: IDOSIYE bushyinguro"
 
-#: scripts/pybcheck.py:60
+#: scripts/pybliocheck.py:60
 #, fuzzy, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "IDOSIYE ni YEGO Ibyinjijwe"
 
-#: scripts/pybcompact.py:30
+#: scripts/pybliocompact.py:30
 #, fuzzy
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
 msgstr "Ikoresha:"
 
-#: scripts/pybcompact.py:34
+#: scripts/pybliocompact.py:34
 #, fuzzy, python-format
-msgid "pybcompact: error: %s\n"
+msgid "pybliocompact: error: %s\n"
 msgstr "Ikosa"
 
 # sc/source\ui\miscdlgs\acredlin.src:RID_SCDLG_CHANGES.STR_NO_ENTRY.text
-#: scripts/pybcompact.py:99
+#: scripts/pybliocompact.py:99
 #, fuzzy
 msgid "no entry"
 msgstr "Nta cyinjijwe"
 
-#: scripts/pybcompact.py:162 scripts/pybtext.py:240
+#: scripts/pybliocompact.py:162 scripts/pybliotext.py:240
 #, fuzzy, python-format
 msgid "can't find the following entries: %s"
 msgstr "Gushaka i Ibyinjijwe"
 
-#: scripts/pybconvert.py:29
+#: scripts/pyblioconvert.py:29
 #, fuzzy
-msgid "usage: pybconvert <source>..<target> <input> [output]"
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
 msgstr ""
 "Project- Id- Version: basctl\n"
 "POT- Creation- Date: 2003- 12- 07 17: 13+ 02\n"
@@ -1141,15 +1141,15 @@ msgstr ""
 "X- Generator: KBabel 1. 0\n"
 "."
 
-#: scripts/pybconvert.py:38
+#: scripts/pyblioconvert.py:38
 #, fuzzy
-msgid "pybconvert: error: bad conversion format"
+msgid "pyblioconvert: error: bad conversion format"
 msgstr "Ikosa Ihindurangero Imiterere"
 
-#: scripts/pybformat.py:34
+#: scripts/pyblioformat.py:34
 #, fuzzy
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1168,140 +1168,140 @@ msgstr ""
 "a Imperampangano L Urutonde i Bihari Ibisohoka h iyi Ifashayobora v iyi "
 "Ifashayobora"
 
-#: scripts/pybformat.py:49
+#: scripts/pyblioformat.py:49
 #, fuzzy, python-format
-msgid "pybformat: error: %s\n"
+msgid "pyblioformat: error: %s\n"
 msgstr "Ikosa"
 
-#: scripts/pybformat.py:55
+#: scripts/pyblioformat.py:55
 #, fuzzy, python-format
-msgid "pybformat: warning: %s\n"
+msgid "pyblioformat: warning: %s\n"
 msgstr "Iburira"
 
-#: scripts/pybformat.py:90 scripts/pybtext.py:252 scripts/pybtext.py:278
-#: scripts/pybtext.py:321
+#: scripts/pyblioformat.py:90 scripts/pybliotext.py:252 scripts/pybliotext.py:278
+#: scripts/pybliotext.py:321
 #, fuzzy, python-format
 msgid "can't open `%s': %s"
 msgstr "Gufungura"
 
-#: scripts/pybformat.py:97
+#: scripts/pyblioformat.py:97
 #, fuzzy, python-format
 msgid "unknown list `%s'"
 msgstr "Kitazwi Urutonde"
 
-#: scripts/pybformat.py:100
+#: scripts/pyblioformat.py:100
 #, fuzzy, python-format
-msgid "pybformat: available values for `%s':"
+msgid "pyblioformat: available values for `%s':"
 msgstr "Bihari Uduciro kugirango"
 
-#: scripts/pybformat.py:104
+#: scripts/pyblioformat.py:104
 #, fuzzy, python-format
 msgid "empty value list `%s'"
 msgstr "ubusa Agaciro Urutonde"
 
-#: scripts/pybformat.py:132
+#: scripts/pyblioformat.py:132
 #, fuzzy
 msgid "too few arguments"
 msgstr "ingingo"
 
-#: scripts/pybformat.py:139 scripts/pybtext.py:117
+#: scripts/pyblioformat.py:139 scripts/pybliotext.py:117
 #, fuzzy, python-format
 msgid "unknown output format `%s'"
 msgstr "Kitazwi Ibisohoka Imiterere"
 
-#: scripts/pybformat.py:152 scripts/pybtex.py:86 scripts/pybtext.py:94
+#: scripts/pyblioformat.py:152 scripts/pybliotex.py:86 scripts/pybliotext.py:94
 #, fuzzy, python-format
 msgid "can't find style `%s'"
 msgstr "Gushaka IMISUSIRE"
 
-#: scripts/pybformat.py:155
+#: scripts/pyblioformat.py:155
 #, fuzzy, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
 msgstr "ikoresha IMISUSIRE Imiterere"
 
-#: scripts/pybformat.py:170
+#: scripts/pyblioformat.py:170
 #, fuzzy, python-format
 msgid "can't open header `%s': %s"
 msgstr "Gufungura Umutwempangano"
 
-#: scripts/pybformat.py:178
+#: scripts/pyblioformat.py:178
 #, fuzzy, python-format
 msgid "can't open database: %s"
 msgstr "Gufungura Ububikoshingiro"
 
-#: scripts/pybformat.py:193
+#: scripts/pyblioformat.py:193
 #, fuzzy, python-format
 msgid "can't open footer `%s': %s"
 msgstr "Gufungura Imperampangano"
 
-#: scripts/pybtex.py:34
+#: scripts/pybliotex.py:34
 #, fuzzy
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
 msgstr "Ikoresha:"
 
-#: scripts/pybtex.py:38
+#: scripts/pybliotex.py:38
 #, fuzzy, python-format
-msgid "pybtex: error: %s\n"
+msgid "pybliotex: error: %s\n"
 msgstr "Ikosa"
 
 #. warn the user that some entries were not found
-#: scripts/pybtex.py:59
+#: scripts/pybliotex.py:59
 #, fuzzy
-msgid "pybtex: warning: the following keys were not resolved"
+msgid "pybliotex: warning: the following keys were not resolved"
 msgstr "Iburira i Utubuto OYA"
 
 #. If the LaTeX document declares no style...
-#: scripts/pybtex.py:64
+#: scripts/pybliotex.py:64
 #, fuzzy
 msgid "no style defined"
 msgstr "Oya IMISUSIRE"
 
-#: scripts/pybtext.py:41
+#: scripts/pybliotext.py:41
 #, fuzzy
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 msgstr "Ikoresha: o S IMISUSIRE"
 
-#: scripts/pybtext.py:45
+#: scripts/pybliotext.py:45
 #, fuzzy, python-format
-msgid "pybtext: error: %s\n"
+msgid "pybliotext: error: %s\n"
 msgstr "Ikosa"
 
-#: scripts/pybtext.py:50
+#: scripts/pybliotext.py:50
 #, fuzzy, python-format
-msgid "pybtext: warning: %s\n"
+msgid "pybliotext: warning: %s\n"
 msgstr "Iburira"
 
-#: scripts/pybtext.py:124
+#: scripts/pybliotext.py:124
 #, fuzzy, python-format
 msgid "File already exists: `%s'"
 msgstr "Iyo dosiye isanzwe ihari"
 
-#: scripts/pybtext.py:127
+#: scripts/pybliotext.py:127
 #, fuzzy, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "A IDOSIYE Na: i Izina:"
 
-#: scripts/pybtext.py:178
+#: scripts/pybliotext.py:178
 #, fuzzy
 msgid "no citation found"
 msgstr "Oya Iyerekana Byabonetse"
 
-#: scripts/pybtext.py:193
+#: scripts/pybliotext.py:193
 #, fuzzy, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
 msgstr "ikoresha IMISUSIRE Imiterere"
 
-#: scripts/pybtext.py:316
+#: scripts/pybliotext.py:316
 #, fuzzy, python-format
 msgid "can't create `%s'"
 msgstr "Kurema"
 
-#: scripts/pybtext.py:342
+#: scripts/pybliotext.py:342
 #, fuzzy, python-format
 msgid "can't remove `%s'"
 msgstr "Gukuraho..."
 
 # Statusbar
-#: scripts/pybtext.py:344
+#: scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Byakozwe"

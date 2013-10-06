@@ -30,7 +30,7 @@
       readable with basical knowledge of <app>Python</app>.</p>
   
     <section id="script-scripting-existing-pybcheck">
-      <title>pybcheck</title>
+      <title>pybliocheck</title>
       
       <synopsis>
       	<p>This tool takes a list  of files or directory, and check if
@@ -40,13 +40,13 @@
       <p>It is possible to use its output directly in an emacs compile
         buffer, in order to jump directly to the encountered errors.
         To do so, type <keyseq><key>M</key><key>x</key></keyseq>
-        <cmd>compile</cmd>, then the command <cmd>pybcheck
+        <cmd>compile</cmd>, then the command <cmd>pybliocheck
 	<var>yourfiles</var></cmd>, and use the middle button of the
         mouse to jump into the faulty file.</p>
     </section>
 
     <section id="script-scripting-existing-pybcompact">
-      <title>pybcompact</title>
+      <title>pybliocompact</title>
       
       <synopsis>
 	<p>This  tool  extracts  the  citations  made  in  a  LaTeX
@@ -65,7 +65,7 @@
     </section>
 
     <section id="script-scripting-existing-pybconvert">
-      <title>pybconvert</title>
+      <title>pyblioconvert</title>
       
       <synopsis>
 	<p>This  tool  converts from  one  bibliographic format  to
@@ -76,12 +76,12 @@
 	to BibTeX for example, just run: </p>
 
       <screen>
-	<output>bash$ </output><cmd>pybconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>
+	<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>
       </screen>
     </section>
 
     <section id="script-scripting-existing-pybformat">
-      <title>pybformat</title>
+      <title>pyblioformat</title>
 
       <synopsis>
 	<p>This  script generates a  bibliography according  to a
@@ -91,7 +91,7 @@
       
       <p>The general form of the command is</p>
       <screen>
-	<output>bash$ </output><cmd>pybformat</cmd> <var>[options] database...</var>
+	<output>bash$ </output><cmd>pyblioformat</cmd> <var>[options] database...</var>
       </screen>
 
       <p>This command without options will use the style called 
@@ -133,7 +133,7 @@
     </section>
 
     <section id="script-scripting-existing-pybtex">
-      <title>pybtex</title>
+      <title>pybliotex</title>
       
       <synopsis>
 	<p>This tool searches for the citations in a LaTeX 
@@ -146,12 +146,12 @@
 
       <p>The form of the command is</p>
       <screen>
-	<output>bash$ </output><cmd>pybtex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]
+	<output>bash$ </output><cmd>pybliotex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]
       </screen>
     </section>
 
     <section id="script-scripting-existing-pybtext">
-      <title>pybtext</title>
+      <title>pybliotext</title>
 
       <synopsis>
 	<p>This tool processes a text file containing citations 
@@ -175,7 +175,7 @@
 
       <p>The general form of the command is</p>
       <screen>
-	<output>bash$ </output><cmd>pybtext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>
+	<output>bash$ </output><cmd>pybliotext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>
       </screen>
 
       <p>This command without the options will use the style called 
@@ -185,7 +185,7 @@
         or more bibliographic database file.</p>
 
       <p>There are three different <em>styles</em> which are 
-      designed for pybtext. 
+      designed for pybliotext. 
       Using <em>abbrvbib</em> results in keys as they are defined 
       in the database. With the style <em>abbrvau</em>, author-year 
       type keys (e.g. Jackson et al., 2004) can be generated. Using 

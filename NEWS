@@ -1,5 +1,10 @@
 -*- text -*-
 
+New in 1.2.16 - 2013-07-30
+
+       * Fix collision names with pybtex program
+       * Updated translations (Gnome I18n team)
+
 New in 1.2.15 - 2011-10-06
 
        * The documentation is now in Mallard format

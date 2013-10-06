@@ -1153,44 +1153,44 @@ msgstr "Gestiona bases de dades bibliogràfiques"
 msgid "Pybliographic Bibliography Manager"
 msgstr "Gestor de bibliografia Pybliographic"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr "utilització: pybcheck <fitxer | directori>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "utilització: pybliocheck <fitxer | directori>..."
 
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "el fitxer «%s» és correcte [%d entrades]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "utilització: pybcompact <fitxer latex> <fitxers bibtex...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "utilització: pybliocompact <fitxer latex> <fitxers bibtex...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: error: %s\n"
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: error: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "cap entrada"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "no s'han trobat les entrades següents: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "utilització: pybconvert <origen>..<objectiu> <entrada> [sortida]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "utilització: pyblioconvert <origen>..<objectiu> <entrada> [sortida]"
 
-#: ../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: error: format de conversió incorrecte"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
+msgstr "pyblioconvert: error: format de conversió incorrecte"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1202,7 +1202,7 @@ msgid ""
 "      -h, --help\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"utilització: pybformat [opcions] <base de dades...>\n"
+"utilització: pyblioformat [opcions] <base de dades...>\n"
 "\n"
 "    opcions:\n"
 "      -o fitxer, --output=fitxer\t\tespecifica un fitxer de sortida\n"
@@ -1215,137 +1215,137 @@ msgstr ""
 "      -h, --help\t\t\tmostra el missatge d'ajuda\n"
 "    "
 
-#: ../scripts/pybformat.py:48
+#: ../scripts/pyblioformat.py:48
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: error: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: error: %s\n"
 
-#: ../scripts/pybformat.py:54
+#: ../scripts/pyblioformat.py:54
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: avís: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: avís: %s\n"
 
-#: ../scripts/pybformat.py:93 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:93 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "no s'ha pogut obrir «%s»: %s"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
 msgid "unknown list `%s'"
 msgstr "es desconeix la llista «%s»"
 
-#: ../scripts/pybformat.py:103
+#: ../scripts/pyblioformat.py:103
 #, python-format
-msgid "pybformat: available values for `%s':"
-msgstr "pybformat: els valors disponibles per a «%s»:"
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: els valors disponibles per a «%s»:"
 
-#: ../scripts/pybformat.py:107
+#: ../scripts/pyblioformat.py:107
 #, python-format
 msgid "empty value list `%s'"
 msgstr "la llista de valors «%s» és buida"
 
-#: ../scripts/pybformat.py:129
+#: ../scripts/pyblioformat.py:129
 msgid "too few arguments"
 msgstr "el nombre d'arguments és insuficient"
 
-#: ../scripts/pybformat.py:136 ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:136 ../scripts/pybliotext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "el format de sortida «%s» és desconegut"
 
-#: ../scripts/pybformat.py:149 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:149 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "no es pot trobar l'estil «%s»"
 
-#: ../scripts/pybformat.py:152
+#: ../scripts/pyblioformat.py:152
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: s'està utilitzant l'estil «%s», format «%s»\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: s'està utilitzant l'estil «%s», format «%s»\n"
 
-#: ../scripts/pybformat.py:167
+#: ../scripts/pyblioformat.py:167
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "no s'ha pogut obrir la capçalera «%s»: %s"
 
-#: ../scripts/pybformat.py:175
+#: ../scripts/pyblioformat.py:175
 #, python-format
 msgid "can't open database: %s"
 msgstr "no s'ha pogut obrir la base de dades: %s"
 
-#: ../scripts/pybformat.py:190
+#: ../scripts/pyblioformat.py:190
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "no s'ha pogut obrir el peu «%s»: %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "utilització: pybtex <fitxer latex> [fitxers bibtex...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "utilització: pybliotex <fitxer latex> [fitxers bibtex...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: error: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: error: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: avís: les claus següents no s'han resolt"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: avís: les claus següents no s'han resolt"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "no hi ha cap estil definit"
 
-#: ../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 msgstr ""
-"utilització: pybtext [-o fitxer_de_sortida] [-s estil] <fitxer_de_text> "
+"utilització: pybliotext [-o fitxer_de_sortida] [-s estil] <fitxer_de_text> "
 "<fitxers_bib...>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-msgid "pybtext: error: %s\n"
-msgstr "pybtext: error: %s\n"
+msgid "pybliotext: error: %s\n"
+msgstr "pybliotext: error: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-msgid "pybtext: warning: %s\n"
-msgstr "pybtext: avís %s\n"
+msgid "pybliotext: warning: %s\n"
+msgstr "pybliotext: avís %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 msgid "File already exists: `%s'"
 msgstr "El fitxer ja existeix: «%s»"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "Ja hi ha un fitxer amb el mateix nom: «%s»"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "no s'ha trobat cap cita"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: s'està utilitzant l'estil «%s», format «%s»\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: s'està utilitzant l'estil «%s», format «%s»\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 msgid "can't create `%s'"
 msgstr "no s'ha pogut crear «%s»"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 msgid "can't remove `%s'"
 msgstr "no s'ha pogut suprimir «%s»"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Fet"
 
@@ -1358,5 +1358,5 @@ msgstr "Fet"
 #~ msgid "Delete..."
 #~ msgstr "Suprimeix..."
 
-#~ msgid "usage: pybformat [bibtexfiles...]\n"
-#~ msgstr "utilització: pybformat [fitxers bibtex...]\n"
+#~ msgid "usage: pyblioformat [bibtexfiles...]\n"
+#~ msgstr "utilització: pyblioformat [fitxers bibtex...]\n"

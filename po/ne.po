@@ -1156,44 +1156,44 @@ msgstr "ग्रन्थसूची डाटाबेसहरू व्य�
 msgid "Pybliographic Bibliography Manager"
 msgstr "पिविव्लियोग्राफी ग्रन्थसूची प्रबन्धक"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
 msgstr "प्रयोग: पिवचेक <फाइल | डाईरेक्टोरी>..."
 
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "फाइल `%s' ठीक छ [%d प्रविष्टिहरू]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
 msgstr "प्रयोग: पिवकम्प्याक्ट <latexfile> <bibtexfiles...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
+msgid "pybliocompact: error: %s\n"
 msgstr "पिवकम्प्याक्ट: त्रुटि: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "प्रवेश निशेध"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "निम्न प्रविष्टिहरू फेला पार्न सकेन: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
 msgstr "प्रयोग: पिवकन्भर्ट <source>..<target><input> [निर्गत]"
 
-#: ../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
 msgstr "पिवकन्भर्ट :त्रुटि: खराब रूपान्तरण ढाँचा"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1219,135 +1219,135 @@ msgstr ""
 "      -भी, --संस्करण\t\t\tयो सहायता सन्देश देखाउँछ\n"
 "    न "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pyblioformat.py:49
 #, python-format
-msgid "pybformat: error: %s\n"
+msgid "pyblioformat: error: %s\n"
 msgstr "पिव ढाँचा: त्रुटि: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pyblioformat.py:55
 #, python-format
-msgid "pybformat: warning: %s\n"
+msgid "pyblioformat: warning: %s\n"
 msgstr "पिव ढाँचा: चेतावनी: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:90 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "`%s' खोल्न सक्दैन: %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pyblioformat.py:97
 #, python-format
 msgid "unknown list `%s'"
 msgstr "अज्ञात सूची `%s'"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
-msgid "pybformat: available values for `%s':"
+msgid "pyblioformat: available values for `%s':"
 msgstr "पिव ढाँचा: उपलब्ध मानहरू`%s' का लागि:"
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pyblioformat.py:104
 #, python-format
 msgid "empty value list `%s'"
 msgstr "खाली मान सूची `%s'"
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pyblioformat.py:132
 msgid "too few arguments"
 msgstr "एकदम थोरै तर्कहरू"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:139 ../scripts/pybliotext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "अज्ञात निर्गत ढाँचा `%s'"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:152 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "`%s' शैली फेला पार्न सक्दैन"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pyblioformat.py:155
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
 msgstr "पिव ढाँचा:`%s' शैली प्रयोग गर्दै, ढाँचा `%s'\n"
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pyblioformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "`%s' शीर्षक खोल्न सक्दैन: %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pyblioformat.py:178
 #, python-format
 msgid "can't open database: %s"
 msgstr "डाटाबेस खोल्न सक्दैन: %s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pyblioformat.py:193
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "फुटर `%s' खोल्न सक्दैन: %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
 msgstr "उपयोग: पिवटेक्स <latexfile> [विविटेक्सफाइलहरु...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
+msgid "pybliotex: error: %s\n"
 msgstr "पिवटेक्स: त्रुटि: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
 msgstr "पिवटेक्स: चेतावनी: यी निम्न कुञ्जीहरू पुन: समाधान गरेका होइनन्"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "कुनै शैली परिभाषित गरिएन"
 
-#: ../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 msgstr "उपयोग: पिवटेक्सट [-ओ निर्गत फाइल] [-एस शैली] <textfile> <bibfiles...>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-msgid "pybtext: error: %s\n"
+msgid "pybliotext: error: %s\n"
 msgstr "पिवटेक्स्ट: त्रुटि: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-msgid "pybtext: warning: %s\n"
+msgid "pybliotext: warning: %s\n"
 msgstr "पिवटेक्स्ट: चेतावनी: %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 msgid "File already exists: `%s'"
 msgstr "फाइल पहिले नै अवस्थित छ:`%s'"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "यो नामको फाइल पहिले नै अवस्थित:`%s'"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "कुनै उद्धरण फेला परेन"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
 msgstr "पिवटेक्स्ट:`%s' शैली प्रयोग गर्दै, ढाँचा `%s'\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 msgid "can't create `%s'"
 msgstr "`%s' सिर्जना गर्न सक्दैन"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 msgid "can't remove `%s'"
 msgstr "`%s' हटाउन सक्दैन"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "पूरा भयो"
 

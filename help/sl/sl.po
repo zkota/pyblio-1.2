@@ -565,7 +565,7 @@ msgstr "V primeru da spremenite, preoblikujete ali gradite na tem delu lahko nas
 
 #: C/license.page:54(p)
 msgid "For the full text of the license, see the <link href=\"http://creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</link>, or read the full <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">Commons Deed</link>."
-msgstr "Za polno besedilo licence si oglejte link href=\"http://creativecommons.org/licenses/by-sa/3.0/legalcode\">spletišče CreativeCommons </link> ali preberite polno <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">zavezo Commons</link>."
+msgstr "Za polno besedilo licence si oglejte <link href=\"http://creativecommons.org/licenses/by-sa/3.0/legalcode\">spletišče CreativeCommons </link> ali preberite polno <link href=\"http://creativecommons.org/licenses/by-sa/3.0/\">zavezo Commons</link>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.
@@ -1006,7 +1006,7 @@ msgstr "Pojavilo se bo pogovorno okno izbire datoteke (oglejte si sliko zgoraj),
 
 #: C/gui-opening.page:41(p)
 msgid "It is also possible to open a file at a remote location (as well as a local file) by typing the URI of the file (e.g. <var>http://my.remote.site/ pyblio.bib</var>) using the <gui>Open Location</gui> dialog, which can be invoked by the <guiseq><gui>File</gui><gui>Open Location</gui></guiseq> menu item."
-msgstr "Datoteko na oddaljenem mestu (kot tudi na krajevnem mestu) s tipkanjem URI-ja datoteke (na primer var>http://moja.oddaljena.stran/ pyblio.bib</var>) v pogovornem oknu <gui>Odpri mesto</gui>, ki ga lahko prikličete z <guiseq><gui>Datoteka</gui><gui>Odpri mesto</gui></guiseq>."
+msgstr "Datoteko na oddaljenem mestu (kot tudi na krajevnem mestu) s tipkanjem URI-ja datoteke (na primer <var>http://moja.oddaljena.stran/ pyblio.bib</var>) v pogovornem oknu <gui>Odpri mesto</gui>, ki ga lahko prikličete z <guiseq><gui>Datoteka</gui><gui>Odpri mesto</gui></guiseq>."
 
 #. When image changes, this message will be marked fuzzy or untranslated for you.
 #. It doesn't matter what you translate it to: it's not used at all.

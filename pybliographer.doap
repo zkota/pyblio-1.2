@@ -4,10 +4,25 @@
          xmlns:gnome="http://api.gnome.org/doap-extensions#"
          xmlns="http://usefulinc.com/ns/doap#">
 
-  <name xml:lang="en">pybliographer</name>
+  <name xml:lang="en">Pybliographer</name>
+  <shortname xml:lang="en">pybliographer</shortname>
   <shortdesc xml:lang="en">Bibliography Manager</shortdesc>
+  <description xml:lang="en">Pybliographer is a tool for managing bibliographic databases.</description>
   <homepage rdf:resource="http://pybliographer.org" />
   <mailing-list rdf:resource="https://lists.sourceforge.net/lists/listinfo/pybliographer-general" />
+  <bug-database rdf:resource="https://bugzilla.gnome.org/browse.cgi?product=pybliographer" />
+  <category rdf:resource="http://api.gnome.org/doap-extensions#desktop" />
+  <license rdf:resource="http://usefulinc.com/doap/licenses/gpl"/>
+  <download-page rdf:resource="http://download.gnome.org/sources/pybliographer/"/>
+
+  <programming-language>Python</programming-language>
+
+  <repository>
+    <GitRepository>
+      <browse rdf:resource="http://git.gnome.org/browse/pybliographer/"/>
+      <location rdf:resource="git://git.gnome.org/pybliographer"/>
+    </GitRepository>
+  </repository>
 
   <maintainer>
     <foaf:Person>
@@ -19,6 +34,13 @@
     <foaf:Person>
       <foaf:name>Zoltan Kota</foaf:name>
       <gnome:userid>zkota</gnome:userid>
+    </foaf:Person>
+  </maintainer>
+  <maintainer>
+    <foaf:Person>
+      <foaf:name>Germán Poo-Caamaño</foaf:name>
+      <foaf:mbox rdf:resource="mailto:gpoo@gnome.org" />
+      <gnome:userid>gpoo</gnome:userid>
     </foaf:Person>
   </maintainer>
 </Project>

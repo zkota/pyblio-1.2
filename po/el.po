@@ -3,24 +3,29 @@
 # kostas: 23Nov2003, 185 messages, initial translation
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Kostas Papadimas <pkst@gnome.org>, 2003.
-#
+# keratea <dmtrs32@gmail.com>, 2013.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2013.
 msgid ""
 msgstr ""
 "Project-Id-Version: el\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-01-08 00:06+0000\n"
-"PO-Revision-Date: 2003-11-23 13:41+0200\n"
-"Last-Translator: Kostas Papadimas <pkst@gnome.org>\n"
-"Language-Team: Greek <team@gnome.gr>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pyblio"
+"grapher&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2011-09-22 13:25+0000\n"
+"PO-Revision-Date: 2013-07-06 09:46+0300\n"
+"Last-Translator: Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>\n"
+"Language-Team: team@gnome.gr\n"
+"Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.0.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.1\n"
+"X-Project-Style: gnome\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
 msgid "warning: can't import %s: %s"
-msgstr "προειδοποίηση: αδυναμία εισαγωγής %s: %s"
+msgstr "προειδοποίηση: αδύνατη η εισαγωγή του %s: %s"
 
 #: ../Pyblio/Config.py:52
 #, python-format
@@ -29,11 +34,11 @@ msgstr "η τιμή του `%s' θα πρέπει να είναι του τύπ�
 
 #: ../Pyblio/Config.py:212
 msgid "String"
-msgstr "Αλφαριθμητικό"
+msgstr "Συμβολοσειρά"
 
 #: ../Pyblio/Config.py:221
 msgid "Boolean"
-msgstr "Boolean"
+msgstr "Τιμή Μπουλ"
 
 #: ../Pyblio/Config.py:240
 msgid "Integer"
@@ -47,7 +52,7 @@ msgstr "Ακέραιος κάτω από %d"
 #: ../Pyblio/Config.py:244
 #, python-format
 msgid "Integer over %d"
-msgstr "Ακέραιος πάνω  από  %d"
+msgstr "Ακέραιος πάνω από %d"
 
 #: ../Pyblio/Config.py:246
 #, python-format
@@ -62,7 +67,7 @@ msgstr "Στοιχείο σε `%s'"
 #: ../Pyblio/Config.py:278
 #, python-format
 msgid "Tuple (%s)"
-msgstr "Tuple (%s)"
+msgstr "Πλειάδα (%s)"
 
 #: ../Pyblio/Config.py:299
 #, python-format
@@ -72,24 +77,24 @@ msgstr "Λίστα (%s)"
 #: ../Pyblio/Config.py:324
 #, python-format
 msgid "Dictionary (%s, %s)"
-msgstr "Λεξικό  (%s, %s)"
+msgstr "Λεξικό (%s, %s)"
 
 #: ../Pyblio/Config.py:344
 #, python-format
 msgid "warning: could not restore setting %r to %r: %s"
-msgstr ""
+msgstr "προειδοποίηση: αδύνατη η επαναφορά ρύθμισης %r στο %r: %s"
 
 #: ../Pyblio/Fields.py:261
 msgid "Illegal year value"
-msgstr "Μή έγκυρη τιμή έτους"
+msgstr "Άκυρη τιμή έτους"
 
 #: ../Pyblio/Fields.py:265
 msgid "Illegal month value"
-msgstr "Μή έγκυρη τιμή μήνα"
+msgstr "Άκυρη τιμή μήνα"
 
 #: ../Pyblio/Fields.py:269
 msgid "Illegal day value"
-msgstr "Μή έγκυρη τιμή ημέρας"
+msgstr "Άκυρη τιμή ημέρας"
 
 #: ../Pyblio/Fields.py:510
 #, python-format
@@ -99,12 +104,12 @@ msgstr "σε %s"
 #: ../Pyblio/Format/BibTeX.py:323 ../Pyblio/Format/BibTeX.py:371
 #, python-format
 msgid "key `%s' is malformed"
-msgstr "το κλειδί `%s' είναι κακοδιατυπωμένο"
+msgstr "το κλειδί `%s' είναι κακοσχηματισμένο"
 
 #: ../Pyblio/Format/BibTeX.py:340 ../Pyblio/Format/BibTeX.py:359
 #, python-format
 msgid "%s:%d: key `%s' already defined"
-msgstr "%s:%d: κλειδί `%s' 'εχει ήδη καθοριστεί"
+msgstr "%s:%d: το κλειδί `%s' έχει ήδη καθοριστεί"
 
 #: ../Pyblio/GnomeUI/Config.py:147 ../Pyblio/GnomeUI/Fields.py:417
 msgid ""
@@ -132,7 +137,7 @@ msgstr "Ορισμός"
 
 #: ../Pyblio/GnomeUI/Config.py:561
 msgid "Key:"
-msgstr "Κλειδίq"
+msgstr "Κλειδί:"
 
 #: ../Pyblio/GnomeUI/Config.py:563
 msgid "Value:"
@@ -140,50 +145,44 @@ msgstr "Τιμή:"
 
 #. id     stock            label         accel   tooltip   callback
 #: ../Pyblio/GnomeUI/Document.py:145
-#, fuzzy
 msgid "_File"
-msgstr "Αρχείο"
+msgstr "_Αρχείο"
 
 #: ../Pyblio/GnomeUI/Document.py:146 ../Pyblio/GnomeUI/Document.py:195
-#, fuzzy
 msgid "_Edit"
-msgstr "_Επεξεργασία..."
+msgstr "_Επεξεργασία"
 
 #: ../Pyblio/GnomeUI/Document.py:147
-#, fuzzy
 msgid "_View"
-msgstr "_Νέο"
+msgstr "_Προβολή"
 
 #: ../Pyblio/GnomeUI/Document.py:148
-#, fuzzy
 msgid "_Cite"
-msgstr "Παράθεση"
+msgstr "_Παράθεση"
 
 #: ../Pyblio/GnomeUI/Document.py:149
-#, fuzzy
 msgid "_Settings"
-msgstr "Ρυθμίσεις"
+msgstr "_Ρυθμίσεις"
 
 #: ../Pyblio/GnomeUI/Document.py:150
 msgid "_Help"
-msgstr ""
+msgstr "_Βοήθεια"
 
 #: ../Pyblio/GnomeUI/Document.py:151
 msgid "Recent documents"
-msgstr ""
+msgstr "Πρόσφατα έγγραφα"
 
 #: ../Pyblio/GnomeUI/Document.py:154
-#, fuzzy
 msgid "Open a file"
 msgstr "Άνοιγμα αρχείου"
 
 #: ../Pyblio/GnomeUI/Document.py:155
 msgid "Open _Location"
-msgstr ""
+msgstr "Άνοιγμα το_ποθεσίας"
 
 #: ../Pyblio/GnomeUI/Document.py:156
 msgid "Save the current file"
-msgstr ""
+msgstr "Αποθήκευση του τρέχοντος αρχείου"
 
 #: ../Pyblio/GnomeUI/Document.py:161
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
@@ -193,12 +192,11 @@ msgstr "Συγχώνευση με..."
 #: ../Pyblio/GnomeUI/Document.py:162
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
 msgid "Medline Query..."
-msgstr "Ερώτημα Medline..."
+msgstr "Ερώτημα Medline (ιατρικής γραμμής)..."
 
 #: ../Pyblio/GnomeUI/Document.py:170
-#, fuzzy
 msgid "Add a new entry"
-msgstr "Δημιουργία νέας καταχώρησης"
+msgstr "Προσθήκη νέας καταχώρισης"
 
 #: ../Pyblio/GnomeUI/Document.py:174
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
@@ -208,12 +206,11 @@ msgstr "Τα_ξινόμηση..."
 #: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
 msgid "Cite..."
-msgstr "Παράθεση..."
+msgstr "Παραπομπή..."
 
 #: ../Pyblio/GnomeUI/Document.py:175
-#, fuzzy
 msgid "Cite key(s)"
-msgstr "Λίστα (%s)"
+msgstr "Κλειδιά παραπομπής"
 
 #: ../Pyblio/GnomeUI/Document.py:176
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
@@ -228,25 +225,25 @@ msgstr "Πεδία..."
 #: ../Pyblio/GnomeUI/Document.py:180
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
 msgid "Forget all changes"
-msgstr "Απόρριψη όλων των αλλαγών"
+msgstr "Παράλειψη όλων των αλλαγών"
 
 #: ../Pyblio/GnomeUI/Document.py:183
 msgid "_Resource"
-msgstr ""
+msgstr "Πη_γή"
 
 #: ../Pyblio/GnomeUI/Document.py:194
 msgid "_About"
-msgstr ""
+msgstr "_Περί"
 
-#: ../Pyblio/GnomeUI/Document.py:242
+#: ../Pyblio/GnomeUI/Document.py:245
 msgid "Quick search"
-msgstr ""
+msgstr "Γρήγορη αναζήτηση"
 
-#: ../Pyblio/GnomeUI/Document.py:316
+#: ../Pyblio/GnomeUI/Document.py:319
 msgid "Unnamed bibliographic database"
-msgstr ""
+msgstr "Ανώνυμη βιβλιογραφική βάση δεδομένων"
 
-#: ../Pyblio/GnomeUI/Document.py:399
+#: ../Pyblio/GnomeUI/Document.py:402
 #, python-format
 msgid ""
 "can't open file `%s' for writing:\n"
@@ -255,156 +252,163 @@ msgstr ""
 "Αδύνατο το άνοιγμα αρχείου `%s' για εγγραφή:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:420
+#: ../Pyblio/GnomeUI/Document.py:423
 #, python-format
 msgid ""
 "Error while parsing `%s':\n"
 "%s"
 msgstr ""
-"Σφάλμα κατά την ανάλυση `%s':\n"
+"Σφάλμα κατά την ανάλυση του `%s':\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:436
+#: ../Pyblio/GnomeUI/Document.py:439
 msgid "New database"
 msgstr "Νέα βάση δεδομένων"
 
-#: ../Pyblio/GnomeUI/Document.py:444 ../Pyblio/GnomeUI/Document.py:448
+#: ../Pyblio/GnomeUI/Document.py:447 ../Pyblio/GnomeUI/Document.py:451
 msgid "[no entry]"
-msgstr "[καμμία καταχώρηση]"
+msgstr "[καμία καταχώριση]"
 
-#: ../Pyblio/GnomeUI/Document.py:445
+#: ../Pyblio/GnomeUI/Document.py:448
 msgid "[1 entry]"
-msgstr "[1 καταχώρηση]"
-
-#: ../Pyblio/GnomeUI/Document.py:446
-#, python-format
-msgid "[%d entries]"
-msgstr "[%d καταχωρήσεις]"
+msgstr "[1 καταχώριση]"
 
 #: ../Pyblio/GnomeUI/Document.py:449
 #, python-format
-msgid "[%d/1 entry]"
-msgstr "[%d/1 καταχώρηση]"
+msgid "[%d entries]"
+msgstr "[%d καταχωρίσεις]"
 
-#: ../Pyblio/GnomeUI/Document.py:450
+#: ../Pyblio/GnomeUI/Document.py:452
+#, python-format
+msgid "[%d/1 entry]"
+msgstr "[%d/1 καταχώριση]"
+
+#: ../Pyblio/GnomeUI/Document.py:453
 #, python-format
 msgid "[%d/%d entries]"
-msgstr "[%d/%d καταχωρήσεις]"
+msgstr "[%d/%d καταχωρίσεις]"
 
-#: ../Pyblio/GnomeUI/Document.py:455
+#: ../Pyblio/GnomeUI/Document.py:458
 msgid "[modified]"
 msgstr "[τροποιήθηκε]"
 
-#: ../Pyblio/GnomeUI/Document.py:458
-#, fuzzy, python-format
+#: ../Pyblio/GnomeUI/Document.py:461
+#, python-format
 msgid "view limited to: %s"
-msgstr "Περιορισμός σε:"
+msgstr "η προβολή περιορίστηκε σε: %s"
 
-#: ../Pyblio/GnomeUI/Document.py:471
-#, fuzzy
+#: ../Pyblio/GnomeUI/Document.py:474
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
 msgstr ""
 "Η βάση δεδομένων έχει τροποποιηθεί.\n"
-"Απόρριψη αλλαγών ?"
+"Απόρριψη αλλαγών;"
 
-#: ../Pyblio/GnomeUI/Document.py:475
-#, fuzzy
+#: ../Pyblio/GnomeUI/Document.py:478
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
 msgstr ""
 "Η βάση δεδομένων έχει τροποποιηθεί.\n"
-"Απόρριψη αλλαγών ?"
+"Αποθήκευση αλλαγών;"
 
-#: ../Pyblio/GnomeUI/Document.py:492
+#: ../Pyblio/GnomeUI/Document.py:495
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes ?"
 msgstr ""
 "Η βάση δεδομένων έχει τροποποιηθεί εξωτερικά.\n"
-"Επικάλυψη αλλαγών ?"
+"Επικάλυψη αλλαγών;"
 
 #. no result.
-#: ../Pyblio/GnomeUI/Document.py:521
+#: ../Pyblio/GnomeUI/Document.py:524
 msgid "Your query returned no result"
 msgstr "Το ερώτημα σας δεν επέστρεψε αποτέλεσμα"
 
+#. error
+#: ../Pyblio/GnomeUI/Document.py:528
+#| msgid "Enter your Medline Query"
+msgid "An error occured during Medline Query"
+msgstr "Προέκυψε ένα σφάλμα κατά τη διάρκεια ερωτήματος της ιατρικής γραμμής"
+
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:531
+#: ../Pyblio/GnomeUI/Document.py:538
 msgid "Merge file"
 msgstr "Συγχώνευση αρχείου"
 
-#: ../Pyblio/GnomeUI/Document.py:543 ../Pyblio/GnomeUI/Document.py:629
+#: ../Pyblio/GnomeUI/Document.py:551 ../Pyblio/GnomeUI/Document.py:638
 msgid "Open error"
 msgstr "Σφάλμα ανοίγματος"
 
-#: ../Pyblio/GnomeUI/Document.py:567
+#: ../Pyblio/GnomeUI/Document.py:575
 msgid "Merge status"
 msgstr "Κατάσταση συγχώνευσης"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:578
+#: ../Pyblio/GnomeUI/Document.py:586
 msgid "Open file"
 msgstr "Άνοιγμα αρχείου"
 
-#: ../Pyblio/GnomeUI/Document.py:616
+#: ../Pyblio/GnomeUI/Document.py:624
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
+"Ένα αρχείο αυτόματης αποθήκευσης βρέθηκε, που είναι πιο νέο από το αρχικό "
+"αρχείο.\n"
+"Θέλετε να το επαναφέρετε;"
 
-#: ../Pyblio/GnomeUI/Document.py:650 ../Pyblio/GnomeUI/Document.py:791
-#: ../Pyblio/GnomeUI/Document.py:851
-#, fuzzy, python-format
+#: ../Pyblio/GnomeUI/Document.py:659 ../Pyblio/GnomeUI/Document.py:800
+#: ../Pyblio/GnomeUI/Document.py:860
+#, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
 "%s"
 msgstr ""
-"Αδυναμία αποθήκευσης `%s'\n"
+"Αδύνατη η αφαίρεση του αρχείου αυτόματης αποθήκευσης `%s':\n"
 " %s"
 
-#: ../Pyblio/GnomeUI/Document.py:701
-#, fuzzy, python-format
+#: ../Pyblio/GnomeUI/Document.py:710
+#, python-format
 msgid ""
 "Error during autosaving:\n"
 "%s"
 msgstr ""
-"Κατά το άνοιγμα:\n"
+"Σφάλμα κατά τη διάρκεια της αυτόματης αποθήκευσης:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:729
+#: ../Pyblio/GnomeUI/Document.py:738
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
 "%s"
 msgstr ""
-"Αδυναμία αποθήκευσης `%s'\n"
+"Αδύνατη η αποθήκευση του `%s':\n"
 " %s"
 
-#: ../Pyblio/GnomeUI/Document.py:737
+#: ../Pyblio/GnomeUI/Document.py:746
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
 msgstr ""
-"Δημιουργήθηκε ένα εσωτερικό σφάλμα κατά την αποθήκευση\n"
-"Προσπαθήστε την Αποθήκευση ως..."
+"Προέκυψε ένα εσωτερικό σφάλμα κατά την αποθήκευση\n"
+"Δοκιμάστε το Αποθήκευση ως..."
 
-#: ../Pyblio/GnomeUI/Document.py:752
+#: ../Pyblio/GnomeUI/Document.py:761
 msgid "Save As..."
 msgstr "Αποθήκευση ως..."
 
-#: ../Pyblio/GnomeUI/Document.py:758
+#: ../Pyblio/GnomeUI/Document.py:767
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
 "Overwrite it ?"
 msgstr ""
 "Το αρχείο `%s' υπάρχει ήδη.\n"
-"Να αντικατασταθεί ?"
+"Να αντικατασταθεί;"
 
-#: ../Pyblio/GnomeUI/Document.py:765
+#: ../Pyblio/GnomeUI/Document.py:774
 #, python-format
 msgid ""
 "During opening:\n"
@@ -413,85 +417,87 @@ msgstr ""
 "Κατά το άνοιγμα:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:803
+#: ../Pyblio/GnomeUI/Document.py:812
 msgid "Reopen error"
-msgstr "Σφάλμα ανοίγματος ξανά"
+msgstr "Σφάλμα επανανοίγματος"
 
-#: ../Pyblio/GnomeUI/Document.py:876
+#: ../Pyblio/GnomeUI/Document.py:885
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
 "Rename and add it anyway ?"
 msgstr ""
-"Μια καταχώρηση με το όνομα `%s' υπάρχει ήδη.\n"
-"Μετονομασία και προσθήκη της οπωσδήποτε?"
+"Μια καταχώριση με όνομα `%s' υπάρχει ήδη.\n"
+"Μετονομασία και προσθήκη της οπωσδήποτε;"
 
-#: ../Pyblio/GnomeUI/Document.py:913
+#: ../Pyblio/GnomeUI/Document.py:922
 msgid "Really remove all the entries ?"
-msgstr "Αλήθεια, να απομακρυνθούν όλες οι καταχωρήσεις?"
+msgstr "Αλήθεια, να απομακρυνθούν όλες οι καταχωρίσεις;"
 
-#: ../Pyblio/GnomeUI/Document.py:933
+#: ../Pyblio/GnomeUI/Document.py:942
 msgid "Create new entry"
-msgstr "Δημιουργία νέας καταχώρησης"
+msgstr "Δημιουργία νέας καταχώρισης"
 
-#: ../Pyblio/GnomeUI/Document.py:947
+#: ../Pyblio/GnomeUI/Document.py:956
 #, python-format
 msgid "Really edit %d entries ?"
-msgstr "Είστε σίγουροι για την επεξεργασία %d καταχωρήσεων?"
+msgstr "Να επεξεργαστούν πράγματι οι %d καταχωρίσεις;"
 
-#: ../Pyblio/GnomeUI/Document.py:993
+#: ../Pyblio/GnomeUI/Document.py:1002
 #, python-format
 msgid "Remove all the %d entries ?"
-msgstr "Απομάκρυνση όλων των %d καταχωρήσεων?"
+msgstr "Απομάκρυνση όλων των %d καταχωρίσεων;"
 
-#: ../Pyblio/GnomeUI/Document.py:995
+#: ../Pyblio/GnomeUI/Document.py:1004
 #, python-format
 msgid "Remove entry `%s' ?"
-msgstr "Απομάκρυνση καταχώρησης  `%s' ?"
+msgstr "Απομάκρυνση καταχώρισης `%s';"
 
-#: ../Pyblio/GnomeUI/Document.py:1014
+#: ../Pyblio/GnomeUI/Document.py:1023
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr ""
+"το κείμενο αναζήτησής σας πρέπει να περιέχει\n"
+"μόνο χαρακτήρες λατινικά-1"
 
-#: ../Pyblio/GnomeUI/Document.py:1093 ../Pyblio/GnomeUI/Document.py:1101
+#: ../Pyblio/GnomeUI/Document.py:1102 ../Pyblio/GnomeUI/Document.py:1110
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
 "%s"
 msgstr ""
-"Αδυναμία σύνδεσης με  LyX:\n"
+"Αδύνατη η σύνδεση με LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1216
+#: ../Pyblio/GnomeUI/Document.py:1225
 #, python-format
 msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
+"Αδύνατη η εμφάνιση της τεκμηρίωσης:\n"
+"%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1224
+#: ../Pyblio/GnomeUI/Document.py:1233
 msgid "This program is copyrighted under the GNU GPL"
-msgstr "Αυτό το πρόγραμμα καλύπτεται από την άδεια χρήσης  GNU GPL"
+msgstr "Αυτό το πρόγραμμα καλύπτεται από την άδεια χρήσης GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1225
-#, fuzzy
+#: ../Pyblio/GnomeUI/Document.py:1234
 msgid "GNOME interface to the Pybliographer system."
-msgstr "Διεπαφή Gnome για το σύστημα Pybliographer."
+msgstr "Διεπαφή GNOME για το σύστημα Pybliographer."
 
-#: ../Pyblio/GnomeUI/Document.py:1236
-#, fuzzy
+#: ../Pyblio/GnomeUI/Document.py:1245
 msgid "GNOME Translation Team"
-msgstr "Ομάδα Μετάφρασης του Gnome"
+msgstr "Ομάδα Μετάφρασης του GNOME"
 
-#: ../Pyblio/GnomeUI/Document.py:1241
+#: ../Pyblio/GnomeUI/Document.py:1250
 msgid "Pybliographer Home Page"
 msgstr "Αρχική σελίδα του Pybliographer"
 
 #: ../Pyblio/GnomeUI/Editor.py:35
 msgid "Last Name, First Name"
-msgstr "Επίθετο, Όνομα"
+msgstr "Επίθετο, όνομα"
 
 #: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1292
 #: ../Pyblio/GnomeUI/Fields.py:39 ../Pyblio/GnomeUI/glade/config1.glade.h:14
@@ -501,7 +507,7 @@ msgstr "Κείμενο"
 
 #: ../Pyblio/GnomeUI/Editor.py:133 ../Pyblio/GnomeUI/Editor.py:1003
 msgid "Error in native string parsing"
-msgstr "Σφάλμα στην 'ιθαγενή' ανάλυση αλφαριθμητικού"
+msgstr "Σφάλμα στην εγγενή ανάλυση συμβολοσειράς"
 
 #: ../Pyblio/GnomeUI/Editor.py:312
 msgid "Day"
@@ -517,15 +523,15 @@ msgstr "Έτος"
 
 #: ../Pyblio/GnomeUI/Editor.py:355
 msgid "Invalid day field in date"
-msgstr "Μή έγκυρο πεδίο ημέρας στην ημερομηνία"
+msgstr "Άκυρο πεδίο ημέρας στην ημερομηνία"
 
 #: ../Pyblio/GnomeUI/Editor.py:363
 msgid "Invalid month field in date"
-msgstr "Μή έγκυρο πεδίο μήνα στην ημερομηνία"
+msgstr "Άκυρο πεδίο μήνα στην ημερομηνία"
 
 #: ../Pyblio/GnomeUI/Editor.py:371
 msgid "Invalid year field in date"
-msgstr "Μή έγκυρο πεδίο έτους στην ημερομηνία"
+msgstr "Άκυρο πεδίο έτους στην ημερομηνία"
 
 #. A delete button
 #: ../Pyblio/GnomeUI/Editor.py:419 ../Pyblio/GnomeUI/Search.py:86
@@ -535,22 +541,21 @@ msgstr "Διαγραφή"
 #: ../Pyblio/GnomeUI/Editor.py:430 ../Pyblio/GnomeUI/Editor.py:443
 #: ../Pyblio/GnomeUI/Editor.py:446
 msgid "[ Drop an Entry here ]"
-msgstr "[ Drop an Entry here ]"
+msgstr "[ Απόθεση μιας καταχώρισης εδώ ]"
 
 #: ../Pyblio/GnomeUI/Editor.py:502
 msgid "Browse..."
-msgstr ""
+msgstr "Περιήγηση..."
 
 #: ../Pyblio/GnomeUI/Editor.py:525
-#, fuzzy
 msgid "Select file"
-msgstr "Συγχώνευση αρχείου"
+msgstr "Επιλογή αρχείου"
 
 #: ../Pyblio/GnomeUI/Editor.py:549 ../Pyblio/GnomeUI/Fields.py:236
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:8
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
 msgid "Entry type"
-msgstr "Τύπος καταχώρησης"
+msgstr "Τύπος καταχώρισης"
 
 #: ../Pyblio/GnomeUI/Editor.py:551
 msgid "Key"
@@ -563,12 +568,11 @@ msgstr "Δημιουργία πεδίου"
 #. navigation buttons
 #: ../Pyblio/GnomeUI/Editor.py:605
 msgid "Back"
-msgstr ""
+msgstr "Πίσω"
 
 #: ../Pyblio/GnomeUI/Editor.py:608
-#, fuzzy
 msgid "Next"
-msgstr "Κείμενο"
+msgstr "Επόμενο"
 
 #: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Fields.py:451
 msgid "Mandatory"
@@ -580,66 +584,65 @@ msgstr "Προαιρετικό"
 
 #: ../Pyblio/GnomeUI/Editor.py:728 ../Pyblio/GnomeUI/Editor.py:1207
 msgid "Notes"
-msgstr ""
+msgstr "Σημειώσεις"
 
 #: ../Pyblio/GnomeUI/Editor.py:728
 msgid "Extra"
-msgstr "Έξτρα"
+msgstr "Πρόσθετα"
 
 #: ../Pyblio/GnomeUI/Editor.py:909
 msgid "Invalid key format"
-msgstr "Μή έγκυρος τύπος κλειδιού"
+msgstr "Άκυρος τύπος κλειδιού"
 
 #: ../Pyblio/GnomeUI/Editor.py:917
 #, python-format
 msgid "Key `%s' already exists"
-msgstr "Το κλειδί '%s' υπάρχει ήδη."
+msgstr "Το κλειδί `%s' υπάρχει ήδη."
 
 #: ../Pyblio/GnomeUI/Editor.py:934
 #, python-format
 msgid "The `%s' field contains a non Latin-1 symbol"
-msgstr ""
+msgstr "Το πεδίο `%s' περιέχει ένα μη λατινικό-1 χαρακτήρα"
 
 #: ../Pyblio/GnomeUI/Editor.py:996
 msgid "Your text contains non Latin-1 symbols"
-msgstr ""
+msgstr "Το κείμενό σας περιέχει μη λατινικούς-1 χαρακτήρες"
 
 #: ../Pyblio/GnomeUI/Editor.py:1023
 msgid "Edit entry"
-msgstr "Επεξεργασία καταχώρησης"
+msgstr "Επεξεργασία καταχώρισης"
 
 #: ../Pyblio/GnomeUI/Editor.py:1037 ../Pyblio/GnomeUI/Editor.py:1102
 msgid "Native Editing"
-msgstr "Ιθαγενής επεξεργασία"
+msgstr "Εγγενής επεξεργασία"
 
 #: ../Pyblio/GnomeUI/Editor.py:1125
 msgid "Standard Editing"
-msgstr "Κανονική επεξεργασία"
+msgstr "Τυπική επεξεργασία"
 
 #: ../Pyblio/GnomeUI/Editor.py:1229
-#, fuzzy
 msgid "mandatory"
-msgstr "Υποχρεωτικό"
+msgstr "υποχρεωτικό"
 
 #: ../Pyblio/GnomeUI/Editor.py:1295
 msgid "Enter text here"
-msgstr ""
+msgstr "Εισάγετε το κείμενο εδώ"
 
 #: ../Pyblio/GnomeUI/Editor.py:1347
 msgid "New Annotation Name"
-msgstr ""
+msgstr "Νέο όνομα σχολίου"
 
 #: ../Pyblio/GnomeUI/Editor.py:1353
 msgid "Name of the new annotation:"
-msgstr ""
+msgstr "Όνομα του νέου σχολίου:"
 
 #: ../Pyblio/GnomeUI/Entry.py:114
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "Cannot open URL:\n"
 "%s"
 msgstr ""
-"Αδυναμία σύνδεσης με  LyX:\n"
+"Αδύνατο το άνοιγμα URL:\n"
 "%s"
 
 #: ../Pyblio/GnomeUI/Fields.py:38
@@ -647,9 +650,8 @@ msgid "Authors"
 msgstr "Συγγραφείς"
 
 #: ../Pyblio/GnomeUI/Fields.py:40
-#, fuzzy
 msgid "Long Text"
-msgstr "Κείμενο"
+msgstr "Μεγάλο κείμενο"
 
 #: ../Pyblio/GnomeUI/Fields.py:41 ../Pyblio/GnomeUI/glade/config1.glade.h:16
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:21
@@ -684,12 +686,12 @@ msgstr "Συσχετισμός"
 
 #: ../Pyblio/GnomeUI/Fields.py:321
 msgid "Please, select an entry type from previous page."
-msgstr "Παρακαλώ, επιλέξτε ένα τύπο καταχώρησης από την προηγούμενη σελίδα."
+msgstr "Παρακαλώ, επιλέξτε έναν τύπο καταχώρισης από την προηγούμενη σελίδα."
 
 #: ../Pyblio/GnomeUI/Fields.py:332
 #, python-format
 msgid "Fields associated with <b>%s</b> entry type"
-msgstr "Πεδία που συσχετίζονται με <b>%s</b> τύπο καταχώρησης"
+msgstr "Πεδία που σχετίζονται με τον <b>%s</b> τύπο καταχώρισης"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:39
 msgid "File"
@@ -702,7 +704,7 @@ msgstr "Τύπος Βιβλιογραφίας:"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:93 ../Pyblio/GnomeUI/OpenURL.py:61
 msgid " - According to file suffix - "
-msgstr ""
+msgstr " - Σύμφωνα με το επίθεμα του αρχείου - "
 
 #. The root of the search tree is the full database
 #: ../Pyblio/GnomeUI/Search.py:71
@@ -719,13 +721,13 @@ msgid ""
 "while compiling %s\n"
 "error: %s"
 msgstr ""
-"κατά το compiling %s\n"
+"κατά το μεταγλώττιση %s\n"
 "σφάλμα: %s"
 
 #. These are additional search fields
 #: ../Pyblio/GnomeUI/Sort.py:97
 msgid "[Entry Type]"
-msgstr "[Τύπος καταχώρησης]"
+msgstr "[Τύπος καταχώρισης]"
 
 #: ../Pyblio/GnomeUI/Sort.py:98
 msgid "[Key Value]"
@@ -738,7 +740,7 @@ msgstr "Παρουσιάστηκαν τα ακόλουθα σφάλματα:\n"
 #: ../Pyblio/GnomeUI/__init__.py:45
 #, python-format
 msgid "This is Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
-msgstr ""
+msgstr "Αυτό είναι το Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:1
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:1
@@ -750,7 +752,7 @@ msgstr "*"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:2
 msgid "<b>Entry type</b>"
-msgstr "<b>Τύπος καταχώρησης</b>"
+msgstr "<b>Τύπος καταχώρισης</b>"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:3
 msgid "A"
@@ -764,7 +766,7 @@ msgstr "Συσχετισμός"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:5
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
 msgid "Datum"
-msgstr "Datum"
+msgstr "Δεδομένο"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:6
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:4
@@ -774,7 +776,7 @@ msgstr "Επεξεργαστής"
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:7
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:5
 msgid "Entries"
-msgstr "Καταχωρήσεις"
+msgstr "Καταχωρίσεις"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:9
 msgid "FIELDS DEFINITION"
@@ -796,15 +798,15 @@ msgstr "Ρύθμιση Pybliographer"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:17
 msgid "standard fields"
-msgstr "στάνταρ πεδία"
+msgstr "τυπικά πεδία"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:7
 msgid "Entry types and field names configuration"
-msgstr "Τύποι καταχώρησης και ρύθμιση ονομάτων πεδίων"
+msgstr "Τύποι καταχώρισης και ρύθμιση ονομάτων πεδίων"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:9
 msgid "Information for <b>Article</b> entry type"
-msgstr "Πληροφορίες για <b>Άρθρο</b> τύπο καταχώρησης"
+msgstr "Πληροφορίες για <b>Άρθρο</b> τύπου καταχώρισης"
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:12
 msgid ""
@@ -815,8 +817,8 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
-"Επιλέξτε ένα τύπο καταχώρησης και καθορίστε \n"
-"τα συσχετιζόμενα (υποχρεωτικά και\n"
+"Επιλέξτε ένα τύπο καταχώρισης και καθορίστε \n"
+"τα σχετιζόμενα (υποχρεωτικά και\n"
 "προαιρετικά) πεδία στην επόμενη σελίδα.\n"
 "\n"
 "\n"
@@ -824,20 +826,19 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:1
 msgid "Bibliography style:"
-msgstr "Στυλ βιβλιογραφίας:"
+msgstr "Τεχνοτροπία βιβλιογραφίας:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:2
 msgid "Format entries"
-msgstr "Μορφοποίηση καταχωρήσεων"
+msgstr "Μορφοποίηση καταχωρίσεων"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:3
-#, fuzzy
 msgid "Output file:"
-msgstr "Αρχείο αποτελέσματος:\n"
+msgstr "Αρχείο εξόδου:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:4
 msgid "Output format:"
-msgstr "Μορφή αποτελέσματος:"
+msgstr "Μορφή εξόδου:"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:5
 msgid "Save Formatted as"
@@ -845,11 +846,11 @@ msgstr "Αποθήκευση μορφοποίησης ως"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:6
 msgid "Style Selection"
-msgstr "Επιλογή στυλ"
+msgstr "Επιλογή τεχνοτροπίας"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:2
 msgid "Enter your Medline Query"
-msgstr "ΐσάγετε το Medline ερώτημα σας"
+msgstr "Εισάγετε το ερώτημα σας στην ιατρική γραμμή"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:3
 msgid "From:"
@@ -869,7 +870,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:7
 msgid "Medline Query"
-msgstr "Ερώτημα Medline"
+msgstr "Ερώτημα ιατρικής γραμμής"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:8
 msgid ""
@@ -877,7 +878,7 @@ msgid ""
 "ahead of print"
 msgstr ""
 "Μόνο αντικείμενα \n"
-"ahead of print"
+"πριν την εκτύπωση"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:10
 msgid ""
@@ -885,7 +886,7 @@ msgid ""
 "with abstracts"
 msgstr ""
 "Μόνο αντικείμενα \n"
-"με abstracts"
+"με περιλήψεις"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:12
 msgid ""
@@ -912,24 +913,24 @@ msgid ""
 "Use the format YYYY/MM/DD\n"
 "Month and day are optional."
 msgstr ""
-"Χρήση της μορφής YYYY/MM/DD\n"
-"Μήνας  και ημέρα είναι προαιρετικά."
+"Χρήση της μορφής ΕΕΕΕ/ΜΜ/ΗΗ\n"
+"Μήνας και ημέρα είναι προαιρετικά."
 
 #: ../Pyblio/GnomeUI/glade/openurl.glade.h:3
 msgid "Enter the location (URI) of the file you would like to open:"
-msgstr ""
+msgstr "Εισάγετε τη θέση (URI) του αρχείου που θέλετε να ανοίξετε:"
 
 #: ../Pyblio/GnomeUI/glade/openurl.glade.h:4
 msgid "Open Location"
-msgstr ""
+msgstr "Άνοιγμα τοποθεσίας"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:1
 msgid "Cite"
-msgstr "Παράθεση"
+msgstr "Παραπομπή"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
 msgid "Contents"
-msgstr ""
+msgstr "Περιεχόμενα"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
 msgid "Open File"
@@ -981,7 +982,7 @@ msgstr "Πεδίο"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:5
 msgid "Pattern"
-msgstr "Μοτίβο"
+msgstr "Υπόδειγμα"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:6
 msgid "Query"
@@ -993,7 +994,7 @@ msgstr "Αναζήτηση"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:8
 msgid "Simple Search"
-msgstr "Απλή αναζήτηση:"
+msgstr "Απλή αναζήτηση"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
 msgid "Select sort criterions"
@@ -1006,12 +1007,12 @@ msgstr "Ορισμός ως προεπιλογής"
 #: ../Pyblio/LyX.py:37
 #, python-format
 msgid "no input pipe `%s'"
-msgstr "no input pipe `%s'"
+msgstr "χωρίς διοχέτευση εισόδου `%s'"
 
 #: ../Pyblio/LyX.py:43
 #, python-format
 msgid "no output pipe `%s'"
-msgstr "no output pipe `%s'"
+msgstr "χωρίς διοχέτευση εξόδου `%s'"
 
 #  Say hello !
 #  print self.pout.read ()
@@ -1036,7 +1037,7 @@ msgstr "no output pipe `%s'"
 #: ../Pyblio/Open.py:96
 #, python-format
 msgid "method `%s' provides no opener"
-msgstr "η μέδοδος  `%s' δεν παρέχει opener"
+msgstr "η μέθοδος `%s' δεν παρέχει άνοιγμα"
 
 #: ../Pyblio/Open.py:104 ../Pyblio/Open.py:151
 #, python-format
@@ -1046,12 +1047,12 @@ msgstr "Το αρχείο `%s' δεν υπάρχει."
 #: ../Pyblio/Open.py:115 ../Pyblio/Open.py:162
 #, python-format
 msgid "don't know how to open `%s'"
-msgstr "δεν γνωρίζω πως να ανοίξω το `%s'"
+msgstr "άγνωστο πώς θα ανοιχθεί το `%s'"
 
 #: ../Pyblio/Open.py:143
 #, python-format
 msgid "method `%s' provides no iterator"
-msgstr "η μέθοδος  `%s'  δεν παρέχει  iterator"
+msgstr "η μέθοδος `%s' δεν παρέχει επαναλήπτη"
 
 #: ../Pyblio/Resource.py:77
 #, python-format
@@ -1059,15 +1060,17 @@ msgid ""
 "Warning: This URL is marked as Invalid or Approximate: %s\n"
 "Continue?"
 msgstr ""
+"Προειδοποίηση: Αυτό το URL είναι σημειωμένο ως άκυρο ή προσεγγιστικά: %s\n"
+"Συνέχεια;"
 
 #: ../Pyblio/Resource.py:81
 msgid "Determining Mime Type ... "
-msgstr ""
+msgstr "Καθορίζεται ο τύπος Mime..."
 
 #: ../Pyblio/Resource.py:86
 #, python-format
 msgid "Cannot determine mime type for item %s "
-msgstr ""
+msgstr "Αδύνατος ο προσδιορισμός τύπου mime για το στοιχείο %s "
 
 #: ../Pyblio/Resource.py:87
 #, python-format
@@ -1076,15 +1079,19 @@ msgid ""
 "You should check the url or path given for errors.\n"
 "Details: %s"
 msgstr ""
+"Το εξεταζόμενο URL είναι: %s\n"
+"Θα πρέπει να ελέγξετε το url ή την δοσμένη διαδρομή για σφάλματα.\n"
+"Λεπτομέρειες: %s"
 
 #: ../Pyblio/Resource.py:98
 msgid "Accessing resource ..."
-msgstr ""
+msgstr "Πρόσβαση στον πόρο..."
 
 #: ../Pyblio/Resource.py:116
 #, python-format
 msgid "IOError for item %s: cannot uncompress resource."
 msgstr ""
+"Σφάλμα εισόδου/εξόδου για το στοιχείο %s: αδύνατη η αποσυμπίεση του πόρου."
 
 #: ../Pyblio/Resource.py:117
 #, python-format
@@ -1092,14 +1099,16 @@ msgid ""
 "URL: %s\n"
 "Details: %s"
 msgstr ""
+"URL: %s\n"
+"Λεπτομέρειες: %s"
 
 #: ../Pyblio/Resource.py:137
 msgid "Starting application ..."
-msgstr ""
+msgstr "Εκκίνηση εφαρμογής..."
 
 #: ../Pyblio/Resource.py:140
 msgid "No application to view resource"
-msgstr ""
+msgstr "Χωρίς εφαρμογή για προβολή πόρου"
 
 #: ../Pyblio/Resource.py:141
 #, python-format
@@ -1109,23 +1118,25 @@ msgid ""
 "Please consider adding one.\n"
 "URL: %s"
 msgstr ""
+"Για τον τύπο mime %s, δεν βρέθηκε καμιά καταχώριση στην\n"
+"επιλογή ρύθμισης πόρου/προβολών.\n"
+"Παρακαλούμε, σκεφτείτε να προσθέσετε έναν.\n"
+"URL: %s"
 
 #: ../Pyblio/Style/Parser.py:261
 #, python-format
 msgid "missing '%s' attribute"
-msgstr ""
+msgstr "λείπει το γνώρισμα '%s'"
 
 #: ../Pyblio/Style/Parser.py:271
-#, fuzzy, python-format
+#, python-format
 msgid "invalid opening tag: %s"
-msgstr ""
-"Κατά το άνοιγμα:\n"
-"%s"
+msgstr "άκυρη ετικέτα ανοίγματος: %s"
 
 #: ../Pyblio/Style/Parser.py:281
 #, python-format
 msgid "invalid closing tag: %s"
-msgstr ""
+msgstr "άκυρη ετικέτα κλεισίματος: %s"
 
 #: ../pybliographer.py:43
 #, python-format
@@ -1134,7 +1145,7 @@ msgstr "Αυτό είναι το %s, έκδοση %s"
 
 #: ../pybliographer.py:47 ../pybliographer.py:54
 msgid "This is free software with ABSOLUTELY NO WARRANTY."
-msgstr "Αυτό είναι ένα ελεύθερο λογισμικό με ΚΑΜΜΙΑ ΑΠΟΛΥΤΩΣ ΕΓΓΥΗΣΓ"
+msgstr "Αυτό είναι ένα ελεύθερο λογισμικό με ΚΑΜΙΑ ΑΠΟΛΥΤΩΣ ΕΓΓΥΗΣΗ."
 
 #: ../pybliographer.py:48
 msgid "For details, type `warranty'."
@@ -1143,12 +1154,12 @@ msgstr "Για λεπτομέρειες, πληκτρολογήστε `warranty'
 #: ../pybliographer.py:111 ../pybliographer.py:163
 #, python-format
 msgid "%s: error: can't open file `%s'"
-msgstr "%s: σφάλμα: δε μπόρεσε να ανοιστεί το αρχείο `%s'"
+msgstr "%s: σφάλμα: αδύνατο το άνοιγμα του αρχείου `%s'"
 
 #: ../pybliographer.py:124
 #, python-format
 msgid "For help, run %s and type `help' at the prompt"
-msgstr "Γιο βοήθεια, εκτελέστε %s και πληκτρολογήστε `help' "
+msgstr "Για βοήθεια, εκτελέστε %s και πληκτρολογήστε `help' όταν ζητηθεί"
 
 #: ../pybliographer.py:133
 msgid ""
@@ -1162,57 +1173,55 @@ msgstr ""
 
 #. save history
 #: ../pybliographic.desktop.in.h:1
-#, fuzzy
 msgid "Bibliography Manager"
-msgstr "Τύπος Βιβλιογραφίας:"
+msgstr "Διαχειριστής βιβλιογραφίας"
 
 #: ../pybliographic.desktop.in.h:2
 msgid "Manage bibliographic databases"
-msgstr ""
+msgstr "Διαχείριση βάσεων δεδομένων βιβλιογραφίας"
 
 #: ../pybliographic.desktop.in.h:3
 msgid "Pybliographic Bibliography Manager"
-msgstr ""
+msgstr "Διαχειριστής βιβλιογραφίας Pybliographic"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr ""
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "χρήση: pybliocheck <file | directory>..."
 
-#: ../scripts/pybcheck.py:60
-#, fuzzy, python-format
-msgid "file `%s' is ok [%d entries]"
-msgstr "Το αρχείο `%s' δεν υπάρχει."
-
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "χρήση: pybcompact <latexfile> <bibtexfiles...>"
-
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocheck.py:60
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: σφάλμα: %s\n"
+msgid "file `%s' is ok [%d entries]"
+msgstr "Το αρχείο `%s' είναι εντάξει [%d καταχωρίσεις]"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "χρήση: pybliocompact <latexfile> <bibtexfiles...>"
+
+#: ../scripts/pybliocompact.py:34
+#, python-format
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: σφάλμα: %s\n"
+
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
-msgstr "καμμία καταχώρηση"
+msgstr "καμία καταχώριση"
 
-#: ../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
-msgstr "αδυναμία εύρεσης των ακόλουθων καταχωρήσεων: %s"
+msgstr "αδύνατη η εύρεση των ακόλουθων καταχωρίσεων: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "χρήση: pybconvert <source>..<target> <input> [output]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "χρήση: pyblioconvert <source>..<target> <input> [output]"
 
-#: ../scripts/pybconvert.py:38
-#, fuzzy
-msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: εσφαλμένος τύπος μετατροπής"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
+msgstr "pyblioconvert: σφάλμα: εσφαλμένος τύπος μετατροπής"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1222,148 +1231,152 @@ msgid ""
 "      -F footer, --footer=footer\tdefines a footer file\n"
 "      -l 'output', --list='output'\tlists the available output formats\n"
 "      -h, --help\t\t\tshow this help message\n"
-"      -v, --version\t\t\tshow this help message\n"
 "    "
 msgstr ""
+"χρήση: pyblioformat [επιλογές] <database...>\n"
+"\n"
+"    επιλογές:\n"
+"      -o αρχείο, --output=αρχείο\tορίζει το όνομα αρχείου εξόδου\n"
+"   -s τεχνοτροπία, --style=τεχνοτροπία\tορίζει την τεχνοτροπία την "
+"βιβλιογραφίας\n"
+"      -f μορφή, --format=μορφή\t\tορίζει τη μορφή εξόδου\n"
+"      -H κεφαλίδα, --header=κεφαλίδα\tκαθορίζει αρχείο κεφαλίδας\n"
+"      -F υποσέλιδο, --footer=υποσέλιδο\tκαθορίζει αρχείο υποσέλιδου\n"
+"      -l 'έξοδος', --list='έξοδος'\tεμφανίζει τις διαθέσιμες μορφές εξόδου\n"
+"      -h, --help\t\t\tεμφανίζει αυτό το μήνυμα βοήθειας\n"
+"    "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pyblioformat.py:48
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: σφάλμα: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: σφάλμα: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pyblioformat.py:54
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: προειδοποίηση: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: προειδοποίηση: %s\n"
 
-#: ../scripts/pybformat.py:90 ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278 ../scripts/pybtext.py:321
-#, fuzzy, python-format
+#: ../scripts/pyblioformat.py:93 ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
+#, python-format
 msgid "can't open `%s': %s"
-msgstr ""
-"Αδύνατο το άνοιγμα αρχείου `%s' για εγγραφή:\n"
-"%s"
+msgstr "αδύνατο το άνοιγμα του `%s': %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pyblioformat.py:100
 #, python-format
 msgid "unknown list `%s'"
-msgstr ""
+msgstr "άγνωστη λίστα `%s'"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:103
 #, python-format
-msgid "pybformat: available values for `%s':"
-msgstr ""
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: διαθέσιμες τιμές για `%s':"
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pyblioformat.py:107
 #, python-format
 msgid "empty value list `%s'"
-msgstr ""
+msgstr "κενή λίστα τιμών `%s'"
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pyblioformat.py:129
 msgid "too few arguments"
-msgstr ""
+msgstr "υπερβολικά λίγα ορίσματα"
 
-#: ../scripts/pybformat.py:139 ../scripts/pybtext.py:117
-#, fuzzy, python-format
+#: ../scripts/pyblioformat.py:136 ../scripts/pybliotext.py:117
+#, python-format
 msgid "unknown output format `%s'"
-msgstr "no output pipe `%s'"
+msgstr "άγνωστη μορφή εξόδου `%s'"
 
-#: ../scripts/pybformat.py:152 ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:149 ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
-msgstr "αδυναμία εύρεσης στυλ`%s'"
+msgstr "αδύνατη η εύρεση τεχνοτροπίας `%s'"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pyblioformat.py:152
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr ""
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: χρήση τεχνοτροπίας `%s', μορφής `%s'\n"
 
-#: ../scripts/pybformat.py:170
-#, fuzzy, python-format
+#: ../scripts/pyblioformat.py:167
+#, python-format
 msgid "can't open header `%s': %s"
-msgstr ""
-"Αδύνατο το άνοιγμα αρχείου `%s' για εγγραφή:\n"
-"%s"
+msgstr "αδύνατο το άνοιγμα της κεφαλίδας `%s': %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pyblioformat.py:175
 #, python-format
 msgid "can't open database: %s"
-msgstr ""
+msgstr "αδύνατο το άνοιγμα της βάσης δεδομένων: %s"
 
-#: ../scripts/pybformat.py:193
-#, fuzzy, python-format
-msgid "can't open footer `%s': %s"
-msgstr ""
-"Αδύνατο το άνοιγμα αρχείου `%s' για εγγραφή:\n"
-"%s"
-
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "χρήση: pybtex <latexfile> [bibtexfiles...]"
-
-#: ../scripts/pybtex.py:38
+#: ../scripts/pyblioformat.py:190
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: σφάλμα: %s\n"
+msgid "can't open footer `%s': %s"
+msgstr "αδύνατο το άνοιγμα του υποσέλιδου `%s': %s"
+
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "χρήση: pybliotex <latexfile> [bibtexfiles...]"
+
+#: ../scripts/pybliotex.py:38
+#, python-format
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: σφάλμα: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: προειδοποίηση: τα ακόλουθα κλειδιά δεν επιλύθηκαν"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: προειδοποίηση: τα ακόλουθα κλειδιά δεν επιλύθηκαν"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
-msgstr "δεν καθορίστηκε στυλ"
+msgstr "δεν καθορίστηκε τεχνοτροπία"
 
-#: ../scripts/pybtext.py:41
-#, fuzzy
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr "χρήση: pybcompact <latexfile> <bibtexfiles...>"
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+msgstr "χρήση: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 
-#: ../scripts/pybtext.py:45
-#, fuzzy, python-format
-msgid "pybtext: error: %s\n"
-msgstr "pybtex: σφάλμα: %s\n"
+#: ../scripts/pybliotext.py:45
+#, python-format
+msgid "pybliotext: error: %s\n"
+msgstr "pybliotext: σφάλμα: %s\n"
 
-#: ../scripts/pybtext.py:50
-#, fuzzy, python-format
-msgid "pybtext: warning: %s\n"
-msgstr "pybformat: προειδοποίηση: %s\n"
+#: ../scripts/pybliotext.py:50
+#, python-format
+msgid "pybliotext: warning: %s\n"
+msgstr "pyblioformat: προειδοποίηση: %s\n"
 
-#: ../scripts/pybtext.py:124
-#, fuzzy, python-format
+#: ../scripts/pybliotext.py:124
+#, python-format
 msgid "File already exists: `%s'"
-msgstr "Το κλειδί '%s' υπάρχει ήδη."
+msgstr "Το αρχείο υπάρχει ήδη: `%s'"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
-msgstr ""
+msgstr "Υπάρχει ήδη ένα αρχείο με το ίδιο όνομα στο: `%s'"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
-msgstr ""
+msgstr "δεν βρέθηκε παραπομπή"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr ""
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: χρήση τεχνοτροπίας `%s', μορφής `%s'\n"
 
-#: ../scripts/pybtext.py:316
-#, fuzzy, python-format
+#: ../scripts/pybliotext.py:316
+#, python-format
 msgid "can't create `%s'"
-msgstr "αδυναμία εύρεσης στυλ`%s'"
+msgstr "αδύνατη η δημιουργία του `%s'"
 
-#: ../scripts/pybtext.py:342
-#, fuzzy, python-format
+#: ../scripts/pybliotext.py:342
+#, python-format
 msgid "can't remove `%s'"
-msgstr "αδυναμία εύρεσης στυλ`%s'"
+msgstr "αδύνατη η αφαίρεση του `%s'"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
-msgstr "Ολοκληρώθηκε"
+msgstr "Έτοιμο"
 
 #~ msgid "Add..."
 #~ msgstr "Προσθήκη..."
@@ -1374,5 +1387,5 @@ msgstr "Ολοκληρώθηκε"
 #~ msgid "Delete..."
 #~ msgstr "Διαγραφή..."
 
-#~ msgid "usage: pybformat [bibtexfiles...]\n"
-#~ msgstr "χρήση: pybformat [bibtexfiles...]\n"
+#~ msgid "usage: pyblioformat [bibtexfiles...]\n"
+#~ msgstr "χρήση: pyblioformat [bibtexfiles...]\n"

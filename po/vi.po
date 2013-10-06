@@ -1098,44 +1098,44 @@ msgstr "Quản lý các cơ sở dữ liệu thư tịch"
 msgid "Pybliographic Bibliography Manager"
 msgstr "Bộ Quản lý Thư tịch kiểu Pybliograph"
 
-#:../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
-msgstr "cách sử dụng: pybcheck <tập_tin | thư_mục>..."
+#:../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
+msgstr "cách sử dụng: pybliocheck <tập_tin | thư_mục>..."
 
-#:../scripts/pybcheck.py:60
+#:../scripts/pybliocheck.py:60
 #,python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "tập tin « %s » là được [%d mục nhập]"
 
-#:../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "cách sử dụng: pybcompact <tập_tin_latex> <các_tập_tin_bibtex...>"
+#:../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "cách sử dụng: pybliocompact <tập_tin_latex> <các_tập_tin_bibtex...>"
 
-#:../scripts/pybcompact.py:34
+#:../scripts/pybliocompact.py:34
 #,python-format
-msgid "pybcompact: error: %s\n"
+msgid "pybliocompact: error: %s\n"
 msgstr "Lỗi pybcompact: %s\n"
 
-#:../scripts/pybcompact.py:99
+#:../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "không có mục nhập"
 
-#:../scripts/pybcompact.py:162 ../scripts/pybtext.py:240
+#:../scripts/pybliocompact.py:162 ../scripts/pybliotext.py:240
 #,python-format
 msgid "can't find the following entries: %s"
 msgstr "không tìm thấy những mục nhập theo đây: %s"
 
-#:../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "cách sử dụng: pybconvert <nguồn>..<đích> <kết_nhập> [kết_xuất]"
+#:../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "cách sử dụng: pyblioconvert <nguồn>..<đích> <kết_nhập> [kết_xuất]"
 
-#:../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
-msgstr "pybconvert: lỗi: dạng thức chuyển đổi sai"
+#:../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
+msgstr "pyblioconvert: lỗi: dạng thức chuyển đổi sai"
 
-#:../scripts/pybformat.py:34
+#:../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1147,7 +1147,7 @@ msgid ""
 "      -h, --help\t\t\tshow this help message\n"
 "      -v, --version\t\t\tshow this help message\n"
 "    "
-msgstr "cách sử dụng: pybformat [các_tùy_chọn] <cơ_sở_dữ_liệu...>\n"
+msgstr "cách sử dụng: pyblioformat [các_tùy_chọn] <cơ_sở_dữ_liệu...>\n"
 "\n"
 "    Tùy chọn:\n"
 "      -o tập_tin, --output=tập_tin\t\tghi rõ tên tập tin _xuất_\n"
@@ -1160,135 +1160,135 @@ msgstr "cách sử dụng: pybformat [các_tùy_chọn] <cơ_sở_dữ_liệu...
 "      -v, --version\t\t\thiển thị _phiên bản_ của chương trình\n"
 "    "
 
-#:../scripts/pybformat.py:49
+#:../scripts/pyblioformat.py:49
 #,python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: lỗi: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: lỗi: %s\n"
 
-#:../scripts/pybformat.py:55
+#:../scripts/pyblioformat.py:55
 #,python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: cảnh báo : %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: cảnh báo : %s\n"
 
-#:../scripts/pybformat.py:90 ../scripts/pybtext.py:252
-#:../scripts/pybtext.py:278 ../scripts/pybtext.py:321
+#:../scripts/pyblioformat.py:90 ../scripts/pybliotext.py:252
+#:../scripts/pybliotext.py:278 ../scripts/pybliotext.py:321
 #,python-format
 msgid "can't open `%s': %s"
 msgstr "không thể mở « %s »: %s"
 
-#:../scripts/pybformat.py:97
+#:../scripts/pyblioformat.py:97
 #,python-format
 msgid "unknown list `%s'"
 msgstr "không biệt danh sách « %s »"
 
-#:../scripts/pybformat.py:100
+#:../scripts/pyblioformat.py:100
 #,python-format
-msgid "pybformat: available values for `%s':"
-msgstr "pybformat: các giá trị sẵn sàng cho « %s »"
+msgid "pyblioformat: available values for `%s':"
+msgstr "pyblioformat: các giá trị sẵn sàng cho « %s »"
 
-#:../scripts/pybformat.py:104
+#:../scripts/pyblioformat.py:104
 #,python-format
 msgid "empty value list `%s'"
 msgstr "danh sách giá trị rỗng « %s »"
 
-#:../scripts/pybformat.py:132
+#:../scripts/pyblioformat.py:132
 msgid "too few arguments"
 msgstr "quá ít đối số"
 
-#:../scripts/pybformat.py:139 ../scripts/pybtext.py:117
+#:../scripts/pyblioformat.py:139 ../scripts/pybliotext.py:117
 #,python-format
 msgid "unknown output format `%s'"
 msgstr "không biết dạng thức xuất « %s »"
 
-#:../scripts/pybformat.py:152 ../scripts/pybtex.py:86
-#:../scripts/pybtext.py:94
+#:../scripts/pyblioformat.py:152 ../scripts/pybliotex.py:86
+#:../scripts/pybliotext.py:94
 #,python-format
 msgid "can't find style `%s'"
 msgstr "không tìm thấy kiểu dáng « %s »"
 
-#:../scripts/pybformat.py:155
+#:../scripts/pyblioformat.py:155
 #,python-format
-msgid "pybformat: using style `%s', format `%s'\n"
-msgstr "pybformat: đang dùng kiểu dáng « %s », dạng thức « %s »\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
+msgstr "pyblioformat: đang dùng kiểu dáng « %s », dạng thức « %s »\n"
 
-#:../scripts/pybformat.py:170
+#:../scripts/pyblioformat.py:170
 #,python-format
 msgid "can't open header `%s': %s"
 msgstr "không thể mở phần đầu « %s »: %s"
 
-#:../scripts/pybformat.py:178
+#:../scripts/pyblioformat.py:178
 #,python-format
 msgid "can't open database: %s"
 msgstr "không thể mở cơ sở dữ liệu : %s"
 
-#:../scripts/pybformat.py:193
+#:../scripts/pyblioformat.py:193
 #,python-format
 msgid "can't open footer `%s': %s"
 msgstr "không thể mở phần chân « %s »: %s"
 
-#:../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "cách sử dụng: pybtex <tập_tin_latex> [các_tập_tin_bibtex...]"
+#:../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "cách sử dụng: pybliotex <tập_tin_latex> [các_tập_tin_bibtex...]"
 
-#:../scripts/pybtex.py:38
+#:../scripts/pybliotex.py:38
 #,python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: lỗi: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: lỗi: %s\n"
 
 #.warn the user that some entries were not found
-#:../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: cảnh báo : chưa quyết định những khóa theo đây"
+#:../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: cảnh báo : chưa quyết định những khóa theo đây"
 
 #.If the LaTeX document declares no style...
-#:../scripts/pybtex.py:64
+#:../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "chưa định nghĩa kiểu dáng"
 
-#:../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr "cách sử dụng: pybtext [-o tập_tin_xuất] [-s kiểu_dáng] <tập_tin_văn_bản> "
+#:../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+msgstr "cách sử dụng: pybliotext [-o tập_tin_xuất] [-s kiểu_dáng] <tập_tin_văn_bản> "
 "<các_tập_tin_bib...>"
 
-#:../scripts/pybtext.py:45
+#:../scripts/pybliotext.py:45
 #,python-format
-msgid "pybtext: error: %s\n"
-msgstr "pybtext: lỗi: %s\n"
+msgid "pybliotext: error: %s\n"
+msgstr "pybliotext: lỗi: %s\n"
 
-#:../scripts/pybtext.py:50
+#:../scripts/pybliotext.py:50
 #,python-format
-msgid "pybtext: warning: %s\n"
-msgstr "pybtext: cảnh báo : %s\n"
+msgid "pybliotext: warning: %s\n"
+msgstr "pybliotext: cảnh báo : %s\n"
 
-#:../scripts/pybtext.py:124
+#:../scripts/pybliotext.py:124
 #,python-format
 msgid "File already exists: `%s'"
 msgstr "Tập tin đã có : « %s »"
 
-#:../scripts/pybtext.py:127
+#:../scripts/pybliotext.py:127
 #,python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "Một tập tin cùng tên đã có : « %s »"
 
-#:../scripts/pybtext.py:178
+#:../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "không tìm thấy trích dẫn"
 
-#:../scripts/pybtext.py:193
+#:../scripts/pybliotext.py:193
 #,python-format
-msgid "pybtext: using style `%s', format `%s'\n"
-msgstr "pybtext: dạng dùng kiểu dáng « %s », dạng thức « %s »\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
+msgstr "pybliotext: dạng dùng kiểu dáng « %s », dạng thức « %s »\n"
 
-#:../scripts/pybtext.py:316
+#:../scripts/pybliotext.py:316
 #,python-format
 msgid "can't create `%s'"
 msgstr "không thể tạo « %s »"
 
-#:../scripts/pybtext.py:342
+#:../scripts/pybliotext.py:342
 #,python-format
 msgid "can't remove `%s'"
 msgstr "không thể gỡ bỏ « %s »"
 
-#:../scripts/pybtext.py:344
+#:../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Đã xong"

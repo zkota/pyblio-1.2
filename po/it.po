@@ -1978,14 +1978,14 @@ msgstr ""
 #. Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #.
 #.
-#: scripts/pybcompact.py:29
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "uso: pybcompact <latexfile> <bibtexfiles...>"
+#: scripts/pybliocompact.py:29
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "uso: pybliocompact <latexfile> <bibtexfiles...>"
 
-#: scripts/pybcompact.py:33
+#: scripts/pybliocompact.py:33
 #, python-format
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: errore: %s\n"
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: errore: %s\n"
 
 #. test input arguments
 #. regular expression to match in the .aux file
@@ -1995,7 +1995,7 @@ msgstr "pybcompact: errore: %s\n"
 #. we have to enter an additional .aux file
 #. ensure citation keys unicity
 #. is there something to do ?
-#: scripts/pybcompact.py:96
+#: scripts/pybliocompact.py:96
 msgid "no entry"
 msgstr "nessuna voce"
 
@@ -2014,7 +2014,7 @@ msgstr "nessuna voce"
 #. if we found some entries in the current database...
 #. is it finished ?
 #. check if we were able to solve all the citations
-#: scripts/pybcompact.py:141
+#: scripts/pybliocompact.py:141
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "impossibile trovare le seguenti voci: %s"
@@ -2040,13 +2040,13 @@ msgstr "impossibile trovare le seguenti voci: %s"
 #. Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #.
 #.
-#: scripts/pybconvert.py:28
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "uso: pybconvert <source>..<target> <input> [output]"
+#: scripts/pyblioconvert.py:28
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "uso: pyblioconvert <source>..<target> <input> [output]"
 
-#: scripts/pybconvert.py:37
-msgid "pybconvert: bad conversion format"
-msgstr "pybconvert: formato di conversione non valido"
+#: scripts/pyblioconvert.py:37
+msgid "pyblioconvert: bad conversion format"
+msgstr "pyblioconvert: formato di conversione non valido"
 
 #. -*- python -*-
 #. This file is part of pybliographer
@@ -2069,24 +2069,24 @@ msgstr "pybconvert: formato di conversione non valido"
 #. Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #.
 #.
-#: scripts/pybformat.py:33
-msgid "usage: pybformat [bibtexfiles...]\n"
-msgstr "uso: pybformat [bibtexfile...]\n"
+#: scripts/pyblioformat.py:33
+msgid "usage: pyblioformat [bibtexfiles...]\n"
+msgstr "uso: pyblioformat [bibtexfile...]\n"
 
-#: scripts/pybformat.py:37
+#: scripts/pyblioformat.py:37
 #, python-format
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: errore: %s\n"
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: errore: %s\n"
 
-#: scripts/pybformat.py:43
+#: scripts/pyblioformat.py:43
 #, python-format
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: attenzione: %s\n"
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: attenzione: %s\n"
 
 #. test input arguments
 #. user gave wrong arguments...
 #. get the specified style and the output
-#: scripts/pybformat.py:140 scripts/pybtex.py:85
+#: scripts/pyblioformat.py:140 scripts/pybliotex.py:85
 #, python-format
 msgid "can't find style `%s'"
 msgstr "impossibile trovare lo stile «%s»"
@@ -2136,14 +2136,14 @@ msgstr "impossibile trovare lo stile «%s»"
 #. Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #.
 #.
-#: scripts/pybtex.py:33
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "uso: pybtex <latexfile> [bibtexfile...]"
+#: scripts/pybliotex.py:33
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "uso: pybliotex <latexfile> [bibtexfile...]"
 
-#: scripts/pybtex.py:37
+#: scripts/pybliotex.py:37
 #, python-format
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: errore: %s\n"
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: errore: %s\n"
 
 #. test input arguments
 #. user gave wrong arguments...
@@ -2151,12 +2151,12 @@ msgstr "pybtex: errore: %s\n"
 #. Search the entries found in the LaTeX document
 #. --------------------------------------------------
 #. warn the user that some entries were not found
-#: scripts/pybtex.py:58
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: attenzione: le seguenti chiavi non sono risolte"
+#: scripts/pybliotex.py:58
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: attenzione: le seguenti chiavi non sono risolte"
 
 #. If the LaTeX document declares no style...
-#: scripts/pybtex.py:63
+#: scripts/pybliotex.py:63
 msgid "no style defined"
 msgstr "nessuno stile definito"
 

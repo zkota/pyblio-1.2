@@ -1180,45 +1180,45 @@ msgstr "དེབ་ཐོའི་གནས་སྡུད་གཞི་རྟ
 msgid "Pybliographic Bibliography Manager"
 msgstr "པིབ་ལིའོ་གར་ཕིཀ་དེབ་ཐོ་གི་འཛིན་སྐྱོང་པ་"
 
-#: ../scripts/pybcheck.py:31
-msgid "usage: pybcheck <file | directory>..."
+#: ../scripts/pybliocheck.py:31
+msgid "usage: pybliocheck <file | directory>..."
 msgstr "བེད་སྤྱོད:པིབ་ཞིབ་དཔྱད་<file | directory>..."
 
-#: ../scripts/pybcheck.py:60
+#: ../scripts/pybliocheck.py:60
 #, python-format
 msgid "file `%s' is ok [%d entries]"
 msgstr "ཡིག་སྣོད་ `%s' འདི་བཏུབ [%d entries]"
 
-#: ../scripts/pybcompact.py:30
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
+#: ../scripts/pybliocompact.py:30
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
 msgstr "བེད་སྤྱོད: པིབ་སྲབ་ཆུང་<latexfile> <bibtexfiles...>"
 
-#: ../scripts/pybcompact.py:34
+#: ../scripts/pybliocompact.py:34
 #, python-format
-msgid "pybcompact: error: %s\n"
+msgid "pybliocompact: error: %s\n"
 msgstr "པིབ་སྲབ་ཆུང་: འཛོལ་བ: %s\n"
 
-#: ../scripts/pybcompact.py:99
+#: ../scripts/pybliocompact.py:99
 msgid "no entry"
 msgstr "ཐོ་བཀོད་མེད་"
 
-#: ../scripts/pybcompact.py:162
-#: ../scripts/pybtext.py:240
+#: ../scripts/pybliocompact.py:162
+#: ../scripts/pybliotext.py:240
 #, python-format
 msgid "can't find the following entries: %s"
 msgstr "འོག་གི་འཛུལ་ཞུགས་ཚུ་མེད: %s"
 
-#: ../scripts/pybconvert.py:29
-msgid "usage: pybconvert <source>..<target> <input> [output]"
+#: ../scripts/pyblioconvert.py:29
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
 msgstr "བེད་སྤྱོད: པིབ་གཞི་བསྒྱུར་ <source>..<target> <input> [output]"
 
-#: ../scripts/pybconvert.py:38
-msgid "pybconvert: error: bad conversion format"
+#: ../scripts/pyblioconvert.py:38
+msgid "pyblioconvert: error: bad conversion format"
 msgstr "པིབ་གཞི་བསྒྱུར: འཛོལ་བ: གཞི་བསྒྱུར་རྩ་སྒྲིག་བྱག་ཉེས་"
 
-#: ../scripts/pybformat.py:34
+#: ../scripts/pyblioformat.py:34
 msgid ""
-"usage: pybformat [options] <database...>\n"
+"usage: pyblioformat [options] <database...>\n"
 "\n"
 "    options:\n"
 "      -o file, --output=file\t\tspecify an output filename\n"
@@ -1244,139 +1244,139 @@ msgstr ""
 "      -v, --version\t\t\t  དེ་གིས་  གྲོགས་རམ་འཕྲིན་དོན་འདི་སྟོན།\n"
 "    "
 
-#: ../scripts/pybformat.py:49
+#: ../scripts/pyblioformat.py:49
 #, python-format
-msgid "pybformat: error: %s\n"
+msgid "pyblioformat: error: %s\n"
 msgstr "པིབ་རྩ་སྒྲིག: འཛོལ་བ: %s\n"
 
-#: ../scripts/pybformat.py:55
+#: ../scripts/pyblioformat.py:55
 #, python-format
-msgid "pybformat: warning: %s\n"
+msgid "pyblioformat: warning: %s\n"
 msgstr "པིབ་རྩ་སྒྲིག: ཉེན་བརྡ: %s\n"
 
-#: ../scripts/pybformat.py:90
-#: ../scripts/pybtext.py:252
-#: ../scripts/pybtext.py:278
-#: ../scripts/pybtext.py:321
+#: ../scripts/pyblioformat.py:90
+#: ../scripts/pybliotext.py:252
+#: ../scripts/pybliotext.py:278
+#: ../scripts/pybliotext.py:321
 #, python-format
 msgid "can't open `%s': %s"
 msgstr "`%s'ཁ་ཕྱེ་མ་ཚུགས: %s"
 
-#: ../scripts/pybformat.py:97
+#: ../scripts/pyblioformat.py:97
 #, python-format
 msgid "unknown list `%s'"
 msgstr "མ་ཤེས་པའི་ཐོ་ཡིག `%s'"
 
-#: ../scripts/pybformat.py:100
+#: ../scripts/pyblioformat.py:100
 #, python-format
-msgid "pybformat: available values for `%s':"
+msgid "pyblioformat: available values for `%s':"
 msgstr "པིབ་རྩ་སྒྲིག: `%s' གི་དོན་ལུ་ཐོབ་ཚུགས་པའི་གནས་གོང་:"
 
-#: ../scripts/pybformat.py:104
+#: ../scripts/pyblioformat.py:104
 #, python-format
 msgid "empty value list `%s'"
 msgstr "`%s' གནས་གོང་ཐོ་ཡིག་སྟོངམ་"
 
-#: ../scripts/pybformat.py:132
+#: ../scripts/pyblioformat.py:132
 msgid "too few arguments"
 msgstr "སྒྲུབ་རྟགས་དག་པ་ཅི་"
 
-#: ../scripts/pybformat.py:139
-#: ../scripts/pybtext.py:117
+#: ../scripts/pyblioformat.py:139
+#: ../scripts/pybliotext.py:117
 #, python-format
 msgid "unknown output format `%s'"
 msgstr "མ་ཤེས་པའི་ཨའུཊི་པུཊི་རྩ་སྒྲིག་ `%s'"
 
-#: ../scripts/pybformat.py:152
-#: ../scripts/pybtex.py:86
-#: ../scripts/pybtext.py:94
+#: ../scripts/pyblioformat.py:152
+#: ../scripts/pybliotex.py:86
+#: ../scripts/pybliotext.py:94
 #, python-format
 msgid "can't find style `%s'"
 msgstr "`%s' བཟོ་རྣམ་མ་ཐོབ་"
 
-#: ../scripts/pybformat.py:155
+#: ../scripts/pyblioformat.py:155
 #, python-format
-msgid "pybformat: using style `%s', format `%s'\n"
+msgid "pyblioformat: using style `%s', format `%s'\n"
 msgstr "པིབ་རྩ་སྒྲིག: བཟོ་རྣམ་`%s'ལག་ལེན་འཐབ་དོ་ རྩ་སྒྲིག་ `%s'\n"
 
-#: ../scripts/pybformat.py:170
+#: ../scripts/pyblioformat.py:170
 #, python-format
 msgid "can't open header `%s': %s"
 msgstr "མགོ་ཡིག་`%s'ཁ་ཕྱེ་མ་ཚུགས: %s"
 
-#: ../scripts/pybformat.py:178
+#: ../scripts/pyblioformat.py:178
 #, python-format
 msgid "can't open database: %s"
 msgstr "གནས་སྡུད་གཞི་རྟེན་ཁ་ཕྱེ་མ་ཚུགས: %s"
 
-#: ../scripts/pybformat.py:193
+#: ../scripts/pyblioformat.py:193
 #, python-format
 msgid "can't open footer `%s': %s"
 msgstr "མཇུག་ཡིག་ `%s' ཁ་ཕྱེ་མ་ཚུགས:  %s"
 
-#: ../scripts/pybtex.py:34
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
+#: ../scripts/pybliotex.py:34
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
 msgstr "བེད་སྤྱོད: པིབ་ཊེགསི་ <latexfile> [bibtexfiles...]"
 
-#: ../scripts/pybtex.py:38
+#: ../scripts/pybliotex.py:38
 #, python-format
-msgid "pybtex: error: %s\n"
+msgid "pybliotex: error: %s\n"
 msgstr "པིབ་ཊེགསི: འཛོལ་བ: %s\n"
 
 #. warn the user that some entries were not found
-#: ../scripts/pybtex.py:59
-msgid "pybtex: warning: the following keys were not resolved"
+#: ../scripts/pybliotex.py:59
+msgid "pybliotex: warning: the following keys were not resolved"
 msgstr "པིབ་ཊེགསི: ཉེན་བརྡ: འོག་གི་ལྡེ་མིག་ཚུ་མོས་མཐུན་མ་བཟོ་བས་"
 
 #. If the LaTeX document declares no style...
-#: ../scripts/pybtex.py:64
+#: ../scripts/pybliotex.py:64
 msgid "no style defined"
 msgstr "བཟོ་རྣམ་ངེས་འཛིན་མ་འབད་བས་"
 
-#: ../scripts/pybtext.py:41
-msgid "usage: pybtext [-o outputfile] [-s style] <textfile> <bibfiles...>"
+#: ../scripts/pybliotext.py:41
+msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
 msgstr "བེད་སྤྱོད: པིབ་ཚིགཡིག་ [-o outputfile] [-s style] <textfile> <bibfiles...>"
 
-#: ../scripts/pybtext.py:45
+#: ../scripts/pybliotext.py:45
 #, python-format
-msgid "pybtext: error: %s\n"
+msgid "pybliotext: error: %s\n"
 msgstr "པིབ་ཚིག་ཡིག: འཛོལ་བ: %s\n"
 
-#: ../scripts/pybtext.py:50
+#: ../scripts/pybliotext.py:50
 #, python-format
-msgid "pybtext: warning: %s\n"
+msgid "pybliotext: warning: %s\n"
 msgstr "པིབ་ཚིག་ཡིག: ཉེན་བརྡ: %s\n"
 
-#: ../scripts/pybtext.py:124
+#: ../scripts/pybliotext.py:124
 #, python-format
 msgid "File already exists: `%s'"
 msgstr "ཡིག་སྣོད་འདི་ཧེ་མ་ལས་རང་འདུག: `%s'"
 
-#: ../scripts/pybtext.py:127
+#: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
 msgstr "མིང་གཅིག་པའི་ཡིག་སྣོད་འདི་  ཧེ་མ་ལས་རང་འདུག: `%s'"
 
-#: ../scripts/pybtext.py:178
+#: ../scripts/pybliotext.py:178
 msgid "no citation found"
 msgstr "ལུང་འདྲེན་མ་ཐོབ་"
 
-#: ../scripts/pybtext.py:193
+#: ../scripts/pybliotext.py:193
 #, python-format
-msgid "pybtext: using style `%s', format `%s'\n"
+msgid "pybliotext: using style `%s', format `%s'\n"
 msgstr "པིབ་ཚིག་ཡིག: བཟོ་རྣམ་ལག་ལེན་འཐབ་དོ་ `%s', རྩ་སྒྲིག་ `%s'\n"
 
-#: ../scripts/pybtext.py:316
+#: ../scripts/pybliotext.py:316
 #, python-format
 msgid "can't create `%s'"
 msgstr "`%s'གསར་བསྐྲུན་འབད་མ་ཚུགས་"
 
-#: ../scripts/pybtext.py:342
+#: ../scripts/pybliotext.py:342
 #, python-format
 msgid "can't remove `%s'"
 msgstr "`%s' རྩ་བསྐྲད་གཏང་མ་ཚུགས་"
 
-#: ../scripts/pybtext.py:344
+#: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "འབད་ཚར་"
 

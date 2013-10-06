@@ -840,61 +840,61 @@ msgstr ""
 "\thelp     za pomoć\n"
 "\tquit     za izlaz\n"
 
-#: scripts/pybcompact.py:29
-msgid "usage: pybcompact <latexfile> <bibtexfiles...>"
-msgstr "upotreba: pybcompact <latex-datoteka> <bibtex-datoteke...>"
+#: scripts/pybliocompact.py:29
+msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
+msgstr "upotreba: pybliocompact <latex-datoteka> <bibtex-datoteke...>"
 
-#: scripts/pybcompact.py:33
-msgid "pybcompact: error: %s\n"
-msgstr "pybcompact: greška: %s\n"
+#: scripts/pybliocompact.py:33
+msgid "pybliocompact: error: %s\n"
+msgstr "pybliocompact: greška: %s\n"
 
-#: scripts/pybcompact.py:96
+#: scripts/pybliocompact.py:96
 msgid "no entry"
 msgstr "nema unosa"
 
-#: scripts/pybcompact.py:141
+#: scripts/pybliocompact.py:141
 msgid "can't find the following entries: %s"
 msgstr "ne mogu naći sljedeće unose: %s"
 
-#: scripts/pybconvert.py:28
-msgid "usage: pybconvert <source>..<target> <input> [output]"
-msgstr "upotreba: pybconvert <izvor>..<odredište> <ulaz> [izlaz]"
+#: scripts/pyblioconvert.py:28
+msgid "usage: pyblioconvert <source>..<target> <input> [output]"
+msgstr "upotreba: pyblioconvert <izvor>..<odredište> <ulaz> [izlaz]"
 
-#: scripts/pybconvert.py:37
-msgid "pybconvert: bad conversion format"
-msgstr "pybconvert: loš format pretvaranja"
+#: scripts/pyblioconvert.py:37
+msgid "pyblioconvert: bad conversion format"
+msgstr "pyblioconvert: loš format pretvaranja"
 
-#: scripts/pybformat.py:33
-msgid "usage: pybformat [bibtexfiles...]\n"
-msgstr "upotrba: pybformat [bibtex-datoteke...]\n"
+#: scripts/pyblioformat.py:33
+msgid "usage: pyblioformat [bibtexfiles...]\n"
+msgstr "upotrba: pyblioformat [bibtex-datoteke...]\n"
 
-#: scripts/pybformat.py:37
-msgid "pybformat: error: %s\n"
-msgstr "pybformat: greška: %s\n"
+#: scripts/pyblioformat.py:37
+msgid "pyblioformat: error: %s\n"
+msgstr "pyblioformat: greška: %s\n"
 
-#: scripts/pybformat.py:43
-msgid "pybformat: warning: %s\n"
-msgstr "pybformat: upozorenje: %s\n"
+#: scripts/pyblioformat.py:43
+msgid "pyblioformat: warning: %s\n"
+msgstr "pyblioformat: upozorenje: %s\n"
 
-#: scripts/pybformat.py:140 scripts/pybtex.py:85
+#: scripts/pyblioformat.py:140 scripts/pybliotex.py:85
 msgid "can't find style `%s'"
 msgstr "ne mogu naći stil \"%s\""
 
-#: scripts/pybtex.py:33
-msgid "usage: pybtex <latexfile> [bibtexfiles...]"
-msgstr "upotreba: pybtex <latex-datoteka> [bibtex-datoteke...]"
+#: scripts/pybliotex.py:33
+msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
+msgstr "upotreba: pybliotex <latex-datoteka> [bibtex-datoteke...]"
 
-#: scripts/pybtex.py:37
-msgid "pybtex: error: %s\n"
-msgstr "pybtex: greška: %s\n"
+#: scripts/pybliotex.py:37
+msgid "pybliotex: error: %s\n"
+msgstr "pybliotex: greška: %s\n"
 
 #. warn the user that some entries were not found
-#: scripts/pybtex.py:58
-msgid "pybtex: warning: the following keys were not resolved"
-msgstr "pybtex: upozorenje: sljedeći ključevi nisu razrješeni"
+#: scripts/pybliotex.py:58
+msgid "pybliotex: warning: the following keys were not resolved"
+msgstr "pybliotex: upozorenje: sljedeći ključevi nisu razrješeni"
 
 #. If the LaTeX document declares no style...
-#: scripts/pybtex.py:63
+#: scripts/pybliotex.py:63
 msgid "no style defined"
 msgstr "stil nije određen"
 

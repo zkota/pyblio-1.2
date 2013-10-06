@@ -1319,7 +1319,7 @@ msgstr "Es sind weitere Befehle für diesen Suchtyp verfügbar:"
 #: C/gui-searching.page:65(p)
 msgid "<cmd>has_key(<var>keyname</var>)</cmd> searches on a key name."
 msgstr ""
-"<cmd>has_key(<var>Schlüsselname</var>)</cm> sucht nach einem Schlüsselnamen."
+"<cmd>has_key(<var>Schlüsselname</var>)</cmd> sucht nach einem Schlüsselnamen."
 
 #: C/gui-searching.page:69(p)
 msgid ""
