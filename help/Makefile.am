@@ -60,5 +60,5 @@ DOC_PAGES = 	about.page		\
 		typcon.page		\
 		whatsnew.page
 
-DOC_LINGUAS = cs de es fr sl
+DOC_LINGUAS = cs de el es fr sl
 

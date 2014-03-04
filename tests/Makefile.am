@@ -21,15 +21,15 @@
 
 
 TESTS = \
-	$(srcdir)/import-export \
-	$(srcdir)/test-pybliocheck \
-	$(srcdir)/convert	\
-	$(srcdir)/pyblioformat	\
-	$(srcdir)/pybliotex	\
-	$(srcdir)/compact	\
-	$(srcdir)/format	\
-	$(srcdir)/format2	\
-	$(srcdir)/pybliotext
+	import-export \
+	test-pybliocheck \
+	convert	\
+	pyblioformat	\
+	pybliotex	\
+	compact	\
+	format	\
+	format2	\
+	pybliotext
 
 EXTRA_DIST =  \
 	bibtex.bib		\
