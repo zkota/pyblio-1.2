@@ -710,7 +710,7 @@ class Document (Connector.Publisher):
                 self.w.error (_("Error during autosaving:\n%s") % error [1])
                 return False
 
-            iterator = Selection.Selection (sort = self.selection.sort)
+            iterator = Selection.Selection (sort = Sort.Sort([Sort.KeySort()]))
             Open.bibwrite (iterator.iterator (self.data.iterator ()),
                            out = savefile, how = how, database=self.data)
 
@@ -732,7 +732,7 @@ class Document (Connector.Publisher):
         Utils.set_cursor (self.w, 'clock')
         try:
             try:
-                self.data.update (self.selection.sort)
+                self.data.update (Sort.Sort([Sort.KeySort()]))
             except (OSError, IOError), error:
                 Utils.set_cursor (self.w, 'normal')
                 self.w.error (_("Unable to save `%s':\n%s") % (str (self.data.key),
@@ -776,7 +776,7 @@ class Document (Connector.Publisher):
 
         Utils.set_cursor (self.w, 'clock')
 
-        iterator = Selection.Selection (sort = self.selection.sort)
+        iterator = Selection.Selection (sort = Sort.Sort([Sort.KeySort()]))
         Open.bibwrite (iterator.iterator (self.data.iterator ()),
                        out = file, how = how, database=self.data)
         file.close ()
