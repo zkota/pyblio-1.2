@@ -942,9 +942,10 @@ class Document (Connector.Publisher):
         l = len (entries)
 
         if l == 0: return
-        
+
         if l > 5:
-            if not Utils.Callback (_("Really edit %d entries ?") % l):
+            if not Utils.Callback (_("Really edit %d entries ?") 
+                                   % l, parent = self.w).answer ():
                 return
 
         for entry in entries:
