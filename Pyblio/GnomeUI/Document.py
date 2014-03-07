@@ -466,9 +466,13 @@ class Document (Connector.Publisher):
 				       self.w).answer ()
       
 	    else:
-		if Utils.Callback (_("The database has been modified.\nSave changes?"),
-				   self.w).answer () and self.modification_check ():
-		    self.save_document ()
+		answer = Utils.Callback (_("The database has been modified.\nSave changes?"),
+				         self.w, cancel_add = True).answer ()
+                if answer == 2:
+                    return False
+                elif answer and self.modification_check ():
+                    self.save_document ()
+                    return True
 		else:
 		    return True
 	return 1

@@ -37,7 +37,7 @@ class Callback:
     ''' This class provides a simple requested that asks the user a
     queation and waits for an answer. '''
     
-    def __init__ (self, question, parent = None):
+    def __init__ (self, question, parent = None, cancel_add = False):
 
         self.dialog = \
                     gtk.MessageDialog (parent,
@@ -46,10 +46,20 @@ class Callback:
                                        gtk.MESSAGE_QUESTION,
                                        gtk.BUTTONS_YES_NO,
                                        question)
+        if cancel_add:
+            self.dialog.add_button(gtk.STOCK_CANCEL, gtk.RESPONSE_CANCEL)
+
         return
 
     def answer (self):
-        res = self.dialog.run () == gtk.RESPONSE_YES
+        res = self.dialog.run ()
+        if res == gtk.RESPONSE_YES:
+            res = True
+        elif res == gtk.RESPONSE_NO:
+            res = False
+        else:
+            res = 2
+
         self.dialog.destroy ()
         return res
 
