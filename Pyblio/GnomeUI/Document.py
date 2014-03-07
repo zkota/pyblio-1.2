@@ -168,6 +168,7 @@ class Document (Connector.Publisher):
             ('Paste', gtk.STOCK_PASTE,  None,         None,   None,     self.paste_entry),
             ('Clear', gtk.STOCK_CLEAR,  None,         None,   None,     self.clear_entries),
             ('Add', gtk.STOCK_ADD,  None,   '<shift><control>n',  _('Add a new entry'), self.add_entry),
+            ('Edit', gtk.STOCK_EDIT,  None, '<shift><control>o',   None,     self.edit_entry),
             ('Delete', gtk.STOCK_DELETE,  None,         None,   None,     self.delete_entry),
             ('Find', gtk.STOCK_FIND,  None,         None,   None,     self.find_entries),
             
@@ -180,21 +181,11 @@ class Document (Connector.Publisher):
             ('Forget', None, _('Forget all changes'),     None,   None,     self.forget_changes_cb),
             
             ('Contents', gtk.STOCK_HELP, None,   None,   None,     self.on_documentation),
+            ('About', gtk.STOCK_ABOUT, None,   None,   None,     self.about),
 	    ('ViewResource', None, _('_Resource'), None, None, self.view_entry),
             ])
 
-        if gtk.pygtk_version >= (2,6,0):
-            self.actiongroup.add_actions ([
-                ('About', gtk.STOCK_ABOUT, None,   None,   None,     self.about),
-                ('Edit', gtk.STOCK_EDIT,  None, '<shift><control>o',   None,     self.edit_entry),
-                ])
 
-        else:
-            self.actiongroup.add_actions ([
-                ('About', None, _('_About'),   None,   None,     self.about),
-                ('Edit', None,  _('_Edit'),    '<shift><control>o', None,    self.edit_entry),
-                ])
-            
         prev = self.actiongroup.get_action ('Recent')
         
         prev.set_property ('is-important', True)
