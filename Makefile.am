@@ -19,6 +19,8 @@
 # 
 # 
 
+DISTCHECK_CONFIGURE_FLAGS = --disable-update-desktop-database
+
 pybdir  = $(datadir)/$(PACKAGE)
 appdir  = $(datadir)/applications
 
@@ -79,10 +81,12 @@ pybliographic.keys: pybliographic.keys.in Makefile
 	< $(srcdir)/pybliographic.keys.in > pybliographic.keys.tmp \
 	&& mv pybliographic.keys.tmp pybliographic.keys
 
-install-data-hook:
-	update-desktop-database $(DESTDIR)$(appdir) \
-		|| echo "**** Warning: cannot update mime cache (recommended for Gnome >= 2.8)"
+update_desktop_database = update-desktop-database $(DESTDIR)$(appdir) \
+	|| echo "**** Warning: cannot update mime cache (recommended for Gnome >= 2.8)"
 
-uninstall-hook:
-	update-desktop-database $(appdir) \
-		|| echo "**** Warning: cannot update mime cache (recommended for Gnome >= 2.8)"
+install-data-hook: update-desktop-database
+uninstall-hook: update-desktop-database
+update-desktop-database:
+if ENABLE_UPDATE_DESKTOP_DATABASE
+	$(update_desktop_database)
+endif

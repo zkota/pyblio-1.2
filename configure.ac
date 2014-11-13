@@ -81,6 +81,13 @@ dnl NLS is now hand-managed for python.
 # Documentation
 GNOME_DOC_INIT
 
+AC_ARG_ENABLE(update-desktop-database,
+AC_HELP_STRING([--disable-update-desktop-database],
+	[do not update desktop database after installation]),,
+	enable_update_desktop_database=yes)
+
+AM_CONDITIONAL(ENABLE_UPDATE_DESKTOP_DATABASE, test x$enable_update_desktop_database = xyes)
+
 AC_CONFIG_FILES(	
 	Makefile 
 	po/Makefile
