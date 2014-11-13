@@ -5,15 +5,15 @@
 # Raphael Higino <In Memoriam>, 2004.
 # Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2008.
 # Djavan Fagundes <djavanf@gnome.org>, 2010.
-# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013.
+# Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pybliographer&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2013-07-31 17:47+0000\n"
-"PO-Revision-Date: 2013-07-31 11:34-0300\n"
+"POT-Creation-Date: 2014-05-17 18:42+0000\n"
+"PO-Revision-Date: 2014-06-16 08:54-0300\n"
 "Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.5\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -154,7 +154,7 @@ msgstr "Valor:"
 msgid "_File"
 msgstr "_Arquivo"
 
-#: ../Pyblio/GnomeUI/Document.py:146 ../Pyblio/GnomeUI/Document.py:195
+#: ../Pyblio/GnomeUI/Document.py:146
 msgid "_Edit"
 msgstr "_Editar"
 
@@ -204,52 +204,48 @@ msgstr "Consultar na base Medline..."
 msgid "Add a new entry"
 msgstr "Adicionar uma nova entrada"
 
-#: ../Pyblio/GnomeUI/Document.py:174
+#: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
 msgid "S_ort..."
 msgstr "_Ordenar..."
 
-#: ../Pyblio/GnomeUI/Document.py:175
+#: ../Pyblio/GnomeUI/Document.py:176
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
 msgid "Cite..."
 msgstr "Citar..."
 
-#: ../Pyblio/GnomeUI/Document.py:175
+#: ../Pyblio/GnomeUI/Document.py:176
 msgid "Cite key(s)"
 msgstr "Chave(s) de citação"
 
-#: ../Pyblio/GnomeUI/Document.py:176
+#: ../Pyblio/GnomeUI/Document.py:177
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "Format..."
 msgstr "Formatar..."
 
-#: ../Pyblio/GnomeUI/Document.py:178
+#: ../Pyblio/GnomeUI/Document.py:179
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:14
 msgid "Fields..."
 msgstr "Campos..."
 
-#: ../Pyblio/GnomeUI/Document.py:180
+#: ../Pyblio/GnomeUI/Document.py:181
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
 msgid "Forget all changes"
 msgstr "Descartar todas as alterações"
 
-#: ../Pyblio/GnomeUI/Document.py:183
+#: ../Pyblio/GnomeUI/Document.py:185
 msgid "_Resource"
 msgstr "_Recurso"
 
-#: ../Pyblio/GnomeUI/Document.py:194
-msgid "_About"
-msgstr "_Sobre"
-
-#: ../Pyblio/GnomeUI/Document.py:245
+#: ../Pyblio/GnomeUI/Document.py:236
 msgid "Quick search"
 msgstr "Pesquisa rápida"
 
-#: ../Pyblio/GnomeUI/Document.py:319
+#: ../Pyblio/GnomeUI/Document.py:310
 msgid "Unnamed bibliographic database"
 msgstr "Banco de dados bibliográfico sem nome"
 
-#: ../Pyblio/GnomeUI/Document.py:402
+#: ../Pyblio/GnomeUI/Document.py:393
 #, python-format
 msgid ""
 "can't open file `%s' for writing:\n"
@@ -258,7 +254,7 @@ msgstr ""
 "não foi possível abrir o arquivo \"%s\" para gravação:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:423
+#: ../Pyblio/GnomeUI/Document.py:414
 #, python-format
 msgid ""
 "Error while parsing `%s':\n"
@@ -267,44 +263,44 @@ msgstr ""
 "Erro ao analisar \"%s\":\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:439
+#: ../Pyblio/GnomeUI/Document.py:430
 msgid "New database"
 msgstr "Novo banco de dados"
 
 # .././Pyblio/GnomeUI/Document.py:270 :274
-#: ../Pyblio/GnomeUI/Document.py:447 ../Pyblio/GnomeUI/Document.py:451
+#: ../Pyblio/GnomeUI/Document.py:438 ../Pyblio/GnomeUI/Document.py:442
 msgid "[no entry]"
 msgstr "[nenhuma entrada]"
 
-#: ../Pyblio/GnomeUI/Document.py:448
+#: ../Pyblio/GnomeUI/Document.py:439
 msgid "[1 entry]"
 msgstr "[1 entrada]"
 
-#: ../Pyblio/GnomeUI/Document.py:449
+#: ../Pyblio/GnomeUI/Document.py:440
 #, python-format
 msgid "[%d entries]"
 msgstr "[%d entradas]"
 
-#: ../Pyblio/GnomeUI/Document.py:452
+#: ../Pyblio/GnomeUI/Document.py:443
 #, python-format
 msgid "[%d/1 entry]"
 msgstr "[%d/1 entrada]"
 
-#: ../Pyblio/GnomeUI/Document.py:453
+#: ../Pyblio/GnomeUI/Document.py:444
 #, python-format
 msgid "[%d/%d entries]"
 msgstr "[%d/%d entradas]"
 
-#: ../Pyblio/GnomeUI/Document.py:458
+#: ../Pyblio/GnomeUI/Document.py:449
 msgid "[modified]"
 msgstr "[modificado]"
 
-#: ../Pyblio/GnomeUI/Document.py:461
+#: ../Pyblio/GnomeUI/Document.py:452
 #, python-format
 msgid "view limited to: %s"
 msgstr "visão limitada a: %s"
 
-#: ../Pyblio/GnomeUI/Document.py:474
+#: ../Pyblio/GnomeUI/Document.py:465
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
@@ -312,7 +308,7 @@ msgstr ""
 "O banco de dados foi alterado.\n"
 "Descartar alterações?"
 
-#: ../Pyblio/GnomeUI/Document.py:478
+#: ../Pyblio/GnomeUI/Document.py:469
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
@@ -320,44 +316,44 @@ msgstr ""
 "O banco de dados foi alterado.\n"
 "Salvar as alterações?"
 
-#: ../Pyblio/GnomeUI/Document.py:495
+#: ../Pyblio/GnomeUI/Document.py:490
 msgid ""
 "The database has been externally modified.\n"
-"Overwrite changes ?"
+"Overwrite changes?"
 msgstr ""
 "O banco de dados foi alterado externamente.\n"
 "Descartar alterações?"
 
 #. no result.
-#: ../Pyblio/GnomeUI/Document.py:524
+#: ../Pyblio/GnomeUI/Document.py:519
 msgid "Your query returned no result"
 msgstr "A sua consulta não retornou nenhum resultado"
 
 #. error
-#: ../Pyblio/GnomeUI/Document.py:528
+#: ../Pyblio/GnomeUI/Document.py:523
 msgid "An error occured during Medline Query"
 msgstr "Ocorreu um erro durante a consulta na base bibliográfica Medline"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:538
+#: ../Pyblio/GnomeUI/Document.py:533
 msgid "Merge file"
 msgstr "Mesclar arquivo"
 
 # .././Pyblio/GnomeUI/Document.py:319 :379
-#: ../Pyblio/GnomeUI/Document.py:551 ../Pyblio/GnomeUI/Document.py:638
+#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:633
 msgid "Open error"
 msgstr "Abrir erro"
 
-#: ../Pyblio/GnomeUI/Document.py:575
+#: ../Pyblio/GnomeUI/Document.py:570
 msgid "Merge status"
 msgstr "Mesclar status"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:586
+#: ../Pyblio/GnomeUI/Document.py:581
 msgid "Open file"
 msgstr "Abrir arquivo"
 
-#: ../Pyblio/GnomeUI/Document.py:624
+#: ../Pyblio/GnomeUI/Document.py:619
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
@@ -366,8 +362,8 @@ msgstr ""
 "arquivo original.\n"
 "Você deseja recarregá-lo?"
 
-#: ../Pyblio/GnomeUI/Document.py:659 ../Pyblio/GnomeUI/Document.py:800
-#: ../Pyblio/GnomeUI/Document.py:860
+#: ../Pyblio/GnomeUI/Document.py:654 ../Pyblio/GnomeUI/Document.py:795
+#: ../Pyblio/GnomeUI/Document.py:855
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -376,7 +372,7 @@ msgstr ""
 "Impossível remover o arquivo de autossalvamento \"%s\":\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:710
+#: ../Pyblio/GnomeUI/Document.py:705
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -385,7 +381,7 @@ msgstr ""
 "Erro durante o autossalvamento:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:738
+#: ../Pyblio/GnomeUI/Document.py:733
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -394,7 +390,7 @@ msgstr ""
 "Impossível salvar \"%s\":\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:746
+#: ../Pyblio/GnomeUI/Document.py:741
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -402,20 +398,20 @@ msgstr ""
 "Ocorreu um erro interno ao salvar\n"
 "Tente salvar como..."
 
-#: ../Pyblio/GnomeUI/Document.py:761
+#: ../Pyblio/GnomeUI/Document.py:756
 msgid "Save As..."
 msgstr "Salvar como..."
 
-#: ../Pyblio/GnomeUI/Document.py:767
+#: ../Pyblio/GnomeUI/Document.py:762
 #, python-format
 msgid ""
 "The file `%s' already exists.\n"
-"Overwrite it ?"
+"Overwrite it?"
 msgstr ""
 "O arquivo \"%s\" já existe.\n"
 "Quer sobrescrevê-lo?"
 
-#: ../Pyblio/GnomeUI/Document.py:774
+#: ../Pyblio/GnomeUI/Document.py:769
 #, python-format
 msgid ""
 "During opening:\n"
@@ -424,43 +420,43 @@ msgstr ""
 "Durante abertura:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:812
+#: ../Pyblio/GnomeUI/Document.py:807
 msgid "Reopen error"
 msgstr "Reabrir erro"
 
-#: ../Pyblio/GnomeUI/Document.py:885
+#: ../Pyblio/GnomeUI/Document.py:880
 #, python-format
 msgid ""
 "An entry called `%s' already exists.\n"
-"Rename and add it anyway ?"
+"Rename and add it anyway?"
 msgstr ""
 "Já existe uma entrada chamada \"%s\".\n"
 "Renomear e adicionar assim mesmo?"
 
-#: ../Pyblio/GnomeUI/Document.py:922
-msgid "Really remove all the entries ?"
+#: ../Pyblio/GnomeUI/Document.py:917
+msgid "Really remove all the entries?"
 msgstr "Deseja mesmo remover todas as entradas?"
 
-#: ../Pyblio/GnomeUI/Document.py:942
+#: ../Pyblio/GnomeUI/Document.py:937
 msgid "Create new entry"
 msgstr "Criar nova entrada"
 
-#: ../Pyblio/GnomeUI/Document.py:956
+#: ../Pyblio/GnomeUI/Document.py:951
 #, python-format
-msgid "Really edit %d entries ?"
+msgid "Really edit %d entries?"
 msgstr "Deseja mesmo editar %d entradas?"
 
-#: ../Pyblio/GnomeUI/Document.py:1002
+#: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
-msgid "Remove all the %d entries ?"
+msgid "Remove all the %d entries?"
 msgstr "Remover todas as %d entradas?"
 
-#: ../Pyblio/GnomeUI/Document.py:1004
+#: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
-msgid "Remove entry `%s' ?"
+msgid "Remove entry `%s'?"
 msgstr "Remover a entrada \"%s\"?"
 
-#: ../Pyblio/GnomeUI/Document.py:1023
+#: ../Pyblio/GnomeUI/Document.py:1019
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
@@ -469,7 +465,7 @@ msgstr ""
 "somente caracteres latin-1"
 
 # .././Pyblio/GnomeUI/Document.py:661 :668
-#: ../Pyblio/GnomeUI/Document.py:1102 ../Pyblio/GnomeUI/Document.py:1110
+#: ../Pyblio/GnomeUI/Document.py:1098 ../Pyblio/GnomeUI/Document.py:1106
 #, python-format
 msgid ""
 "Can't connect to LyX:\n"
@@ -478,7 +474,7 @@ msgstr ""
 "Não é possível conetar ao LyX:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1226
+#: ../Pyblio/GnomeUI/Document.py:1222
 #, python-format
 msgid ""
 "Can't display documentation:\n"
@@ -487,15 +483,15 @@ msgstr ""
 "Impossível mostrar a documentação:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1234
+#: ../Pyblio/GnomeUI/Document.py:1230
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Este programa está protegido pela GNU GPL"
 
-#: ../Pyblio/GnomeUI/Document.py:1235
+#: ../Pyblio/GnomeUI/Document.py:1231
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Interface GNOME para o sistema Pybliographer."
 
-#: ../Pyblio/GnomeUI/Document.py:1246
+#: ../Pyblio/GnomeUI/Document.py:1242
 msgid "GNOME Translation Team"
 msgstr ""
 "Afonso Celso Medina <medina@maua.br>\n"
@@ -503,7 +499,7 @@ msgstr ""
 "Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>\n"
 "Rafael Ferreira <rafael.f.f1@gmail.com>"
 
-#: ../Pyblio/GnomeUI/Document.py:1251
+#: ../Pyblio/GnomeUI/Document.py:1247
 msgid "Pybliographer Home Page"
 msgstr "Home Page do Pybliographer"
 
@@ -748,7 +744,7 @@ msgstr "[Tipo de entrada]"
 msgid "[Key Value]"
 msgstr "[Valor da chave]"
 
-#: ../Pyblio/GnomeUI/Utils.py:193
+#: ../Pyblio/GnomeUI/Utils.py:203
 msgid "The following errors occured:\n"
 msgstr "Ocorreram os seguintes erros:\n"
 
@@ -1382,6 +1378,9 @@ msgstr "não foi possível remover \"%s\""
 #: ../scripts/pybliotext.py:344
 msgid "Done"
 msgstr "Concluído"
+
+#~ msgid "_About"
+#~ msgstr "_Sobre"
 
 #~ msgid "Add..."
 #~ msgstr "Adicionar..."
