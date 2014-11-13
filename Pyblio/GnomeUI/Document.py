@@ -487,7 +487,7 @@ class Document (Connector.Publisher):
             
             if mod_date > self.modification_date:
                 return  Utils.Callback (
-		    _("The database has been externally modified.\nOverwrite changes ?"),
+		    _("The database has been externally modified.\nOverwrite changes?"),
 		    self.w).answer ()
 	    
 	return True
@@ -759,7 +759,7 @@ class Document (Connector.Publisher):
 
         if os.path.exists (url):
             if not Utils.Callback (
-		_("The file `%s' already exists.\nOverwrite it ?")
+		_("The file `%s' already exists.\nOverwrite it?")
 		% url, parent = self.w).answer ():
                 return
 
@@ -877,7 +877,7 @@ class Document (Connector.Publisher):
         for entry in entries:
             
             if self.data.would_have_key (entry.key):
-                if not Utils.Callback (_("An entry called `%s' already exists.\nRename and add it anyway ?")
+                if not Utils.Callback (_("An entry called `%s' already exists.\nRename and add it anyway?")
                                        % entry.key.key, parent = self.w).answer ():
                     continue
                 
@@ -914,7 +914,7 @@ class Document (Connector.Publisher):
     def clear_entries (self, * arg):
         if len (self.data) == 0: return
 
-        if not Utils.Callback (_("Really remove all the entries ?"),
+        if not Utils.Callback (_("Really remove all the entries?"),
                                parent = self.w).answer ():
             return
 
@@ -948,7 +948,7 @@ class Document (Connector.Publisher):
         if l == 0: return
 
         if l > 5:
-            if not Utils.Callback (_("Really edit %d entries ?") 
+            if not Utils.Callback (_("Really edit %d entries?")
                                    % l, parent = self.w).answer ():
                 return
 
@@ -995,9 +995,9 @@ class Document (Connector.Publisher):
         offset = self.index.get_item_position (entries [-1])
 
         if l > 1:
-            question = _("Remove all the %d entries ?") % len (entries)
+            question = _("Remove all the %d entries?") % len (entries)
         else:
-            question = _("Remove entry `%s' ?") % entries [0].key.key
+            question = _("Remove entry `%s'?") % entries [0].key.key
             
         if not Utils.Callback (question,
                                parent = self.w).answer ():
