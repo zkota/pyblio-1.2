@@ -45,12 +45,17 @@ Mime_DATA = pybliographic.keys pybliographic.mime
 
 app_DATA = pybliographic.desktop
 
+appdatadir = $(datadir)/appdata
+appdata_DATA = pybliographic.appdata.xml
+
+
 bin_SCRIPTS = pybliographer
 
 EXTRA_DIST = 	setup-check.py			\
 		pybrc.py 			\
 	 	pybliographer.py 		\
 		etc/installer.in		\
+		pybliographic.appdata.xml	\
 		pybliographic.keys.in		\
 		pybliographic.mime		\
 		pybliographic.desktop.in	\
