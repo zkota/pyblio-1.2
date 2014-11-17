@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2014 Frederic Gobry <gobry@pybliographer.org> -->
+<component type="desktop">
+ <id>pybliographic.desktop</id>
+ <metadata_license>CC0-1.0</metadata_license>
+ <project_license>GPL-2.0+</project_license>
+ <name>Pybliographer</name>
+ <summary>Framework for working with bibliographic databases</summary>
+ <description>
+  <p>
+   Pybliographer is a tool for managing bibliographic databases. It can be
+   used for searching, editing, reformatting, etc. In fact, it's a simple
+   framework that provides easy to use python classes and functions, and
+   therefore can be extended to many uses (generating HTML pages according
+   to bibliographic searches, etc).
+  </p>
+  <p>
+   In addition to the scripting environment, a graphical Gnome interface
+   is available. It provides powerful editing capabilities, a nice
+   hierarchical search mechanism, direct insertion of references into LyX,
+   direct queries on Medline, and more. It currently supports the following
+   file formats: BibTeX, ISI, Medline, Ovid, Refer.
+  </p>
+ </description>
+ <screenshots>
+  <screenshot type="default">
+   <caption>The main window</caption>
+   <image width="1024" height="576">
+    http://www.pybliographer.org/AppData?action=AttachFile&amp;do=get&amp;target=pybliographer_main.png
+   </image>
+  </screenshot>
+  <screenshot>
+   <caption>Editing an entry</caption>
+   <image width="1024" height="576">
+    http://www.pybliographer.org/AppData?action=AttachFile&amp;do=get&amp;target=pybliographer_edit.png
+   </image>
+  </screenshot>
+ </screenshots>
+ <url type="homepage">http://www.pybliographer.org</url>
+ <updatecontact>pybliographer-devel_at_lists.sourceforge.net</updatecontact>
+</component>
