@@ -236,7 +236,9 @@ while not finished:
 			full_line = ""
 			prompt = ">> "
 			inner = 0
-			    
+	except SystemExit:
+		finished = 1
+
 	except:
 		etype, value, tb = sys.exc_info ()
 		traceback.print_exception (etype, value, tb)
