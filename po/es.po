@@ -5,18 +5,18 @@
 #
 # Francisco Javier F. Serrador <serrador@cvs.gnome.org>, 2004, 2005.
 # Jorge González <jorgegonz@svn.gnome.org>, 2007, 2010.
-# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2014.
+# Daniel Mustieles <daniel.mustieles@gmail.com>, 2011, 2014, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer.HEAD.es\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pybliographer&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-17 18:42+0000\n"
-"PO-Revision-Date: 2014-06-17 19:15+0200\n"
+"POT-Creation-Date: 2017-04-28 12:38+0000\n"
+"PO-Revision-Date: 2017-06-20 13:48+0200\n"
 "Last-Translator: Daniel Mustieles <daniel.mustieles@gmail.com>\n"
-"Language-Team: Español; Castellano <gnome-es-list@gnome.org>\n"
-"Language: \n"
+"Language-Team: es <gnome-es-list@gnome.org>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -309,9 +309,6 @@ msgstr ""
 "¿Quiere guardar los cambios?"
 
 #: ../Pyblio/GnomeUI/Document.py:490
-#| msgid ""
-#| "The database has been externally modified.\n"
-#| "Overwrite changes ?"
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes?"
@@ -326,7 +323,8 @@ msgstr "Su consulta no devolvió ningún resultado"
 
 #. error
 #: ../Pyblio/GnomeUI/Document.py:523
-msgid "An error occured during Medline Query"
+#| msgid "An error occured during Medline Query"
+msgid "An error occurred during Medline Query"
 msgstr "Ocurrió un error durante la consulta Medline"
 
 #. get a new file name
@@ -385,12 +383,15 @@ msgstr ""
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:741
+#| msgid ""
+#| "An internal error occured during saving\n"
+#| "Try to Save As..."
 msgid ""
-"An internal error occured during saving\n"
+"An internal error occurred during saving\n"
 "Try to Save As..."
 msgstr ""
-"Ocurrió un error interno durante el guardado\n"
-"Intente guardar como…"
+"Ocurrió un error interno al guardar\n"
+"Intente Guardar como…"
 
 #: ../Pyblio/GnomeUI/Document.py:756
 msgid "Save As..."
@@ -398,9 +399,6 @@ msgstr "Guardar como…"
 
 #: ../Pyblio/GnomeUI/Document.py:762
 #, python-format
-#| msgid ""
-#| "The file `%s' already exists.\n"
-#| "Overwrite it ?"
 msgid ""
 "The file `%s' already exists.\n"
 "Overwrite it?"
@@ -423,9 +421,6 @@ msgstr "Error al reabrir"
 
 #: ../Pyblio/GnomeUI/Document.py:880
 #, python-format
-#| msgid ""
-#| "An entry called `%s' already exists.\n"
-#| "Rename and add it anyway ?"
 msgid ""
 "An entry called `%s' already exists.\n"
 "Rename and add it anyway?"
@@ -434,7 +429,6 @@ msgstr ""
 "¿Quiere renombrarla y añadirla de todas formas?"
 
 #: ../Pyblio/GnomeUI/Document.py:917
-#| msgid "Really remove all the entries ?"
 msgid "Really remove all the entries?"
 msgstr "¿Seguro que quiere quitar todas las entradas?"
 
@@ -444,19 +438,16 @@ msgstr "Crear una entrada nueva"
 
 #: ../Pyblio/GnomeUI/Document.py:951
 #, python-format
-#| msgid "Really edit %d entries ?"
 msgid "Really edit %d entries?"
 msgstr "¿Seguro que quiere editar %d entradas?"
 
 #: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
-#| msgid "Remove all the %d entries ?"
 msgid "Remove all the %d entries?"
 msgstr "¿Seguro que quiere eliminar las %d entradas?"
 
 #: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
-#| msgid "Remove entry `%s' ?"
 msgid "Remove entry `%s'?"
 msgstr "¿Seguro que quiere eliminar la entrada «%s»?"
 
@@ -741,7 +732,8 @@ msgid "[Key Value]"
 msgstr "[Valor de la clave]"
 
 #: ../Pyblio/GnomeUI/Utils.py:203
-msgid "The following errors occured:\n"
+#| msgid "The following errors occured:\n"
+msgid "The following errors occurred:\n"
 msgstr "Los siguientes errores han ocurrido:\n"
 
 #: ../Pyblio/GnomeUI/__init__.py:45
@@ -1005,8 +997,9 @@ msgid "Expert Search"
 msgstr "Búsqueda avanzada"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
-msgid "Select sort criterions"
-msgstr "Seleccione criterior de orden"
+#| msgid "Select sort criterions"
+msgid "Select sort criteria"
+msgstr "Seleccione el criterio de ordenación"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2
 msgid "Set as default"

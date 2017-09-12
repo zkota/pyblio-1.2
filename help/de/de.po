@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer help 1.2.15\n"
-"POT-Creation-Date: 2013-09-15 18:56+0000\n"
-"PO-Revision-Date: 2013-12-01 20:00+0100\n"
+"POT-Creation-Date: 2017-04-28 12:38+0000\n"
+"PO-Revision-Date: 2017-08-01 23:35+0200\n"
 "Last-Translator: Mario Blättermann <mario.blaettermann@gmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "Language: de\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 2.0.3\n"
 
 #: C/whatsnew.page:10(desc)
 msgid "New features in <app>Pybliographer</app> 1.2.15."
@@ -26,13 +26,12 @@ msgstr "Neuigkeiten in <app>Pybliographer</app> 1.2.15."
 #: C/scripting-basics.page:14(name) C/index.page:12(name)
 #: C/gui-usinglyx.page:14(name) C/gui-styles.page:14(name)
 #: C/gui-sorting.page:14(name) C/gui-settings.page:14(name)
-#: C/gui-searching.page:14(name) C/gui-pubmed.page:14(name)
-#: C/gui.page:14(name) C/gui-opening.page:14(name)
-#: C/gui-navigating.page:14(name) C/gui-formats.page:14(name)
-#: C/gui-edit.page:14(name) C/gui-creating.page:14(name)
-#: C/gettingstarted.page:14(name) C/customization.page:14(name)
-#: C/command-line.page:14(name) C/addhelp.page:14(name) C/about.page:14(name)
-#: C/about.page:38(p)
+#: C/gui-searching.page:14(name) C/gui-pubmed.page:14(name) C/gui.page:14(name)
+#: C/gui-opening.page:14(name) C/gui-navigating.page:14(name)
+#: C/gui-formats.page:14(name) C/gui-edit.page:14(name)
+#: C/gui-creating.page:14(name) C/gettingstarted.page:14(name)
+#: C/customization.page:14(name) C/command-line.page:14(name)
+#: C/addhelp.page:14(name) C/about.page:14(name) C/about.page:38(p)
 msgid "Zoltán Kóta"
 msgstr "Zoltán Kóta"
 
@@ -56,13 +55,12 @@ msgstr "zoltank@gmail.com"
 #: C/scripting-basics.page:18(name) C/index.page:16(name)
 #: C/gui-usinglyx.page:18(name) C/gui-styles.page:18(name)
 #: C/gui-sorting.page:18(name) C/gui-settings.page:18(name)
-#: C/gui-searching.page:18(name) C/gui-pubmed.page:18(name)
-#: C/gui.page:18(name) C/gui-opening.page:18(name)
-#: C/gui-navigating.page:18(name) C/gui-formats.page:18(name)
-#: C/gui-edit.page:18(name) C/gui-creating.page:18(name)
-#: C/gettingstarted.page:18(name) C/customization.page:18(name)
-#: C/command-line.page:18(name) C/addhelp.page:18(name) C/about.page:18(name)
-#: C/about.page:36(p)
+#: C/gui-searching.page:18(name) C/gui-pubmed.page:18(name) C/gui.page:18(name)
+#: C/gui-opening.page:18(name) C/gui-navigating.page:18(name)
+#: C/gui-formats.page:18(name) C/gui-edit.page:18(name)
+#: C/gui-creating.page:18(name) C/gettingstarted.page:18(name)
+#: C/customization.page:18(name) C/command-line.page:18(name)
+#: C/addhelp.page:18(name) C/about.page:18(name) C/about.page:36(p)
 msgid "Frédéric Gobry"
 msgstr "Frédéric Gobry"
 
@@ -1135,7 +1133,7 @@ msgid ""
 "rudimentary way of sorting a database. A much powerful method is to open the "
 "sort dialog (in <guiseq><gui>Edit</gui><gui>Sort</gui></guiseq>). This menu, "
 "displayed in the picture below, gives a list of fields which can be used as "
-"sort criterions, plus a flag indicating how they are currently used. By "
+"sort criteria, plus a flag indicating how they are currently used. By "
 "clicking twice on the item, it is possible to choose how the field will be "
 "used:"
 msgstr ""
@@ -2435,7 +2433,7 @@ msgstr ""
 "org/\" type=\"http\"><app>Pybliographer</app> -Webseite</link>."
 
 #. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/index.page:0(None)
+#: C/about.page:0(None)
 msgid "translator-credits"
-msgstr "Mario Blättermann <mario.blaettermann@gmail.com>, 2010, 2011, 2013"
-
+msgstr ""
+"Mario Blättermann <mario.blaettermann@gmail.com>, 2010-2011, 2013, 2017"

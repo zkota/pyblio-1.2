@@ -5,15 +5,15 @@
 #
 # Miloslav Trmac <mitr@volny.cz>, 2003, 2004, 2005.
 # Petr Kovar <pknbe@volny.cz>, 2009, 2010.
-# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011.
+# Marek Černocký <marek@manet.cz>, 2009, 2010, 2011, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pybliographer&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-17 18:42+0000\n"
-"PO-Revision-Date: 2014-05-31 11:33+0100\n"
+"POT-Creation-Date: 2017-04-28 12:38+0000\n"
+"PO-Revision-Date: 2017-06-25 12:13+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -324,7 +324,7 @@ msgstr "Váš dotaz nevrátil žádný výsledek"
 
 #. error
 #: ../Pyblio/GnomeUI/Document.py:523
-msgid "An error occured during Medline Query"
+msgid "An error occurred during Medline Query"
 msgstr "Vyskytla se chyba při dotazu Medline"
 
 #. get a new file name
@@ -384,7 +384,7 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:741
 msgid ""
-"An internal error occured during saving\n"
+"An internal error occurred during saving\n"
 "Try to Save As..."
 msgstr ""
 "Při ukládání došlo k interní chybě\n"
@@ -731,7 +731,7 @@ msgid "[Key Value]"
 msgstr "[Hodnota klíče]"
 
 #: ../Pyblio/GnomeUI/Utils.py:203
-msgid "The following errors occured:\n"
+msgid "The following errors occurred:\n"
 msgstr "Došlo k následujícím chybám:\n"
 
 #: ../Pyblio/GnomeUI/__init__.py:45
@@ -994,7 +994,7 @@ msgid "Expert Search"
 msgstr "Pokročilé hledání"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
-msgid "Select sort criterions"
+msgid "Select sort criteria"
 msgstr "Vyběr kritérií řazení"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2

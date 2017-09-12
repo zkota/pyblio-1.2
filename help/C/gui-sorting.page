@@ -30,7 +30,7 @@
     powerful method is to open the sort dialog (in <guiseq>
     <gui>Edit</gui><gui>Sort</gui></guiseq>). This menu, displayed in
     the picture below, gives a list of fields which can be used as sort       
-    criterions, plus a flag indicating how they are currently used. By clicking
+    criteria, plus a flag indicating how they are currently used. By clicking
     twice on the item, it is possible to choose how the field will be used:</p>
       <list>
 	<item>

@@ -1,17 +1,17 @@
 # Serbian translation of pybliographer
-# Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2004.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2003—2017.
 # This file is distributed under the same license as the pybliographer package.
-# Maintainer: Danilo Šegan <dsegan@gmx.net>
-# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2012—2014.
+# Danilo Šegan <dsegan@gmx.net>
+# Miroslav Nikolić <miroslavnikolic@rocketmail.com>, 2012—2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliog"
-"rapher&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-17 18:42+0000\n"
-"PO-Revision-Date: 2014-10-27 17:59+0200\n"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?product=pyblio"
+"grapher&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2017-04-28 12:38+0000\n"
+"PO-Revision-Date: 2017-08-13 08:21+0200\n"
 "Last-Translator: Miroslav Nikolić <miroslavnikolic@rocketmail.com>\n"
-"Language-Team: Serbian <gnom@prevod.org>\n"
+"Language-Team: srpski <gnome-sr@googlegroups.org>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -312,9 +312,6 @@ msgstr ""
 "Da sačuvam izmene?"
 
 #: ../Pyblio/GnomeUI/Document.py:490
-#| msgid ""
-#| "The database has been externally modified.\n"
-#| "Overwrite changes ?"
 msgid ""
 "The database has been externally modified.\n"
 "Overwrite changes?"
@@ -329,7 +326,8 @@ msgstr "Vaš upit nije vratio rezultat"
 
 #. error
 #: ../Pyblio/GnomeUI/Document.py:523
-msgid "An error occured during Medline Query"
+#| msgid "An error occured during Medline Query"
+msgid "An error occurred during Medline Query"
 msgstr "Došlo je do greške za vreme upita Medlajna"
 
 #. get a new file name
@@ -387,8 +385,11 @@ msgstr ""
 "%s"
 
 #: ../Pyblio/GnomeUI/Document.py:741
+#| msgid ""
+#| "An internal error occured during saving\n"
+#| "Try to Save As..."
 msgid ""
-"An internal error occured during saving\n"
+"An internal error occurred during saving\n"
 "Try to Save As..."
 msgstr ""
 "Došlo je do unutrašnje greške pri snimanju\n"
@@ -400,9 +401,6 @@ msgstr "Sačuvaj kao..."
 
 #: ../Pyblio/GnomeUI/Document.py:762
 #, python-format
-#| msgid ""
-#| "The file `%s' already exists.\n"
-#| "Overwrite it ?"
 msgid ""
 "The file `%s' already exists.\n"
 "Overwrite it?"
@@ -425,9 +423,6 @@ msgstr "Greška ponovnog otvaranja"
 
 #: ../Pyblio/GnomeUI/Document.py:880
 #, python-format
-#| msgid ""
-#| "An entry called `%s' already exists.\n"
-#| "Rename and add it anyway ?"
 msgid ""
 "An entry called `%s' already exists.\n"
 "Rename and add it anyway?"
@@ -436,7 +431,6 @@ msgstr ""
 "Da ga preimenujem i dodam u svakom slučaju?"
 
 #: ../Pyblio/GnomeUI/Document.py:917
-#| msgid "Really remove all the entries ?"
 msgid "Really remove all the entries?"
 msgstr "Da li zaista da uklonim sve unose?"
 
@@ -447,20 +441,17 @@ msgstr "Napravite novi unos"
 # bug: plural-forms
 #: ../Pyblio/GnomeUI/Document.py:951
 #, python-format
-#| msgid "Really edit %d entries ?"
 msgid "Really edit %d entries?"
 msgstr "Da li zaista da uredim %d unosa?"
 
 # bug: plural-forms
 #: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
-#| msgid "Remove all the %d entries ?"
 msgid "Remove all the %d entries?"
 msgstr "Da li da uklonim svih %d unosa?"
 
 #: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
-#| msgid "Remove entry `%s' ?"
 msgid "Remove entry `%s'?"
 msgstr "Da li da uklonim unos „%s“?"
 
@@ -746,7 +737,8 @@ msgid "[Key Value]"
 msgstr "[Vrednost ključa]"
 
 #: ../Pyblio/GnomeUI/Utils.py:203
-msgid "The following errors occured:\n"
+#| msgid "The following errors occured:\n"
+msgid "The following errors occurred:\n"
 msgstr "Dogodile su se sledeće greške:\n"
 
 #: ../Pyblio/GnomeUI/__init__.py:45
@@ -1009,8 +1001,9 @@ msgid "Expert Search"
 msgstr "Stručna pretraga"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
-msgid "Select sort criterions"
-msgstr "Izaberite pravila uređivanja"
+#| msgid "Select sort criterions"
+msgid "Select sort criteria"
+msgstr "Izaberite pravilo uređivanja"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2
 msgid "Set as default"

@@ -35,7 +35,7 @@ import gconf
 class Callback:
 
     ''' This class provides a simple requested that asks the user a
-    queation and waits for an answer. '''
+    question and waits for an answer. '''
     
     def __init__ (self, question, parent = None, cancel_add = False):
 
@@ -69,7 +69,7 @@ class GladeWindow:
 
     ''' A Helper class that builds a graphical interface provided by a
     Glade XML file. This class binds the methods with
-    signal_autoconnect, and imports wigets whose name starts with _w_
+    signal_autoconnect, and imports widgets whose name starts with _w_
     as instance attributes. Therefore, after init, the instance can refer to:
 
         self._w_main
@@ -200,7 +200,7 @@ def error_dialog (title, err, parent = None):
 
     iter = buff.get_start_iter ()
     
-    buff.insert_with_tags (iter, _("The following errors occured:\n"),
+    buff.insert_with_tags (iter, _("The following errors occurred:\n"),
                            title)
     
     buff.insert (iter, str (err))

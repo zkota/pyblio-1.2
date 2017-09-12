@@ -520,7 +520,7 @@ class Document (Connector.Publisher):
             return
         elif url is -1:
             # error
-            self.w.error (_("An error occured during Medline Query"))
+            self.w.error (_("An error occurred during Medline Query"))
             return
 
         self.open_in_new(url, 'medline', no_name=True)
@@ -738,7 +738,7 @@ class Document (Connector.Publisher):
             traceback.print_exception (etype, value, tb)
             
             Utils.set_cursor (self.w, 'normal')
-            self.w.error (_("An internal error occured during saving\nTry to Save As..."))
+            self.w.error (_("An internal error occurred during saving\nTry to Save As..."))
             return
 
         Utils.set_cursor (self.w, 'normal')
@@ -1183,7 +1183,7 @@ class Document (Connector.Publisher):
                 
                 self.incremental_start  = event.time
 
-            # search first occurence
+            # search first occurrence
             if self.index.go_to_first (self.incremental_search,
                                        self.selection.sort.fields [0]):
                 app.flash ("Searching for '%s...'" % self.incremental_search)

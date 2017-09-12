@@ -3,20 +3,24 @@
 # This file is distributed under the same license as the pybliographer package.
 # Kemal YILMAZ <kyilmaz@uekae.tubitak.gov.tr>, 2001.
 # Muhammet Kara <muhammet.k@gmail.com>, 2011.
+# Necdet Yücel <necdetyucel@gmail.com>, 2015.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer 1.2.14\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-04-06 02:10+0300\n"
-"PO-Revision-Date: 2011-03-31 12:57+0300\n"
-"Last-Translator: Muhammet Kara <muhammet.k@gmail.com>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pybliog"
+"rapher&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2014-05-17 18:42+0000\n"
+"PO-Revision-Date: 2015-02-22 21:12+0000\n"
+"Last-Translator: Necdet Yücel <necdetyucel@gmail.com>\n"
 "Language-Team: Turkish <gnome-turk@gnome.org>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.5.1.1\n"
+"X-POOTLE-MTIME: 1424639562.000000\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -78,7 +82,7 @@ msgstr "Sözlük (%s, %s)"
 #: ../Pyblio/Config.py:344
 #, python-format
 msgid "warning: could not restore setting %r to %r: %s"
-msgstr ""
+msgstr "uyarı: %r ayarları %r için geri yüklenemiyor: %s"
 
 #: ../Pyblio/Fields.py:261
 msgid "Illegal year value"
@@ -144,7 +148,7 @@ msgstr "Değer:"
 msgid "_File"
 msgstr "_Dosya"
 
-#: ../Pyblio/GnomeUI/Document.py:146 ../Pyblio/GnomeUI/Document.py:195
+#: ../Pyblio/GnomeUI/Document.py:146
 msgid "_Edit"
 msgstr "Dü_zenle..."
 
@@ -181,65 +185,61 @@ msgid "Save the current file"
 msgstr "Geçerli dosyayı kaydet"
 
 #: ../Pyblio/GnomeUI/Document.py:161
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
 msgid "Merge With..."
 msgstr "İle Birleştir..."
 
 #: ../Pyblio/GnomeUI/Document.py:162
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:4
 msgid "Medline Query..."
-msgstr ""
+msgstr "Medline Sorgusu..."
 
 #: ../Pyblio/GnomeUI/Document.py:170
 msgid "Add a new entry"
 msgstr "Yeni giriş ekle"
 
-#: ../Pyblio/GnomeUI/Document.py:174
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
-msgid "S_ort..."
-msgstr "S_irala..."
-
 #: ../Pyblio/GnomeUI/Document.py:175
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
+msgid "S_ort..."
+msgstr "S_ırala..."
+
+#: ../Pyblio/GnomeUI/Document.py:176
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
 msgid "Cite..."
 msgstr "Alıntı"
 
-#: ../Pyblio/GnomeUI/Document.py:175
+#: ../Pyblio/GnomeUI/Document.py:176
 msgid "Cite key(s)"
 msgstr "Alıntı anahtar(lar)ı"
 
-#: ../Pyblio/GnomeUI/Document.py:176
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
+#: ../Pyblio/GnomeUI/Document.py:177
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "Format..."
 msgstr "Biçimlendir..."
 
-#: ../Pyblio/GnomeUI/Document.py:178
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:4
+#: ../Pyblio/GnomeUI/Document.py:179
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:14
 msgid "Fields..."
 msgstr "Alanlar..."
 
-#: ../Pyblio/GnomeUI/Document.py:180
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
+#: ../Pyblio/GnomeUI/Document.py:181
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
 msgid "Forget all changes"
-msgstr ""
+msgstr "Tüm değişiklikleri unut"
 
-#: ../Pyblio/GnomeUI/Document.py:183
+#: ../Pyblio/GnomeUI/Document.py:185
 msgid "_Resource"
 msgstr "_Kaynak"
 
-#: ../Pyblio/GnomeUI/Document.py:194
-msgid "_About"
-msgstr "_Hakkında"
-
-#: ../Pyblio/GnomeUI/Document.py:245
+#: ../Pyblio/GnomeUI/Document.py:236
 msgid "Quick search"
 msgstr "Hızlı arama"
 
-#: ../Pyblio/GnomeUI/Document.py:319
+#: ../Pyblio/GnomeUI/Document.py:310
 msgid "Unnamed bibliographic database"
-msgstr ""
+msgstr "Adlandırılmamış bibliyografik veritabanı"
 
-#: ../Pyblio/GnomeUI/Document.py:402
+#: ../Pyblio/GnomeUI/Document.py:393
 #, python-format
 msgid ""
 "can't open file `%s' for writing:\n"
@@ -248,7 +248,7 @@ msgstr ""
 "`%s' dosyasini yazmak için açamadi:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:423
+#: ../Pyblio/GnomeUI/Document.py:414
 #, python-format
 msgid ""
 "Error while parsing `%s':\n"
@@ -257,43 +257,43 @@ msgstr ""
 "`%s' yorumlanırken hata oluştu:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:439
+#: ../Pyblio/GnomeUI/Document.py:430
 msgid "New database"
 msgstr "Yeni veritabanı"
 
-#: ../Pyblio/GnomeUI/Document.py:447 ../Pyblio/GnomeUI/Document.py:451
+#: ../Pyblio/GnomeUI/Document.py:438 ../Pyblio/GnomeUI/Document.py:442
 msgid "[no entry]"
 msgstr "[giriş yok]"
 
-#: ../Pyblio/GnomeUI/Document.py:448
+#: ../Pyblio/GnomeUI/Document.py:439
 msgid "[1 entry]"
 msgstr "[1 giriş]"
 
-#: ../Pyblio/GnomeUI/Document.py:449
+#: ../Pyblio/GnomeUI/Document.py:440
 #, python-format
 msgid "[%d entries]"
 msgstr "[%d giriş]"
 
-#: ../Pyblio/GnomeUI/Document.py:452
+#: ../Pyblio/GnomeUI/Document.py:443
 #, python-format
 msgid "[%d/1 entry]"
 msgstr "[%d/1 giriş]"
 
-#: ../Pyblio/GnomeUI/Document.py:453
+#: ../Pyblio/GnomeUI/Document.py:444
 #, python-format
 msgid "[%d/%d entries]"
 msgstr "[%d/%d giriş]"
 
-#: ../Pyblio/GnomeUI/Document.py:458
+#: ../Pyblio/GnomeUI/Document.py:449
 msgid "[modified]"
 msgstr "[değiştirildi]"
 
-#: ../Pyblio/GnomeUI/Document.py:461
+#: ../Pyblio/GnomeUI/Document.py:452
 #, python-format
 msgid "view limited to: %s"
-msgstr ""
+msgstr "kısıtlı görünüm: %s"
 
-#: ../Pyblio/GnomeUI/Document.py:474
+#: ../Pyblio/GnomeUI/Document.py:465
 msgid ""
 "The database has been modified.\n"
 "Discard changes?"
@@ -301,7 +301,7 @@ msgstr ""
 "Veritabanı degiştirildi.\n"
 "Değişiklikler silinsin mi?"
 
-#: ../Pyblio/GnomeUI/Document.py:478
+#: ../Pyblio/GnomeUI/Document.py:469
 msgid ""
 "The database has been modified.\n"
 "Save changes?"
@@ -309,45 +309,55 @@ msgstr ""
 "Veritabanı değiştirildi.\n"
 "Değişiklikler kaydedilsin mi?"
 
-#: ../Pyblio/GnomeUI/Document.py:495
+#: ../Pyblio/GnomeUI/Document.py:490
+#| msgid ""
+#| "The database has been externally modified.\n"
+#| "Overwrite changes ?"
 msgid ""
 "The database has been externally modified.\n"
-"Overwrite changes ?"
+"Overwrite changes?"
 msgstr ""
-"Veritabanı değiştirildi.\n"
+"Veritabanı dışarıdan değiştirildi.\n"
 "Değişikliklerin üzerine yazılsın mı?"
 
 #. no result.
-#: ../Pyblio/GnomeUI/Document.py:524
+#: ../Pyblio/GnomeUI/Document.py:519
 msgid "Your query returned no result"
-msgstr ""
+msgstr "Aramanız için hiç sonuç bulunamadı"
+
+#. error
+#: ../Pyblio/GnomeUI/Document.py:523
+msgid "An error occured during Medline Query"
+msgstr "Medline Sorgusu sırasında bir hata oluştu"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:534
+#: ../Pyblio/GnomeUI/Document.py:533
 msgid "Merge file"
 msgstr "Dosyayı birleştir"
 
-#: ../Pyblio/GnomeUI/Document.py:547 ../Pyblio/GnomeUI/Document.py:634
+#: ../Pyblio/GnomeUI/Document.py:546 ../Pyblio/GnomeUI/Document.py:633
 msgid "Open error"
 msgstr "Açık hata"
 
-#: ../Pyblio/GnomeUI/Document.py:571
+#: ../Pyblio/GnomeUI/Document.py:570
 msgid "Merge status"
 msgstr "Durumu birleştir"
 
 #. get a new file name
-#: ../Pyblio/GnomeUI/Document.py:582
+#: ../Pyblio/GnomeUI/Document.py:581
 msgid "Open file"
 msgstr "Açık dosya"
 
-#: ../Pyblio/GnomeUI/Document.py:620
+#: ../Pyblio/GnomeUI/Document.py:619
 msgid ""
 "An autosave file was found which is newer than the original file.\n"
 "Do you want to restore it?"
 msgstr ""
+"Özgün dosyadan daha yeni bir otomatik kaydetme dosyası bulundu.\n"
+"Yüklemek ister misiniz?"
 
-#: ../Pyblio/GnomeUI/Document.py:655 ../Pyblio/GnomeUI/Document.py:796
-#: ../Pyblio/GnomeUI/Document.py:856
+#: ../Pyblio/GnomeUI/Document.py:654 ../Pyblio/GnomeUI/Document.py:795
+#: ../Pyblio/GnomeUI/Document.py:855
 #, python-format
 msgid ""
 "Unable to remove autosave file `%s':\n"
@@ -356,7 +366,7 @@ msgstr ""
 "Otomatik kayıt dosyası `%s' kaldırılamıyor:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:706
+#: ../Pyblio/GnomeUI/Document.py:705
 #, python-format
 msgid ""
 "Error during autosaving:\n"
@@ -365,7 +375,7 @@ msgstr ""
 "Otomatik kaydetme sırasında hata oluştu:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:734
+#: ../Pyblio/GnomeUI/Document.py:733
 #, python-format
 msgid ""
 "Unable to save `%s':\n"
@@ -374,7 +384,7 @@ msgstr ""
 "`%s' kaydedilemiyor:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:742
+#: ../Pyblio/GnomeUI/Document.py:741
 msgid ""
 "An internal error occured during saving\n"
 "Try to Save As..."
@@ -382,20 +392,23 @@ msgstr ""
 "Kaydetme sırasında bir iç hata oluştu\n"
 "Farklı Kaydetmeyi Dene..."
 
-#: ../Pyblio/GnomeUI/Document.py:757
+#: ../Pyblio/GnomeUI/Document.py:756
 msgid "Save As..."
 msgstr "Farklı Kaydet..."
 
-#: ../Pyblio/GnomeUI/Document.py:763
+#: ../Pyblio/GnomeUI/Document.py:762
 #, python-format
+#| msgid ""
+#| "The file `%s' already exists.\n"
+#| "Overwrite it ?"
 msgid ""
 "The file `%s' already exists.\n"
-"Overwrite it ?"
+"Overwrite it?"
 msgstr ""
-"`%s' dosyasi zaten var.\n"
-"Üzerine yazmak istiyor musunuz ?"
+"`%s' dosyası zaten var.\n"
+"Üzerine yazmak istiyor musunuz?"
 
-#: ../Pyblio/GnomeUI/Document.py:770
+#: ../Pyblio/GnomeUI/Document.py:769
 #, python-format
 msgid ""
 "During opening:\n"
@@ -404,47 +417,55 @@ msgstr ""
 "Açılma sırasında:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:808
+#: ../Pyblio/GnomeUI/Document.py:807
 msgid "Reopen error"
 msgstr "Yeniden açma hatası"
 
-#: ../Pyblio/GnomeUI/Document.py:881
+#: ../Pyblio/GnomeUI/Document.py:880
 #, python-format
+#| msgid ""
+#| "An entry called `%s' already exists.\n"
+#| "Rename and add it anyway ?"
 msgid ""
 "An entry called `%s' already exists.\n"
-"Rename and add it anyway ?"
+"Rename and add it anyway?"
 msgstr ""
-"`%s' girişi zaten var.\n"
-"Yeniden adlandırıp eklemek istiyor musunuz ?"
+"`%s' girdisi zaten var.\n"
+"Yeniden adlandırıp eklemek istiyor musunuz?"
 
-#: ../Pyblio/GnomeUI/Document.py:918
-msgid "Really remove all the entries ?"
-msgstr "Bütün girişleri kaldırmak istediğinizden emin misiniz ?"
+#: ../Pyblio/GnomeUI/Document.py:917
+#| msgid "Really remove all the entries ?"
+msgid "Really remove all the entries?"
+msgstr "Bütün girdileri kaldırmak istediğinizden emin misiniz?"
 
-#: ../Pyblio/GnomeUI/Document.py:938
+#: ../Pyblio/GnomeUI/Document.py:937
 msgid "Create new entry"
 msgstr "Yeni giriş yarat"
 
-#: ../Pyblio/GnomeUI/Document.py:952
+#: ../Pyblio/GnomeUI/Document.py:951
 #, python-format
-msgid "Really edit %d entries ?"
-msgstr "%d girişi düzenlemek istediğinizden emin misiniz ?"
+#| msgid "Really edit %d entries ?"
+msgid "Really edit %d entries?"
+msgstr "%d girişi düzenlemek istediğinizden emin misiniz?"
 
 #: ../Pyblio/GnomeUI/Document.py:998
 #, python-format
-msgid "Remove all the %d entries ?"
-msgstr "%d girişi kaldırmak istiyor musunuz ?"
+#| msgid "Remove all the %d entries ?"
+msgid "Remove all the %d entries?"
+msgstr "%d girdisini kaldırmak istiyor musunuz?"
 
 #: ../Pyblio/GnomeUI/Document.py:1000
 #, python-format
-msgid "Remove entry `%s' ?"
-msgstr "`%s' girişini kaldırmak istiyor musunuz ?"
+#| msgid "Remove entry `%s' ?"
+msgid "Remove entry `%s'?"
+msgstr "`%s' girdisini kaldırmak istiyor musunuz?"
 
 #: ../Pyblio/GnomeUI/Document.py:1019
 msgid ""
 "your search text must contain\n"
 "latin-1 characters only"
 msgstr ""
+"arama yapılacak karakter dizisi\\sadece latin-1 karakterleri içermelidir"
 
 #: ../Pyblio/GnomeUI/Document.py:1098 ../Pyblio/GnomeUI/Document.py:1106
 #, python-format
@@ -455,26 +476,28 @@ msgstr ""
 "LyX'e bağlanılamıyor:\n"
 "%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1221
+#: ../Pyblio/GnomeUI/Document.py:1222
 #, python-format
 msgid ""
 "Can't display documentation:\n"
 "%s"
 msgstr ""
+"Belgelendirme görüntülenemiyor:\n"
+"%s"
 
-#: ../Pyblio/GnomeUI/Document.py:1229
+#: ../Pyblio/GnomeUI/Document.py:1230
 msgid "This program is copyrighted under the GNU GPL"
 msgstr "Bu program GNU GPL telif haklarına sahiptir"
 
-#: ../Pyblio/GnomeUI/Document.py:1230
+#: ../Pyblio/GnomeUI/Document.py:1231
 msgid "GNOME interface to the Pybliographer system."
 msgstr "Pybiographer sistemi için Gnome arayüzü"
 
-#: ../Pyblio/GnomeUI/Document.py:1241
+#: ../Pyblio/GnomeUI/Document.py:1242
 msgid "GNOME Translation Team"
 msgstr "GNOME Çeviri Ekibi"
 
-#: ../Pyblio/GnomeUI/Document.py:1246
+#: ../Pyblio/GnomeUI/Document.py:1247
 msgid "Pybliographer Home Page"
 msgstr "Pybliographer Internet Adresi"
 
@@ -483,8 +506,8 @@ msgid "Last Name, First Name"
 msgstr "Soyadı, Adı"
 
 #: ../Pyblio/GnomeUI/Editor.py:36 ../Pyblio/GnomeUI/Editor.py:1292
-#: ../Pyblio/GnomeUI/Fields.py:39 ../Pyblio/GnomeUI/glade/config1.glade.h:14
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:19
+#: ../Pyblio/GnomeUI/Fields.py:39 ../Pyblio/GnomeUI/glade/config1.glade.h:10
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:9
 msgid "Text"
 msgstr "Yazı"
 
@@ -524,19 +547,19 @@ msgstr "Sil"
 #: ../Pyblio/GnomeUI/Editor.py:430 ../Pyblio/GnomeUI/Editor.py:443
 #: ../Pyblio/GnomeUI/Editor.py:446
 msgid "[ Drop an Entry here ]"
-msgstr ""
+msgstr "[ Buraya bir Girdi bırakın ]"
 
 #: ../Pyblio/GnomeUI/Editor.py:502
 msgid "Browse..."
-msgstr ""
+msgstr "Gözat..."
 
 #: ../Pyblio/GnomeUI/Editor.py:525
 msgid "Select file"
 msgstr "Dosya seç"
 
 #: ../Pyblio/GnomeUI/Editor.py:549 ../Pyblio/GnomeUI/Fields.py:236
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:8
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:12
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:11
 msgid "Entry type"
 msgstr "Giriş tipi"
 
@@ -585,11 +608,11 @@ msgstr "`%s' anahtari zaten var"
 #: ../Pyblio/GnomeUI/Editor.py:934
 #, python-format
 msgid "The `%s' field contains a non Latin-1 symbol"
-msgstr ""
+msgstr "`%s' alanı latin-1 olmayan bir simge içeriyor"
 
 #: ../Pyblio/GnomeUI/Editor.py:996
 msgid "Your text contains non Latin-1 symbols"
-msgstr ""
+msgstr "Metniniz latin-1 olmayan simgeler içeriyor"
 
 #: ../Pyblio/GnomeUI/Editor.py:1023
 msgid "Edit entry"
@@ -609,15 +632,15 @@ msgstr "zorunlu"
 
 #: ../Pyblio/GnomeUI/Editor.py:1295
 msgid "Enter text here"
-msgstr ""
+msgstr "Metni buraya girin"
 
 #: ../Pyblio/GnomeUI/Editor.py:1347
 msgid "New Annotation Name"
-msgstr ""
+msgstr "Yeni Not Adı"
 
 #: ../Pyblio/GnomeUI/Editor.py:1353
 msgid "Name of the new annotation:"
-msgstr ""
+msgstr "Yeni notun adı:"
 
 #: ../Pyblio/GnomeUI/Entry.py:114
 #, python-format
@@ -636,8 +659,8 @@ msgstr "Yazanlar"
 msgid "Long Text"
 msgstr "Uzun Metin"
 
-#: ../Pyblio/GnomeUI/Fields.py:41 ../Pyblio/GnomeUI/glade/config1.glade.h:16
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:21
+#: ../Pyblio/GnomeUI/Fields.py:41 ../Pyblio/GnomeUI/glade/config1.glade.h:9
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:8
 msgid "URL"
 msgstr "URL"
 
@@ -649,45 +672,45 @@ msgstr "Referans"
 msgid "Date"
 msgstr "Tarih"
 
-#: ../Pyblio/GnomeUI/Fields.py:124 ../Pyblio/GnomeUI/glade/config1.glade.h:11
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:10
+#: ../Pyblio/GnomeUI/Fields.py:124 ../Pyblio/GnomeUI/glade/config1.glade.h:7
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:6
 msgid "Name"
 msgstr "Ad"
 
-#: ../Pyblio/GnomeUI/Fields.py:127 ../Pyblio/GnomeUI/glade/config1.glade.h:15
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:20
+#: ../Pyblio/GnomeUI/Fields.py:127 ../Pyblio/GnomeUI/glade/config1.glade.h:6
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:5
 msgid "Type"
 msgstr "Tip"
 
 #: ../Pyblio/GnomeUI/Fields.py:300
 msgid "Available"
-msgstr ""
+msgstr "Kullanılabilir"
 
 #: ../Pyblio/GnomeUI/Fields.py:310
 msgid "Associated"
-msgstr ""
+msgstr "İlişkili"
 
 #: ../Pyblio/GnomeUI/Fields.py:321
 msgid "Please, select an entry type from previous page."
-msgstr ""
+msgstr "Lütfen önceki sayfadan bir girdi türü seçin."
 
 #: ../Pyblio/GnomeUI/Fields.py:332
 #, python-format
 msgid "Fields associated with <b>%s</b> entry type"
-msgstr ""
+msgstr "<b>%s</b> girdi türüyle ilişkili dosyalar"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:39
 msgid "File"
 msgstr "Dosya"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:76
-#: ../Pyblio/GnomeUI/glade/openurl.glade.h:2
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:4
 msgid "Bibliography type:"
 msgstr "Bibliografya Tipi"
 
 #: ../Pyblio/GnomeUI/FileSelector.py:93 ../Pyblio/GnomeUI/OpenURL.py:61
 msgid " - According to file suffix - "
-msgstr ""
+msgstr " - Dosya sonekine göre - "
 
 #. The root of the search tree is the full database
 #: ../Pyblio/GnomeUI/Search.py:71
@@ -716,80 +739,76 @@ msgstr "[Giriş Tipi]"
 msgid "[Key Value]"
 msgstr "[Giriş Değeri]"
 
-#: ../Pyblio/GnomeUI/Utils.py:193
+#: ../Pyblio/GnomeUI/Utils.py:203
 msgid "The following errors occured:\n"
 msgstr "Aşağıdaki hatalar oluştu:\n"
 
 #: ../Pyblio/GnomeUI/__init__.py:45
 #, python-format
 msgid "This is Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
-msgstr ""
+msgstr "Bu bir Pybliographic %s [Python %s, Gtk %s, PyGTK %s]"
 
 #: ../Pyblio/GnomeUI/glade/config1.glade.h:1
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:1
-#: ../Pyblio/GnomeUI/glade/medline.glade.h:1
-#: ../Pyblio/GnomeUI/glade/openurl.glade.h:1
-#: ../Pyblio/GnomeUI/glade/search.glade.h:1
-msgid "*"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:2
-msgid "<b>Entry type</b>"
-msgstr "<b>Girdi türü</b>"
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:3
-msgid "A"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:4
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:2
-msgid "Association"
-msgstr "Kuruluş"
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:5
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
-msgid "Datum"
-msgstr "Veri"
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:6
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:4
-msgid "Editor"
-msgstr "Editör"
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:7
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:5
-msgid "Entries"
-msgstr "Girdiler"
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:9
-msgid "FIELDS DEFINITION"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:10
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:8
-msgid "Fields "
-msgstr "Alanlar"
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:12
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:11
-msgid "Name "
-msgstr "Ad "
-
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:13
 msgid "Pybliographer Configuration"
 msgstr "Pybliographer Yapılandırması"
 
-#: ../Pyblio/GnomeUI/glade/config1.glade.h:17
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:2
+msgid "FIELDS DEFINITION"
+msgstr "ALANLARIN TANIMLAMALARI"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:3
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:2
+msgid "Name "
+msgstr "Ad "
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:4
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:3
+msgid "Editor"
+msgstr "Editör"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:5
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:4
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:5
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:3
+#: ../Pyblio/GnomeUI/glade/search.glade.h:5
+msgid "*"
+msgstr "*"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:8
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:7
+msgid "Datum"
+msgstr "Veri"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:11
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:10
+msgid "Fields "
+msgstr "Alanlar"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:13
+msgid "A"
+msgstr "A"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:14
 msgid "standard fields"
 msgstr "standart alanlar"
 
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:7
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:15
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:19
+msgid "Entries"
+msgstr "Girdiler"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:16
+msgid "<b>Entry type</b>"
+msgstr "<b>Girdi türü</b>"
+
+#: ../Pyblio/GnomeUI/glade/config1.glade.h:17
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:21
+msgid "Association"
+msgstr "Kuruluş"
+
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:1
 msgid "Entry types and field names configuration"
 msgstr "Girdi türleri ve alan adları yapılandırması"
-
-#: ../Pyblio/GnomeUI/glade/fields1.glade.h:9
-msgid "Information for <b>Article</b> entry type"
-msgstr ""
 
 #: ../Pyblio/GnomeUI/glade/fields1.glade.h:12
 msgid ""
@@ -800,166 +819,184 @@ msgid ""
 "\n"
 "\n"
 msgstr ""
+"Bir girdi türü seçin ve sonraki sayfada \n"
+"onunla ilişkili (zorunlu ve isteğe\n"
+"bağlı) alanları belirtin.\n"
+"\n"
+"\n"
+"\n"
+
+#: ../Pyblio/GnomeUI/glade/fields1.glade.h:20
+msgid "Information for <b>Article</b> entry type"
+msgstr "<b>Makale</b> girdi türü için bilgi"
 
 #: ../Pyblio/GnomeUI/glade/format.glade.h:1
-msgid "Bibliography style:"
-msgstr "Bibliografya stili:"
-
-#: ../Pyblio/GnomeUI/glade/format.glade.h:2
 msgid "Format entries"
 msgstr "Girişleri biçimlendir"
 
-#: ../Pyblio/GnomeUI/glade/format.glade.h:3
-msgid "Output file:"
-msgstr "Çıktı Dosyası:"
+#: ../Pyblio/GnomeUI/glade/format.glade.h:2
+msgid "Bibliography style:"
+msgstr "Bibliografya stili:"
 
-#: ../Pyblio/GnomeUI/glade/format.glade.h:4
+#: ../Pyblio/GnomeUI/glade/format.glade.h:3
 msgid "Output format:"
 msgstr "Çıktı biçimi:"
 
-#: ../Pyblio/GnomeUI/glade/format.glade.h:5
-msgid "Save Formatted as"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/format.glade.h:6
+#: ../Pyblio/GnomeUI/glade/format.glade.h:4
 msgid "Style Selection"
 msgstr "Stil Seçimi"
 
+#: ../Pyblio/GnomeUI/glade/format.glade.h:5
+msgid "Save Formatted as"
+msgstr "Biçimlendirilmişi farklı kaydet"
+
+#: ../Pyblio/GnomeUI/glade/format.glade.h:6
+msgid "Output file:"
+msgstr "Çıktı Dosyası:"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:1
+msgid "Medline Query"
+msgstr "Medline Sorgusu"
+
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:2
 msgid "Enter your Medline Query"
-msgstr ""
+msgstr "Medline Sorgunuzu girin"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:3
-msgid "From:"
-msgstr "Kimden:"
+msgid ""
+"Search \n"
+"PubMed for:"
+msgstr "PubMed aramasını \\bunun için yap:"
 
-#: ../Pyblio/GnomeUI/glade/medline.glade.h:4
-msgid "Limited to:"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/medline.glade.h:5
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:6
 msgid ""
 "Maximum number\n"
 "of results:"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/medline.glade.h:7
-msgid "Medline Query"
-msgstr ""
+msgstr "En fazla\\sonuç sayısı:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:8
 msgid ""
-"Only items \n"
-"ahead of print"
+"Starting listing at\n"
+"result number:"
 msgstr ""
+"Sonuç numarasından\n"
+"başlayarak:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:10
 msgid ""
 "Only items \n"
 "with abstracts"
 msgstr ""
+"Sadece özeti \n"
+"olan ögeler"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:12
 msgid ""
-"Search \n"
-"PubMed for:"
+"Only items \n"
+"ahead of print"
 msgstr ""
+"Sadece yazdırma başlığı \n"
+"olan ögeler"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:14
-msgid ""
-"Starting listing at\n"
-"result number:"
-msgstr ""
+msgid "From:"
+msgstr "Kimden:"
+
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:15
+msgid "To:"
+msgstr "Alıcı:"
 
 #: ../Pyblio/GnomeUI/glade/medline.glade.h:16
-msgid "To:"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/medline.glade.h:17
 msgid ""
 "Use the format YYYY/MM/DD\n"
 "Month and day are optional."
 msgstr ""
+"YYYY/AA/GG biçimini kullanın\n"
+"Ay ve gün isteğe bağlıdır."
 
-#: ../Pyblio/GnomeUI/glade/openurl.glade.h:3
-msgid "Enter the location (URI) of the file you would like to open:"
-msgstr ""
+#: ../Pyblio/GnomeUI/glade/medline.glade.h:18
+msgid "Limited to:"
+msgstr "Sınırlı:"
 
-#: ../Pyblio/GnomeUI/glade/openurl.glade.h:4
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:1
 msgid "Open Location"
 msgstr "Konumu Aç"
 
+#: ../Pyblio/GnomeUI/glade/openurl.glade.h:2
+msgid "Enter the location (URI) of the file you would like to open:"
+msgstr "Açmak istediğiniz dosyanın konumunu (URI) girin:"
+
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:1
-msgid "Cite"
-msgstr "Alıntı"
-
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
-msgid "Contents"
-msgstr "İçerik"
-
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
-msgid "Open File"
-msgstr "Dosya Aç"
-
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:10
-msgid "Previous Documents"
-msgstr "Önceki Belgeler"
-
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
 msgid "Pybliographer"
 msgstr "Pybliographer"
 
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:13
-msgid "Save File"
-msgstr "Dosyayı Kaydet"
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:2
+msgid "_New"
+msgstr "_Yeni"
 
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:14
-msgid "Settings"
-msgstr "Ayarlar"
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:5
+msgid "Previous Documents"
+msgstr "Önceki Belgeler"
 
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
 msgid "_Add..."
 msgstr "_Ekle..."
 
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:16
-msgid "_Delete..."
-msgstr "_Sil..."
-
-#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:17
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
 msgid "_Edit..."
 msgstr "_Düzenle..."
 
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
+msgid "_Delete..."
+msgstr "_Sil..."
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:10
+msgid "Cite"
+msgstr "Alıntı"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:13
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:16
+msgid "Contents"
+msgstr "İçerik"
+
+#: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:17
+msgid "Open File"
+msgstr "Dosya Aç"
+
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:18
-msgid "_New"
-msgstr "_Yeni"
+msgid "Save File"
+msgstr "Dosyayı Kaydet"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:1
+msgid "Search"
+msgstr "Araştır"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:2
 msgid "Close"
 msgstr "Kapat"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:3
-msgid "Expert Search"
-msgstr "Uzman Araştırma"
-
-#: ../Pyblio/GnomeUI/glade/search.glade.h:4
 msgid "Field"
 msgstr "Alan"
 
-#: ../Pyblio/GnomeUI/glade/search.glade.h:5
+#: ../Pyblio/GnomeUI/glade/search.glade.h:4
 msgid "Pattern"
 msgstr "Aranacak"
 
 #: ../Pyblio/GnomeUI/glade/search.glade.h:6
-msgid "Query"
-msgstr ""
-
-#: ../Pyblio/GnomeUI/glade/search.glade.h:7
-msgid "Search"
-msgstr "Araştır"
-
-#: ../Pyblio/GnomeUI/glade/search.glade.h:8
 msgid "Simple Search"
 msgstr "Basit Araştırma"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:7
+msgid "Query"
+msgstr "Sorgu"
+
+#: ../Pyblio/GnomeUI/glade/search.glade.h:8
+msgid "Expert Search"
+msgstr "Uzman Araştırma"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
 msgid "Select sort criterions"
@@ -967,7 +1004,7 @@ msgstr "Sıralama kriterlerini seç"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2
 msgid "Set as default"
-msgstr ""
+msgstr "Varsayılan yap"
 
 #: ../Pyblio/LyX.py:37
 #, python-format
@@ -1005,15 +1042,17 @@ msgid ""
 "Warning: This URL is marked as Invalid or Approximate: %s\n"
 "Continue?"
 msgstr ""
+"Uyarı: Bu adres Geçersiz veya Uygunsuz olarak işaretlenmiş: %s\n"
+"Devam edilsin mi?"
 
 #: ../Pyblio/Resource.py:81
 msgid "Determining Mime Type ... "
-msgstr ""
+msgstr "Mime Türü Belirleniyor ... "
 
 #: ../Pyblio/Resource.py:86
 #, python-format
 msgid "Cannot determine mime type for item %s "
-msgstr ""
+msgstr "%s ögesi için mime türü belirlenemedi "
 
 #: ../Pyblio/Resource.py:87
 #, python-format
@@ -1022,15 +1061,18 @@ msgid ""
 "You should check the url or path given for errors.\n"
 "Details: %s"
 msgstr ""
+"Sorgudaki adres: %s\n"
+"Adres veya yolu hatalar için kontrol edin.\n"
+"Ayrıntılar: %s"
 
 #: ../Pyblio/Resource.py:98
 msgid "Accessing resource ..."
-msgstr ""
+msgstr "Kaynağa erişiliyor ..."
 
 #: ../Pyblio/Resource.py:116
 #, python-format
 msgid "IOError for item %s: cannot uncompress resource."
-msgstr ""
+msgstr "%s ögesi için girdi çıktı hatası: kaynak açılamadı."
 
 #: ../Pyblio/Resource.py:117
 #, python-format
@@ -1038,14 +1080,16 @@ msgid ""
 "URL: %s\n"
 "Details: %s"
 msgstr ""
+"Adres: %s\n"
+"Ayrıntılar: %s"
 
 #: ../Pyblio/Resource.py:137
 msgid "Starting application ..."
-msgstr ""
+msgstr "Uygulama başlatılıyor ..."
 
 #: ../Pyblio/Resource.py:140
 msgid "No application to view resource"
-msgstr ""
+msgstr "Kaynağı görüntülenecek uygulama yok"
 
 #: ../Pyblio/Resource.py:141
 #, python-format
@@ -1055,11 +1099,15 @@ msgid ""
 "Please consider adding one.\n"
 "URL: %s"
 msgstr ""
+"%s mime türü için yapılandırmada \n"
+"kaynak/görüntüleyici seçeneği bulunamadı.\n"
+"Lütfen bir tane ekleyin.\n"
+"Adres: %s"
 
 #: ../Pyblio/Style/Parser.py:261
 #, python-format
 msgid "missing '%s' attribute"
-msgstr ""
+msgstr "eksik '%s' özniteliği"
 
 #: ../Pyblio/Style/Parser.py:271
 #, python-format
@@ -1069,7 +1117,7 @@ msgstr "geçersiz açılış imi: %s"
 #: ../Pyblio/Style/Parser.py:281
 #, python-format
 msgid "invalid closing tag: %s"
-msgstr ""
+msgstr "geçersiz kapanış etiketi: %s"
 
 #: ../pybliographer.py:43
 #, python-format
@@ -1106,20 +1154,20 @@ msgstr ""
 
 #. save history
 #: ../pybliographic.desktop.in.h:1
+msgid "Pybliographic Bibliography Manager"
+msgstr "Pybliografik Bibliyografi Yöneticisi"
+
+#: ../pybliographic.desktop.in.h:2
 msgid "Bibliography Manager"
 msgstr "Kaynakça Yöneticisi"
 
-#: ../pybliographic.desktop.in.h:2
-msgid "Manage bibliographic databases"
-msgstr ""
-
 #: ../pybliographic.desktop.in.h:3
-msgid "Pybliographic Bibliography Manager"
-msgstr ""
+msgid "Manage bibliographic databases"
+msgstr "Bibliyografik veri tabanlarını yönetin"
 
 #: ../scripts/pybliocheck.py:31
 msgid "usage: pybliocheck <file | directory>..."
-msgstr ""
+msgstr "kullanım: pybliocheck <dosya | dizin>..."
 
 #: ../scripts/pybliocheck.py:60
 #, python-format
@@ -1166,6 +1214,18 @@ msgid ""
 "      -h, --help\t\t\tshow this help message\n"
 "    "
 msgstr ""
+"kullanım: pyblioformat [seçenekler] <veritabanı...>\n"
+"\n"
+"    seçenekler:\n"
+"      -o dosya, --output=dosya\t\tçıktı dosyasının adını belirtin\n"
+"      -s biçem, --style=biçem\t\tbir bibliyografi biçemi belirtin\n"
+"      -f biçim, --format=biçim\tbir çıktı biçimi belirtin\n"
+"      -H başlık, --header=başlık\tbir başlık dosyası tanımlar\n"
+"      -F altbilgi, --footer=altbilgi\tbir alt bilgi dosyası tanımlar\n"
+"      -l 'çıktı', --list='çıktı'\tlkullanılabilir çıktı biçimlerini "
+"listeler\n"
+"      -h, --help\t\t\tbu yardım iletisini görüntüler\n"
+"    "
 
 #: ../scripts/pyblioformat.py:48
 #, python-format
@@ -1186,21 +1246,21 @@ msgstr "`%s' dosyası açılamıyor: %s"
 #: ../scripts/pyblioformat.py:100
 #, python-format
 msgid "unknown list `%s'"
-msgstr ""
+msgstr "bilinmeyen liste `%s'"
 
 #: ../scripts/pyblioformat.py:103
 #, python-format
 msgid "pyblioformat: available values for `%s':"
-msgstr ""
+msgstr "pyblioformat: `%s' için kullanılabilir değerler:"
 
 #: ../scripts/pyblioformat.py:107
 #, python-format
 msgid "empty value list `%s'"
-msgstr ""
+msgstr "boş değer listesi `%s'"
 
 #: ../scripts/pyblioformat.py:129
 msgid "too few arguments"
-msgstr ""
+msgstr "çok az argüman"
 
 #: ../scripts/pyblioformat.py:136 ../scripts/pybliotext.py:117
 #, python-format
@@ -1216,7 +1276,7 @@ msgstr "stil `%s' bulunamadı"
 #: ../scripts/pyblioformat.py:152
 #, python-format
 msgid "pyblioformat: using style `%s', format `%s'\n"
-msgstr ""
+msgstr "pyblioformat: kullanılan biçem `%s', biçim `%s'\n"
 
 #: ../scripts/pyblioformat.py:167
 #, python-format
@@ -1226,7 +1286,7 @@ msgstr "`%s' başlığı açılamıyor: %s"
 #: ../scripts/pyblioformat.py:175
 #, python-format
 msgid "can't open database: %s"
-msgstr ""
+msgstr "veritabanı açılamadı: %s"
 
 #: ../scripts/pyblioformat.py:190
 #, python-format
@@ -1276,16 +1336,16 @@ msgstr "Dosya zaten var: `%s'"
 #: ../scripts/pybliotext.py:127
 #, python-format
 msgid "A file with the same name already exists: `%s'"
-msgstr ""
+msgstr "Aynı isimli bir dosya zaten var: `%s'"
 
 #: ../scripts/pybliotext.py:178
 msgid "no citation found"
-msgstr ""
+msgstr "alıntı bulunamadı"
 
 #: ../scripts/pybliotext.py:193
 #, python-format
 msgid "pybliotext: using style `%s', format `%s'\n"
-msgstr ""
+msgstr "pybliotext: kullanılan biçem `%s', biçim `%s'\n"
 
 #: ../scripts/pybliotext.py:316
 #, python-format
@@ -1299,7 +1359,10 @@ msgstr "`%s' kaldırılamıyor"
 
 #: ../scripts/pybliotext.py:344
 msgid "Done"
-msgstr ""
+msgstr "Tamamlandı"
+
+#~ msgid "_About"
+#~ msgstr "_Hakkında"
 
 #~ msgid "Choose your preferences"
 #~ msgstr "Tercihlerinizi seçiniz"

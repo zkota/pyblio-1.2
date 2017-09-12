@@ -1,27 +1,28 @@
 # Brazilian Portuguese translation of pybliographer.
-# Copyright (C) 2004-2013 Free Software Foundation, Inc.
+# Copyright (C) 2004-2017 Free Software Foundation, Inc.
 # This file is distributed under the same license as the pybliographer package.
 # Afonso Celso Medina <medina@maua.br>, 2004.
 # Raphael Higino <In Memoriam>, 2004.
 # Leonardo Ferreira Fontenelle <leo.fontenelle@gmail.com>, 2008.
 # Djavan Fagundes <djavanf@gnome.org>, 2010.
 # Rafael Ferreira <rafael.f.f1@gmail.com>, 2013, 2014.
+# Enrico Nicoletto <liverig@gmail.com>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"Report-Msgid-Bugs-To: https://bugzilla.gnome.org/enter_bug.cgi?"
 "product=pybliographer&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2014-05-17 18:42+0000\n"
-"PO-Revision-Date: 2014-06-16 08:54-0300\n"
-"Last-Translator: Rafael Ferreira <rafael.f.f1@gmail.com>\n"
+"POT-Creation-Date: 2017-04-28 12:38+0000\n"
+"PO-Revision-Date: 2017-04-30 16:19-0300\n"
+"Last-Translator: Enrico Nicoletto <liverig@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.6.5\n"
+"X-Generator: Poedit 1.8.12\n"
 
 #: ../Pyblio/Autoload.py:78
 #, python-format
@@ -193,12 +194,12 @@ msgstr "Salvar o arquivo atual"
 #: ../Pyblio/GnomeUI/Document.py:161
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:3
 msgid "Merge With..."
-msgstr "Mesclar com..."
+msgstr "Mesclar com…"
 
 #: ../Pyblio/GnomeUI/Document.py:162
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:4
 msgid "Medline Query..."
-msgstr "Consultar na base Medline..."
+msgstr "Consultar na base Medline…"
 
 #: ../Pyblio/GnomeUI/Document.py:170
 msgid "Add a new entry"
@@ -207,12 +208,12 @@ msgstr "Adicionar uma nova entrada"
 #: ../Pyblio/GnomeUI/Document.py:175
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:9
 msgid "S_ort..."
-msgstr "_Ordenar..."
+msgstr "_Ordenar…"
 
 #: ../Pyblio/GnomeUI/Document.py:176
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:11
 msgid "Cite..."
-msgstr "Citar..."
+msgstr "Citar…"
 
 #: ../Pyblio/GnomeUI/Document.py:176
 msgid "Cite key(s)"
@@ -221,12 +222,12 @@ msgstr "Chave(s) de citação"
 #: ../Pyblio/GnomeUI/Document.py:177
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:12
 msgid "Format..."
-msgstr "Formatar..."
+msgstr "Formatar…"
 
 #: ../Pyblio/GnomeUI/Document.py:179
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:14
 msgid "Fields..."
-msgstr "Campos..."
+msgstr "Campos…"
 
 #: ../Pyblio/GnomeUI/Document.py:181
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:15
@@ -331,8 +332,8 @@ msgstr "A sua consulta não retornou nenhum resultado"
 
 #. error
 #: ../Pyblio/GnomeUI/Document.py:523
-msgid "An error occured during Medline Query"
-msgstr "Ocorreu um erro durante a consulta na base bibliográfica Medline"
+msgid "An error occurred during Medline Query"
+msgstr "Ocorreu um erro durante a consulta a base bibliográfica Medline"
 
 #. get a new file name
 #: ../Pyblio/GnomeUI/Document.py:533
@@ -392,15 +393,15 @@ msgstr ""
 
 #: ../Pyblio/GnomeUI/Document.py:741
 msgid ""
-"An internal error occured during saving\n"
+"An internal error occurred during saving\n"
 "Try to Save As..."
 msgstr ""
 "Ocorreu um erro interno ao salvar\n"
-"Tente salvar como..."
+"Tente salvar como…"
 
 #: ../Pyblio/GnomeUI/Document.py:756
 msgid "Save As..."
-msgstr "Salvar como..."
+msgstr "Salvar como…"
 
 #: ../Pyblio/GnomeUI/Document.py:762
 #, python-format
@@ -553,7 +554,7 @@ msgstr "[ Ponha uma entrada aqui ]"
 
 #: ../Pyblio/GnomeUI/Editor.py:502
 msgid "Browse..."
-msgstr "Navegar..."
+msgstr "Navegar…"
 
 #: ../Pyblio/GnomeUI/Editor.py:525
 msgid "Select file"
@@ -745,7 +746,7 @@ msgid "[Key Value]"
 msgstr "[Valor da chave]"
 
 #: ../Pyblio/GnomeUI/Utils.py:203
-msgid "The following errors occured:\n"
+msgid "The following errors occurred:\n"
 msgstr "Ocorreram os seguintes erros:\n"
 
 #: ../Pyblio/GnomeUI/__init__.py:45
@@ -951,15 +952,15 @@ msgstr "Documentos anteriores"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:6
 msgid "_Add..."
-msgstr "_Adicionar..."
+msgstr "_Adicionar…"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:7
 msgid "_Edit..."
-msgstr "_Editar..."
+msgstr "_Editar…"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:8
 msgid "_Delete..."
-msgstr "_Excluir..."
+msgstr "_Excluir…"
 
 #: ../Pyblio/GnomeUI/glade/pyblio.glade.in.h:10
 msgid "Cite"
@@ -1011,7 +1012,7 @@ msgid "Expert Search"
 msgstr "Pesquisa especializada"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:1
-msgid "Select sort criterions"
+msgid "Select sort criteria"
 msgstr "Selecionar critérios de ordenação"
 
 #: ../Pyblio/GnomeUI/glade/sort.glade.h:2
@@ -1061,7 +1062,7 @@ msgstr ""
 
 #: ../Pyblio/Resource.py:81
 msgid "Determining Mime Type ... "
-msgstr "Determinando o tipo MIME..."
+msgstr "Determinando o tipo MIME…"
 
 #: ../Pyblio/Resource.py:86
 #, python-format
@@ -1082,7 +1083,7 @@ msgstr ""
 
 #: ../Pyblio/Resource.py:98
 msgid "Accessing resource ..."
-msgstr "Acessando o recurso..."
+msgstr "Acessando o recurso…"
 
 #: ../Pyblio/Resource.py:116
 #, python-format
@@ -1100,7 +1101,7 @@ msgstr ""
 
 #: ../Pyblio/Resource.py:137
 msgid "Starting application ..."
-msgstr "Iniciando a aplicação..."
+msgstr "Iniciando a aplicação…"
 
 #: ../Pyblio/Resource.py:140
 msgid "No application to view resource"
@@ -1185,7 +1186,7 @@ msgstr "Gerencia bancos de dados bibliográficos"
 
 #: ../scripts/pybliocheck.py:31
 msgid "usage: pybliocheck <file | directory>..."
-msgstr "uso: pybliocheck <arquivo | diretório>..."
+msgstr "uso: pybliocheck <arquivo | diretório>…"
 
 # .././Pyblio/Open.py:105 :151
 #: ../scripts/pybliocheck.py:60
@@ -1195,7 +1196,7 @@ msgstr "O arquivo \"%s\" está ok [%d entradas]"
 
 #: ../scripts/pybliocompact.py:30
 msgid "usage: pybliocompact <latexfile> <bibtexfiles...>"
-msgstr "uso: pybliocompact <arquivolatex> <arquivosbibtex...>"
+msgstr "uso: pybliocompact <arquivolatex> <arquivosbibtex…>"
 
 #: ../scripts/pybliocompact.py:34
 #, python-format
@@ -1234,7 +1235,7 @@ msgid ""
 "      -h, --help\t\t\tshow this help message\n"
 "    "
 msgstr ""
-"uso: pyblioformat [opções] <banco de dados...>\n"
+"uso: pyblioformat [opções] <banco de dados…>\n"
 "\n"
 "    opções:\n"
 "      -o arquivo, --output=arquivo\tespecifica o nome do arquivo de saída\n"
@@ -1315,7 +1316,7 @@ msgstr "impossível abrir a nota de rodapé \"%s\": %s"
 
 #: ../scripts/pybliotex.py:34
 msgid "usage: pybliotex <latexfile> [bibtexfiles...]"
-msgstr "uso: pybliotex <arquivolatex> [arquivosbibtex...]"
+msgstr "uso: pybliotex <arquivolatex> [arquivosbibtex…]"
 
 #: ../scripts/pybliotex.py:38
 #, python-format
@@ -1334,7 +1335,7 @@ msgstr "nenhum estilo definido"
 
 #: ../scripts/pybliotext.py:41
 msgid "usage: pybliotext [-o outputfile] [-s style] <textfile> <bibfiles...>"
-msgstr "uso: pybliotext [-o arqsaída] [-s estilo] <arqtexto> <arqbib...>"
+msgstr "uso: pybliotext [-o arqsaída] [-s estilo] <arqtexto> <arqbib…>"
 
 #: ../scripts/pybliotext.py:45
 #, python-format
