@@ -20,11 +20,11 @@
 
 AUTOMAKE_OPTIONS = -Wno-portability
 
-include $(top_srcdir)/gnome-doc-utils.make
-dist-hook: doc-dist-hook
+@YELP_HELP_RULES@
 
-DOC_ID = pybliographer
-DOC_FIGURES =	figures/edit.png	\
+HELP_ID = pybliographer
+
+HELP_MEDIA =	figures/edit.png	\
 		figures/edit2.png	\
 		figures/fields.png	\
 		figures/format.png	\
@@ -35,7 +35,7 @@ DOC_FIGURES =	figures/edit.png	\
 		figures/search.png	\
 		figures/sort.png
 
-DOC_PAGES = 	about.page		\
+HELP_FILES = 	about.page		\
 		addhelp.page		\
 		command-line.page	\
 		customization.page	\
@@ -60,5 +60,5 @@ DOC_PAGES = 	about.page		\
 		typcon.page		\
 		whatsnew.page
 
-DOC_LINGUAS = cs de el es fr sl
+HELP_LINGUAS = cs de el es fr sl
 

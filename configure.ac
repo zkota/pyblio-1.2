@@ -80,7 +80,7 @@ fi
 dnl NLS is now hand-managed for python.
 
 # Documentation
-GNOME_DOC_INIT
+YELP_HELP_INIT
 
 AC_ARG_ENABLE(update-desktop-database,
 AC_HELP_STRING([--disable-update-desktop-database],

@@ -24,7 +24,12 @@ run ()
     $* || error "while running $*"
 }
 
-run gnome-doc-prepare --copy --force
+GNOMEDOC=`which yelp-build`
+    if test -z $GNOMEDOC; then
+        echo "*** The tools to build the documentation are not found,"
+        echo "    please intall the yelp-tools package ***"
+        exit 1
+    fi
 
 run aclocal ${aclocal_extra}
 run autoconf
