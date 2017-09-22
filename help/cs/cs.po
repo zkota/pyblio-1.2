@@ -6,2089 +6,232 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer master\n"
-"POT-Creation-Date: 2017-04-28 12:38+0000\n"
-"PO-Revision-Date: 2017-06-25 23:02+0200\n"
+"POT-Creation-Date: 2017-09-21 13:31+0000\n"
+"PO-Revision-Date: 2017-09-21 21:56+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
-"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Gtranslator 2.91.6\n"
+"X-Generator: Gtranslator 2.91.7\n"
 
-#: C/whatsnew.page:10(desc)
-msgid "New features in <app>Pybliographer</app> 1.2.15."
-msgstr "Nové funkce v <app>Pybliographer</app> 1.2.15."
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>"
 
-#: C/whatsnew.page:14(name) C/typcon.page:14(name)
-#: C/scripting-writeown.page:14(name) C/scripting-existing.page:14(name)
-#: C/scripting-basics.page:14(name) C/index.page:12(name)
-#: C/gui-usinglyx.page:14(name) C/gui-styles.page:14(name)
-#: C/gui-sorting.page:14(name) C/gui-settings.page:14(name)
-#: C/gui-searching.page:14(name) C/gui-pubmed.page:14(name) C/gui.page:14(name)
-#: C/gui-opening.page:14(name) C/gui-navigating.page:14(name)
-#: C/gui-formats.page:14(name) C/gui-edit.page:14(name)
-#: C/gui-creating.page:14(name) C/gettingstarted.page:14(name)
-#: C/customization.page:14(name) C/command-line.page:14(name)
-#: C/addhelp.page:14(name) C/about.page:14(name) C/about.page:38(p)
+#. (itstool) path: info/desc
+#: C/about.page:10
+msgid "Information about <app>Pybliographer</app>."
+msgstr "Informace o aplikaci <app>Pybliographer</app>."
+
+#. (itstool) path: credit/name
+#. (itstool) path: item/p
+#: C/about.page:14 C/about.page:38 C/addhelp.page:14 C/command-line.page:14
+#: C/customization.page:14 C/gettingstarted.page:14 C/gui-creating.page:14
+#: C/gui-edit.page:14 C/gui-formats.page:14 C/gui-navigating.page:14
+#: C/gui-opening.page:14 C/gui.page:14 C/gui-pubmed.page:14
+#: C/gui-searching.page:14 C/gui-settings.page:14 C/gui-sorting.page:14
+#: C/gui-styles.page:14 C/gui-usinglyx.page:14 C/index.page:12
+#: C/scripting-basics.page:14 C/scripting-existing.page:14
+#: C/scripting-writeown.page:14 C/typcon.page:14 C/whatsnew.page:14
 msgid "Zoltán Kóta"
 msgstr "Zoltán Kóta"
 
-#: C/whatsnew.page:15(email) C/typcon.page:15(email)
-#: C/scripting-writeown.page:15(email) C/scripting-existing.page:15(email)
-#: C/scripting-basics.page:15(email) C/index.page:13(email)
-#: C/gui-usinglyx.page:15(email) C/gui-styles.page:15(email)
-#: C/gui-sorting.page:15(email) C/gui-settings.page:15(email)
-#: C/gui-searching.page:15(email) C/gui-pubmed.page:15(email)
-#: C/gui.page:15(email) C/gui-opening.page:15(email)
-#: C/gui-navigating.page:15(email) C/gui-formats.page:15(email)
-#: C/gui-edit.page:15(email) C/gui-creating.page:15(email)
-#: C/gettingstarted.page:15(email) C/customization.page:15(email)
-#: C/command-line.page:15(email) C/addhelp.page:15(email)
-#: C/about.page:15(email)
-msgid "zoltank@gmail.com"
-msgstr "zoltank@gmail.com"
-
-#: C/whatsnew.page:18(name) C/typcon.page:18(name)
-#: C/scripting-writeown.page:18(name) C/scripting-existing.page:18(name)
-#: C/scripting-basics.page:18(name) C/index.page:16(name)
-#: C/gui-usinglyx.page:18(name) C/gui-styles.page:18(name)
-#: C/gui-sorting.page:18(name) C/gui-settings.page:18(name)
-#: C/gui-searching.page:18(name) C/gui-pubmed.page:18(name) C/gui.page:18(name)
-#: C/gui-opening.page:18(name) C/gui-navigating.page:18(name)
-#: C/gui-formats.page:18(name) C/gui-edit.page:18(name)
-#: C/gui-creating.page:18(name) C/gettingstarted.page:18(name)
-#: C/customization.page:18(name) C/command-line.page:18(name)
-#: C/addhelp.page:18(name) C/about.page:18(name) C/about.page:36(p)
+#. (itstool) path: credit/name
+#. (itstool) path: item/p
+#: C/about.page:18 C/about.page:36 C/addhelp.page:18 C/command-line.page:18
+#: C/customization.page:18 C/gettingstarted.page:18 C/gui-creating.page:18
+#: C/gui-edit.page:18 C/gui-formats.page:18 C/gui-navigating.page:18
+#: C/gui-opening.page:18 C/gui.page:18 C/gui-pubmed.page:18
+#: C/gui-searching.page:18 C/gui-settings.page:18 C/gui-sorting.page:18
+#: C/gui-styles.page:18 C/gui-usinglyx.page:18 C/index.page:16
+#: C/scripting-basics.page:18 C/scripting-existing.page:18
+#: C/scripting-writeown.page:18 C/typcon.page:18 C/whatsnew.page:18
 msgid "Frédéric Gobry"
 msgstr "Frédéric Gobry"
 
-#: C/whatsnew.page:19(email) C/typcon.page:19(email)
-#: C/scripting-writeown.page:19(email) C/scripting-existing.page:19(email)
-#: C/scripting-basics.page:19(email) C/index.page:17(email)
-#: C/gui-usinglyx.page:19(email) C/gui-styles.page:19(email)
-#: C/gui-sorting.page:19(email) C/gui-settings.page:19(email)
-#: C/gui-searching.page:19(email) C/gui-pubmed.page:19(email)
-#: C/gui.page:19(email) C/gui-opening.page:19(email)
-#: C/gui-navigating.page:19(email) C/gui-formats.page:19(email)
-#: C/gui-edit.page:19(email) C/gui-creating.page:19(email)
-#: C/gettingstarted.page:19(email) C/customization.page:19(email)
-#: C/command-line.page:19(email) C/addhelp.page:19(email)
-#: C/about.page:19(email)
-msgid "frederic.gobry@epfl.ch"
-msgstr "frederic.gobry@epfl.ch"
-
-#: C/whatsnew.page:22(p) C/typcon.page:22(p) C/scripting-writeown.page:22(p)
-#: C/scripting-existing.page:22(p) C/scripting-basics.page:22(p)
-#: C/index.page:20(p) C/gui-usinglyx.page:22(p) C/gui-styles.page:22(p)
-#: C/gui-sorting.page:22(p) C/gui-settings.page:22(p)
-#: C/gui-searching.page:22(p) C/gui-pubmed.page:22(p) C/gui.page:22(p)
-#: C/gui-opening.page:22(p) C/gui-navigating.page:22(p)
-#: C/gui-formats.page:22(p) C/gui-edit.page:22(p) C/gui-creating.page:22(p)
-#: C/gettingstarted.page:22(p) C/customization.page:22(p)
-#: C/command-line.page:22(p) C/addhelp.page:22(p) C/about.page:22(p)
+#. (itstool) path: license/p
+#: C/about.page:22 C/addhelp.page:22 C/command-line.page:22
+#: C/customization.page:22 C/gettingstarted.page:22 C/gui-creating.page:22
+#: C/gui-edit.page:22 C/gui-formats.page:22 C/gui-navigating.page:22
+#: C/gui-opening.page:22 C/gui.page:22 C/gui-pubmed.page:22
+#: C/gui-searching.page:22 C/gui-settings.page:22 C/gui-sorting.page:22
+#: C/gui-styles.page:22 C/gui-usinglyx.page:22 C/index.page:20
+#: C/scripting-basics.page:22 C/scripting-existing.page:22
+#: C/scripting-writeown.page:22 C/typcon.page:22 C/whatsnew.page:22
 msgid "Creative Commons Share Alike 3.0"
 msgstr "Creative Commons Share Alike 3.0"
 
-#: C/whatsnew.page:26(title)
-msgid "What's New in Pybliographer 1.2.15"
-msgstr "Co je nového v Pybliographer 1.2.15"
+#. (itstool) path: page/title
+#: C/about.page:26
+msgid "Authors"
+msgstr "Autoři"
+
+#. (itstool) path: page/p
+#: C/about.page:27
+msgid ""
+"<app>Pybliographer</app> was originally written by Frédéric Gobry. Many "
+"thanks to all contributors for their fruitful work."
+msgstr ""
+"Aplikaci <app>Pybliographer</app> původně napsal Frédéric Gobry. Velké díky "
+"patří také ostatním přispěvatelům za jejich usilovnou práci."
+
+#. (itstool) path: page/p
+#: C/about.page:31
+msgid "<em>Contributions:</em>"
+msgstr "<em>Přispěvatelé:</em>"
+
+#. (itstool) path: item/p
+#: C/about.page:34
+msgid "Yuri Bongiorno"
+msgstr "Yuri Bongiorno"
+
+#. (itstool) path: item/desc
+#: C/about.page:34
+msgid "Documentation, translations"
+msgstr "Dokumentace, překlady"
 
-#: C/whatsnew.page:27(p)
-msgid ""
-"You can find a list of bugs fixed and features added in the <file>NEWS</"
-"file> and <file>ChangeLog</file> files supplied with the package. See the "
-"source tarball of pybliographer, or the default doc directory of your "
-"distribution (e.g. <file>/usr/share/doc/pybliographer</file>)."
-msgstr ""
-"Seznam chyb, které byly opraveny a funkcí, které byly přidány, můžete najít "
-"v souborech <file>NEWS</file> a <file>ChangeLog</file> šířených v rámci "
-"balíčku. Podívejte se do balíčku se zdrojovým kódem pybliographer nebo do "
-"výchozí složky s dokumentací ve vaší distribuci (např. <file>/usr/share/doc/"
-"pybliographer</file>). Informace v těchto souborech jsou v angličtině."
-
-#: C/typcon.page:10(desc)
-msgid "Typographical conventions used in this documentation."
-msgstr "Typografické konvence použité v tomto dokumentu."
-
-#: C/typcon.page:26(title)
-msgid "Typographical Conventions"
-msgstr "Typografické konvence"
-
-#: C/typcon.page:27(p)
-msgid "In this book, we'll mark some words with special typography:"
-msgstr "V této příručce jsou některá slova vyznačena odlišnou typografií:"
-
-#: C/typcon.page:31(app)
-msgid "Applications"
-msgstr "Aplikace"
-
-#: C/typcon.page:32(p)
-msgid "<cmd>Commands</cmd> you type at the command line"
-msgstr "<cmd>Příkazy</cmd>, které píšete v příkazovém řádku"
-
-#: C/typcon.page:33(file)
-msgid "Filenames"
-msgstr "Názvy souborů"
-
-#: C/typcon.page:34(var)
-msgid "Replaceable text"
-msgstr "Text, který se má nahradit"
-
-#: C/typcon.page:35(p)
-msgid ""
-"<gui>Labels</gui> for buttons and other portions of the graphical interface"
-msgstr "<gui>Popisky</gui> tlačítek a dalších prvků grafického rozhraní"
-
-#: C/typcon.page:37(p)
-msgid ""
-"Menu selections look like this: <guiseq><gui>Menu</gui><gui>Submenu</"
-"gui><gui>Menu Item</gui></guiseq>"
-msgstr ""
-"Výběry z nabídky vypadají takto: <guiseq><gui>Nabídka</gui><gui>Podnabídka</"
-"gui><gui>Položka nabídky</gui></guiseq>"
-
-#: C/typcon.page:39(p)
-msgid "<gui>Buttons</gui> you can click"
-msgstr "<gui>Tlačítka</gui>, na která můžete kliknout"
-
-#: C/typcon.page:40(input)
-msgid "Anything you type in"
-msgstr "Cokoliv, co píšete"
-
-#: C/typcon.page:43(p)
-msgid ""
-"We'll provide assorted bits of additional information in tips and notes as "
-"well."
-msgstr "Různorodé doplňující informace jsou podávány ve formě tipů a poznámek."
-
-#: C/typcon.page:47(title)
-msgid "Tip"
-msgstr "Tip"
-
-#: C/typcon.page:48(p)
-msgid "Tips and bits of extra information will look like this."
-msgstr "Tipy a informace, které jsou trochu extra, budou vypadat takto."
-
-#: C/typcon.page:55(title)
-msgid "Note"
-msgstr "Poznámka"
-
-#: C/typcon.page:56(p)
-msgid "Notes will look like this."
-msgstr "Poznámky budou vypadat takto."
-
-#: C/typcon.page:61(p)
-msgid "We'll have warnings, in cases where you should be careful:"
-msgstr "V případech, kdy musíte být opravdu opatrní, jsou tu varování."
-
-#: C/typcon.page:65(title)
-msgid "Example Warning"
-msgstr "Příklad varování"
-
-#: C/typcon.page:66(p)
-msgid ""
-"This is what a warning looks like. If there's a chance you'll run into "
-"trouble, we'll warn you beforehand."
-msgstr ""
-"Takto vypadá varování. Pokud je tu možnost, že se můžete dostat do problémů, "
-"budete před tím varování."
-
-#: C/scripting-writeown.page:10(desc)
-msgid "Writing your own scripts."
-msgstr "Jak psát vlastní skripty."
-
-#: C/scripting-writeown.page:26(title)
-msgid "Writing your own scripts"
-msgstr "Psaní vlastních skriptů"
-
-#: C/scripting-writeown.page:28(p)
-msgid ""
-"To start writing your own script, you can read what follows, and then have a "
-"look at the existing scripts. Trying to adapt them to fit your personal "
-"needs can be a good way of testing what you read."
-msgstr ""
-"Pokud chcete začít psát své vlastní skripty, přečtete si následující "
-"informace a prostudujte existující skripty. Dobrým způsobem, jak si "
-"vyzkoušet to, co nastudujete, je zkoušet si upravit ty existující."
-
-#: C/scripting-writeown.page:34(title)
-msgid "Some concepts"
-msgstr "Pár pojmů"
-
-#: C/scripting-writeown.page:36(p)
-msgid ""
-"This section describes some basic classes and ideas that are useful to "
-"understand how <app>Pybliographer</app> works."
-msgstr ""
-"Tento oddíl popisuje základní třídy a filozofii systému, které jsou potřebné "
-"pro pochopení, jak <app>Pybliographer</app> pracuje."
-
-#: C/scripting-writeown.page:39(p)
-msgid ""
-"In the following, all the modules that will be refered to belong to the "
-"<em>Pyblio</em> domain. So, to access the members of the <em>Open</em> "
-"module, you'll have to write at the beginning of your script something like"
-msgstr ""
-"Všechny dokumenty, které budu zmíněny v následujícím textu, náleží do domény "
-"<em>Pyblio</em>. Tzn., že pro přístup k členským funkcím modulu <em>Open</"
-"em> musíte na začátku skriptu napsat něco takovéhoto:"
-
-#: C/scripting-writeown.page:44(screen)
-#, no-wrap
-msgid "from Pyblio import Open"
-msgstr "from Pyblio import Open"
-
-#: C/scripting-writeown.page:46(p)
-msgid ""
-"The <em>Base</em> module contains some of the most basical classes used in "
-"the application:"
-msgstr ""
-"Modul <em>Base</em> obsahuje některé nejzákladnější třídy používané v "
-"aplikaci:"
-
-#: C/scripting-writeown.page:51(p)
-msgid ""
-"<em>Base.Entry</em> represents a specific bibliographic entry, with all its "
-"fields. It behaves like a hash table which returns the content of a field "
-"given its name"
-msgstr ""
-"<em>Base.Entry</em> představuje konkrétní bibliografický záznam se všemi "
-"jeho poli. Chová se podobně jako hešovací tabulka, která vrací obsah na "
-"základě zadaného názvu"
-
-#: C/scripting-writeown.page:56(p)
-msgid ""
-"<em>Base.DataBase</em> is the class from which every database type inherits. "
-"It behaves like a hash table that returns a Base.Entry given a Base.Key"
-msgstr ""
-"<em>Base.DataBase</em> je třída, ze které se odvozují všechny databázové "
-"typy. Chová se podobně jako hešovací tabulka, která vrací Base.Entry podle "
-"daného Base.Key"
-
-#: C/scripting-writeown.page:62(p)
-msgid ""
-"<em>Key.Key</em> is the object that uniquely identifies an entry. This "
-"object must be unique over the whole application, and is composed of a "
-"database part and an entry part."
-msgstr ""
-"<em>Key.Key</em> je objekt, který jednoznačně určuje záznam. Tento objekt "
-"musí být jedinečný v rámci celé aplikace a skládá se z databázové části a "
-"záznamové části."
-
-#: C/scripting-writeown.page:67(p)
-msgid ""
-"An <em>Iterator</em> is an object that provides a way to access a sequence "
-"of items in order. These iterators are used extensively in "
-"<app>Pybliographer</app>, because they hide the underlying access mechanism, "
-"and provide the same access on any database. They are also perfectly suited "
-"for implementing transparent filtering and sorting of entries: the "
-"<em>Selection.Selection</em> class for example takes an iterator (on a "
-"database for example) and return a new one which will only iterate on a "
-"subset of the entries, according to a search criterion."
-msgstr ""
-"<em>Iterator</em> je objekt, který poskytuje způsob přístupu k sekvenci "
-"položek. Tento iterátor je v aplikaci <app>Pybliographer</app> intenzivně "
-"využíván, protože skrývá mechanizmus přístupu vespod a poskytuje totožný "
-"přístup do libovolné databáze. Je také výborně uzpůsoben pro implementaci "
-"transparentního filtrování a řazení záznamů: Například třída <em>Selection."
-"Selection</em> vezme iterátor (kupříkladu na databázi) a vrátí jiný nový, "
-"který iteruje na podmnožině záznamů podle kritérií vyhledávání."
-
-#: C/scripting-existing.page:10(desc)
-msgid "How to use the scripts shipped with <app>Pybliographer</app>."
-msgstr "Jak používat skripty šířené spolu s aplikací <app>Pybliographer</app>."
-
-#: C/scripting-existing.page:26(title)
-msgid "Existing scripts"
-msgstr "Existující skripty"
-
-#: C/scripting-existing.page:28(p)
-msgid ""
-"Some scripts are provided with <app>Pybliographer</app>, both as example and "
-"as useful tools. They are quite short and should be readable with basical "
-"knowledge of <app>Python</app>."
-msgstr ""
-"Pár skriptů je poskytováno s aplikací <app>Pybliographer</app> a slouží i "
-"jako příklady, i jako užitečné nástroje. Jsou poměrně krátké a měly by být "
-"dobře čitelné i se základními znalostmi jazyka <app>Python</app>."
-
-#: C/scripting-existing.page:33(title)
-msgid "pybliocheck"
-msgstr "pybliocheck"
-
-#: C/scripting-existing.page:36(p)
-msgid ""
-"This tool takes a list of files or directory, and check if they are valid "
-"(syntax, no entries with the same key,...)"
-msgstr ""
-"Tento nástroj vrací seznam souborů a složek a kontroluje, jestli jsou platné "
-"(syntaxe, bez záznamů se stejnými klíči, …)"
-
-#: C/scripting-existing.page:40(p)
-msgid ""
-"It is possible to use its output directly in an emacs compile buffer, in "
-"order to jump directly to the encountered errors. To do so, type "
-"<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, then the "
-"command <cmd>pybliocheck <var>yourfiles</var></cmd>, and use the middle "
-"button of the mouse to jump into the faulty file."
-msgstr ""
-"Jeho výstup je možné použít přímo v překladové vyrovnávací paměti emacs, ke "
-"skoku přímo na chybu, která se udála. Uděláte to tak, že vyťukáte "
-"<keyseq><key>M</key><key>x</key></keyseq><cmd>compile</cmd>, pak příkaz "
-"<cmd>pybliocheck <var>vaše_soubory</var></cmd> a použijete prostřední "
-"tlačítko myši k přechodu na soubor, který selhal."
-
-#: C/scripting-existing.page:49(title)
-msgid "pybliocompact"
-msgstr "pybliocompact"
-
-#: C/scripting-existing.page:52(p)
-msgid ""
-"This tool extracts the citations made in a LaTeX document and generates a "
-"BibTeX file containing them."
-msgstr ""
-"Tento nástroj získává citace vytvořené v dokumentech LaTeX a generuje soubor "
-"BibTeX, který je obsahuje."
-
-#: C/scripting-existing.page:57(p)
-msgid ""
-"Usually, one stores its bibliographies in one or several large BibTeX files, "
-"and lets <cmd>bibtex</cmd> extract the entries used in a LaTeX document. But "
-"it is sometime convenient to create a self-contained package (for example to "
-"share it in native form with somebody else, or to store it), with a "
-"minimalistic BibTeX file holding exactly the entries used in LaTeX. This "
-"tool does exactly that: it reads a LaTeX <file>.aux</file> file, and extract "
-"from the specified BibTeX databases the corresponding entries."
-msgstr ""
-"Obvykle každý uchovává bibliografie v jednom nebo několika velkých souborech "
-"BibTeX a nechává aplikaci <cmd>bibtex</cmd> získávat záznamy použité v "
-"dokumentu LaTeX. Občas je ale vhodné vytvořit samostatný balíček (například "
-"kvůli sdílení v nativní formě s někým jiným nebo kvůli jeho uložení) s "
-"minimalistickým souborem BibTeX obsahujícím jen přesně záznamy použité v "
-"dokumentu LaTeX. Přesně to dělá tento nástroj: přečte soubor LaTeX <file>."
-"aux</file> a získá z něj určené databáze BibTeX odpovídajících záznamů."
-
-#: C/scripting-existing.page:68(title)
-msgid "pyblioconvert"
-msgstr "pyblioconvert"
-
-#: C/scripting-existing.page:71(p)
-msgid "This tool converts from one bibliographic format to another."
-msgstr "Tento nástroj převádí z jednoho bibliografického formátu na jiný."
-
-#: C/scripting-existing.page:75(p)
-msgid ""
-"The general syntax is pretty simple. To convert from Refer to BibTeX for "
-"example, just run:"
-msgstr ""
-"Obecná syntaxe je krásně jednoduchá. Například pro převod z Refer do BibTex "
-"prostě spusťte:"
-
-#: C/scripting-existing.page:78(screen)
-#, no-wrap
-msgid ""
-"\n"
-"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
-"      "
-msgstr ""
-"\n"
-"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
-"      "
-
-#: C/scripting-existing.page:84(title) C/scripting-existing.page:94(cmd)
-msgid "pyblioformat"
-msgstr "pyblioformat"
-
-#: C/scripting-existing.page:87(p)
-msgid ""
-"This script generates a bibliography according to a bibliographic style, and "
-"outputs it in a specific format (like HTML, LaTeX,...) as it should appear "
-"in a document."
-msgstr ""
-"Tento skript generuje bibliografii podle bibliografického stylu a vytvoří "
-"výstup v určeném formátu (jako je HTML, LaTeX, …), jak by se měl objevit v "
-"dokumentu."
-
-#: C/scripting-existing.page:92(p) C/scripting-existing.page:176(p)
-msgid "The general form of the command is"
-msgstr "Obecná forma příkazu je"
-
-#: C/scripting-existing.page:94(output) C/scripting-basics.page:38(output)
-#: C/gettingstarted.page:60(output) C/gettingstarted.page:61(output)
-#: C/gettingstarted.page:65(output)
-msgid "bash$"
-msgstr "bash$"
-
-#: C/scripting-existing.page:94(var)
-msgid "[options] database..."
-msgstr "[přepínače] databáze…"
-
-#: C/scripting-existing.page:97(p)
-msgid ""
-"This command without options will use the style called <em>alpha</em> to "
-"create a bibliography in <em>Text</em> format. Several options are available "
-"to create these documents:"
-msgstr ""
-"Bez přepínačů tento příkaz vytvoří bibliografie ve formátu <em>Text</em> za "
-"použití stylu nazvaného <em>alpha</em>. K vytváření dokumentů je k dispozici "
-"několik přepínačů:"
-
-#: C/scripting-existing.page:104(p)
-msgid ""
-"<cmd>--style=...</cmd> or <cmd>-s ...</cmd>: specify a bibliography style. "
-"This can be a full path to an existing XML file, or a name which will be "
-"searched in the standard places. Default is Alpha."
-msgstr ""
-"<cmd>--style=…</cmd> nebo <cmd>-s …</cmd>: určuje bibliografický styl. Může "
-"se jednat o úplnou cestu k existujícímu souboru XML nebo o název, který bude "
-"hledán na standardních místech. Výchozí je Alpha."
-
-#: C/scripting-existing.page:110(p)
-msgid ""
-"<cmd>--format=...</cmd> or <cmd>-f ...</cmd>: specify an output format "
-"(HTML, LaTeX, Raw, Text, Textau, Textnum). Default is Text. (Textau and "
-"Textnum are just slightly modified versions of Text. See <link xref="
-"\"#script-scripting-existing-pybtext\"/> for more details.)"
-msgstr ""
-"<cmd>--format=…</cmd> nebo <cmd>-f …</cmd>: určuje výstupní formát (HTML, "
-"LaTeX, Raw, Text, Textau, Textnum). Výchozí je Text. (Textau a Textnum jsou "
-"lehce modifikované verze formátu Text. Další informace viz <link xref="
-"\"#script-scripting-existing-pybtext\"/>.)"
-
-#: C/scripting-existing.page:117(p)
-msgid ""
-"<cmd>--output=...</cmd> or <cmd>-o ...</cmd>: specify an output filename. "
-"STDOUT is the default."
-msgstr ""
-"<cmd>--output=…</cmd> nebo <cmd>-o …</cmd>: určuje výstupní soubor. Výchozí "
-"je STDOUT."
-
-#: C/scripting-existing.page:121(p)
-msgid ""
-"<cmd>--header=...</cmd> or <cmd>-H ...</cmd>: defines a file that will be "
-"prepended to the output file."
-msgstr ""
-"<cmd>--header=…</cmd> nebo <cmd>-H …</cmd>: definuje soubor, který bude "
-"vložen na začátek výstupního souboru."
-
-#: C/scripting-existing.page:125(p)
-msgid ""
-"<cmd>--footer=...</cmd> or <cmd>-F ...</cmd>: defines a file that will be "
-"appended to the output file."
-msgstr ""
-"<cmd>--footer=…</cmd> nebo <cmd>-F …</cmd>: definuje soubor, který bude "
-"připojen na konec výstupního souboru."
-
-#: C/scripting-existing.page:129(p)
-msgid ""
-"<cmd>--list=output</cmd> or <cmd>-l output</cmd>: lists the available output "
-"formats"
-msgstr ""
-"<cmd>--list=output</cmd> nebo <cmd>-l output</cmd>: seznam dostupných "
-"výstupních formátů"
-
-#: C/scripting-existing.page:136(title)
-msgid "pybliotex"
-msgstr "pybliotex"
-
-#: C/scripting-existing.page:139(p)
-msgid ""
-"This tool searches for the citations in a LaTeX document and generates a "
-"LaTeX bibliography file."
-msgstr ""
-"Tento nástroj hledá citace v dokumentu LaTeX a generuje soubor s "
-"bibliografií LaTeX."
-
-#: C/scripting-existing.page:143(p)
-msgid ""
-"This tool reads a LaTeX <file>.aux</file> file, and extracting the "
-"corresponding entries from the specified BibTeX databases creates a LaTeX "
-"<file>.bbl</file> file."
-msgstr ""
-"Tento nástroj přečte soubor LaTeX <file>.aux</file> a získáním "
-"odpovídajících záznamů ze zadané databáze BibTeX vytvoří soubor LaTeX <file>."
-"bbl</file>."
-
-#: C/scripting-existing.page:147(p)
-msgid "The form of the command is"
-msgstr "Forma příkazu je"
-
-#: C/scripting-existing.page:148(screen)
-#, no-wrap
-msgid ""
-"\n"
-"\t<output>bash$ </output><cmd>pybliotex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
-"      "
-msgstr ""
-"\n"
-"\t<output>bash$ </output><cmd>pybliotext</cmd> <file>soubor_latex</file> [<file>soubory_bibtex</file>…]\n"
-"      "
-
-#: C/scripting-existing.page:154(title)
-msgid "pybliotext"
-msgstr "pybliotext"
-
-#: C/scripting-existing.page:157(p)
-msgid ""
-"This tool processes a text file containing citations and appends a "
-"bibliography according to a given style."
-msgstr ""
-"Tento nástroj zpracovává textové soubory obsahující citace a připojuje "
-"bibliografii podle zadaného stylu."
-
-#: C/scripting-existing.page:161(p)
-msgid ""
-"The script searches for citations like [key] or [key1,key2...] in a text "
-"file (for example: ...This is a text fragment with citations [AKM95,MPJ+03] "
-"inserted from pybliographer...). First, according to the keys found in the "
-"text file, it generates a reference list. Using an appropriate style (see "
-"below), it replaces the database keys in the text body with the new keys "
-"generated by the style module, and finally it appends the reference list to "
-"the text resulting a new file."
-msgstr ""
-"Skript hledá v textovém souboru citace jako [klíč] nebo [klíč1, klíč2 …] "
-"(například: …Toto je úryvek textu s citací [AKM95,MPJ+03] vložený z aplikace "
-"pybliographer…). Nejdříve je, podle klíčů nalezených v textovém souboru, "
-"vygenerován seznam odkazů. Za použití příslušného stylu (viz dále) jsou "
-"databázové klíče v těle textu nahrazeny novými klíči vygenerovanými modulem "
-"stylu a nakonec se k textu připojí seznam odkazů a výsledkem je nový soubor."
-
-#: C/scripting-existing.page:171(p)
-msgid ""
-"The keys of selected entries can be copied easily from pybliographer into a "
-"text editor or terminal by <em>copy and paste </em> or <em>drag and drop</"
-"em>."
-msgstr ""
-"Klíče vybraných záznamů lze snadno zkopírovat z aplikace pybliographer do "
-"textového editoru nebo terminálu pomocí funkcí <em>kopírovat a vložit</em> "
-"nebo <em>táhni a pusť</em>."
-
-#: C/scripting-existing.page:177(screen)
-#, no-wrap
-msgid ""
-"\n"
-"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
-"      "
-msgstr ""
-"\n"
-"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o výstupní_soubor] [-s styl] <file>textový_soubor</file> <file>soubory_bib…</file>\n"
-"      "
-
-#: C/scripting-existing.page:181(p)
-msgid ""
-"This command without the options will use the style called <em>Abbrev</em> "
-"and <file>textfile.pyb</file> as outputfile for processing. <file>textfile</"
-"file> is the name of the file to be processed and <file>bibfiles</file> is "
-"one or more bibliographic database file."
-msgstr ""
-"Pokud tento příkaz nemá zadané žádné přepínače, použije styl nazvaný "
-"<em>Abbrev</em> a výstupní soubor <file>textfile.pyb</file>. "
-"<file>textový_soubor</file> je název souboru, který se má zpracovat a "
-"<file>soubory_bib</file> je jeden či více souborů s bibliografickou databází."
-
-#: C/scripting-existing.page:187(p)
-msgid ""
-"There are three different <em>styles</em> which are designed for pybliotext. "
-"Using <em>abbrvbib</em> results in keys as they are defined in the database. "
-"With the style <em>abbrvau</em>, author-year type keys (e.g. Jackson et al., "
-"2004) can be generated. Using <em>abbrvnum</em>, the script produces a "
-"simple numbered list. For abbrvau and abbrvnum, the formats Textau and "
-"Textnum are used, respectively. They are just simple modifications of the "
-"Text format, optimized for these styles. Using other styles (Alpha, Abbrev "
-"or apa4e), the text body is not processed, but the reference list is "
-"appended in the form that corresponds to the used style."
-msgstr ""
-"Pro pybliotext jsou navrženy tři rozdílné <em>styly</em>. Použití "
-"<em>abbrvbib</em> dává jako výsledky klíče tak, jak jsou definovány v "
-"databázi. Se stylem <em>abbrvau</em> jsou generovány klíče typu autor-rok "
-"(např. Satrapa a kol., 2004). Použitím <em>abbrvnum</em> skript vyprodukuje "
-"jednoduše očíslovaný seznam. Pro abbrvau a abbrvnum je použit formát Textau "
-"resp. Textnum. Jedná se jen o lehce upravený formát Text, optimalizovaný pro "
-"tyto styly. Při použití jiných stylů Alpha, Abbrev nebo apa4e) není tělo "
-"textu zpracováno, akorát se připojí seznam odkazů ve formě odpovídající "
-"použitému stylu."
-
-#: C/scripting-basics.page:10(desc)
-msgid "Basic information about scripting with <app>Pybliographer</app>."
-msgstr "Základní informace o skriptování s aplikací <app>Pybliographer</app>."
-
-#: C/scripting-basics.page:26(title)
-msgid "Basics"
-msgstr "Základy"
-
-#: C/scripting-basics.page:28(p)
-msgid ""
-"<app>Pybliographer</app> is in fact a simple set of classes and functions "
-"written in python, and that provides with a simple and homogenous access to "
-"bibliographic databases. Therefore, it is possible to write python scripts "
-"that make use of these specialized functions. The graphical interface, "
-"<app>Pybliographic</app>, is itself a simple script on top of "
-"<app>Pybliographer</app>."
-msgstr ""
-"Aplikace <app>Pybliographer</app> je fakticky sadou tříd a funkcí napsaných "
-"v jazyce Python a tímto způsobem poskytuje jednoduchý a homogenní přístup k "
-"bibliografickým databázím. Díky tomu je také možné psát skripty v jazyce "
-"Python, které používají tyto specializované funkce. Grafické rozhraní "
-"<app>Pybliographic</app> je vlastně jednoduchý skript na základem "
-"<app>Pybliographer</app>."
-
-#: C/scripting-basics.page:35(p)
-msgid "To execute a script written for <app>Pybliographer</app>, simply run"
-msgstr ""
-"Když chcete spustit skript napsaný pro <app>Pybliographer</app>, prostě "
-"spusťte"
-
-#: C/scripting-basics.page:38(cmd)
-msgid "pybliographer [--quiet]"
-msgstr "pybliographer [--quiet]"
-
-#: C/scripting-basics.page:38(var)
-msgid "myscript.py"
-msgstr "mujskript.py"
-
-#: C/scripting-basics.page:41(p)
-msgid "You can alternatively start your script by"
-msgstr "Alternativní možností, jak skript spustit je"
-
-#: C/scripting-basics.page:42(screen)
-#, no-wrap
-msgid ""
-"\n"
-"      #!/path/to/pybliographer\n"
-"\n"
-"      <var>...rest of your script...</var>\n"
-"    "
-msgstr ""
-"\n"
-"      #!/cesta/k/aplikaci/pybliographer\n"
-"\n"
-"      <var>…zbytek vašeho skriptu…</var>\n"
-"    "
-
-#: C/scripting-basics.page:47(p)
-msgid "and make it executable."
-msgstr "a udělat z toho spustitelný soubor."
-
-#: C/license.page:9(desc)
-msgid "Legal information."
-msgstr "Právní informace."
-
-#: C/license.page:12(title)
-msgid "License"
-msgstr "Licence"
-
-#: C/license.page:13(p)
-msgid ""
-"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
-"Unported license."
-msgstr ""
-"Tato práce je šířena pod licencí CreativeCommons Attribution-Share Alike 3.0 "
-"Unported Licence."
-
-#: C/license.page:21(p)
-msgid "You are free:"
-msgstr "Můžete volně:"
-
-#: C/license.page:26(em)
-msgid "To share"
-msgstr "Sdílet"
-
-#: C/license.page:27(p)
-msgid "To copy, distribute and transmit the work."
-msgstr "Kopírovat, šířit a rozesílat dílo."
-
-#: C/license.page:30(em)
-msgid "To remix"
-msgstr "Měnit"
-
-#: C/license.page:31(p)
-msgid "To adapt the work."
-msgstr "Přizpůsobovat dílo."
-
-#: C/license.page:34(p)
-msgid "Under the following conditions:"
-msgstr "Za následujících podmínek:"
-
-#: C/license.page:39(em)
-msgid "Attribution"
-msgstr "Označení"
-
-#: C/license.page:40(p)
-msgid ""
-"You must attribute the work in the manner specified by the author or "
-"licensor (but not in any way that suggests that they endorse you or your use "
-"of the work)."
-msgstr ""
-"Musíte dílo označit v souladu s požadavky autora nebo licence (ale ne žádným "
-"způsobem, který předpokládá, že podporují vás nebo vaše použití díla)."
-
-#: C/license.page:47(em)
-msgid "Share Alike"
-msgstr "Stejné sdílení"
-
-#: C/license.page:48(p)
-msgid ""
-"If you alter, transform, or build upon this work, you may distribute the "
-"resulting work only under the same, similar or a compatible license."
-msgstr ""
-"Pokud dílo změníte, převedete nebo na něm založíte jiné, můžete výsledek "
-"této práce šířit pouze pod stejnou, podobnou nebo kompatibilní licencí."
-
-#: C/license.page:54(p)
-msgid ""
-"For the full text of the license, see the <link href=\"http://"
-"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
-"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
-"sa/3.0/\">Commons Deed</link>."
-msgstr ""
-"Text licence v plném znění najdete na <link href=\"http://creativecommons."
-"org/licenses/by-sa/3.0/legalcode\">webových stránkách CreativeCommons</link> "
-"nebo si přečtěte <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
-"\">výtah dokumentu pro neprávníky</link>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/index.page:25(None)
-msgid "@@image: 'figures/logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
-msgstr "@@image: 'figures/logo.png'; md5=c888cd1f42ad752bb1f156fe56e7ae86"
-
-#: C/index.page:7(title)
-msgid "Pybliographer manual"
-msgstr "Příručka aplikace Pybliographer"
-
-#: C/index.page:8(title)
-msgid "Pybliographer Bibliography manager"
-msgstr "Správce bibliografie Pybliographer"
-
-#: C/index.page:24(title)
-msgid ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/logo.png"
-"\">Pybliographer logo</media> Pybliographer Bibliography manager"
-msgstr ""
-"<media type=\"image\" mime=\"image/png\" src=\"figures/logo.png\">logo "
-"Pybliographer</media> Správce bibliografie Pybliographer"
-
-#: C/index.page:30(title)
-msgid "Preface"
-msgstr "Úvod"
-
-#: C/index.page:34(title)
-msgid "Usage"
-msgstr "Použití"
-
-#: C/index.page:38(title)
-msgid "Advanced Usage"
-msgstr "Pokročilé použití"
-
-#: C/index.page:42(title)
-msgid "The Scripting Language"
-msgstr "Skriptovací jazyk"
-
-#: C/gui-usinglyx.page:10(desc)
-msgid "Interaction with the <app>LyX</app> document processor."
-msgstr "Spolupráce s dokumentovým procesorem <app>LyX</app>"
-
-#: C/gui-usinglyx.page:26(title)
-msgid "Using <app>Pybliographic</app> with <app>LyX</app>"
-msgstr "Používání <app>Pybliographic</app> s <app>LyX</app>"
-
-#: C/gui-usinglyx.page:28(p)
-msgid ""
-"It is possible to directly use <app>Pybliographer</app> in order to insert "
-"bibliographic references into <app>LyX</app>. It is done through the "
-"<app>LyX</app><em>server</em>. The path of the <app>LyX</app> server pipe "
-"can be defined in the <guiseq><gui>Tools</gui><gui>Preferences</gui></"
-"guiseq> dialog of LyX. The same path should be given in <app>Pybliographer</"
-"app>'s settings (the default value is <file>~/.lyx/lyxpipe)</file>."
-msgstr ""
-"Aplikaci <app>Pybliographer</app> lze používat k přímému vkládání "
-"bibliografických odkazů do aplikace <app>LyX</app>. Provádí se tak přes "
-"<em>server</em> <app>LyX</app>. V dialogovém okně LyX z "
-"<guiseq><gui>Nástroje</gui><gui>Předvolby</gui></guiseq> můžete nadefinovat "
-"cestu k rouře serveru <app>LyX</app>. Ta stejná cesta by měla být zadána v "
-"nastaveních <app>Pybliographer</app> (výchozí hodnota je <file>~/.lyx/"
-"lyxpipe)</file>."
-
-#: C/gui-usinglyx.page:36(p)
-msgid ""
-"Then, in <app>Pybliographic</app>, it is possible to select one or several "
-"entries and insert their references into a running <app>LyX</app> simply by "
-"clicking the <gui>Cite</gui> toolbar button, or selecting the "
-"<guiseq><gui>Cite</gui><gui>Cite...</gui></guiseq> menu item."
-msgstr ""
-"Potom je v aplikaci <app>Pybliographic</app> možné vybrat jeden nebo více "
-"záznamů a vložit jejich odkazy do běžící aplikace <app>LyX</app> jednoduše "
-"kliknutím na tlačítko <gui>Citovat</gui> na liště nástrojů nebo výběrem "
-"položky nabídky <guiseq><gui>Citovat</gui><gui>Citovat…</gui></guiseq>."
-
-#: C/gui-usinglyx.page:41(p)
-msgid ""
-"For the moment, it is the user's job to ensure that he/she inserts entries "
-"corresponding to the actual database being used. <app>Pybliographic</app> "
-"does not handle the full job of bibliography generation; therefore it is "
-"necessary to use <cmd>bibtex</cmd> as described in the <app>LyX</app> "
-"documentation."
-msgstr ""
-"Za chvíli si může uživatel ověřit, že se vložily záznamy odpovídající "
-"aktuálně používané databázi. Aplikace <app>Pybliographic</app> neprovádí "
-"kompletní zpracování při generování bibliografie, a tak je nutné použít "
-"<cmd>bibtex</cmd>, což je popsáno v dokumentaci k aplikaci <app>LyX</app>."
-
-#: C/gui-usinglyx.page:47(p)
-msgid ""
-"<app>Pybliographic</app> can interact with <app>Kile</app> (&gt;= 1.6) "
-"practically in the same way, since <app>Kile</app> can also read <em>lyx "
-"pipe</em>."
-msgstr ""
-"Prakticky stejným způsobem může <app>Pybliographic</app> komunikovat s "
-"aplikací <app>Kile</app> (&gt;= 1.6) a to díky tomu, že <app>Kile</app> umí "
-"číst <em>rouru lyx</em>."
-
-#: C/gui-styles.page:10(desc)
-msgid "Creating your own styles for <app>Pybliographer</app>."
-msgstr "Vytváření svých vlastních stylů pro aplikaci <app>Pybliographer</app>."
-
-#: C/gui-styles.page:26(title)
-msgid "New Styles"
-msgstr "Nové styly"
-
-#: C/gui-styles.page:28(p)
-msgid ""
-"It is possible to describe your own bibliography style, by writing a simple "
-"XML file. The XML file should have the following header:"
-msgstr ""
-"Vytvořením jednoduchého souboru XML si můžete popsat své vlastní "
-"bibliografické styly. Soubor XML by měl mít následující hlavičku:"
-
-#: C/gui-styles.page:32(screen)
-#, no-wrap
-msgid ""
-"\n"
-"      &lt;?xml version=\"1.0\"?&gt;\n"
-"    "
-msgstr ""
-"\n"
-"      &lt;?xml version=\"1.0\"?&gt;\n"
-"    "
-
-#: C/gui-styles.page:36(p)
-msgid ""
-"The whole description should fit in a &lt;bibstyle&gt; pair of tags, whose "
-"content is shortly described in this section. It is suggested that the "
-"interested users look at the corresponding DTD, which describes the allowed "
-"syntax in details. This DTD can be found in the same directory as the "
-"default style files."
-msgstr ""
-"Celý popis je uzavřen v párové značce &lt;bibstyle&gt;, jejíž obsah je "
-"stručně popsán v této kapitole. Případným zájemcům je doporučováno podívat "
-"se na odpovídající DTD, které popisuje dovolenou syntaxi podrobněji. Toto "
-"DTD najdete ve stejné složce, jako soubory s výchozími styly."
-
-#: C/gui-styles.page:43(title)
-msgid "Global formatting"
-msgstr "Globální formátování"
-
-#: C/gui-styles.page:45(p)
-msgid ""
-"The XML style file describes how the different data fields are organized in "
-"order to create a bibliographic style. For example, it can specify that an "
-"article starts with the article title in bold, followed by the authors "
-"names, etc."
-msgstr ""
-"Soubor XML se stylem popisuje, jak jsou různá datová pole organizována, aby "
-"vytvořila bibliografický styl. Například může specifikovat, že článek začíná "
-"názvem článku v tučném písmu, následovaném jménem autora apod."
-
-#: C/gui-styles.page:50(p)
-msgid ""
-"In its current incarnation, the XML format can however not describe lower-"
-"level informations, like how an author's name should be output. This is done "
-"by pointing to a set of python functions, grouped in a module. Let's "
-"consider the following example:"
-msgstr ""
-"V současné podobě však formát XML neumí popsat nízkoúrovňové informace, "
-"např. jak by měl vypadat výstup s autorovým jménem. To se dělá odkazem na "
-"sadu funkcí v jazyce Python, seskupené v modulu. Pojďme se podívat na "
-"příklad:"
-
-#: C/gui-styles.page:56(code)
-#, no-wrap
-msgid ""
-"\n"
-"  &lt;module name=\"generic\"&gt;\n"
-"    &lt;define field=\"author\"&gt;full_authors&lt;/define&gt;\n"
-"    &lt;define field=\"editor\"&gt;first_last_full_authors&lt;/define&gt;\n"
-"    &lt;define field=\"date\"&gt;european_date&lt;/define&gt;\n"
-"    &lt;define method=\"keys\"&gt;string_keys&lt;/define&gt;\n"
-"  &lt;/module&gt;\n"
-msgstr ""
-"\n"
-"  &lt;module name=\"generic\"&gt;\n"
-"    &lt;define field=\"author\"&gt;full_authors&lt;/define&gt;\n"
-"    &lt;define field=\"editor\"&gt;first_last_full_authors&lt;/define&gt;\n"
-"    &lt;define field=\"date\"&gt;european_date&lt;/define&gt;\n"
-"    &lt;define method=\"keys\"&gt;string_keys&lt;/define&gt;\n"
-"  &lt;/module&gt;\n"
-
-#: C/gui-styles.page:65(p)
-msgid ""
-"In this example, we require that the <em>author</em> fields should be "
-"formatted by the <code>full_authors()</code> function, located in the "
-"<file>generic</file> module."
-msgstr ""
-"V tomto příkladu požadujeme, aby bylo pole <em>author</em> naformátováno "
-"funkcí <code>full_authors()</code>, umístěnou v modulu <file>generic</file>."
-
-#: C/gui-styles.page:70(p)
-msgid ""
-"Such a module has to be declared in the <file>pybrc.py</file> file, by a "
-"line like:"
-msgstr ""
-"Takovýto modul je deklarován v souboru <file>pybrc.py</file> nějakým "
-"takovýmto řádkem:"
-
-#: C/gui-styles.page:73(code)
-#, no-wrap
-msgid "Autoload.preregister ('style','Generic','Pyblio.Style.Generic')"
-msgstr "Autoload.preregister ('style','Generic','Pyblio.Style.Generic')"
-
-#: C/gui-styles.page:76(p)
-msgid ""
-"The precise definition of the formatting functions is better explained by "
-"looking at the code of <file>Generic.py</file> for example."
-msgstr ""
-"Přesnější definici formátovacích funkcí nejlépe pochopíte, když se podíváte "
-"například do kódu <file>Generic.py</file>."
-
-#: C/gui-styles.page:82(title)
-msgid "Bibliography definition"
-msgstr "Bibliografická definice"
-
-#: C/gui-styles.page:84(p)
-msgid ""
-"Once the basic formatting definitions have been specified, it is possible to "
-"describe the aspect of the actual bibliographies with following tags:"
-msgstr ""
-"Jakmile máte nadefinováno základní formátování, můžete popsat aspekt "
-"aktuální bibliografie následujícími značkami:"
-
-#: C/gui-styles.page:90(p)
-msgid "&lt;style name=\"<var>stylename</var>\"&gt;"
-msgstr "&lt;style name=\"<var>název_stylu</var>\"&gt;"
-
-#: C/gui-styles.page:92(p)
-msgid ""
-"This tag specifies the current display style, among <em>bold, italic, "
-"slanted, emph</em>."
-msgstr ""
-"Tato značka určuje aktuální styl zobrazení z <em>bold, italic, slanted, "
-"emph</em> (tučné, kurzíva, skloněné, zvýrazněné)."
-
-#: C/gui-styles.page:97(p)
-msgid "&lt;inentry name=\"<var>entryname</var>\"&gt;"
-msgstr "&lt;inentry name=\"<var>název_záznamu</var>\"&gt;"
-
-#: C/gui-styles.page:99(p)
-msgid ""
-"This tag encloses a block that is only to appear in entries of type "
-"<var>entryname</var>."
-msgstr ""
-"Tato značka uzavírá blok, který se objevuje jen v záznamech typu "
-"<var>název_záznamu</var>."
-
-#: C/gui-styles.page:104(p)
-msgid "&lt;notinentry name=\"<var>entryname</var>\"&gt;"
-msgstr "&lt;notinentry name=\"<var>název_záznamu</var>\"&gt;"
-
-#: C/gui-styles.page:106(p)
-msgid ""
-"This tag encloses a block that is only to appear in entries that are "
-"<em>not</em> of type <var>entryname</var>."
-msgstr ""
-"Tato značka uzavírá blok, který se objevuje jen v záznamech, které "
-"<em>nejsou</em> typu <var>název_záznamu</var>."
-
-#: C/gui-styles.page:112(p)
-msgid "&lt;infield name=\"<var>fieldname</var>\"&gt;"
-msgstr "&lt;infield name=\"<var>název_pole</var>\"&gt;"
-
-#: C/gui-styles.page:114(p)
-msgid ""
-"This tag encloses a block that only appears when the specified "
-"<var>fieldname</var> field exists in the current entry."
-msgstr ""
-"Tato značka uzavírá blok, který se objevuje jen když v aktuálním záznamu "
-"existuje pole <var>název_pole</var>."
-
-#: C/gui-styles.page:121(p)
-msgid "&lt;notinfield name=\"<var>fieldname</var>\"&gt;"
-msgstr "&lt;notinfield name=\"<var>název_pole</var>\"&gt;"
-
-#: C/gui-styles.page:123(p)
-msgid ""
-"This tag encloses a block that only appears when the specified "
-"<var>fieldname</var> field <em>does not</em> exist in the current entry."
-msgstr ""
-"Tato značka uzavírá blok, který se objevuje jen když v aktuálním záznamu "
-"<em>ne</em>existuje pole <var>název_pole</var>."
-
-#: C/gui-styles.page:129(p)
-msgid "&lt;content <var>name=</var>\"<var>fieldname</var>\"/&gt;"
-msgstr "&lt;content <var>name=</var>\"<var>název_pole</var>\"/&gt;"
-
-#: C/gui-styles.page:131(p)
-msgid ""
-"This empty tag is replaced by the content of the current field (when placed "
-"in a &lt;infield&gt; block) or the content of the field specified as "
-"attribute."
-msgstr ""
-"Tato prázdná značka je nahrazena obsahem aktuálního pole (pokud je umístěna "
-"v bloku &lt;infield&gt;) nebo obsahem pole určeného atributem."
-
-#: C/gui-styles.page:137(p)
-msgid "&lt;separator&gt;"
-msgstr "&lt;separator&gt;"
-
-#: C/gui-styles.page:139(p)
-msgid ""
-"This tag's content evaluates to nothing when no text has been issued so far. "
-"It is a convenient way to add a delimiter after a series of fields without "
-"being worried of the special case when the fields are not defined."
-msgstr ""
-"Obsah této značky je vyhodnocen jako nic, pokud se zatím neobjevil žádný "
-"text. Je to pohodlný způsob, jak přidat oddělovat za sérii polí, aniž byste "
-"se museli strachovat ze situací, kdy pole nejsou definována."
-
-#: C/gui-styles.page:147(p)
-msgid "The existing style files are a good source of examples."
-msgstr "Existující soubory se styly jsou dobrým zdrojem příkladů."
-
-#: C/gui-styles.page:151(title)
-msgid "Future of the format"
-msgstr "Budoucnost formátu"
-
-#: C/gui-styles.page:153(p)
-msgid ""
-"In the future, this rudimentary format will most likely be replaced with an "
-"XSL-based mechanism, which should encompass both the XML definition and the "
-"python modules, thus providing standalone style files, parsable by any XSL "
-"parser."
-msgstr ""
-"V budoucnu bude tento základní formát raději nahrazen mechanismem založeným "
-"na XSL, který by měl zvládnout dohromady co dnes definice XML a moduly v "
-"jazyce python, a přitom v jediném souboru zpracovatelném analyzátorem XSL."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-sorting.page:55(None)
-msgid "@@image: 'figures/sort.png'; md5=c7a4506cb27428d7b2a0d10b9d3a98b2"
-msgstr "@@image: 'figures/sort.png'; md5=c7a4506cb27428d7b2a0d10b9d3a98b2"
-
-#: C/gui-sorting.page:10(desc)
-msgid "Customize the sort order of the entries."
-msgstr "Vlastní řazení záznamů."
-
-#: C/gui-sorting.page:26(title)
-msgid "Sorting"
-msgstr "Řazení"
-
-#: C/gui-sorting.page:28(p)
-msgid ""
-"Clicking on the title of each column in the main index provides some "
-"rudimentary way of sorting a database. A much powerful method is to open the "
-"sort dialog (in <guiseq><gui>Edit</gui><gui>Sort</gui></guiseq>). This menu, "
-"displayed in the picture below, gives a list of fields which can be used as "
-"sort criteria, plus a flag indicating how they are currently used. By "
-"clicking twice on the item, it is possible to choose how the field will be "
-"used:"
-msgstr ""
-"Klikání na názvy jednotlivých sloupců v hlavním indexu je základní způsob, "
-"jak databázi řadit. Pokročilejší metodou je otevřít dialog řazení (v "
-"<guiseq><gui>Upravit</gui><gui>Řadit</gui></guiseq>). Tato nabídka, "
-"zobrazená na obrázku níže, poskytuje seznam polí, která mohou být použita "
-"jako řadící kritéria, a k tomu signalizuje, jak jsou momentálně použita. Jak "
-"je pole použito určujete dvojitým kliknutím na položku:"
-
-#: C/gui-sorting.page:37(p)
-msgid "Nothing means the field is not in use."
-msgstr "Nic znamená, že pole není použito."
-
-#: C/gui-sorting.page:40(p)
-msgid "A <em>triangle</em>-like symbol means sort in <em>ascending order</em>."
-msgstr ""
-"Symbol <em>trojúhelníku otočeného nahoru</em> znamená řazení ve "
-"<em>vzestupném pořadí</em>."
-
-#: C/gui-sorting.page:44(p)
-msgid ""
-"An <em>upside down triangle</em>-like symbol means sort in <em>descending "
-"order</em>."
-msgstr ""
-"Symbol <em>trojúhelníku otočeného dolů</em> znamená řazení v <em>sestupném "
-"pořadí</em>."
-
-#: C/gui-sorting.page:49(p)
-msgid ""
-"The order in which the sorting is performed depends on the order in the "
-"list. To modify this order, simply drag and drop an item to change its "
-"position. To make this sort order default, it can be saved by clicking on "
-"the <gui>Set as default</gui> button."
-msgstr ""
-"Posloupnost, v jaké je řazení prováděno, závisí na pořadí v seznamu. Změnit "
-"je můžete prostým přetažením a upuštěním položky na jinou pozici. Pokud "
-"chcete, aby vámi nastavené řazení bylo výchozí, můžete jej uložit kliknutím "
-"na tlačítko <gui>Nastavit jako výchozí</gui>."
-
-#: C/gui-sorting.page:55(media)
-msgid "The Sort dialog"
-msgstr "Dialogové okno Řazení"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-settings.page:34(None)
-msgid "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
-msgstr "@@image: 'figures/fields.png'; md5=12bf133c7494df1eba6d1ab878609df3"
-
-#: C/gui-settings.page:10(desc)
-msgid "How to change settings and preferences."
-msgstr "Jak změnit nastavení a předvolby."
-
-#: C/gui-settings.page:26(title)
-msgid "Configuration"
-msgstr "Nastavení"
-
-#: C/gui-settings.page:28(p)
-msgid ""
-"Under the <guiseq><gui>Settings</gui></guiseq> menu, you can find some "
-"options to customize <app>Pybliographer</app>."
-msgstr ""
-"Pod nabídkou <guiseq><gui>Settings</gui></guiseq> můžete najít některé volby "
-"sloužící k přizpůsobení aplikace <app>Pybliographer</app>."
-
-#: C/gui-settings.page:32(title)
-msgid "Entry types and field names configuration"
-msgstr "Typy záznamů a nastavení názvů polí"
-
-#: C/gui-settings.page:34(media)
-msgid "Configuration of fields and entry types"
-msgstr "Nastavení polí a typů záznamů"
-
-#: C/gui-settings.page:38(p)
-msgid ""
-"Selecting the <guiseq><gui>Settings</gui><gui>Fields</gui></guiseq> menu "
-"item, it is possible to add or remove fields, to set their type, and to "
-"define which fields should be associated with a given type of entry. In "
-"addition, the mandatory and optional fields are also can be varied. In the "
-"window displayed above, as an example, the association of the <em>Article</"
-"em> entry type can be seen."
-msgstr ""
-"Výběrem položky nabídky <guiseq><gui>Nastavení</gui><gui>Pole</gui></guiseq> "
-"je možné přidávat a odebírat pole, nastavovat jejich typ a definovat, která "
-"pole budou přidružená kterému typu záznamu. Navíc lze měnit povinná a "
-"nepovinná pole. V okně zobrazeném výše můžete například vidět přidružení "
-"typu záznamu <em>Article</em> (<em>Článek</em>)."
-
-#: C/gui-settings.page:47(title)
-msgid "Preferences"
-msgstr "Předvolby"
-
-#: C/gui-settings.page:49(p)
-msgid ""
-"Clicking on the <guiseq><gui>Settings</gui><gui>Preferences</gui></guiseq> "
-"menu item, a lot of configuration options can be controlled. Such options "
-"are, for instance, settings of the different type of bibliographic database "
-"formats, autosave, size of history, default editing mode, the default type "
-"of a newly created entry, and resource configuration."
-msgstr ""
-"Kliknutím na položku nabídky <guiseq><gui>Nastavení</gui><gui>Předvolby</"
-"gui></guiseq> můžete měnit řadu dalších voleb nastavení. Takovými volbami "
-"jsou třeba nastavení různých typů formátů bibliografických databází, "
-"automatické ukládání, velikost historie, výchozí režim úprav, výchozí typ "
-"nově vytvořeného záznamu a nastavení zdrojů."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-searching.page:34(None)
-msgid "@@image: 'figures/search.png'; md5=584e9a19da7d5bc43929fd7926c3602b"
-msgstr "@@image: 'figures/search.png'; md5=584e9a19da7d5bc43929fd7926c3602b"
-
-#: C/gui-searching.page:10(desc)
-msgid "How to find a certain entry in the database."
-msgstr "Jak najít určitý záznam v databázi."
-
-#: C/gui-searching.page:26(title)
-msgid "Searching"
-msgstr "Hledání"
-
-#: C/gui-searching.page:28(p)
-msgid ""
-"<app>Pybliographic</app> offers a quite powerful searching mechanism. For "
-"searching you can use the quick search entry of the toolbar or the search "
-"dialog. To open the search dialog, click on <guiseq><gui>Edit</"
-"gui><gui>Search</gui></guiseq> in the menu. The dialog that appears (see the "
-"picture below) displays a search form at the top."
-msgstr ""
-"Aplikace <app>Pybliographic</app> nabízí poměrně mocný mechanismus hledání. "
-"Ke hledání můžete použít kolonku rychlého hledání na liště nástrojů nebo "
-"vyhledávací dialogové okno. Vyhledávací dialogové okno otevřete kliknutím na "
-"položku nabídky <guiseq><gui>Upravit</gui><gui>Hledat</gui></guiseq>. "
-"Dialogové okno, které se objeví (viz obrázek níže) zobrazuje v horní části "
-"vyhledávací formulář."
-
-#: C/gui-searching.page:34(media)
-msgid "The Search dialog"
-msgstr "Vyhledávací dialogové okno"
-
-#: C/gui-searching.page:39(title)
-msgid "Simple searches"
-msgstr "Jednoduché vyhledání"
-
-#: C/gui-searching.page:41(p)
-msgid ""
-"With a simple search, you can select the field that will be searched and you "
-"can specify a regular expression to be matched. <gui>- any field -</gui> "
-"means that all the existing fields will be searched. This is usually more "
-"time-consuming."
-msgstr ""
-"U jednoduchého hledání můžete vybrat pole, které se bude prohledávat a zadat "
-"regulární výraz, kterému má hledaný výraz odpovídat. <gui>- libovolné pole -"
-"</gui> znamená, že se budou prohledávat všechna existující pole. To obvykle "
-"zabere více času."
-
-#: C/gui-searching.page:49(title)
-msgid "Expert searches"
-msgstr "Pokročilé vyhledání"
-
-#: C/gui-searching.page:51(p)
-msgid "An expert search is an expression that looks like:"
-msgstr "Pokročilé hledání má podobu výrazu, jako je například tento:"
-
-#: C/gui-searching.page:53(code)
-#, no-wrap
-msgid "has('author','name') | -has('title','test')"
-msgstr "has('author','jméno') | -has('title','pokus')"
-
-#: C/gui-searching.page:55(p)
-msgid ""
-"Such an expression means: select the entries where the field <em>author</em> "
-"matches <em>name</em>, or (symbol <em>|</em>) where the field <em>title</em> "
-"does <em>not</em> match <em>test</em>. The boolean <var>and</var> is noted "
-"<em>&amp;</em>."
-msgstr ""
-"Takový výraz znamená: vyber záznamy, kde poli <em>author</em> odpovídá "
-"<em>jméno</em> nebo (symbol <em>|</em>) kde poli <em>title</em> "
-"<em>neodpovídá</em> <em>pokus</em>. Logický výraz <var>AND</var> má notaci "
-"<em>&amp;</em>."
-
-#: C/gui-searching.page:60(p)
-msgid "There are other commands available for this type of search:"
-msgstr "Pro tento typ hledání jsou dostupné ještě další příkazy:"
-
-#: C/gui-searching.page:65(p)
-msgid "<cmd>has_key(<var>keyname</var>)</cmd> searches on a key name."
-msgstr "<cmd>has_key(<var>název_klíče</var>)</cmd> hledá v názvu klíče"
-
-#: C/gui-searching.page:69(p)
-msgid ""
-"<cmd>has_type(<var>typename</var>)</cmd> searches for entries of a given "
-"type name."
-msgstr "<cmd>has_type(<var>název_typu</var>)</cmd> hledá záznamy daného typu"
-
-#: C/gui-searching.page:73(p)
-msgid ""
-"<cmd>any_has(<var>value</var>)</cmd> searches for the given value in all the "
-"fields of an entry."
-msgstr ""
-"<cmd>any_has(<var>hodnota</var>)</cmd> hledá zadanou hodnotu ve všech polích "
-"záznamu"
-
-#: C/gui-searching.page:78(p)
-msgid ""
-"<cmd>before(<var>field</var>, <var>year</var>, <var>month</var>, <var>day</"
-"var>)</cmd> searches for entries where the specified date field is older "
-"than the specified date."
-msgstr ""
-"<cmd>before(<var>pole</var>, <var>rok</var>, <var>měsíc</var>, <var>den</"
-"var>)</cmd> hledá záznamy, ve kterých je zadané pole s datem starším než je "
-"uvedené datum"
-
-#: C/gui-searching.page:83(p)
-msgid ""
-"<cmd>after(<var>field</var>, <var>year</var>, <var>month</var>, <var>day</"
-"var>)</cmd> searches for entries where the specified date field is younger "
-"than the specified date."
-msgstr ""
-"<cmd>after(<var>pole</var>, <var>rok</var>, <var>měsíc</var>, <var>den</"
-"var>)</cmd> hledá záznamy, ve kterých je zadané pole s datem novějším než je "
-"uvedené datum"
-
-#: C/gui-searching.page:91(title)
-msgid "Hierarchical searches"
-msgstr "Hierarchické vyhledávání"
-
-#: C/gui-searching.page:93(p)
-msgid ""
-"After a search, only the selected items are displayed in the main window. It "
-"makes it convenient to select a specific author, and then browse its "
-"publications for example."
-msgstr ""
-"Po vyhledání jsou v hlavním okně zobrazeny jen vybrané položky. To je "
-"výhodné například pro výběr konkrétního autora a následné procházení jeho "
-"publikací."
-
-#: C/gui-searching.page:97(p)
-msgid ""
-"In addition, the results of all the searches are kept in the tree located "
-"below the search form. Therefore, a new search can be a refinement of a "
-"previous one. If you select the tree item corresponding for example to all "
-"the articles written by a certain Nostradamus, you'll be able to select only "
-"those whose title contains the word eclipse."
-msgstr ""
-"Výsledky všech hledání se navíc uchovávají ve stromě umístěném pod "
-"vyhledávacím formulářem. Díky tomu může být nové hledání upřesněním "
-"některého předchozího. Když vyberete položku stromu odpovídajíc například "
-"článku napsanému jistému Nostradamovi, budete moci vybrat jen ty, jejichž "
-"názvy obsahují slovo zatmění."
-
-#: C/gui-searching.page:104(p)
-msgid ""
-"Right-clicking in this tree pops up a contextual menu that allows you to "
-"remove unuseful searches."
-msgstr ""
-"Po kliknutí pravým tlačítkem v tomto stromě vyskočí kontextová nabídka, ve "
-"které můžete odebrat neužitečná hledání."
-
-#: C/gui-searching.page:107(p)
-msgid ""
-"To select the full list of database entries again, just click on the "
-"<gui>Full database</gui> item at the top of the search tree, or push the "
-"'Esc' button on the keyboard when you are in the main window."
-msgstr ""
-"Až budete chtít znovu zobrazit úplný seznam záznamů z databáze, jednoduše "
-"klikněte na položku <gui>Úplná databáze</gui> nad stromem hledání nebo, když "
-"jste v hlavním okně, na klávesnici zmáčkněte tlačítko „Esc“."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-pubmed.page:33(None)
-msgid "@@image: 'figures/medline.png'; md5=09532a6de80c9c22b06efefb6401558c"
-msgstr "@@image: 'figures/medline.png'; md5=09532a6de80c9c22b06efefb6401558c"
-
-#: C/gui-pubmed.page:10(desc)
-msgid "Using Pubmed for your searches."
-msgstr "Používání Pubmed k vašemu hledání."
-
-#: C/gui-pubmed.page:26(title)
-msgid "Searching in PubMed"
-msgstr "Hledání v PubMed"
-
-#: C/gui-pubmed.page:28(p)
-msgid ""
-"With <app>Pybliographic</app>, it is possible to perform a Medline search. "
-"To use this option, click on the <guiseq><gui>File</gui><gui>Medline "
-"query... </gui></guiseq> menu item. The upcoming window is represented in "
-"the picture below."
-msgstr ""
-"V aplikaci <app>Pybliographic</app> se dá provádět hledání Medline. Pokud "
-"chcete tuto možnost využít, klikněte na položku nabídky <guiseq><gui>Soubor</"
-"gui><gui>Dotaz Medline…</gui></guiseq>. Okno, které se objeví je ukázáno na "
-"obrázku níže."
-
-#: C/gui-pubmed.page:33(media)
-msgid "Medline query"
-msgstr "Dotaz Medline"
-
-#: C/gui-pubmed.page:37(p)
-msgid ""
-"The keyword, you are looking for, should be written into the <em>Search "
-"PubMed for</em> field. As it can be seen in the picture above, a number of "
-"options (limitations) can be set, which can help to obtain an optimal search "
-"result. The matched references, resulted in by the query, appear in the main "
-"window as a new database."
-msgstr ""
-"Klíčové slovo, které hledáte, byste měli napsat do pole <em>Hledat v PubMed</"
-"em>. Jak rovněž můžete vidět na obrázku výše, lze nastavit počet voleb "
-"(omezení), které umožní získat optimální výsledky. Odpovídající odkazy, "
-"výsledky dotazu, se objeví v hlavním okně, jako nová databáze."
-
-#: C/gui.page:10(desc)
-msgid "Explanations about the graphical interface of <app>Pybliographer</app>."
-msgstr "Vysvětlení grafického rozhraní aplikace <app>Pybliographer</app>."
-
-#: C/gui.page:26(title)
-msgid "The Graphical Interface"
-msgstr "Grafické rozhraní"
-
-#: C/gui.page:28(p)
-msgid ""
-"The graphical user interface is called <app>Pybliographic</app>. It provides "
-"a simple access to the most common features of the underlying engine, "
-"<app>Pybliographer</app> and lets you search, sort and modify bibliographic "
-"entries. Moreover, direct insertion of references into <link href=\"http://"
-"www.lyx.org/\" type=\"http\"><app>Lyx</app></link> and <link href=\"http://"
-"kile.sourceforge.net/\" type=\"http\"><app>Kile</app></link>, direct queries "
-"on Medline, and saving selected references in different formats are also "
-"possible."
-msgstr ""
-"Grafické uživatelské rozhraní je nazýváno <app>Pybliographic</app>. "
-"Poskytuje snadný přístup k většině běžných funkcí výkonného jádra "
-"<app>Pybliographer</app> na pozadí a umožňuje vám hledat, řadit a upravovat "
-"bibliografické záznamy. Navíc je možné přímé vkládání odkazů do <link href="
-"\"http://www.lyx.org/\" type=\"http\"><app>Lyx</app></link> a <link href="
-"\"http://kile.sourceforge.net/\" type=\"http\"><app>Kile</app></link>, přímé "
-"dotazy na Medline a ukládání vybraných dotazů v jiných formátech."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-opening.page:32(None)
-msgid "@@image: 'figures/open.png'; md5=ad69c2047262f00a361f1ac860773b8a"
-msgstr "@@image: 'figures/open.png'; md5=ad69c2047262f00a361f1ac860773b8a"
-
-#: C/gui-opening.page:10(desc)
-msgid "How to open an existing database."
-msgstr "Jak otevřít existující databázi."
-
-#: C/gui-opening.page:26(title) C/gui-opening.page:32(media)
-msgid "Opening a database"
-msgstr "Otevírání databáze"
-
-#: C/gui-opening.page:28(p)
-msgid ""
-"To open an existing database, click on the <gui>Open</gui> toolbar button or "
-"go in the <gui>File</gui> menu, and select <guiseq><gui>File</gui><gui>Open</"
-"gui></guiseq>."
-msgstr ""
-"Pro otevření existující databáze klikněte na tlačítko <gui>Otevřít</gui> na "
-"liště nástrojů nebo běžte do nabídky <gui>Soubor</gui> a zvolte "
-"<guiseq><gui>Soubor</gui><gui>Otevřít</gui></guiseq>."
-
-#: C/gui-opening.page:36(p)
-msgid ""
-"A file selection dialog will pop up (see the picture above) and let you "
-"select a file. The type of the database can also be selected. Opening an "
-"existing database, the type can be guessed if you select <gui>- According to "
-"file suffix -</gui>."
-msgstr ""
-"Objeví se dialogové okno pro výběr souboru (viz obrázek výše) a vy si můžete "
-"vybrat soubor. Můžete také vybrat typ databáze. Při výběru <gui>- Podle "
-"přípony souboru -</gui> se typ otevírané databáze odhadne."
-
-#: C/gui-opening.page:41(p)
-msgid ""
-"It is also possible to open a file at a remote location (as well as a local "
-"file) by typing the URI of the file (e.g. <var>http://my.remote.site/ pyblio."
-"bib</var>) using the <gui>Open Location</gui> dialog, which can be invoked "
-"by the <guiseq><gui>File</gui><gui>Open Location</gui></guiseq> menu item."
-msgstr ""
-"Jinou možností je otevření souboru ve vzdáleném umístění (ale funguje to i "
-"pro místní soubory) zadáním jeho adresy URI (např. <var>http://můj.vzdálený."
-"server/ pyblio.bib</var>) v dialogovém okně <gui>Otevření umístění</gui>. "
-"Toto dialogové okno můžete vyvolat pomocí položky nabídky "
-"<guiseq><gui>Soubor</gui><gui>Otevřít umístění</gui></guiseq>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-navigating.page:72(None)
-msgid "@@image: 'figures/main.png'; md5=bf9ce1d3e626213520d3220eb46558dd"
-msgstr "@@image: 'figures/main.png'; md5=bf9ce1d3e626213520d3220eb46558dd"
-
-#: C/gui-navigating.page:10(desc)
-msgid "Explanations about the navigation in the database."
-msgstr "Vysvětlení, jak se pohybovat v databázi."
-
-#: C/gui-navigating.page:26(title)
-msgid "Navigating in the entries"
-msgstr "Navigace v záznamech"
-
-#: C/gui-navigating.page:28(p)
-msgid ""
-"Once you have opened a database, or started to create a new one, the main "
-"window (see the picture below) displays a list of all the entries on the top "
-"part of it. The fields displayed here can be configured under the "
-"<guiseq><gui>Settings</gui><gui>Preferences</gui></guiseq> menu item."
-msgstr ""
-"Když už máte databázi otevřenou nebo jste začali s novou, hlavní okno (viz "
-"obrázek níže) zobrazí v horní části seznam všech záznamů. V "
-"<guiseq><gui>Nastavení</gui><gui>Předvolby</gui></guiseq> je možné nastavit, "
-"která pole zde mají být zobrazena."
-
-#: C/gui-navigating.page:35(p)
-msgid ""
-"It is possible to display two types of combined fields: <em>-author/editor</"
-"em> and <em>-author/title-</em>."
-msgstr ""
-"Je možné zobrazovat dva typy kombinovaných polí: <em>-autor/redaktor</em> a "
-"<em>-autor/název-</em>."
-
-#: C/gui-navigating.page:40(p)
-msgid ""
-"Clicking on an entry displays its full content on the lower part of the "
-"window. It is also possible to use the arrow keys to navigate in the upper "
-"list."
-msgstr ""
-"Kliknutím na záznam zobrazíte jeho úplný obsah v dolní části okna. Pro pohyb "
-"v horním seznamu lze používat také šipky."
-
-#: C/gui-navigating.page:45(p)
-msgid ""
-"If an entry contains an <em>URL</em> field, clicking on the small button "
-"next to the url, the appropriate application is launched to view the target "
-"object (e.g. PDF viewer for pdf files, web browser for http address). See "
-"<link xref=\"gui-edit\"/> about how to add an URL field to an entry. "
-"Alternatively, you can open the URL with the help of the <guiseq><gui>View</"
-"gui><gui>Resource</gui></guiseq> submenu item or the <guiseq><gui>Resource</"
-"gui></guiseq> pop up menu provided for the item list. If an item contains "
-"one or more viewable fields (like url) containing viewable resources, it is "
-"marked with an icon at the left edge of the item in the upper part of the "
-"main window (see the picture below)."
-msgstr ""
-"Pokud některý záznam obsahuje pole s adresou <em>URL</em>, spustíte "
-"kliknutím na malé tlačítko vedle URL příslušnou aplikaci sloužící k "
-"prohlížení cílového objektu (např. prohlížeč PDF pro soubory PDF, webový "
-"prohlížeč pro adresu HTTP). Viz <link xref=\"gui-edit\"/>, jak přidat pole s "
-"adresou URL do záznamu. Jinou možností, jak otevřít URL, je s pomocí položky "
-"podnabídky <guiseq><gui>Zobrazit</gui><gui>Zdroj</gui></guiseq> nebo "
-"kontextové nabídky <guiseq><gui>Zdroj</gui></guiseq> pro položku seznamu. "
-"Pokud některá položka obsahuje jedno nebo více zobrazitelných polí (jako je "
-"URL) obsahujících zobrazitelné zdroje, je označena ikonou po levé straně "
-"položky v horní části hlavního okna (viz obrázek níže)."
-
-#: C/gui-navigating.page:58(p)
-msgid ""
-"You can set the viewable fields and the applications used to view the "
-"resources in the <gui>Resource</gui> tab under the <guiseq><gui>Settings</"
-"gui><gui>Preferences</gui></guiseq> menu."
-msgstr ""
-"Na kartě <gui>Zdroj</gui> pod nabídkou <guiseq><gui>Nastavení</"
-"gui><gui>Předvolby</gui></guiseq> můžete nastavit zobrazitelná pole a "
-"aplikace použité k zobrazení zdrojů."
-
-#: C/gui-navigating.page:65(p)
-msgid ""
-"Clicking on an entry while pressing the <key>Shift</key> key extends the "
-"selection to the clicked entry. A click while pressing the <key>Control</"
-"key> key toggles the entry without altering the state of the rest of the "
-"selection. With copy and paste, or by drag and drop you can copy one or more "
-"selected entries into a new window or database."
-msgstr ""
-"Kliknutím na záznam za současného držení klávesy <key>Shift</key> roztáhnete "
-"výběr až po tuto položku. Kliknutím za současného držení klávesy "
-"<key>Control</key> přepnete výběr záznamu, aniž byste tím ovlivnili zbytek "
-"výběru. Pomocí kopírovat a vložit nebo táhni a pusť můžete zkopírovat jeden "
-"nebo více vybraných záznamů do nového okna nebo databáze."
-
-#: C/gui-navigating.page:72(media)
-msgid "The main window"
-msgstr "Hlavní okno"
-
-#: C/gui-navigating.page:76(p)
-msgid ""
-"Clicking the right button of the mouse in the list opens a contextual menu. "
-"With this menu you can:"
-msgstr ""
-"Po kliknutí pravým tlačítkem myši v seznamu se otevře kontextová nabídka. "
-"Přes tuto nabídku můžete:"
-
-#: C/gui-navigating.page:81(p)
-msgid "add a new entry"
-msgstr "přidat nový záznam"
-
-#: C/gui-navigating.page:84(p)
-msgid "edit the currently selected items"
-msgstr "upravit právě vybranou položku"
-
-#: C/gui-navigating.page:87(p)
-msgid "view the resource associated with the selected item"
-msgstr "zobrazit zdroj přidružený k vybrané položce"
-
-#: C/gui-navigating.page:90(p)
-msgid "delete the currently selected items"
-msgstr "smazat právě vybranou položku"
-
-#: C/gui-navigating.page:94(p)
-msgid ""
-"Note that some of these menu options can be disabled for a given database or "
-"entry, provided that the corresponding action can't be performed."
-msgstr ""
-"Upozorňujeme, že některé volby v této nabídce mohou být pro danou databázi "
-"nebo záznam nepřístupné, protože odpovídající akci prostě nelze provést."
-
-#: C/gui-navigating.page:98(p)
-msgid ""
-"By clicking on the column titles of the list, you'll sort the entries "
-"according to the corresponding field."
-msgstr ""
-"Kliknutím na záhlaví sloupce v seznamu seřadíte záznamy podle odpovídajícího "
-"pole."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-formats.page:33(None)
-msgid "@@image: 'figures/format.png'; md5=734464fc1276ef9b3f2bc8cb34f2504e"
-msgstr "@@image: 'figures/format.png'; md5=734464fc1276ef9b3f2bc8cb34f2504e"
-
-#: C/gui-formats.page:10(desc)
-msgid "Other file formats which you can also use."
-msgstr "Další formáty souborů, které můžete také použít."
-
-#: C/gui-formats.page:26(title)
-msgid "Saving selected entries in different formats"
-msgstr "Ukládání vybraných záznamů v jiných formátech"
-
-#: C/gui-formats.page:28(p)
-msgid ""
-"Selected entries can be saved in different formats using the "
-"<guiseq><gui>Cite</gui><gui>Format...</gui></guiseq> menu item, see the "
-"following window:"
-msgstr ""
-"Vybrané záznamy je možné uložit v jiných formátech pomocí položky nabídky "
-"<guiseq><gui>Citovat</gui><gui>Formát…</gui></guiseq>, viz následující okno:"
-
-#: C/gui-formats.page:33(media)
-msgid "Formatting entries"
-msgstr "Formátování záznamů"
-
-#: C/gui-formats.page:38(p)
-msgid ""
-"As a result, a formatted output file is generated according to a "
-"bibliographic style, either in HTML, LaTeX, Raw or Text format. The "
-"<app>Pybliographer</app> package contains some bibliographic styles, but own "
-"styles can also be created easily. See also <link xref=\"scripting-"
-"existing#script-scripting-existing-pybformat\"/>."
-msgstr ""
-"Výsledkem je formátovaný výstupní soubor generovaný v souladu s "
-"bibliografickým stylem, a to v jednom z formátů HTML, LaTeX, Raw nebo Text. "
-"Balík <app>Pybliographer</app> obsahuje několik bibliografických stylů, ale "
-"můžete si snadno vytvořit i vlastní. Viz také <link xref=\"scripting-"
-"existing#script-scripting-existing-pybformat\"/>."
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-edit.page:31(None)
-msgid "@@image: 'figures/edit.png'; md5=8c5c88ea0416f223dad77ad0c5d498f4"
-msgstr "@@image: 'figures/edit.png'; md5=8c5c88ea0416f223dad77ad0c5d498f4"
-
-#. When image changes, this message will be marked fuzzy or untranslated for you.
-#. It doesn't matter what you translate it to: it's not used at all.
-#: C/gui-edit.page:73(None)
-msgid "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
-msgstr "@@image: 'figures/edit2.png'; md5=899d1d9761324f427bea18eba973c66d"
-
-#: C/gui-edit.page:10(desc)
-msgid "Editing entries."
-msgstr "Úprava záznamů."
-
-#: C/gui-edit.page:25(title)
-msgid "Editing"
-msgstr "Úpravy"
-
-#: C/gui-edit.page:28(title)
-msgid "Basic editing"
-msgstr "Základní úpravy"
-
-#: C/gui-edit.page:31(media)
-msgid "The Edition window"
-msgstr "Editační okno"
-
-#: C/gui-edit.page:35(p)
-msgid ""
-"The edition window is represented in the figure above. On the right of each "
-"field, a symbol indicates if <app>Pybliographer</app> has been able to "
-"render all the information given in that field. For example, a BibTeX field "
-"containing an unknown command name cannot be correctly represented. In that "
-"case, <app>Pybliographer</app> provides a fake representation, and indicates "
-"it was not able to do a good job on this field by setting a red symbol on "
-"its right, instead of a green one."
-msgstr ""
-"Editační okno můžete vidět na předchozím obrázku. Napravo u každého pole je "
-"symbol, podle kterého poznáte, zda je aplikace <app>Pybliographer</app> "
-"schopná informaci danou v tomto poli správně vyhodnotit. Například pole "
-"BibTeX obsahující neznámý příkaz nelze správně prezentovat. V takovém "
-"případě poskytuje <app>Pybliographer</app> náhradní zobrazení a červeným "
-"symbolem namísto zeleného signalizuje, že to není schopen udělat správně."
-
-#: C/gui-edit.page:44(p)
-msgid ""
-"If you edit such an entry, you can loose the additional information it "
-"contained. To avoid this, consider using native editing (see <link xref="
-"\"gui-edit#gui-edit-native\"/>)."
-msgstr ""
-"Pokud budete takovýto záznam upravovat, můžete ztratit některé dodatečné "
-"informace, které obsahuje. Abyste tomu předešli, zvažte použití nativních "
-"úprav (viz <link xref=\"gui-edit#gui-edit-native\"/>)."
-
-#: C/gui-edit.page:49(p)
-msgid ""
-"To edit the entries, simply type the corresponding text, without any "
-"consideration for the database format being used. For example, with "
-"<app>BibTeX</app>, don't add any <em>{</em> or special characters to "
-"influence the result, as they will be quoted by the system. For fields "
-"requiring names (like author and editor), use the following format: type one "
-"name per line, in the <em>last name, lineage, first name</em> order. If an "
-"author or editor field has too many names, you can end the list of names "
-"with <em>others</em>; the standard bibtex styles convert this to <em>et al</"
-"em>."
-msgstr ""
-"Když chcete upravit záznamy, jednoduše napište příslušný text, bez ohledu na "
-"to, jaký formát databáze je použit. Například u formátu <app>BibTeX</app> "
-"nepřidávejte žádné závorky <em>{</em> nebo speciální znaky ovlivňující "
-"výsledek, o správné uvození se postará systém. U polí požadujících jména "
-"(jako autor nebo redaktor) použijte následující formát: na každý řádek "
-"napište jedno jméno v pořadí <em>přijmení, jméno po otci, křestní jméno</"
-"em>. Pokud má pole autor či redaktor příliš mnoho jmen, můžete na konec "
-"seznamu přidat <em>others</em> (tzn <em>a další</em>); standardní styly "
-"bibtex to převedou na <em>et al</em>."
-
-#: C/gui-edit.page:59(p)
-msgid ""
-"In addition to the standard fields, you can create your own fields using the "
-"<gui>Create Field</gui> button."
-msgstr ""
-"Mimo standardních polí si můžete vytvořit i svá vlastní pole pomocí tlačítka "
-"<gui>Vytvořit pole</gui>."
-
-#: C/gui-edit.page:63(p)
-msgid ""
-"You can customize the mandatory and optional fields for the different type "
-"of entries. For example, associating the <em>URL</em> field with a given "
-"type of entry, it is possible to assign an url to an entry (e.g. the "
-"location of the pdf version of an article or the address of a website). See "
-"the window below. More information about the association of fields can be "
-"found in <link xref=\"gui-settings\"/>."
-msgstr ""
-"Povinná a nepovinná pole si můžete přizpůsobit pro různé typy záznamů. "
-"Například přidružením pole <em>URL</em> k danému typu záznamu je možné "
-"záznamu přiřazovat adresu URL (např. umístění článku v PDF nebo adresa "
-"webových stránek). Viz okno níže. Více informací o přidružování polí můžete "
-"najít v kapitole <link xref=\"gui-settings\"/>."
-
-#: C/gui-edit.page:73(media)
-msgid "The Edition window - Optional fields"
-msgstr "Editační okno – Nepovinná pole"
-
-#: C/gui-edit.page:77(p)
-msgid ""
-"The following keyboard shortcuts are available during edition (in addition "
-"to the standard ones provided by Gtk):"
-msgstr ""
-"Během úprav jsou k dispozici následující klávesové zkratky (navíc k těm "
-"standardním v rámci Gtk):"
-
-#: C/gui-edit.page:82(p)
-msgid ""
-"<keyseq><key>Ctrl</key><key>TAB</key></keyseq> to jump to the next field"
-msgstr ""
-"<keyseq><key>Ctrl</key><key>TAB</key></keyseq> pro přechod na následující "
-"pole"
+#. (itstool) path: item/p
+#: C/about.page:35
+msgid "Hervé Dréau"
+msgstr "Hervé Dréau"
+
+#. (itstool) path: item/desc
+#: C/about.page:35
+msgid "Internationalization, UI goodies"
+msgstr "Internacionalizace, vypilování uživatelského rozhraní"
+
+#. (itstool) path: item/desc
+#: C/about.page:36
+msgid "Project maintainer, core application, Gnome interface, documentation"
+msgstr "Správce projektu, jádro aplikace, rozhraní Gnome, dokumentace"
 
-#: C/gui-edit.page:87(p)
-msgid ""
-"<keyseq><key>Shift</key><key>TAB</key></keyseq> to jump to the previous field"
-msgstr ""
-"<keyseq><key>Shift</key><key>TAB</key></keyseq> pro přechod na předchozí pole"
-
-#: C/gui-edit.page:92(p)
-msgid ""
-"<keyseq><key>Ctrl</key><key>Enter</key></keyseq> to accept the modifications"
-msgstr "<keyseq><key>Ctrl</key><key>Enter</key></keyseq> pro potvrzení změn"
-
-#: C/gui-edit.page:97(p)
-msgid "<key>Esc</key> to cancel the edition"
-msgstr "<key>Esc</key> pro zrušení úprav"
-
-#: C/gui-edit.page:101(p)
-msgid ""
-"To specify a crossreference to another entry, just drag the entry from the "
-"main list to the <gui>Crossreference</gui> field. To remove a "
-"crossreference, drag an empty selection on the field. To unselect all the "
-"entries, you might need to use the <key>Control</key> key, while clicking on "
-"the entry."
-msgstr ""
-"K zadání křížového odkazu na jiný záznam jednoduše přetáhněte záznam z "
-"hlavního seznamu do pole <gui>Crossreference</gui>. Pro zrušení křížového "
-"odkazu přetáhněte do pole prázdný výběr. Pro zrušení výběru všech položek je "
-"potřeba při kliknutí na záznam držet klávesu <key>Control</key>."
-
-#: C/gui-edit.page:109(title)
-msgid "Native editing"
-msgstr "Nativní úpravy"
-
-#: C/gui-edit.page:111(p)
-msgid ""
-"For databases like BibTeX that provide a specific syntax (called <em>native</"
-"em> syntax), it is possible to directly edit the entry in this format. Just "
-"click the button called <gui>Native Editing</gui> at the bottom of the "
-"window and type the entry in its native form."
-msgstr ""
-"U databází jako je BibTeX, které používají speciální syntaxi (nazývanou "
-"<em>nativní</em> syntaxe), je možné záznamy upravovat přímo v takovém "
-"formátu. Prostě kliknete na tlačítko <gui>Nativní úpravy</gui> v dolní části "
-"okna a zapíšete řetězec v jeho nativní formě."
-
-#: C/gui-edit.page:118(p)
-msgid ""
-"It is also possible to type native commands in the normal editing window. "
-"For example, if you want to use special LaTeX commands like <cmd>\\textbf</"
-"cmd> in a title, you can type them directly in the <gui>Title</gui> field by "
-"preceding the text with a <em>@</em> symbol (as the first character). After "
-"that symbol, you have to use all the BibTeX conventions (braces, "
-"backslashes,...), as none of them will be escaped or modified by "
-"<app>Pybliographer</app>."
-msgstr ""
-"Dají se také psát nativní příkazy v normálním editačním okně. Například, "
-"když chcete použít speciální příkaz procesoru LaTeX, jako je <cmd>\\textbf</"
-"cmd> v názvu, můžete jej napsat přímo do pole <gui>Název</gui> s tím, že "
-"před text uvedete symbol <em>@</em> (jako první znak). Za tímto symbolem "
-"musíte použít všechny konvence BibTeX (závorky, zpětná limítka, …), protože "
-"nic z toho nebude ošetřeno jako escape sekvence nebo upraveno aplikací "
-"<app>Pybliographer</app>."
-
-#: C/gui-creating.page:10(desc)
-msgid "How to create a new database."
-msgstr "Jak vytvořit novou databázi."
-
-#: C/gui-creating.page:26(title)
-msgid "Creating a new database"
-msgstr "Vytváření nové databáze"
-
-#: C/gui-creating.page:28(p)
-msgid ""
-"When <app>Pybliographic</app> is opened, you can immediately begin to create "
-"a new database. The type of this database will be determined when you will "
-"save it the first time."
-msgstr ""
-"Když je aplikace <app>Pybliographic</app> otevřena, můžete hned přistoupit k "
-"vytvoření databáze. Typ databáze bude určen až ve chvíli, kdy ji budete "
-"poprvé ukládat."
-
-#: C/gui-creating.page:32(p)
-msgid ""
-"To add a new entry, you can use the <guiseq><gui>Edit</gui><gui>Add</gui></"
-"guiseq> menu, directly the <gui>Add</gui> toolbar button or click with the "
-"right button in the list window and select <gui>Add</gui>."
-msgstr ""
-"Pokud chcete přidat nový záznam, můžete použít nabídku <guiseq><gui>Upravit</"
-"gui><gui>Přidat</gui></guiseq>, přímo tlačítko <gui>Přidat</gui> na liště "
-"nástrojů nebo kliknout pravým tlačítkem na okno se seznamem a vybrat "
-"<gui>Přidat</gui>."
-
-#: C/gui-creating.page:38(p)
-msgid ""
-"You will find more information on the main window's usage in <link xref="
-"\"gui-navigating\"/>."
-msgstr ""
-"Více informací o používání hlavního okna je možné nalézt v kapitole <link "
-"xref=\"gui-navigating\"/>."
-
-#: C/gettingstarted.page:10(desc)
-msgid "Your first steps in <app>Pybliographer</app>."
-msgstr "Vaše první kroky v aplikaci <app>Pybliographer</app>."
-
-#: C/gettingstarted.page:26(title)
-msgid "Getting Started"
-msgstr "Začínáme"
-
-#: C/gettingstarted.page:29(title)
-msgid "What is <app>Pybliographer</app>?"
-msgstr "Co je <app>Pybliographer</app>?"
-
-#: C/gettingstarted.page:30(p)
-msgid ""
-"Pybliographer is a tool for working with bibliographic databases. It "
-"provides a general framework that can be used to manipulate these databases "
-"with a simple graphical interface, but that can also be easily extended by "
-"the mean of a scripting language, to fit a wide range of needs."
-msgstr ""
-"Pybliographer je nástroj pro práci s bibliografickými databázemi. Poskytuje "
-"obecný rámec, který může být použit k manipulaci s těmito databázemi pomocí "
-"jednoduchého grafického rozhraní, ale může být snadno rozšířen pomocí "
-"mezivrstvy ve skriptovacím jazyce, takže dokáže pokrýt široký rozsah potřeb."
+#. (itstool) path: item/desc
+#: C/about.page:38
+msgid "Documentation, packaging, ui code"
+msgstr "Dokumentace, balíčkování, kód uživatelského rozhraní"
+
+#. (itstool) path: item/p
+#: C/about.page:40
+msgid "Travis Oliphant"
+msgstr "Travis Oliphant"
+
+#. (itstool) path: item/desc
+#: C/about.page:40
+msgid "Original Ovid parser"
+msgstr "Původní analyzátor Ovid"
+
+#. (itstool) path: item/p
+#: C/about.page:41
+msgid "Darrell Rudmann"
+msgstr "Darrell Rudmann"
+
+#. (itstool) path: item/desc
+#: C/about.page:41
+msgid "APA 4th edition style"
+msgstr "Styl APA ve 4. vydání"
+
+#. (itstool) path: item/p
+#: C/about.page:42
+msgid "Peter Schulte-Stracke"
+msgstr "Peter Schulte-Stracke"
+
+#. (itstool) path: item/desc
+#: C/about.page:42
+msgid "Application design, requirement docs, import and ui code"
+msgstr ""
+"Vzhled aplikace, náležitosti dokumentace, import a kód uživatelského rozhraní"
+
+#. (itstool) path: item/p
+#: C/about.page:44
+msgid "John Vu"
+msgstr "John Vu"
+
+#. (itstool) path: item/desc
+#: C/about.page:44
+msgid "Medline database parser"
+msgstr "Databázový analyzátor Medline"
+
+#. (itstool) path: page/p
+#: C/about.page:47
+msgid "Thanks to everyone who helped out with the bug tracking process."
+msgstr "Děkujeme všem, kteří pomohli s hledáním chyb."
+
+#. (itstool) path: page/p
+#: C/about.page:50
+msgid ""
+"Many thanks also to the Documentation Translators and the Gnome Translation "
+"Teams."
+msgstr ""
+"Mnohé díky také překladatelům dokumentace a překladatelským týmům Gnome."
 
-#: C/gettingstarted.page:40(title)
-msgid "How to start <app>Pybliographer</app>?"
-msgstr "Jak spustit aplikaci <app>Pybliographer</app>?"
-
-#: C/gettingstarted.page:41(p)
-msgid "You can start <app>Pybliographer</app> in the following ways:"
-msgstr "Aplikaci <app>Pybliographer</app> můžete spustit těmito způsoby:"
-
-#: C/gettingstarted.page:45(title)
-msgid "Graphical mode"
-msgstr "Grafický režim"
-
-#: C/gettingstarted.page:46(p)
-msgid ""
-"To start <app>Pybliographer</app> in graphical mode from a command line, "
-"type the following command, then press <key>Return</key>: "
-"<cmd>pybliographic</cmd>. For more information on the graphical interface, "
-"see <link xref=\"gui\"/>."
-msgstr ""
-"Ke spuštění aplikace <app>Pybliographer</app> v grafickém režimu z příkazové "
-"řádky napište následující příkaz a zmáčkněte <key>Enter</key>: "
-"<cmd>pybliographic</cmd>. Další informace o grafickém rozhraní uvádí oddíl "
-"<link xref=\"gui\"/>."
-
-#: C/gettingstarted.page:54(p)
-msgid ""
-"It is possible to set the PYBLIOGRAPHER_DATABASE environment variable to an "
-"admissible bibliography file in order to open it always on startup, if no "
-"files are specified on the command line. Example:"
-msgstr ""
-"Je možné nastavit proměnnou prostředí PYBLIOGRAPHER_DATABASE na nějaký "
-"dovolený bibliografický soubor a tento se pak otevře po spuštění vždy, když "
-"není žádný soubor zadán na příkazovém řádku. Například:"
-
-#: C/gettingstarted.page:60(var) C/gettingstarted.page:65(var)
-msgid "my/database.bib"
-msgstr "moje/databáze.bib"
-
-#: C/gettingstarted.page:60(input)
-msgid "export PYBLIOGRAPHER_DATABASE=<placeholder-1/>"
-msgstr "export PYBLIOGRAPHER_DATABASE=<placeholder-1/>"
-
-#: C/gettingstarted.page:61(input)
-msgid "pybliographic"
-msgstr "pybliographic"
-
-#: C/gettingstarted.page:63(p)
-msgid "It is equivalent to"
-msgstr "Což je ve výsledku to stejné, jako"
-
-#: C/gettingstarted.page:65(input)
-msgid "pybliographic <placeholder-1/>"
-msgstr "pybliographic <placeholder-1/>"
-
-#: C/gettingstarted.page:71(title)
-msgid "Command line mode"
-msgstr "Režim příkazového řádku"
-
-#: C/gettingstarted.page:72(p)
-msgid ""
-"You can start <app>Pybliographer</app> also in command line mode by typing "
-"the following command followed by pressing <key>Return</key>: "
-"<cmd>pybliographer</cmd>. For more information, see <link xref=\"command-line"
-"\"/>."
-msgstr ""
-"Aplikaci <app>Pybliographer</app> můžete spustit také v režimu příkazového "
-"řádku tak, že napíšete následující příkaz a zmáčknete <key>Enter</key>: "
-"<cmd>pybliographer</cmd>. Další informace viz <link xref=\"command-line\"/>."
-
-#: C/gettingstarted.page:81(title)
-msgid "From the GNOME menu"
-msgstr "Z nabídky GNOME"
-
-#: C/gettingstarted.page:82(p)
-msgid ""
-"If the <file>*.desktop</file> file of the package is correctly installed in "
-"your sytem, you can find a launcher under the GNOME menu to start the "
-"graphical interface of <app>Pybliographer</app>."
-msgstr ""
-"Jestliže je ve vašem systému z balíčku správně nainstalován soubor <file>*."
-"desktop</file>, můžete najít spouštěč v nabídce GNOME a použít jej ke "
-"spuštění grafického rozhraní aplikace <app>Pybliographer</app>."
-
-#: C/customization.page:10(desc)
-msgid "How to customize this application to match your needs."
-msgstr "Jak si tuto aplikaci přizpůsobit svým potřebám."
-
-#: C/customization.page:26(title)
-msgid "Advanced Configuration"
-msgstr "Pokročilé nastavení"
-
-#: C/customization.page:28(p)
+#. (itstool) path: page/p
+#: C/about.page:54
 msgid ""
-"The configuration system is heavily based on <app>Python</app>'s module "
-"system. The configuration files are standard <app>Pybliographer</app> "
-"scripts (that is, python code making use of <app>Pybliographer</app> extra "
-"classes and functions), whose single special feature is to be automatically "
-"parsed at startup or when needed."
+"This manual was written with the help of the <link href=\"http://live.gnome."
+"org/DocumentationProject\" type=\"http\">GNOME Documentation Project</link>."
 msgstr ""
-"Systém nastavení silně vychází ze systému modulů jazyka <app>Python</app>. "
-"Soubory s nastavením jsou standardní skripty <app>Pybliographer</app> (což "
-"je kód python s využitím zvláštních tříd a funkcí aplikace "
-"<app>Pybliographer</app>), jejichž jednotlivé speciální funkce jsou "
-"zpracování automaticky při startu a v případech potřeby."
+"Tato příručka byla napsána s pomocí <link href=\"http://live.gnome.org/"
+"DocumentationProject\" type=\"http\">Dokumentačního projektu GNOME</link>."
 
-#: C/customization.page:35(title)
-msgid "Files involved"
-msgstr "Dotčené soubory"
-
-#: C/customization.page:37(p)
-msgid ""
-"The first file to be parsed is <file>${prefix}/share/pybliographer/pybrc.py "
-"</file>. It serves as a bootstrap for the general configuration mechanism, "
-"and defines:"
-msgstr ""
-"První soubor, který je zpracován, je <file>${prefix}/share/pybliographer/"
-"pybrc.py</file>. Slouží jako zavaděč pro obecné mechanismy nastavení a "
-"definuje:"
-
-#: C/customization.page:43(p)
-msgid "the available input and output formats"
-msgstr "dostupné vstupní a výstupní formáty"
-
-#: C/customization.page:47(p)
-msgid "where to find the configuration directories."
-msgstr "kde hledat složky s nastavením."
-
-#: C/customization.page:51(p)
+#. (itstool) path: page/p
+#: C/about.page:59
 msgid ""
-"A configuration directory holds a list of files which are parsed when "
-"needed. For example, if a method requires some configuration data for the "
-"bibtex module, it will import the corresponding file in this directory."
+"If you contributed to this project but do not see your name here, please "
+"contact the project maintainer and he'll list you."
 msgstr ""
-"Složky s nastavením uchovávají seznam souborů, které jsou zpracovány v "
-"případě potřeby. Například, když některá metoda požaduje nějaká data "
-"nastavení pro modul bibtex, bude importován odpovídající soubor v této "
-"složce."
+"Pokud jste do tohoto projektu přispěli, ale své jméno zde nevidíte, "
+"kontaktujte správce projektu a on vás zde vypíše."
 
-#: C/customization.page:56(p)
+#. (itstool) path: page/p
+#: C/about.page:63
 msgid ""
-"This mechanism allows more flexibility to add new formats: the new format "
-"can be installed with a default configuration without messing with the "
-"global configuration file. In addition, the program imports only what is "
-"needed, decreasing its startup time."
+"For more information please visit the <link href=\"http://pybliographer.org/"
+"\" type=\"http\"><app>Pybliographer</app> website</link>."
 msgstr ""
-"Tento mechanismus umožňuje větší flexibilitu při přidávání nových formátů: "
-"nový formát může být nainstalován s výchozím nastavením bez míchání s "
-"hlavním souborem nastavení. A navíc se urychlí spouštění programu, protože "
-"se importuje jen to, co je potřeba."
+"Pro další informace prosím navštivte <link href=\"http://pybliographer.org/"
+"\" type=\"http\">webové stránky <app>Pybliographer</app></link>."
 
-#: C/customization.page:62(p)
-msgid ""
-"Finally, if the user provides a file called <file>.pybrc.py</file> in its "
-"home directory, this file is then parsed. Of course it can also define a "
-"private configuration directory, and override what has been defined before."
-msgstr ""
-"Nakonec, pokud má uživatel ve své domovské složce soubor s názvem <file>."
-"pybrc.py</file>, je zpracován i tento. Samozřejmě může definovat i soukromou "
-"složku s nastavením a přepsat, co bylo definováno dříve."
+#. (itstool) path: info/desc
+#: C/addhelp.page:10
+msgid "Where you can get additional help."
+msgstr "Kde můžete najít další nápovědu."
 
-#: C/customization.page:69(title)
-msgid "The <sys>Config</sys> module"
-msgstr "Modul <sys>Config</sys>"
+#. (itstool) path: page/title
+#: C/addhelp.page:26
+msgid "Additional Help Sources"
+msgstr "Další zdroje nápovědy"
 
-#: C/customization.page:71(p)
+#. (itstool) path: page/p
+#: C/addhelp.page:27
 msgid ""
-"All the data that can be configured should be handled by the so-called "
-"<sys>Config</sys> module. It provides a standard interface to set/get and "
-"document configuration items."
+"For additional information, please, visit the <link href=\"http://"
+"pybliographer.org/\" type=\"http\">Pybliographer website</link>. There is a "
+"<link href=\"http://pybliographer.org/Mailing_lists\" type=\"http\">mailing "
+"list</link> also, where you can get answers for your questions, you can "
+"report bugs, etc."
 msgstr ""
-"Všechny údaje, které je možné nastavit, jsou obsluhovány takzvaným modulem "
-"<sys>Config</sys>. Ten poskytuje standardní rozhraní k nastavení/získáni a "
-"dokumentuje položky nastavení."
+"Pro další informace navštivte prosím <link href=\"http://pybliographer.org/"
+"\" type=\"http\">webové stránky Pybliographer</link>. K dispozici je také "
+"<link href=\"http://pybliographer.org/Mailing_lists\" type=\"http\">poštovní "
+"konference</link>, ve které můžete získat odpovědi na své dotazy, hlásit "
+"chyby atd."
 
-#: C/command-line.page:10(desc)
+#. (itstool) path: info/desc
+#: C/command-line.page:10
 msgid "Using <app>Pybliographer</app> with a terminal."
 msgstr "Používání aplikace <app>Pybliographer</app> v terminálu."
 
-#: C/command-line.page:26(title)
+#. (itstool) path: page/title
+#: C/command-line.page:26
 msgid "The command line interface"
 msgstr "Rozhraní příkazového řádku"
 
-#: C/command-line.page:28(p)
+#. (itstool) path: page/p
+#: C/command-line.page:28
 msgid ""
 "To start <app>Pybliographer</app> in command line mode, type the following "
 "command:"
@@ -2096,7 +239,8 @@ msgstr ""
 "Pro spuštění aplikace <app>Pybliographer</app> v režimu příkazového řádku, "
 "napište následující příkaz:"
 
-#: C/command-line.page:30(screen)
+#. (itstool) path: page/screen
+#: C/command-line.page:30
 #, no-wrap
 msgid ""
 "\n"
@@ -2125,7 +269,8 @@ msgstr ""
 "  &gt;&gt;\n"
 "  "
 
-#: C/command-line.page:43(p)
+#. (itstool) path: page/p
+#: C/command-line.page:43
 msgid ""
 "To get some help about how to use <app>Pybliographer</app> in this mode, "
 "type <cmd>help</cmd> at the <app>Pybliographer</app> prompt."
@@ -2133,7 +278,8 @@ msgstr ""
 "Když potřebujete nějakou nápovědu, jak používat <app>Pybliographer</app> v "
 "tomto režimu, napište za výzvu aplikace příkaz <cmd>help</cmd>."
 
-#: C/command-line.page:46(p)
+#. (itstool) path: page/p
+#: C/command-line.page:46
 msgid ""
 "The next example shows how to open a database and make a simple search in "
 "it. See the following commands and the output:"
@@ -2141,7 +287,8 @@ msgstr ""
 "Následující příklad ilustruje, jako otevřít databázi a pak v ní provést "
 "jednoduché hledání. Viz následující příkazy a výstupy:"
 
-#: C/command-line.page:48(screen)
+#. (itstool) path: page/screen
+#: C/command-line.page:48
 #, no-wrap
 msgid ""
 "\n"
@@ -2162,14 +309,16 @@ msgstr ""
 "  &gt;&gt; \n"
 "  "
 
-#: C/command-line.page:56(p)
+#. (itstool) path: page/p
+#: C/command-line.page:56
 msgid ""
 "To see the complete entries listed by the command <cmd>ls (iterator)</cmd>:"
 msgstr ""
 "Abyste viděli výpis úplných záznamů, použijte příkaz <cmd>ls (iterator)</"
 "cmd>:"
 
-#: C/command-line.page:58(screen)
+#. (itstool) path: page/screen
+#: C/command-line.page:58
 #, no-wrap
 msgid ""
 "\n"
@@ -2226,141 +375,2361 @@ msgstr ""
 "  --More--\n"
 "  "
 
-#: C/addhelp.page:10(desc)
-msgid "Where you can get additional help."
-msgstr "Kde můžete najít další nápovědu."
+#. (itstool) path: info/desc
+#: C/customization.page:10
+msgid "How to customize this application to match your needs."
+msgstr "Jak si tuto aplikaci přizpůsobit svým potřebám."
 
-#: C/addhelp.page:26(title)
-msgid "Additional Help Sources"
-msgstr "Další zdroje nápovědy"
+#. (itstool) path: page/title
+#: C/customization.page:26
+msgid "Advanced Configuration"
+msgstr "Pokročilé nastavení"
 
-#: C/addhelp.page:27(p)
+#. (itstool) path: page/p
+#: C/customization.page:28
 msgid ""
-"For additional information, please, visit the <link href=\"http://"
-"pybliographer.org/\" type=\"http\">Pybliographer website</link>. There is a "
-"<link href=\"http://pybliographer.org/Mailing_lists\" type=\"http\">mailing "
-"list</link> also, where you can get answers for your questions, you can "
-"report bugs, etc."
+"The configuration system is heavily based on <app>Python</app>'s module "
+"system. The configuration files are standard <app>Pybliographer</app> "
+"scripts (that is, python code making use of <app>Pybliographer</app> extra "
+"classes and functions), whose single special feature is to be automatically "
+"parsed at startup or when needed."
 msgstr ""
-"Pro další informace navštivte prosím <link href=\"http://pybliographer.org/"
-"\" type=\"http\">webové stránky Pybliographer</link>. K dispozici je také "
-"<link href=\"http://pybliographer.org/Mailing_lists\" type=\"http\">poštovní "
-"konference</link>, ve které můžete získat odpovědi na své dotazy, hlásit "
-"chyby atd."
+"Systém nastavení silně vychází ze systému modulů jazyka <app>Python</app>. "
+"Soubory s nastavením jsou standardní skripty <app>Pybliographer</app> (což "
+"je kód python s využitím zvláštních tříd a funkcí aplikace "
+"<app>Pybliographer</app>), jejichž jednotlivé speciální funkce jsou "
+"zpracování automaticky při startu a v případech potřeby."
 
-#: C/about.page:10(desc)
-msgid "Information about <app>Pybliographer</app>."
-msgstr "Informace o aplikaci <app>Pybliographer</app>."
+#. (itstool) path: section/title
+#: C/customization.page:35
+msgid "Files involved"
+msgstr "Dotčené soubory"
 
-#: C/about.page:26(title)
-msgid "Authors"
-msgstr "Autoři"
-
-#: C/about.page:27(p)
+#. (itstool) path: section/p
+#: C/customization.page:37
 msgid ""
-"<app>Pybliographer</app> was originally written by Frédéric Gobry. Many "
-"thanks to all contributors for their fruitful work."
+"The first file to be parsed is <file>${prefix}/share/pybliographer/pybrc.py "
+"</file>. It serves as a bootstrap for the general configuration mechanism, "
+"and defines:"
 msgstr ""
-"Aplikaci <app>Pybliographer</app> původně napsal Frédéric Gobry. Velké díky "
-"patří také ostatním přispěvatelům za jejich usilovnou práci."
+"První soubor, který je zpracován, je <file>${prefix}/share/pybliographer/"
+"pybrc.py</file>. Slouží jako zavaděč pro obecné mechanismy nastavení a "
+"definuje:"
 
-#: C/about.page:31(em)
-msgid "Contributions:"
-msgstr "Přispěvatelé:"
+#. (itstool) path: item/p
+#: C/customization.page:43
+msgid "the available input and output formats"
+msgstr "dostupné vstupní a výstupní formáty"
 
-#: C/about.page:34(p)
-msgid "Yuri Bongiorno"
-msgstr "Yuri Bongiorno"
+#. (itstool) path: item/p
+#: C/customization.page:47
+msgid "where to find the configuration directories."
+msgstr "kde hledat složky s nastavením."
 
-#: C/about.page:34(desc)
-msgid "Documentation, translations"
-msgstr "Dokumentace, překlady"
-
-#: C/about.page:35(p)
-msgid "Hervé Dréau"
-msgstr "Hervé Dréau"
-
-#: C/about.page:35(desc)
-msgid "Internationalization, UI goodies"
-msgstr "Internacionalizace, vypilování uživatelského rozhraní"
-
-#: C/about.page:36(desc)
-msgid "Project maintainer, core application, Gnome interface, documentation"
-msgstr "Správce projektu, jádro aplikace, rozhraní Gnome, dokumentace"
-
-#: C/about.page:38(desc)
-msgid "Documentation, packaging, ui code"
-msgstr "Dokumentace, balíčkování, kód uživatelského rozhraní"
-
-#: C/about.page:40(p)
-msgid "Travis Oliphant"
-msgstr "Travis Oliphant"
-
-#: C/about.page:40(desc)
-msgid "Original Ovid parser"
-msgstr "Původní analyzátor Ovid"
-
-#: C/about.page:41(p)
-msgid "Darrell Rudmann"
-msgstr "Darrell Rudmann"
-
-#: C/about.page:41(desc)
-msgid "APA 4th edition style"
-msgstr "Styl APA ve 4. vydání"
-
-#: C/about.page:42(p)
-msgid "Peter Schulte-Stracke"
-msgstr "Peter Schulte-Stracke"
-
-#: C/about.page:42(desc)
-msgid "Application design, requirement docs, import and ui code"
-msgstr ""
-"Vzhled aplikace, náležitosti dokumentace, import a kód uživatelského rozhraní"
-
-#: C/about.page:44(p)
-msgid "John Vu"
-msgstr "John Vu"
-
-#: C/about.page:44(desc)
-msgid "Medline database parser"
-msgstr "Databázový analyzátor Medline"
-
-#: C/about.page:47(p)
-msgid "Thanks to everyone who helped out with the bug tracking process."
-msgstr "Děkujeme všem, kteří pomohli s hledáním chyb."
-
-#: C/about.page:50(p)
+#. (itstool) path: section/p
+#: C/customization.page:51
 msgid ""
-"Many thanks also to the Documentation Translators and the Gnome Translation "
-"Teams."
+"A configuration directory holds a list of files which are parsed when "
+"needed. For example, if a method requires some configuration data for the "
+"bibtex module, it will import the corresponding file in this directory."
 msgstr ""
-"Mnohé díky také překladatelům dokumentace a překladatelským týmům Gnome."
+"Složky s nastavením uchovávají seznam souborů, které jsou zpracovány v "
+"případě potřeby. Například, když některá metoda požaduje nějaká data "
+"nastavení pro modul bibtex, bude importován odpovídající soubor v této "
+"složce."
 
-#: C/about.page:54(p)
+#. (itstool) path: section/p
+#: C/customization.page:56
 msgid ""
-"This manual was written with the help of the <link href=\"http://live.gnome."
-"org/DocumentationProject\" type=\"http\">GNOME Documentation Project</link>."
+"This mechanism allows more flexibility to add new formats: the new format "
+"can be installed with a default configuration without messing with the "
+"global configuration file. In addition, the program imports only what is "
+"needed, decreasing its startup time."
 msgstr ""
-"Tato příručka byla napsána s pomocí <link href=\"http://live.gnome.org/"
-"DocumentationProject\" type=\"http\">Dokumentačního projektu GNOME</link>."
+"Tento mechanismus umožňuje větší flexibilitu při přidávání nových formátů: "
+"nový formát může být nainstalován s výchozím nastavením bez míchání s "
+"hlavním souborem nastavení. A navíc se urychlí spouštění programu, protože "
+"se importuje jen to, co je potřeba."
 
-#: C/about.page:59(p)
+#. (itstool) path: section/p
+#: C/customization.page:62
 msgid ""
-"If you contributed to this project but do not see your name here, please "
-"contact the project maintainer and he'll list you."
+"Finally, if the user provides a file called <file>.pybrc.py</file> in its "
+"home directory, this file is then parsed. Of course it can also define a "
+"private configuration directory, and override what has been defined before."
 msgstr ""
-"Pokud jste do tohoto projektu přispěli, ale své jméno zde nevidíte, "
-"kontaktujte správce projektu a on vás zde vypíše."
+"Nakonec, pokud má uživatel ve své domovské složce soubor s názvem <file>."
+"pybrc.py</file>, je zpracován i tento. Samozřejmě může definovat i soukromou "
+"složku s nastavením a přepsat, co bylo definováno dříve."
 
-#: C/about.page:63(p)
+#. (itstool) path: section/title
+#: C/customization.page:69
+msgid "The <sys>Config</sys> module"
+msgstr "Modul <sys>Config</sys>"
+
+#. (itstool) path: section/p
+#: C/customization.page:71
 msgid ""
-"For more information please visit the <link href=\"http://pybliographer.org/"
-"\" type=\"http\"><app>Pybliographer</app> website</link>."
+"All the data that can be configured should be handled by the so-called "
+"<sys>Config</sys> module. It provides a standard interface to set/get and "
+"document configuration items."
 msgstr ""
-"Pro další informace prosím navštivte <link href=\"http://pybliographer.org/"
-"\" type=\"http\">webové stránky <app>Pybliographer</app></link>."
+"Všechny údaje, které je možné nastavit, jsou obsluhovány takzvaným modulem "
+"<sys>Config</sys>. Ten poskytuje standardní rozhraní k nastavení/získáni a "
+"dokumentuje položky nastavení."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
-#: C/about.page:0(None)
-msgid "translator-credits"
-msgstr "Marek Černocký <marek@manet.cz>"
+#. (itstool) path: info/desc
+#: C/gettingstarted.page:10
+msgid "Your first steps in <app>Pybliographer</app>."
+msgstr "Vaše první kroky v aplikaci <app>Pybliographer</app>."
+
+#. (itstool) path: page/title
+#: C/gettingstarted.page:26
+msgid "Getting Started"
+msgstr "Začínáme"
+
+#. (itstool) path: section/title
+#: C/gettingstarted.page:29
+msgid "What is <app>Pybliographer</app>?"
+msgstr "Co je <app>Pybliographer</app>?"
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:30
+msgid ""
+"Pybliographer is a tool for working with bibliographic databases. It "
+"provides a general framework that can be used to manipulate these databases "
+"with a simple graphical interface, but that can also be easily extended by "
+"the mean of a scripting language, to fit a wide range of needs."
+msgstr ""
+"Pybliographer je nástroj pro práci s bibliografickými databázemi. Poskytuje "
+"obecný rámec, který může být použit k manipulaci s těmito databázemi pomocí "
+"jednoduchého grafického rozhraní, ale může být snadno rozšířen pomocí "
+"mezivrstvy ve skriptovacím jazyce, takže dokáže pokrýt široký rozsah potřeb."
+
+#. (itstool) path: section/title
+#: C/gettingstarted.page:40
+msgid "How to start <app>Pybliographer</app>?"
+msgstr "Jak spustit aplikaci <app>Pybliographer</app>?"
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:41
+msgid "You can start <app>Pybliographer</app> in the following ways:"
+msgstr "Aplikaci <app>Pybliographer</app> můžete spustit těmito způsoby:"
+
+#. (itstool) path: section/title
+#: C/gettingstarted.page:45
+msgid "Graphical mode"
+msgstr "Grafický režim"
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:46
+msgid ""
+"To start <app>Pybliographer</app> in graphical mode from a command line, "
+"type the following command, then press <key>Return</key>: "
+"<cmd>pybliographic</cmd>. For more information on the graphical interface, "
+"see <link xref=\"gui\"/>."
+msgstr ""
+"Ke spuštění aplikace <app>Pybliographer</app> v grafickém režimu z příkazové "
+"řádky napište následující příkaz a zmáčkněte <key>Enter</key>: "
+"<cmd>pybliographic</cmd>. Další informace o grafickém rozhraní uvádí oddíl "
+"<link xref=\"gui\"/>."
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:54
+msgid ""
+"It is possible to set the PYBLIOGRAPHER_DATABASE environment variable to an "
+"admissible bibliography file in order to open it always on startup, if no "
+"files are specified on the command line. Example:"
+msgstr ""
+"Je možné nastavit proměnnou prostředí PYBLIOGRAPHER_DATABASE na nějaký "
+"dovolený bibliografický soubor a tento se pak otevře po spuštění vždy, když "
+"není žádný soubor zadán na příkazovém řádku. Například:"
+
+#. (itstool) path: section/screen
+#: C/gettingstarted.page:59
+#, no-wrap
+msgid ""
+"\n"
+"    \t       <output>bash$ </output><input>export PYBLIOGRAPHER_DATABASE=<var>my/database.bib</var></input>\n"
+"    \t       <output>bash$ </output><input>pybliographic</input>\n"
+"    \t       "
+msgstr ""
+"\n"
+"    \t       <output>bash$ </output><input>export PYBLIOGRAPHER_DATABASE=<var>moje/databáze.bib</var></input>\n"
+"    \t       <output>bash$ </output><input>pybliographic</input>\n"
+"    \t       "
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:63
+msgid "It is equivalent to"
+msgstr "Což je ve výsledku to stejné, jako"
+
+#. (itstool) path: section/screen
+#: C/gettingstarted.page:64
+#, no-wrap
+msgid ""
+"\n"
+"    \t       <output>bash$ </output><input>pybliographic <var>my/database.bib</var></input>\n"
+"    \t       "
+msgstr ""
+"\n"
+"    \t       <output>bash$ </output><input>pybliographic <var>moje/databáze.bib</var></input>\n"
+"    \t       "
+
+#. (itstool) path: section/title
+#: C/gettingstarted.page:71
+msgid "Command line mode"
+msgstr "Režim příkazového řádku"
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:72
+msgid ""
+"You can start <app>Pybliographer</app> also in command line mode by typing "
+"the following command followed by pressing <key>Return</key>: "
+"<cmd>pybliographer</cmd>. For more information, see <link xref=\"command-line"
+"\"/>."
+msgstr ""
+"Aplikaci <app>Pybliographer</app> můžete spustit také v režimu příkazového "
+"řádku tak, že napíšete následující příkaz a zmáčknete <key>Enter</key>: "
+"<cmd>pybliographer</cmd>. Další informace viz <link xref=\"command-line\"/>."
+
+#. (itstool) path: section/title
+#: C/gettingstarted.page:81
+msgid "From the GNOME menu"
+msgstr "Z nabídky GNOME"
+
+#. (itstool) path: section/p
+#: C/gettingstarted.page:82
+msgid ""
+"If the <file>*.desktop</file> file of the package is correctly installed in "
+"your sytem, you can find a launcher under the GNOME menu to start the "
+"graphical interface of <app>Pybliographer</app>."
+msgstr ""
+"Jestliže je ve vašem systému z balíčku správně nainstalován soubor <file>*."
+"desktop</file>, můžete najít spouštěč v nabídce GNOME a použít jej ke "
+"spuštění grafického rozhraní aplikace <app>Pybliographer</app>."
+
+#. (itstool) path: info/desc
+#: C/gui-creating.page:10
+msgid "How to create a new database."
+msgstr "Jak vytvořit novou databázi."
+
+#. (itstool) path: page/title
+#: C/gui-creating.page:26
+msgid "Creating a new database"
+msgstr "Vytváření nové databáze"
+
+#. (itstool) path: page/p
+#: C/gui-creating.page:28
+msgid ""
+"When <app>Pybliographic</app> is opened, you can immediately begin to create "
+"a new database. The type of this database will be determined when you will "
+"save it the first time."
+msgstr ""
+"Když je aplikace <app>Pybliographic</app> otevřena, můžete hned přistoupit k "
+"vytvoření databáze. Typ databáze bude určen až ve chvíli, kdy ji budete "
+"poprvé ukládat."
+
+#. (itstool) path: page/p
+#: C/gui-creating.page:32
+msgid ""
+"To add a new entry, you can use the <guiseq><gui>Edit</gui> <gui>Add</gui></"
+"guiseq> menu, directly the <gui>Add</gui> toolbar button or click with the "
+"right button in the list window and select <gui>Add</gui>."
+msgstr ""
+"Pokud chcete přidat nový záznam, můžete použít nabídku <guiseq><gui>Upravit</"
+"gui> <gui>Přidat</gui></guiseq>, přímo tlačítko <gui>Přidat</gui> na liště "
+"nástrojů nebo kliknout pravým tlačítkem na okno se seznamem a vybrat "
+"<gui>Přidat</gui>."
+
+#. (itstool) path: page/p
+#: C/gui-creating.page:38
+msgid ""
+"You will find more information on the main window's usage in <link xref="
+"\"gui-navigating\"/>."
+msgstr ""
+"Více informací o používání hlavního okna je možné nalézt v kapitole <link "
+"xref=\"gui-navigating\"/>."
+
+#. (itstool) path: info/desc
+#: C/gui-edit.page:10
+msgid "Editing entries."
+msgstr "Úprava záznamů."
+
+#. (itstool) path: page/title
+#: C/gui-edit.page:25
+msgid "Editing"
+msgstr "Úpravy"
+
+#. (itstool) path: section/title
+#: C/gui-edit.page:28
+msgid "Basic editing"
+msgstr "Základní úpravy"
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-edit.page:31
+msgctxt "_"
+msgid "external ref='figures/edit.png' md5='8c5c88ea0416f223dad77ad0c5d498f4'"
+msgstr "external ref='figures/edit.png' md5='8c5c88ea0416f223dad77ad0c5d498f4'"
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:31
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/edit.png\"> The "
+"Edition window </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/edit.png\"> Editační "
+"okno</media>"
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:35
+msgid ""
+"The edition window is represented in the figure above. On the right of each "
+"field, a symbol indicates if <app>Pybliographer</app> has been able to "
+"render all the information given in that field. For example, a BibTeX field "
+"containing an unknown command name cannot be correctly represented. In that "
+"case, <app>Pybliographer</app> provides a fake representation, and indicates "
+"it was not able to do a good job on this field by setting a red symbol on "
+"its right, instead of a green one."
+msgstr ""
+"Editační okno můžete vidět na předchozím obrázku. Napravo u každého pole je "
+"symbol, podle kterého poznáte, zda je aplikace <app>Pybliographer</app> "
+"schopná informaci danou v tomto poli správně vyhodnotit. Například pole "
+"BibTeX obsahující neznámý příkaz nelze správně prezentovat. V takovém "
+"případě poskytuje <app>Pybliographer</app> náhradní zobrazení a červeným "
+"symbolem namísto zeleného signalizuje, že to není schopen udělat správně."
+
+#. (itstool) path: note/p
+#: C/gui-edit.page:44
+msgid ""
+"If you edit such an entry, you can loose the additional information it "
+"contained. To avoid this, consider using native editing (see <link xref="
+"\"gui-edit#gui-edit-native\"/>)."
+msgstr ""
+"Pokud budete takovýto záznam upravovat, můžete ztratit některé dodatečné "
+"informace, které obsahuje. Abyste tomu předešli, zvažte použití nativních "
+"úprav (viz <link xref=\"gui-edit#gui-edit-native\"/>)."
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:49
+msgid ""
+"To edit the entries, simply type the corresponding text, without any "
+"consideration for the database format being used. For example, with "
+"<app>BibTeX</app>, don't add any <em>{</em> or special characters to "
+"influence the result, as they will be quoted by the system. For fields "
+"requiring names (like author and editor), use the following format: type one "
+"name per line, in the <em>last name, lineage, first name</em> order. If an "
+"author or editor field has too many names, you can end the list of names "
+"with <em>others</em>; the standard bibtex styles convert this to <em>et al</"
+"em>."
+msgstr ""
+"Když chcete upravit záznamy, jednoduše napište příslušný text, bez ohledu na "
+"to, jaký formát databáze je použit. Například u formátu <app>BibTeX</app> "
+"nepřidávejte žádné závorky <em>{</em> nebo speciální znaky ovlivňující "
+"výsledek, o správné uvození se postará systém. U polí požadujících jména "
+"(jako autor nebo redaktor) použijte následující formát: na každý řádek "
+"napište jedno jméno v pořadí <em>přijmení, jméno po otci, křestní jméno</"
+"em>. Pokud má pole autor či redaktor příliš mnoho jmen, můžete na konec "
+"seznamu přidat <em>others</em> (tzn <em>a další</em>); standardní styly "
+"bibtex to převedou na <em>et al</em>."
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:59
+msgid ""
+"In addition to the standard fields, you can create your own fields using the "
+"<gui>Create Field</gui> button."
+msgstr ""
+"Mimo standardních polí si můžete vytvořit i svá vlastní pole pomocí tlačítka "
+"<gui>Vytvořit pole</gui>."
+
+#. (itstool) path: note/p
+#: C/gui-edit.page:63
+msgid ""
+"You can customize the mandatory and optional fields for the different type "
+"of entries. For example, associating the <em>URL</em> field with a given "
+"type of entry, it is possible to assign an url to an entry (e.g. the "
+"location of the pdf version of an article or the address of a website). See "
+"the window below. More information about the association of fields can be "
+"found in <link xref=\"gui-settings\"/>."
+msgstr ""
+"Povinná a nepovinná pole si můžete přizpůsobit pro různé typy záznamů. "
+"Například přidružením pole <em>URL</em> k danému typu záznamu je možné "
+"záznamu přiřazovat adresu URL (např. umístění článku v PDF nebo adresa "
+"webových stránek). Viz okno níže. Více informací o přidružování polí můžete "
+"najít v kapitole <link xref=\"gui-settings\"/>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-edit.page:73
+msgctxt "_"
+msgid "external ref='figures/edit2.png' md5='899d1d9761324f427bea18eba973c66d'"
+msgstr ""
+"external ref='figures/edit2.png' md5='899d1d9761324f427bea18eba973c66d'"
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:73
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/edit2.png\"> The "
+"Edition window - Optional fields </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/edit2.png\"> Editační "
+"okno – Volitelná pole</media>"
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:77
+msgid ""
+"The following keyboard shortcuts are available during edition (in addition "
+"to the standard ones provided by Gtk):"
+msgstr ""
+"Během úprav jsou k dispozici následující klávesové zkratky (navíc k těm "
+"standardním v rámci Gtk):"
+
+#. (itstool) path: item/p
+#: C/gui-edit.page:82
+msgid ""
+"<keyseq><key>Ctrl</key><key>TAB</key></keyseq> to jump to the next field"
+msgstr ""
+"<keyseq><key>Ctrl</key><key>TAB</key></keyseq> pro přechod na následující "
+"pole"
+
+#. (itstool) path: item/p
+#: C/gui-edit.page:87
+msgid ""
+"<keyseq><key>Shift</key><key>TAB</key></keyseq> to jump to the previous field"
+msgstr ""
+"<keyseq><key>Shift</key><key>TAB</key></keyseq> pro přechod na předchozí pole"
+
+#. (itstool) path: item/p
+#: C/gui-edit.page:92
+msgid ""
+"<keyseq><key>Ctrl</key><key>Enter</key></keyseq> to accept the modifications"
+msgstr "<keyseq><key>Ctrl</key><key>Enter</key></keyseq> pro potvrzení změn"
+
+#. (itstool) path: item/p
+#: C/gui-edit.page:97
+msgid "<key>Esc</key> to cancel the edition"
+msgstr "<key>Esc</key> pro zrušení úprav"
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:101
+msgid ""
+"To specify a crossreference to another entry, just drag the entry from the "
+"main list to the <gui>Crossreference</gui> field. To remove a "
+"crossreference, drag an empty selection on the field. To unselect all the "
+"entries, you might need to use the <key>Control</key> key, while clicking on "
+"the entry."
+msgstr ""
+"K zadání křížového odkazu na jiný záznam jednoduše přetáhněte záznam z "
+"hlavního seznamu do pole <gui>Crossreference</gui>. Pro zrušení křížového "
+"odkazu přetáhněte do pole prázdný výběr. Pro zrušení výběru všech položek je "
+"potřeba při kliknutí na záznam držet klávesu <key>Control</key>."
+
+#. (itstool) path: section/title
+#: C/gui-edit.page:109
+msgid "Native editing"
+msgstr "Nativní úpravy"
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:111
+msgid ""
+"For databases like BibTeX that provide a specific syntax (called <em>native</"
+"em> syntax), it is possible to directly edit the entry in this format. Just "
+"click the button called <gui>Native Editing</gui> at the bottom of the "
+"window and type the entry in its native form."
+msgstr ""
+"U databází jako je BibTeX, které používají speciální syntaxi (nazývanou "
+"<em>nativní</em> syntaxe), je možné záznamy upravovat přímo v takovém "
+"formátu. Prostě kliknete na tlačítko <gui>Nativní úpravy</gui> v dolní části "
+"okna a zapíšete řetězec v jeho nativní formě."
+
+#. (itstool) path: section/p
+#: C/gui-edit.page:118
+msgid ""
+"It is also possible to type native commands in the normal editing window. "
+"For example, if you want to use special LaTeX commands like <cmd>\\textbf</"
+"cmd> in a title, you can type them directly in the <gui>Title</gui> field by "
+"preceding the text with a <em>@</em> symbol (as the first character). After "
+"that symbol, you have to use all the BibTeX conventions (braces, "
+"backslashes,...), as none of them will be escaped or modified by "
+"<app>Pybliographer</app>."
+msgstr ""
+"Dají se také psát nativní příkazy v normálním editačním okně. Například, "
+"když chcete použít speciální příkaz procesoru LaTeX, jako je <cmd>\\textbf</"
+"cmd> v názvu, můžete jej napsat přímo do pole <gui>Název</gui> s tím, že "
+"před text uvedete symbol <em>@</em> (jako první znak). Za tímto symbolem "
+"musíte použít všechny konvence BibTeX (závorky, zpětná limítka, …), protože "
+"nic z toho nebude ošetřeno jako escape sekvence nebo upraveno aplikací "
+"<app>Pybliographer</app>."
+
+#. (itstool) path: info/desc
+#: C/gui-formats.page:10
+msgid "Other file formats which you can also use."
+msgstr "Další formáty souborů, které můžete také použít."
+
+#. (itstool) path: page/title
+#: C/gui-formats.page:26
+msgid "Saving selected entries in different formats"
+msgstr "Ukládání vybraných záznamů v jiných formátech"
+
+#. (itstool) path: page/p
+#: C/gui-formats.page:28
+msgid ""
+"Selected entries can be saved in different formats using the "
+"<guiseq><gui>Cite</gui><gui>Format...</gui></guiseq> menu item, see the "
+"following window:"
+msgstr ""
+"Vybrané záznamy je možné uložit v jiných formátech pomocí položky nabídky "
+"<guiseq><gui>Citovat</gui><gui>Formát…</gui></guiseq>, viz následující okno:"
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-formats.page:33
+msgctxt "_"
+msgid ""
+"external ref='figures/format.png' md5='734464fc1276ef9b3f2bc8cb34f2504e'"
+msgstr ""
+"external ref='figures/format.png' md5='734464fc1276ef9b3f2bc8cb34f2504e'"
+
+#. (itstool) path: page/p
+#: C/gui-formats.page:33
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/format.png\"> "
+"Formatting entries </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/format.png\"> "
+"Formátování záznamů</media>"
+
+#. (itstool) path: page/p
+#: C/gui-formats.page:38
+msgid ""
+"As a result, a formatted output file is generated according to a "
+"bibliographic style, either in HTML, LaTeX, Raw or Text format. The "
+"<app>Pybliographer</app> package contains some bibliographic styles, but own "
+"styles can also be created easily. See also <link xref=\"scripting-"
+"existing#script-scripting-existing-pybformat\"/>."
+msgstr ""
+"Výsledkem je formátovaný výstupní soubor generovaný v souladu s "
+"bibliografickým stylem, a to v jednom z formátů HTML, LaTeX, Raw nebo Text. "
+"Balík <app>Pybliographer</app> obsahuje několik bibliografických stylů, ale "
+"můžete si snadno vytvořit i vlastní. Viz také <link xref=\"scripting-"
+"existing#script-scripting-existing-pybformat\"/>."
+
+#. (itstool) path: info/desc
+#: C/gui-navigating.page:10
+msgid "Explanations about the navigation in the database."
+msgstr "Vysvětlení, jak se pohybovat v databázi."
+
+#. (itstool) path: page/title
+#: C/gui-navigating.page:26
+msgid "Navigating in the entries"
+msgstr "Navigace v záznamech"
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:28
+msgid ""
+"Once you have opened a database, or started to create a new one, the main "
+"window (see the picture below) displays a list of all the entries on the top "
+"part of it. The fields displayed here can be configured under the "
+"<guiseq><gui>Settings</gui><gui>Preferences</gui></guiseq> menu item."
+msgstr ""
+"Když už máte databázi otevřenou nebo jste začali s novou, hlavní okno (viz "
+"obrázek níže) zobrazí v horní části seznam všech záznamů. V "
+"<guiseq><gui>Nastavení</gui><gui>Předvolby</gui></guiseq> je možné nastavit, "
+"která pole zde mají být zobrazena."
+
+#. (itstool) path: note/p
+#: C/gui-navigating.page:35
+msgid ""
+"It is possible to display two types of combined fields: <em>-author/editor</"
+"em> and <em>-author/title-</em>."
+msgstr ""
+"Je možné zobrazovat dva typy kombinovaných polí: <em>-autor/redaktor</em> a "
+"<em>-autor/název-</em>."
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:40
+msgid ""
+"Clicking on an entry displays its full content on the lower part of the "
+"window. It is also possible to use the arrow keys to navigate in the upper "
+"list."
+msgstr ""
+"Kliknutím na záznam zobrazíte jeho úplný obsah v dolní části okna. Pro pohyb "
+"v horním seznamu lze používat také šipky."
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:45
+msgid ""
+"If an entry contains an <em>URL</em> field, clicking on the small button "
+"next to the url, the appropriate application is launched to view the target "
+"object (e.g. PDF viewer for pdf files, web browser for http address). See "
+"<link xref=\"gui-edit\"/> about how to add an URL field to an entry. "
+"Alternatively, you can open the URL with the help of the <guiseq><gui>View</"
+"gui><gui>Resource</gui></guiseq> submenu item or the <guiseq><gui>Resource</"
+"gui></guiseq> pop up menu provided for the item list. If an item contains "
+"one or more viewable fields (like url) containing viewable resources, it is "
+"marked with an icon at the left edge of the item in the upper part of the "
+"main window (see the picture below)."
+msgstr ""
+"Pokud některý záznam obsahuje pole s adresou <em>URL</em>, spustíte "
+"kliknutím na malé tlačítko vedle URL příslušnou aplikaci sloužící k "
+"prohlížení cílového objektu (např. prohlížeč PDF pro soubory PDF, webový "
+"prohlížeč pro adresu HTTP). Viz <link xref=\"gui-edit\"/>, jak přidat pole s "
+"adresou URL do záznamu. Jinou možností, jak otevřít URL, je s pomocí položky "
+"podnabídky <guiseq><gui>Zobrazit</gui><gui>Zdroj</gui></guiseq> nebo "
+"kontextové nabídky <guiseq><gui>Zdroj</gui></guiseq> pro položku seznamu. "
+"Pokud některá položka obsahuje jedno nebo více zobrazitelných polí (jako je "
+"URL) obsahujících zobrazitelné zdroje, je označena ikonou po levé straně "
+"položky v horní části hlavního okna (viz obrázek níže)."
+
+#. (itstool) path: note/p
+#: C/gui-navigating.page:58
+msgid ""
+"You can set the viewable fields and the applications used to view the "
+"resources in the <gui>Resource</gui> tab under the <guiseq><gui>Settings</"
+"gui><gui>Preferences</gui></guiseq> menu."
+msgstr ""
+"Na kartě <gui>Zdroj</gui> pod nabídkou <guiseq><gui>Nastavení</"
+"gui><gui>Předvolby</gui></guiseq> můžete nastavit zobrazitelná pole a "
+"aplikace použité k zobrazení zdrojů."
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:65
+msgid ""
+"Clicking on an entry while pressing the <key>Shift</key> key extends the "
+"selection to the clicked entry. A click while pressing the <key>Control</"
+"key> key toggles the entry without altering the state of the rest of the "
+"selection. With copy and paste, or by drag and drop you can copy one or more "
+"selected entries into a new window or database."
+msgstr ""
+"Kliknutím na záznam za současného držení klávesy <key>Shift</key> roztáhnete "
+"výběr až po tuto položku. Kliknutím za současného držení klávesy "
+"<key>Control</key> přepnete výběr záznamu, aniž byste tím ovlivnili zbytek "
+"výběru. Pomocí kopírovat a vložit nebo táhni a pusť můžete zkopírovat jeden "
+"nebo více vybraných záznamů do nového okna nebo databáze."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-navigating.page:72
+msgctxt "_"
+msgid "external ref='figures/main.png' md5='bf9ce1d3e626213520d3220eb46558dd'"
+msgstr "external ref='figures/main.png' md5='bf9ce1d3e626213520d3220eb46558dd'"
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:72
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/main.png\"> The main "
+"window </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/main.png\"> Hlavní "
+"okno</media>"
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:76
+msgid ""
+"Clicking the right button of the mouse in the list opens a contextual menu. "
+"With this menu you can:"
+msgstr ""
+"Po kliknutí pravým tlačítkem myši v seznamu se otevře kontextová nabídka. "
+"Přes tuto nabídku můžete:"
+
+#. (itstool) path: item/p
+#: C/gui-navigating.page:81
+msgid "add a new entry"
+msgstr "přidat nový záznam"
+
+#. (itstool) path: item/p
+#: C/gui-navigating.page:84
+msgid "edit the currently selected items"
+msgstr "upravit právě vybranou položku"
+
+#. (itstool) path: item/p
+#: C/gui-navigating.page:87
+msgid "view the resource associated with the selected item"
+msgstr "zobrazit zdroj přidružený k vybrané položce"
+
+#. (itstool) path: item/p
+#: C/gui-navigating.page:90
+msgid "delete the currently selected items"
+msgstr "smazat právě vybranou položku"
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:94
+msgid ""
+"Note that some of these menu options can be disabled for a given database or "
+"entry, provided that the corresponding action can't be performed."
+msgstr ""
+"Upozorňujeme, že některé volby v této nabídce mohou být pro danou databázi "
+"nebo záznam nepřístupné, protože odpovídající akci prostě nelze provést."
+
+#. (itstool) path: page/p
+#: C/gui-navigating.page:98
+msgid ""
+"By clicking on the column titles of the list, you'll sort the entries "
+"according to the corresponding field."
+msgstr ""
+"Kliknutím na záhlaví sloupce v seznamu seřadíte záznamy podle odpovídajícího "
+"pole."
+
+#. (itstool) path: info/desc
+#: C/gui-opening.page:10
+msgid "How to open an existing database."
+msgstr "Jak otevřít existující databázi."
+
+#. (itstool) path: page/title
+#: C/gui-opening.page:26
+msgid "Opening a database"
+msgstr "Otevírání databáze"
+
+#. (itstool) path: page/p
+#: C/gui-opening.page:28
+msgid ""
+"To open an existing database, click on the <gui>Open</gui> toolbar button or "
+"go in the <gui>File</gui> menu, and select <guiseq> <gui>File</"
+"gui><gui>Open</gui></guiseq>."
+msgstr ""
+"Pro otevření existující databáze klikněte na tlačítko <gui>Otevřít</gui> na "
+"liště nástrojů nebo běžte do nabídky <gui>Soubor</gui> a zvolte "
+"<guiseq><gui>Soubor</gui> <gui>Otevřít</gui></guiseq>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-opening.page:32
+msgctxt "_"
+msgid "external ref='figures/open.png' md5='ad69c2047262f00a361f1ac860773b8a'"
+msgstr "external ref='figures/open.png' md5='ad69c2047262f00a361f1ac860773b8a'"
+
+#. (itstool) path: page/p
+#: C/gui-opening.page:32
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/open.png\"> Opening a "
+"database </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/open.png\"> Otevírání "
+"databáze </media>"
+
+#. (itstool) path: page/p
+#: C/gui-opening.page:36
+msgid ""
+"A file selection dialog will pop up (see the picture above) and let you "
+"select a file. The type of the database can also be selected. Opening an "
+"existing database, the type can be guessed if you select <gui>- According to "
+"file suffix -</gui>."
+msgstr ""
+"Objeví se dialogové okno pro výběr souboru (viz obrázek výše) a vy si můžete "
+"vybrat soubor. Můžete také vybrat typ databáze. Při výběru <gui>- Podle "
+"přípony souboru -</gui> se typ otevírané databáze odhadne."
+
+#. (itstool) path: page/p
+#: C/gui-opening.page:41
+msgid ""
+"It is also possible to open a file at a remote location (as well as a local "
+"file) by typing the URI of the file (e.g. <var>http://my.remote.site/ pyblio."
+"bib</var>) using the <gui>Open Location</gui> dialog, which can be invoked "
+"by the <guiseq><gui>File</gui><gui>Open Location</gui></guiseq> menu item."
+msgstr ""
+"Jinou možností je otevření souboru ve vzdáleném umístění (ale funguje to i "
+"pro místní soubory) zadáním jeho adresy URI (např. <var>http://můj.vzdálený."
+"server/ pyblio.bib</var>) v dialogovém okně <gui>Otevření umístění</gui>. "
+"Toto dialogové okno můžete vyvolat pomocí položky nabídky "
+"<guiseq><gui>Soubor</gui><gui>Otevřít umístění</gui></guiseq>."
+
+#. (itstool) path: info/desc
+#: C/gui.page:10
+msgid "Explanations about the graphical interface of <app>Pybliographer</app>."
+msgstr "Vysvětlení grafického rozhraní aplikace <app>Pybliographer</app>."
+
+#. (itstool) path: page/title
+#: C/gui.page:26
+msgid "The Graphical Interface"
+msgstr "Grafické rozhraní"
+
+#. (itstool) path: page/p
+#: C/gui.page:28
+msgid ""
+"The graphical user interface is called <app>Pybliographic</app>. It provides "
+"a simple access to the most common features of the underlying engine, "
+"<app>Pybliographer</app> and lets you search, sort and modify bibliographic "
+"entries. Moreover, direct insertion of references into <link href=\"http://"
+"www.lyx.org/\" type=\"http\"><app>Lyx</app></link> and <link href=\"http://"
+"kile.sourceforge.net/\" type=\"http\"><app>Kile</app></link>, direct queries "
+"on Medline, and saving selected references in different formats are also "
+"possible."
+msgstr ""
+"Grafické uživatelské rozhraní je nazýváno <app>Pybliographic</app>. "
+"Poskytuje snadný přístup k většině běžných funkcí výkonného jádra "
+"<app>Pybliographer</app> na pozadí a umožňuje vám hledat, řadit a upravovat "
+"bibliografické záznamy. Navíc je možné přímé vkládání odkazů do <link href="
+"\"http://www.lyx.org/\" type=\"http\"><app>Lyx</app></link> a <link href="
+"\"http://kile.sourceforge.net/\" type=\"http\"><app>Kile</app></link>, přímé "
+"dotazy na Medline a ukládání vybraných dotazů v jiných formátech."
+
+#. (itstool) path: info/desc
+#: C/gui-pubmed.page:10
+msgid "Using Pubmed for your searches."
+msgstr "Používání Pubmed k vašemu hledání."
+
+#. (itstool) path: page/title
+#: C/gui-pubmed.page:26
+msgid "Searching in PubMed"
+msgstr "Hledání v PubMed"
+
+#. (itstool) path: page/p
+#: C/gui-pubmed.page:28
+msgid ""
+"With <app>Pybliographic</app>, it is possible to perform a Medline search. "
+"To use this option, click on the <guiseq><gui>File</gui><gui>Medline "
+"query... </gui></guiseq> menu item. The upcoming window is represented in "
+"the picture below."
+msgstr ""
+"V aplikaci <app>Pybliographic</app> se dá provádět hledání Medline. Pokud "
+"chcete tuto možnost využít, klikněte na položku nabídky <guiseq><gui>Soubor</"
+"gui><gui>Dotaz Medline…</gui></guiseq>. Okno, které se objeví je ukázáno na "
+"obrázku níže."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-pubmed.page:33
+msgctxt "_"
+msgid ""
+"external ref='figures/medline.png' md5='09532a6de80c9c22b06efefb6401558c'"
+msgstr ""
+"external ref='figures/medline.png' md5='09532a6de80c9c22b06efefb6401558c'"
+
+#. (itstool) path: page/p
+#: C/gui-pubmed.page:33
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/medline.png\"> "
+"Medline query </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/medline.png\"> Dotaz "
+"Medline</media>"
+
+#. (itstool) path: page/p
+#: C/gui-pubmed.page:37
+msgid ""
+"The keyword, you are looking for, should be written into the <em>Search "
+"PubMed for</em> field. As it can be seen in the picture above, a number of "
+"options (limitations) can be set, which can help to obtain an optimal search "
+"result. The matched references, resulted in by the query, appear in the main "
+"window as a new database."
+msgstr ""
+"Klíčové slovo, které hledáte, byste měli napsat do pole <em>Hledat v PubMed</"
+"em>. Jak rovněž můžete vidět na obrázku výše, lze nastavit počet voleb "
+"(omezení), které umožní získat optimální výsledky. Odpovídající odkazy, "
+"výsledky dotazu, se objeví v hlavním okně, jako nová databáze."
+
+#. (itstool) path: info/desc
+#: C/gui-searching.page:10
+msgid "How to find a certain entry in the database."
+msgstr "Jak najít určitý záznam v databázi."
+
+#. (itstool) path: page/title
+#: C/gui-searching.page:26
+msgid "Searching"
+msgstr "Hledání"
+
+#. (itstool) path: page/p
+#: C/gui-searching.page:28
+msgid ""
+"<app>Pybliographic</app> offers a quite powerful searching mechanism. For "
+"searching you can use the quick search entry of the toolbar or the search "
+"dialog. To open the search dialog, click on <guiseq><gui>Edit</gui> "
+"<gui>Search</gui></guiseq> in the menu. The dialog that appears (see the "
+"picture below) displays a search form at the top."
+msgstr ""
+"Aplikace <app>Pybliographic</app> nabízí poměrně mocný mechanismus hledání. "
+"Ke hledání můžete použít kolonku rychlého hledání na liště nástrojů nebo "
+"vyhledávací dialogové okno. Vyhledávací dialogové okno otevřete kliknutím na "
+"položku nabídky <guiseq><gui>Upravit</gui> <gui>Hledat</gui></guiseq>. "
+"Dialogové okno, které se objeví (viz obrázek níže) zobrazuje v horní části "
+"vyhledávací formulář."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-searching.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/search.png' md5='584e9a19da7d5bc43929fd7926c3602b'"
+msgstr ""
+"external ref='figures/search.png' md5='584e9a19da7d5bc43929fd7926c3602b'"
+
+#. (itstool) path: page/p
+#: C/gui-searching.page:34
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/search.png\"> The "
+"Search dialog </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/search.png\"> "
+"Dialogové okno hledání</media>"
+
+#. (itstool) path: section/title
+#: C/gui-searching.page:39
+msgid "Simple searches"
+msgstr "Jednoduché vyhledání"
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:41
+msgid ""
+"With a simple search, you can select the field that will be searched and you "
+"can specify a regular expression to be matched. <gui>- any field -</gui> "
+"means that all the existing fields will be searched. This is usually more "
+"time-consuming."
+msgstr ""
+"U jednoduchého hledání můžete vybrat pole, které se bude prohledávat a zadat "
+"regulární výraz, kterému má hledaný výraz odpovídat. <gui>- libovolné pole -"
+"</gui> znamená, že se budou prohledávat všechna existující pole. To obvykle "
+"zabere více času."
+
+#. (itstool) path: section/title
+#: C/gui-searching.page:49
+msgid "Expert searches"
+msgstr "Pokročilé vyhledání"
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:51
+msgid "An expert search is an expression that looks like:"
+msgstr "Pokročilé hledání má podobu výrazu, jako je například tento:"
+
+#. (itstool) path: section/code
+#: C/gui-searching.page:53
+#, no-wrap
+msgid "has('author','name') | -has('title','test')"
+msgstr "has('author','jméno') | -has('title','pokus')"
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:55
+msgid ""
+"Such an expression means: select the entries where the field <em>author</em> "
+"matches <em>name</em>, or (symbol <em>|</em>) where the field <em>title</em> "
+"does <em>not</em> match <em>test</em>. The boolean <var>and</var> is noted "
+"<em>&amp;</em>."
+msgstr ""
+"Takový výraz znamená: vyber záznamy, kde poli <em>author</em> odpovídá "
+"<em>jméno</em> nebo (symbol <em>|</em>) kde poli <em>title</em> "
+"<em>neodpovídá</em> <em>pokus</em>. Logický výraz <var>AND</var> má notaci "
+"<em>&amp;</em>."
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:60
+msgid "There are other commands available for this type of search:"
+msgstr "Pro tento typ hledání jsou dostupné ještě další příkazy:"
+
+#. (itstool) path: item/p
+#: C/gui-searching.page:65
+msgid "<cmd>has_key(<var>keyname</var>)</cmd> searches on a key name."
+msgstr "<cmd>has_key(<var>název_klíče</var>)</cmd> hledá v názvu klíče"
+
+#. (itstool) path: item/p
+#: C/gui-searching.page:69
+msgid ""
+"<cmd>has_type(<var>typename</var>)</cmd> searches for entries of a given "
+"type name."
+msgstr "<cmd>has_type(<var>název_typu</var>)</cmd> hledá záznamy daného typu"
+
+#. (itstool) path: item/p
+#: C/gui-searching.page:73
+msgid ""
+"<cmd>any_has(<var>value</var>)</cmd> searches for the given value in all the "
+"fields of an entry."
+msgstr ""
+"<cmd>any_has(<var>hodnota</var>)</cmd> hledá zadanou hodnotu ve všech polích "
+"záznamu"
+
+#. (itstool) path: item/p
+#: C/gui-searching.page:78
+msgid ""
+"<cmd>before(<var>field</var>, <var>year</var>, <var>month</var>, <var>day</"
+"var>)</cmd> searches for entries where the specified date field is older "
+"than the specified date."
+msgstr ""
+"<cmd>before(<var>pole</var>, <var>rok</var>, <var>měsíc</var>, <var>den</"
+"var>)</cmd> hledá záznamy, ve kterých je zadané pole s datem starším než je "
+"uvedené datum"
+
+#. (itstool) path: item/p
+#: C/gui-searching.page:83
+msgid ""
+"<cmd>after(<var>field</var>, <var>year</var>, <var>month</var>, <var>day</"
+"var>)</cmd> searches for entries where the specified date field is younger "
+"than the specified date."
+msgstr ""
+"<cmd>after(<var>pole</var>, <var>rok</var>, <var>měsíc</var>, <var>den</"
+"var>)</cmd> hledá záznamy, ve kterých je zadané pole s datem novějším než je "
+"uvedené datum"
+
+#. (itstool) path: section/title
+#: C/gui-searching.page:91
+msgid "Hierarchical searches"
+msgstr "Hierarchické vyhledávání"
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:93
+msgid ""
+"After a search, only the selected items are displayed in the main window. It "
+"makes it convenient to select a specific author, and then browse its "
+"publications for example."
+msgstr ""
+"Po vyhledání jsou v hlavním okně zobrazeny jen vybrané položky. To je "
+"výhodné například pro výběr konkrétního autora a následné procházení jeho "
+"publikací."
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:97
+msgid ""
+"In addition, the results of all the searches are kept in the tree located "
+"below the search form. Therefore, a new search can be a refinement of a "
+"previous one. If you select the tree item corresponding for example to all "
+"the articles written by a certain Nostradamus, you'll be able to select only "
+"those whose title contains the word eclipse."
+msgstr ""
+"Výsledky všech hledání se navíc uchovávají ve stromě umístěném pod "
+"vyhledávacím formulářem. Díky tomu může být nové hledání upřesněním "
+"některého předchozího. Když vyberete položku stromu odpovídajíc například "
+"článku napsanému jistému Nostradamovi, budete moci vybrat jen ty, jejichž "
+"názvy obsahují slovo zatmění."
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:104
+msgid ""
+"Right-clicking in this tree pops up a contextual menu that allows you to "
+"remove unuseful searches."
+msgstr ""
+"Po kliknutí pravým tlačítkem v tomto stromě vyskočí kontextová nabídka, ve "
+"které můžete odebrat neužitečná hledání."
+
+#. (itstool) path: section/p
+#: C/gui-searching.page:107
+msgid ""
+"To select the full list of database entries again, just click on the "
+"<gui>Full database</gui> item at the top of the search tree, or push the "
+"'Esc' button on the keyboard when you are in the main window."
+msgstr ""
+"Až budete chtít znovu zobrazit úplný seznam záznamů z databáze, jednoduše "
+"klikněte na položku <gui>Úplná databáze</gui> nad stromem hledání nebo, když "
+"jste v hlavním okně, na klávesnici zmáčkněte tlačítko „Esc“."
+
+#. (itstool) path: info/desc
+#: C/gui-settings.page:10
+msgid "How to change settings and preferences."
+msgstr "Jak změnit nastavení a předvolby."
+
+#. (itstool) path: page/title
+#: C/gui-settings.page:26
+msgid "Configuration"
+msgstr "Nastavení"
+
+#. (itstool) path: page/p
+#: C/gui-settings.page:28
+msgid ""
+"Under the <guiseq><gui>Settings</gui></guiseq> menu, you can find some "
+"options to customize <app>Pybliographer</app>."
+msgstr ""
+"Pod nabídkou <guiseq><gui>Settings</gui></guiseq> můžete najít některé volby "
+"sloužící k přizpůsobení aplikace <app>Pybliographer</app>."
+
+#. (itstool) path: section/title
+#: C/gui-settings.page:32
+msgid "Entry types and field names configuration"
+msgstr "Typy záznamů a nastavení názvů polí"
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-settings.page:34
+msgctxt "_"
+msgid ""
+"external ref='figures/fields.png' md5='12bf133c7494df1eba6d1ab878609df3'"
+msgstr ""
+"external ref='figures/fields.png' md5='12bf133c7494df1eba6d1ab878609df3'"
+
+#. (itstool) path: section/p
+#: C/gui-settings.page:34
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/fields.png\"> "
+"Configuration of fields and entry types </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/fields.png\"> "
+"Nastavení polí a typů záznamů</media>"
+
+#. (itstool) path: section/p
+#: C/gui-settings.page:38
+msgid ""
+"Selecting the <guiseq><gui>Settings</gui><gui>Fields</gui> </guiseq> menu "
+"item, it is possible to add or remove fields, to set their type, and to "
+"define which fields should be associated with a given type of entry. In "
+"addition, the mandatory and optional fields are also can be varied. In the "
+"window displayed above, as an example, the association of the <em>Article</"
+"em> entry type can be seen."
+msgstr ""
+"Výběrem položky nabídky <guiseq><gui>Nastavení</gui> <gui>Pole</gui></"
+"guiseq> je možné přidávat a odebírat pole, nastavovat jejich typ a "
+"definovat, která pole budou přidružená kterému typu záznamu. Navíc lze měnit "
+"povinná a nepovinná pole. V okně zobrazeném výše můžete například vidět "
+"přidružení typu záznamu <em>Article</em> (<em>Článek</em>)."
+
+#. (itstool) path: section/title
+#: C/gui-settings.page:47
+msgid "Preferences"
+msgstr "Předvolby"
+
+#. (itstool) path: section/p
+#: C/gui-settings.page:49
+msgid ""
+"Clicking on the <guiseq><gui>Settings</gui><gui>Preferences</gui> </guiseq> "
+"menu item, a lot of configuration options can be controlled. Such options "
+"are, for instance, settings of the different type of bibliographic database "
+"formats, autosave, size of history, default editing mode, the default type "
+"of a newly created entry, and resource configuration."
+msgstr ""
+"Kliknutím na položku nabídky <guiseq><gui>Nastavení</gui> <gui>Předvolby</"
+"gui></guiseq> můžete měnit řadu dalších voleb nastavení. Takovými volbami "
+"jsou třeba nastavení různých typů formátů bibliografických databází, "
+"automatické ukládání, velikost historie, výchozí režim úprav, výchozí typ "
+"nově vytvořeného záznamu a nastavení zdrojů."
+
+#. (itstool) path: info/desc
+#: C/gui-sorting.page:10
+msgid "Customize the sort order of the entries."
+msgstr "Vlastní řazení záznamů."
+
+#. (itstool) path: page/title
+#: C/gui-sorting.page:26
+msgid "Sorting"
+msgstr "Řazení"
+
+#. (itstool) path: page/p
+#: C/gui-sorting.page:28
+msgid ""
+"Clicking on the title of each column in the main index provides some "
+"rudimentary way of sorting a database. A much powerful method is to open the "
+"sort dialog (in <guiseq> <gui>Edit</gui><gui>Sort</gui></guiseq>). This "
+"menu, displayed in the picture below, gives a list of fields which can be "
+"used as sort criteria, plus a flag indicating how they are currently used. "
+"By clicking twice on the item, it is possible to choose how the field will "
+"be used:"
+msgstr ""
+"Klikání na názvy jednotlivých sloupců v hlavním indexu je základní způsob, "
+"jak databázi řadit. Pokročilejší metodou je otevřít dialog řazení (v "
+"<guiseq><gui>Upravit</gui> <gui>Řadit</gui></guiseq>). Tato nabídka, "
+"zobrazená na obrázku níže, poskytuje seznam polí, která mohou být použita "
+"jako řadící kritéria, a k tomu signalizuje, jak jsou momentálně použita. Jak "
+"je pole použito určujete dvojitým kliknutím na položku:"
+
+#. (itstool) path: item/p
+#: C/gui-sorting.page:37
+msgid "Nothing means the field is not in use."
+msgstr "Nic znamená, že pole není použito."
+
+#. (itstool) path: item/p
+#: C/gui-sorting.page:40
+msgid "A <em>triangle</em>-like symbol means sort in <em>ascending order</em>."
+msgstr ""
+"Symbol <em>trojúhelníku otočeného nahoru</em> znamená řazení ve "
+"<em>vzestupném pořadí</em>."
+
+#. (itstool) path: item/p
+#: C/gui-sorting.page:44
+msgid ""
+"An <em>upside down triangle</em>-like symbol means sort in <em>descending "
+"order</em>."
+msgstr ""
+"Symbol <em>trojúhelníku otočeného dolů</em> znamená řazení v <em>sestupném "
+"pořadí</em>."
+
+#. (itstool) path: page/p
+#: C/gui-sorting.page:49
+msgid ""
+"The order in which the sorting is performed depends on the order in the "
+"list. To modify this order, simply drag and drop an item to change its "
+"position. To make this sort order default, it can be saved by clicking on "
+"the <gui>Set as default</gui> button."
+msgstr ""
+"Posloupnost, v jaké je řazení prováděno, závisí na pořadí v seznamu. Změnit "
+"je můžete prostým přetažením a upuštěním položky na jinou pozici. Pokud "
+"chcete, aby vámi nastavené řazení bylo výchozí, můžete jej uložit kliknutím "
+"na tlačítko <gui>Nastavit jako výchozí</gui>."
+
+#. (itstool) path: p/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/gui-sorting.page:55
+msgctxt "_"
+msgid "external ref='figures/sort.png' md5='c7a4506cb27428d7b2a0d10b9d3a98b2'"
+msgstr "external ref='figures/sort.png' md5='c7a4506cb27428d7b2a0d10b9d3a98b2'"
+
+#. (itstool) path: page/p
+#: C/gui-sorting.page:55
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/sort.png\"> The Sort "
+"dialog </media>"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/sort.png\"> Dialogové "
+"okno řazení</media>"
+
+#. (itstool) path: info/desc
+#: C/gui-styles.page:10
+msgid "Creating your own styles for <app>Pybliographer</app>."
+msgstr "Vytváření svých vlastních stylů pro aplikaci <app>Pybliographer</app>."
+
+#. (itstool) path: page/title
+#: C/gui-styles.page:26
+msgid "New Styles"
+msgstr "Nové styly"
+
+#. (itstool) path: page/p
+#: C/gui-styles.page:28
+msgid ""
+"It is possible to describe your own bibliography style, by writing a simple "
+"XML file. The XML file should have the following header:"
+msgstr ""
+"Vytvořením jednoduchého souboru XML si můžete popsat své vlastní "
+"bibliografické styly. Soubor XML by měl mít následující hlavičku:"
+
+#. (itstool) path: page/screen
+#: C/gui-styles.page:32
+#, no-wrap
+msgid ""
+"\n"
+"      &lt;?xml version=\"1.0\"?&gt;\n"
+"    "
+msgstr ""
+"\n"
+"      &lt;?xml version=\"1.0\"?&gt;\n"
+"    "
+
+#. (itstool) path: page/p
+#: C/gui-styles.page:36
+msgid ""
+"The whole description should fit in a &lt;bibstyle&gt; pair of tags, whose "
+"content is shortly described in this section. It is suggested that the "
+"interested users look at the corresponding DTD, which describes the allowed "
+"syntax in details. This DTD can be found in the same directory as the "
+"default style files."
+msgstr ""
+"Celý popis je uzavřen v párové značce &lt;bibstyle&gt;, jejíž obsah je "
+"stručně popsán v této kapitole. Případným zájemcům je doporučováno podívat "
+"se na odpovídající DTD, které popisuje dovolenou syntaxi podrobněji. Toto "
+"DTD najdete ve stejné složce, jako soubory s výchozími styly."
+
+#. (itstool) path: section/title
+#: C/gui-styles.page:43
+msgid "Global formatting"
+msgstr "Globální formátování"
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:45
+msgid ""
+"The XML style file describes how the different data fields are organized in "
+"order to create a bibliographic style. For example, it can specify that an "
+"article starts with the article title in bold, followed by the authors "
+"names, etc."
+msgstr ""
+"Soubor XML se stylem popisuje, jak jsou různá datová pole organizována, aby "
+"vytvořila bibliografický styl. Například může specifikovat, že článek začíná "
+"názvem článku v tučném písmu, následovaném jménem autora apod."
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:50
+msgid ""
+"In its current incarnation, the XML format can however not describe lower-"
+"level informations, like how an author's name should be output. This is done "
+"by pointing to a set of python functions, grouped in a module. Let's "
+"consider the following example:"
+msgstr ""
+"V současné podobě však formát XML neumí popsat nízkoúrovňové informace, "
+"např. jak by měl vypadat výstup s autorovým jménem. To se dělá odkazem na "
+"sadu funkcí v jazyce Python, seskupené v modulu. Pojďme se podívat na "
+"příklad:"
+
+#. (itstool) path: section/screen
+#: C/gui-styles.page:56
+#, no-wrap
+msgid ""
+"<code>\n"
+"  &lt;module name=\"generic\"&gt;\n"
+"    &lt;define field=\"author\"&gt;full_authors&lt;/define&gt;\n"
+"    &lt;define field=\"editor\"&gt;first_last_full_authors&lt;/define&gt;\n"
+"    &lt;define field=\"date\"&gt;european_date&lt;/define&gt;\n"
+"    &lt;define method=\"keys\"&gt;string_keys&lt;/define&gt;\n"
+"  &lt;/module&gt;\n"
+"</code>"
+msgstr ""
+"<code>\n"
+"  &lt;module name=\"generic\"&gt;\n"
+"    &lt;define field=\"author\"&gt;full_authors&lt;/define&gt;\n"
+"    &lt;define field=\"editor\"&gt;first_last_full_authors&lt;/define&gt;\n"
+"    &lt;define field=\"date\"&gt;european_date&lt;/define&gt;\n"
+"    &lt;define method=\"keys\"&gt;string_keys&lt;/define&gt;\n"
+"  &lt;/module&gt;\n"
+"</code>"
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:65
+msgid ""
+"In this example, we require that the <em>author</em> fields should be "
+"formatted by the <code>full_authors()</code> function, located in the "
+"<file>generic</file> module."
+msgstr ""
+"V tomto příkladu požadujeme, aby bylo pole <em>author</em> naformátováno "
+"funkcí <code>full_authors()</code>, umístěnou v modulu <file>generic</file>."
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:70
+msgid ""
+"Such a module has to be declared in the <file>pybrc.py</file> file, by a "
+"line like:"
+msgstr ""
+"Takovýto modul je deklarován v souboru <file>pybrc.py</file> nějakým "
+"takovýmto řádkem:"
+
+#. (itstool) path: section/screen
+#: C/gui-styles.page:73
+#, no-wrap
+msgid "<code>Autoload.preregister ('style','Generic','Pyblio.Style.Generic')</code>\n"
+msgstr "<code>Autoload.preregister ('style','Generic','Pyblio.Style.Generic')</code>\n"
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:76
+msgid ""
+"The precise definition of the formatting functions is better explained by "
+"looking at the code of <file>Generic.py</file> for example."
+msgstr ""
+"Přesnější definici formátovacích funkcí nejlépe pochopíte, když se podíváte "
+"například do kódu <file>Generic.py</file>."
+
+#. (itstool) path: section/title
+#: C/gui-styles.page:82
+msgid "Bibliography definition"
+msgstr "Bibliografická definice"
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:84
+msgid ""
+"Once the basic formatting definitions have been specified, it is possible to "
+"describe the aspect of the actual bibliographies with following tags:"
+msgstr ""
+"Jakmile máte nadefinováno základní formátování, můžete popsat aspekt "
+"aktuální bibliografie následujícími značkami:"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:90
+msgid "&lt;style name=\"<var>stylename</var>\"&gt;"
+msgstr "&lt;style name=\"<var>název_stylu</var>\"&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:92
+msgid ""
+"This tag specifies the current display style, among <em>bold, italic, "
+"slanted, emph</em>."
+msgstr ""
+"Tato značka určuje aktuální styl zobrazení z <em>bold, italic, slanted, "
+"emph</em> (tučné, kurzíva, skloněné, zvýrazněné)."
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:97
+msgid "&lt;inentry name=\"<var>entryname</var>\"&gt;"
+msgstr "&lt;inentry name=\"<var>název_záznamu</var>\"&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:99
+msgid ""
+"This tag encloses a block that is only to appear in entries of type "
+"<var>entryname</var>."
+msgstr ""
+"Tato značka uzavírá blok, který se objevuje jen v záznamech typu "
+"<var>název_záznamu</var>."
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:104
+msgid "&lt;notinentry name=\"<var>entryname</var>\"&gt;"
+msgstr "&lt;notinentry name=\"<var>název_záznamu</var>\"&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:106
+msgid ""
+"This tag encloses a block that is only to appear in entries that are "
+"<em>not</em> of type <var>entryname</var>."
+msgstr ""
+"Tato značka uzavírá blok, který se objevuje jen v záznamech, které "
+"<em>nejsou</em> typu <var>název_záznamu</var>."
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:112
+msgid "&lt;infield name=\"<var>fieldname</var>\"&gt;"
+msgstr "&lt;infield name=\"<var>název_pole</var>\"&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:114
+msgid ""
+"This tag encloses a block that only appears when the specified "
+"<var>fieldname</var> field exists in the current entry."
+msgstr ""
+"Tato značka uzavírá blok, který se objevuje jen když v aktuálním záznamu "
+"existuje pole <var>název_pole</var>."
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:121
+msgid "&lt;notinfield name=\"<var>fieldname</var>\"&gt;"
+msgstr "&lt;notinfield name=\"<var>název_pole</var>\"&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:123
+msgid ""
+"This tag encloses a block that only appears when the specified "
+"<var>fieldname</var> field <em>does not</em> exist in the current entry."
+msgstr ""
+"Tato značka uzavírá blok, který se objevuje jen když v aktuálním záznamu "
+"<em>ne</em>existuje pole <var>název_pole</var>."
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:129
+msgid "&lt;content <var>name=</var>\"<var>fieldname</var>\"/&gt;"
+msgstr "&lt;content <var>name=</var>\"<var>název_pole</var>\"/&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:131
+msgid ""
+"This empty tag is replaced by the content of the current field (when placed "
+"in a &lt;infield&gt; block) or the content of the field specified as "
+"attribute."
+msgstr ""
+"Tato prázdná značka je nahrazena obsahem aktuálního pole (pokud je umístěna "
+"v bloku &lt;infield&gt;) nebo obsahem pole určeného atributem."
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:137
+msgid "&lt;separator&gt;"
+msgstr "&lt;separator&gt;"
+
+#. (itstool) path: item/p
+#: C/gui-styles.page:139
+msgid ""
+"This tag's content evaluates to nothing when no text has been issued so far. "
+"It is a convenient way to add a delimiter after a series of fields without "
+"being worried of the special case when the fields are not defined."
+msgstr ""
+"Obsah této značky je vyhodnocen jako nic, pokud se zatím neobjevil žádný "
+"text. Je to pohodlný způsob, jak přidat oddělovat za sérii polí, aniž byste "
+"se museli strachovat ze situací, kdy pole nejsou definována."
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:147
+msgid "The existing style files are a good source of examples."
+msgstr "Existující soubory se styly jsou dobrým zdrojem příkladů."
+
+#. (itstool) path: section/title
+#: C/gui-styles.page:151
+msgid "Future of the format"
+msgstr "Budoucnost formátu"
+
+#. (itstool) path: section/p
+#: C/gui-styles.page:153
+msgid ""
+"In the future, this rudimentary format will most likely be replaced with an "
+"XSL-based mechanism, which should encompass both the XML definition and the "
+"python modules, thus providing standalone style files, parsable by any XSL "
+"parser."
+msgstr ""
+"V budoucnu bude tento základní formát raději nahrazen mechanismem založeným "
+"na XSL, který by měl zvládnout dohromady co dnes definice XML a moduly v "
+"jazyce python, a přitom v jediném souboru zpracovatelném analyzátorem XSL."
+
+#. (itstool) path: info/desc
+#: C/gui-usinglyx.page:10
+msgid "Interaction with the <app>LyX</app> document processor."
+msgstr "Spolupráce s dokumentovým procesorem <app>LyX</app>"
+
+#. (itstool) path: page/title
+#: C/gui-usinglyx.page:26
+msgid "Using <app>Pybliographic</app> with <app>LyX</app>"
+msgstr "Používání <app>Pybliographic</app> s <app>LyX</app>"
+
+#. (itstool) path: page/p
+#: C/gui-usinglyx.page:28
+msgid ""
+"It is possible to directly use <app>Pybliographer</app> in order to insert "
+"bibliographic references into <app>LyX</app>. It is done through the "
+"<app>LyX</app> <em>server</em>. The path of the <app>LyX</app> server pipe "
+"can be defined in the <guiseq><gui>Tools</gui> <gui>Preferences</gui></"
+"guiseq> dialog of LyX. The same path should be given in <app>Pybliographer</"
+"app>'s settings (the default value is <file>~/.lyx/lyxpipe)</file>."
+msgstr ""
+"Aplikaci <app>Pybliographer</app> lze používat k přímému vkládání "
+"bibliografických odkazů do aplikace <app>LyX</app>. Provádí se tak přes "
+"<em>server</em> <app>LyX</app>. V dialogovém okně LyX z "
+"<guiseq><gui>Nástroje</gui> <gui>Předvolby</gui></guiseq> můžete nadefinovat "
+"cestu k rouře serveru <app>LyX</app>. Ta stejná cesta by měla být zadána v "
+"nastaveních <app>Pybliographer</app> (výchozí hodnota je <file>~/.lyx/"
+"lyxpipe)</file>."
+
+#. (itstool) path: page/p
+#: C/gui-usinglyx.page:36
+msgid ""
+"Then, in <app>Pybliographic</app>, it is possible to select one or several "
+"entries and insert their references into a running <app>LyX</app> simply by "
+"clicking the <gui>Cite</gui> toolbar button, or selecting the "
+"<guiseq><gui>Cite</gui><gui>Cite...</gui></guiseq> menu item."
+msgstr ""
+"Potom je v aplikaci <app>Pybliographic</app> možné vybrat jeden nebo více "
+"záznamů a vložit jejich odkazy do běžící aplikace <app>LyX</app> jednoduše "
+"kliknutím na tlačítko <gui>Citovat</gui> na liště nástrojů nebo výběrem "
+"položky nabídky <guiseq><gui>Citovat</gui><gui>Citovat…</gui></guiseq>."
+
+#. (itstool) path: page/p
+#: C/gui-usinglyx.page:41
+msgid ""
+"For the moment, it is the user's job to ensure that he/she inserts entries "
+"corresponding to the actual database being used. <app>Pybliographic</app> "
+"does not handle the full job of bibliography generation; therefore it is "
+"necessary to use <cmd>bibtex</cmd> as described in the <app>LyX</app> "
+"documentation."
+msgstr ""
+"Za chvíli si může uživatel ověřit, že se vložily záznamy odpovídající "
+"aktuálně používané databázi. Aplikace <app>Pybliographic</app> neprovádí "
+"kompletní zpracování při generování bibliografie, a tak je nutné použít "
+"<cmd>bibtex</cmd>, což je popsáno v dokumentaci k aplikaci <app>LyX</app>."
+
+#. (itstool) path: note/p
+#: C/gui-usinglyx.page:47
+msgid ""
+"<app>Pybliographic</app> can interact with <app>Kile</app> (&gt;= 1.6) "
+"practically in the same way, since <app>Kile</app> can also read <em>lyx "
+"pipe</em>."
+msgstr ""
+"Prakticky stejným způsobem může <app>Pybliographic</app> komunikovat s "
+"aplikací <app>Kile</app> (&gt;= 1.6) a to díky tomu, že <app>Kile</app> umí "
+"číst <em>rouru lyx</em>."
+
+#. (itstool) path: info/title
+#: C/index.page:7
+msgctxt "link"
+msgid "Pybliographer manual"
+msgstr "Příručka aplikace Pybliographer"
+
+#. (itstool) path: info/title
+#: C/index.page:8
+msgctxt "text"
+msgid "Pybliographer Bibliography manager"
+msgstr "Správce bibliografie Pybliographer"
+
+#. (itstool) path: title/media
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.page:25
+msgctxt "_"
+msgid "external ref='figures/logo.png' md5='d473ab564d496bb6a48457155655f562'"
+msgstr "external ref='figures/logo.png' md5='d473ab564d496bb6a48457155655f562'"
+
+#. (itstool) path: page/title
+#: C/index.page:24
+msgid ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/logo.png"
+"\">Pybliographer logo</media> Pybliographer Bibliography manager"
+msgstr ""
+"<media type=\"image\" mime=\"image/png\" src=\"figures/logo.png\">logo "
+"Pybliographer</media> Správce bibliografie Pybliographer"
+
+#. (itstool) path: section/title
+#: C/index.page:30
+msgid "Preface"
+msgstr "Úvod"
+
+#. (itstool) path: section/title
+#: C/index.page:34
+msgid "Usage"
+msgstr "Použití"
+
+#. (itstool) path: section/title
+#: C/index.page:38
+msgid "Advanced Usage"
+msgstr "Pokročilé použití"
+
+#. (itstool) path: section/title
+#: C/index.page:42
+msgid "The Scripting Language"
+msgstr "Skriptovací jazyk"
+
+#. (itstool) path: info/desc
+#: C/license.page:9
+msgid "Legal information."
+msgstr "Právní informace."
+
+#. (itstool) path: page/title
+#: C/license.page:12
+msgid "License"
+msgstr "Licence"
+
+#. (itstool) path: page/p
+#: C/license.page:13
+msgid ""
+"This work is distributed under a CreativeCommons Attribution-Share Alike 3.0 "
+"Unported license."
+msgstr ""
+"Tato práce je šířena pod licencí CreativeCommons Attribution-Share Alike 3.0 "
+"Unported Licence."
+
+#. (itstool) path: page/p
+#: C/license.page:21
+msgid "You are free:"
+msgstr "Můžete volně:"
+
+#. (itstool) path: item/title
+#: C/license.page:26
+msgid "<em>To share</em>"
+msgstr "<em>Sdílet</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:27
+msgid "To copy, distribute and transmit the work."
+msgstr "Kopírovat, šířit a rozesílat dílo."
+
+#. (itstool) path: item/title
+#: C/license.page:30
+msgid "<em>To remix</em>"
+msgstr "<em>Měnit</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:31
+msgid "To adapt the work."
+msgstr "Přizpůsobovat dílo."
+
+#. (itstool) path: page/p
+#: C/license.page:34
+msgid "Under the following conditions:"
+msgstr "Za následujících podmínek:"
+
+#. (itstool) path: item/title
+#: C/license.page:39
+msgid "<em>Attribution</em>"
+msgstr "<em>Označení</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:40
+msgid ""
+"You must attribute the work in the manner specified by the author or "
+"licensor (but not in any way that suggests that they endorse you or your use "
+"of the work)."
+msgstr ""
+"Musíte dílo označit v souladu s požadavky autora nebo licence (ale ne žádným "
+"způsobem, který předpokládá, že podporují vás nebo vaše použití díla)."
+
+#. (itstool) path: item/title
+#: C/license.page:47
+msgid "<em>Share Alike</em>"
+msgstr "<em>Stejné sdílení</em>"
+
+#. (itstool) path: item/p
+#: C/license.page:48
+msgid ""
+"If you alter, transform, or build upon this work, you may distribute the "
+"resulting work only under the same, similar or a compatible license."
+msgstr ""
+"Pokud dílo změníte, převedete nebo na něm založíte jiné, můžete výsledek "
+"této práce šířit pouze pod stejnou, podobnou nebo kompatibilní licencí."
+
+#. (itstool) path: page/p
+#: C/license.page:54
+msgid ""
+"For the full text of the license, see the <link href=\"http://"
+"creativecommons.org/licenses/by-sa/3.0/legalcode\">CreativeCommons website</"
+"link>, or read the full <link href=\"http://creativecommons.org/licenses/by-"
+"sa/3.0/\">Commons Deed</link>."
+msgstr ""
+"Text licence v plném znění najdete na <link href=\"http://creativecommons."
+"org/licenses/by-sa/3.0/legalcode\">webových stránkách CreativeCommons</link> "
+"nebo si přečtěte <link href=\"http://creativecommons.org/licenses/by-sa/3.0/"
+"\">výtah dokumentu pro neprávníky</link>."
+
+#. (itstool) path: info/desc
+#: C/scripting-basics.page:10
+msgid "Basic information about scripting with <app>Pybliographer</app>."
+msgstr "Základní informace o skriptování s aplikací <app>Pybliographer</app>."
+
+#. (itstool) path: page/title
+#: C/scripting-basics.page:26
+msgid "Basics"
+msgstr "Základy"
+
+#. (itstool) path: page/p
+#: C/scripting-basics.page:28
+msgid ""
+"<app>Pybliographer</app> is in fact a simple set of classes and functions "
+"written in python, and that provides with a simple and homogenous access to "
+"bibliographic databases. Therefore, it is possible to write python scripts "
+"that make use of these specialized functions. The graphical interface, "
+"<app>Pybliographic</app>, is itself a simple script on top of "
+"<app>Pybliographer</app>."
+msgstr ""
+"Aplikace <app>Pybliographer</app> je fakticky sadou tříd a funkcí napsaných "
+"v jazyce Python a tímto způsobem poskytuje jednoduchý a homogenní přístup k "
+"bibliografickým databázím. Díky tomu je také možné psát skripty v jazyce "
+"Python, které používají tyto specializované funkce. Grafické rozhraní "
+"<app>Pybliographic</app> je vlastně jednoduchý skript na základem "
+"<app>Pybliographer</app>."
+
+#. (itstool) path: page/p
+#: C/scripting-basics.page:35
+msgid "To execute a script written for <app>Pybliographer</app>, simply run"
+msgstr ""
+"Když chcete spustit skript napsaný pro <app>Pybliographer</app>, prostě "
+"spusťte"
+
+#. (itstool) path: page/screen
+#: C/scripting-basics.page:37
+#, no-wrap
+msgid ""
+"\n"
+"    <output>bash$ </output><cmd>pybliographer [--quiet] </cmd><var>myscript.py</var>\n"
+"  "
+msgstr ""
+"\n"
+"    <output>bash$ </output><cmd>pybliographer [--quiet] </cmd><var>můj_skript.py</var>\n"
+"  "
+
+#. (itstool) path: page/p
+#: C/scripting-basics.page:41
+msgid "You can alternatively start your script by"
+msgstr "Alternativní možností, jak skript spustit je"
+
+#. (itstool) path: page/screen
+#: C/scripting-basics.page:42
+#, no-wrap
+msgid ""
+"\n"
+"      #!/path/to/pybliographer\n"
+"\n"
+"      <var>...rest of your script...</var>\n"
+"    "
+msgstr ""
+"\n"
+"      #!/cesta/k/aplikaci/pybliographer\n"
+"\n"
+"      <var>…zbytek vašeho skriptu…</var>\n"
+"    "
+
+#. (itstool) path: page/p
+#: C/scripting-basics.page:47
+msgid "and make it executable."
+msgstr "a udělat z toho spustitelný soubor."
+
+#. (itstool) path: info/desc
+#: C/scripting-existing.page:10
+msgid "How to use the scripts shipped with <app>Pybliographer</app>."
+msgstr "Jak používat skripty šířené spolu s aplikací <app>Pybliographer</app>."
+
+#. (itstool) path: page/title
+#: C/scripting-existing.page:26
+msgid "Existing scripts"
+msgstr "Existující skripty"
+
+#. (itstool) path: page/p
+#: C/scripting-existing.page:28
+msgid ""
+"Some scripts are provided with <app>Pybliographer</app>, both as example and "
+"as useful tools. They are quite short and should be readable with basical "
+"knowledge of <app>Python</app>."
+msgstr ""
+"Pár skriptů je poskytováno s aplikací <app>Pybliographer</app> a slouží i "
+"jako příklady, i jako užitečné nástroje. Jsou poměrně krátké a měly by být "
+"dobře čitelné i se základními znalostmi jazyka <app>Python</app>."
+
+#. (itstool) path: section/title
+#: C/scripting-existing.page:33
+msgid "pybliocheck"
+msgstr "pybliocheck"
+
+#. (itstool) path: synopsis/p
+#: C/scripting-existing.page:36
+msgid ""
+"This tool takes a list of files or directory, and check if they are valid "
+"(syntax, no entries with the same key,...)"
+msgstr ""
+"Tento nástroj vrací seznam souborů a složek a kontroluje, jestli jsou platné "
+"(syntaxe, bez záznamů se stejnými klíči, …)"
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:40
+msgid ""
+"It is possible to use its output directly in an emacs compile buffer, in "
+"order to jump directly to the encountered errors. To do so, type "
+"<keyseq><key>M</key><key>x</key></keyseq> <cmd>compile</cmd>, then the "
+"command <cmd>pybliocheck <var>yourfiles</var></cmd>, and use the middle "
+"button of the mouse to jump into the faulty file."
+msgstr ""
+"Jeho výstup je možné použít přímo v překladové vyrovnávací paměti emacs, ke "
+"skoku přímo na chybu, která se udála. Uděláte to tak, že vyťukáte "
+"<keyseq><key>M</key> <key>x</key></keyseq><cmd>compile</cmd>, pak příkaz "
+"<cmd>pybliocheck <var>vaše_soubory</var></cmd> a použijete prostřední "
+"tlačítko myši k přechodu na soubor, který selhal."
+
+#. (itstool) path: section/title
+#: C/scripting-existing.page:49
+msgid "pybliocompact"
+msgstr "pybliocompact"
+
+#. (itstool) path: synopsis/p
+#: C/scripting-existing.page:52
+msgid ""
+"This tool extracts the citations made in a LaTeX document and generates a "
+"BibTeX file containing them."
+msgstr ""
+"Tento nástroj získává citace vytvořené v dokumentech LaTeX a generuje soubor "
+"BibTeX, který je obsahuje."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:57
+msgid ""
+"Usually, one stores its bibliographies in one or several large BibTeX files, "
+"and lets <cmd>bibtex</cmd> extract the entries used in a LaTeX document. But "
+"it is sometime convenient to create a self-contained package (for example to "
+"share it in native form with somebody else, or to store it), with a "
+"minimalistic BibTeX file holding exactly the entries used in LaTeX. This "
+"tool does exactly that: it reads a LaTeX <file>.aux</file> file, and extract "
+"from the specified BibTeX databases the corresponding entries."
+msgstr ""
+"Obvykle každý uchovává bibliografie v jednom nebo několika velkých souborech "
+"BibTeX a nechává aplikaci <cmd>bibtex</cmd> získávat záznamy použité v "
+"dokumentu LaTeX. Občas je ale vhodné vytvořit samostatný balíček (například "
+"kvůli sdílení v nativní formě s někým jiným nebo kvůli jeho uložení) s "
+"minimalistickým souborem BibTeX obsahujícím jen přesně záznamy použité v "
+"dokumentu LaTeX. Přesně to dělá tento nástroj: přečte soubor LaTeX <file>."
+"aux</file> a získá z něj určené databáze BibTeX odpovídajících záznamů."
+
+#. (itstool) path: section/title
+#: C/scripting-existing.page:68
+msgid "pyblioconvert"
+msgstr "pyblioconvert"
+
+#. (itstool) path: synopsis/p
+#: C/scripting-existing.page:71
+msgid "This tool converts from one bibliographic format to another."
+msgstr "Tento nástroj převádí z jednoho bibliografického formátu na jiný."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:75
+msgid ""
+"The general syntax is pretty simple. To convert from Refer to BibTeX for "
+"example, just run:"
+msgstr ""
+"Obecná syntaxe je krásně jednoduchá. Například pro převod z Refer do BibTex "
+"prostě spusťte:"
+
+#. (itstool) path: section/screen
+#: C/scripting-existing.page:78
+#, no-wrap
+msgid ""
+"\n"
+"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"      "
+msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pyblioconvert</cmd> refer..bibtex <var>toto.refer</var> <var>toto.bib</var>\n"
+"      "
+
+#. (itstool) path: section/title
+#: C/scripting-existing.page:84
+msgid "pyblioformat"
+msgstr "pyblioformat"
+
+#. (itstool) path: synopsis/p
+#: C/scripting-existing.page:87
+msgid ""
+"This script generates a bibliography according to a bibliographic style, and "
+"outputs it in a specific format (like HTML, LaTeX,...) as it should appear "
+"in a document."
+msgstr ""
+"Tento skript generuje bibliografii podle bibliografického stylu a vytvoří "
+"výstup v určeném formátu (jako je HTML, LaTeX, …), jak by se měl objevit v "
+"dokumentu."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:92 C/scripting-existing.page:176
+msgid "The general form of the command is"
+msgstr "Obecná forma příkazu je"
+
+#. (itstool) path: section/screen
+#: C/scripting-existing.page:93
+#, no-wrap
+msgid ""
+"\n"
+"\t<output>bash$ </output><cmd>pyblioformat</cmd> <var>[options] database...</var>\n"
+"      "
+msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pyblioformat</cmd> <var>[volby] databáze…</var>\n"
+"      "
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:97
+msgid ""
+"This command without options will use the style called <em>alpha</em> to "
+"create a bibliography in <em>Text</em> format. Several options are available "
+"to create these documents:"
+msgstr ""
+"Bez přepínačů tento příkaz vytvoří bibliografie ve formátu <em>Text</em> za "
+"použití stylu nazvaného <em>alpha</em>. K vytváření dokumentů je k dispozici "
+"několik přepínačů:"
+
+#. (itstool) path: item/p
+#: C/scripting-existing.page:104
+msgid ""
+"<cmd>--style=...</cmd> or <cmd>-s ...</cmd>: specify a bibliography style. "
+"This can be a full path to an existing XML file, or a name which will be "
+"searched in the standard places. Default is Alpha."
+msgstr ""
+"<cmd>--style=…</cmd> nebo <cmd>-s …</cmd>: určuje bibliografický styl. Může "
+"se jednat o úplnou cestu k existujícímu souboru XML nebo o název, který bude "
+"hledán na standardních místech. Výchozí je Alpha."
+
+#. (itstool) path: item/p
+#: C/scripting-existing.page:110
+msgid ""
+"<cmd>--format=...</cmd> or <cmd>-f ...</cmd>: specify an output format "
+"(HTML, LaTeX, Raw, Text, Textau, Textnum). Default is Text. (Textau and "
+"Textnum are just slightly modified versions of Text. See <link xref="
+"\"#script-scripting-existing-pybtext\"/> for more details.)"
+msgstr ""
+"<cmd>--format=…</cmd> nebo <cmd>-f …</cmd>: určuje výstupní formát (HTML, "
+"LaTeX, Raw, Text, Textau, Textnum). Výchozí je Text. (Textau a Textnum jsou "
+"lehce modifikované verze formátu Text. Další informace viz <link xref="
+"\"#script-scripting-existing-pybtext\"/>.)"
+
+#. (itstool) path: item/p
+#: C/scripting-existing.page:117
+msgid ""
+"<cmd>--output=...</cmd> or <cmd>-o ...</cmd>: specify an output filename. "
+"STDOUT is the default."
+msgstr ""
+"<cmd>--output=…</cmd> nebo <cmd>-o …</cmd>: určuje výstupní soubor. Výchozí "
+"je STDOUT."
+
+#. (itstool) path: item/p
+#: C/scripting-existing.page:121
+msgid ""
+"<cmd>--header=...</cmd> or <cmd>-H ...</cmd>: defines a file that will be "
+"prepended to the output file."
+msgstr ""
+"<cmd>--header=…</cmd> nebo <cmd>-H …</cmd>: definuje soubor, který bude "
+"vložen na začátek výstupního souboru."
+
+#. (itstool) path: item/p
+#: C/scripting-existing.page:125
+msgid ""
+"<cmd>--footer=...</cmd> or <cmd>-F ...</cmd>: defines a file that will be "
+"appended to the output file."
+msgstr ""
+"<cmd>--footer=…</cmd> nebo <cmd>-F …</cmd>: definuje soubor, který bude "
+"připojen na konec výstupního souboru."
+
+#. (itstool) path: item/p
+#: C/scripting-existing.page:129
+msgid ""
+"<cmd>--list=output</cmd> or <cmd>-l output</cmd>: lists the available output "
+"formats"
+msgstr ""
+"<cmd>--list=output</cmd> nebo <cmd>-l output</cmd>: seznam dostupných "
+"výstupních formátů"
+
+#. (itstool) path: section/title
+#: C/scripting-existing.page:136
+msgid "pybliotex"
+msgstr "pybliotex"
+
+#. (itstool) path: synopsis/p
+#: C/scripting-existing.page:139
+msgid ""
+"This tool searches for the citations in a LaTeX document and generates a "
+"LaTeX bibliography file."
+msgstr ""
+"Tento nástroj hledá citace v dokumentu LaTeX a generuje soubor s "
+"bibliografií LaTeX."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:143
+msgid ""
+"This tool reads a LaTeX <file>.aux</file> file, and extracting the "
+"corresponding entries from the specified BibTeX databases creates a LaTeX "
+"<file>.bbl</file> file."
+msgstr ""
+"Tento nástroj přečte soubor LaTeX <file>.aux</file> a získáním "
+"odpovídajících záznamů ze zadané databáze BibTeX vytvoří soubor LaTeX <file>."
+"bbl</file>."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:147
+msgid "The form of the command is"
+msgstr "Forma příkazu je"
+
+#. (itstool) path: section/screen
+#: C/scripting-existing.page:148
+#, no-wrap
+msgid ""
+"\n"
+"\t<output>bash$ </output><cmd>pybliotex</cmd> <file>latexfile</file> [<file>bibtexfiles</file>...]\n"
+"      "
+msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> <file>soubor_latex</file> [<file>soubory_bibtex</file>…]\n"
+"      "
+
+#. (itstool) path: section/title
+#: C/scripting-existing.page:154
+msgid "pybliotext"
+msgstr "pybliotext"
+
+#. (itstool) path: synopsis/p
+#: C/scripting-existing.page:157
+msgid ""
+"This tool processes a text file containing citations and appends a "
+"bibliography according to a given style."
+msgstr ""
+"Tento nástroj zpracovává textové soubory obsahující citace a připojuje "
+"bibliografii podle zadaného stylu."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:161
+msgid ""
+"The script searches for citations like [key] or [key1,key2...] in a text "
+"file (for example: ...This is a text fragment with citations [AKM95,MPJ+03] "
+"inserted from pybliographer...). First, according to the keys found in the "
+"text file, it generates a reference list. Using an appropriate style (see "
+"below), it replaces the database keys in the text body with the new keys "
+"generated by the style module, and finally it appends the reference list to "
+"the text resulting a new file."
+msgstr ""
+"Skript hledá v textovém souboru citace jako [klíč] nebo [klíč1, klíč2 …] "
+"(například: …Toto je úryvek textu s citací [AKM95,MPJ+03] vložený z aplikace "
+"pybliographer…). Nejdříve je, podle klíčů nalezených v textovém souboru, "
+"vygenerován seznam odkazů. Za použití příslušného stylu (viz dále) jsou "
+"databázové klíče v těle textu nahrazeny novými klíči vygenerovanými modulem "
+"stylu a nakonec se k textu připojí seznam odkazů a výsledkem je nový soubor."
+
+#. (itstool) path: note/p
+#: C/scripting-existing.page:171
+msgid ""
+"The keys of selected entries can be copied easily from pybliographer into a "
+"text editor or terminal by <em>copy and paste </em> or <em>drag and drop</"
+"em>."
+msgstr ""
+"Klíče vybraných záznamů lze snadno zkopírovat z aplikace pybliographer do "
+"textového editoru nebo terminálu pomocí funkcí <em>kopírovat a vložit</em> "
+"nebo <em>táhni a pusť</em>."
+
+#. (itstool) path: section/screen
+#: C/scripting-existing.page:177
+#, no-wrap
+msgid ""
+"\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o outputfile] [-s style] <file>textfile</file> <file>bibfiles...</file>\n"
+"      "
+msgstr ""
+"\n"
+"\t<output>bash$ </output><cmd>pybliotext</cmd> [-o výstupní_soubor] [-s styl] <file>textový_soubor</file> <file>soubory_bib…</file>\n"
+"      "
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:181
+msgid ""
+"This command without the options will use the style called <em>Abbrev</em> "
+"and <file>textfile.pyb</file> as outputfile for processing. <file>textfile</"
+"file> is the name of the file to be processed and <file>bibfiles</file> is "
+"one or more bibliographic database file."
+msgstr ""
+"Pokud tento příkaz nemá zadané žádné přepínače, použije styl nazvaný "
+"<em>Abbrev</em> a výstupní soubor <file>textfile.pyb</file>. "
+"<file>textový_soubor</file> je název souboru, který se má zpracovat a "
+"<file>soubory_bib</file> je jeden či více souborů s bibliografickou databází."
+
+#. (itstool) path: section/p
+#: C/scripting-existing.page:187
+msgid ""
+"There are three different <em>styles</em> which are designed for pybliotext. "
+"Using <em>abbrvbib</em> results in keys as they are defined in the database. "
+"With the style <em>abbrvau</em>, author-year type keys (e.g. Jackson et al., "
+"2004) can be generated. Using <em>abbrvnum</em>, the script produces a "
+"simple numbered list. For abbrvau and abbrvnum, the formats Textau and "
+"Textnum are used, respectively. They are just simple modifications of the "
+"Text format, optimized for these styles. Using other styles (Alpha, Abbrev "
+"or apa4e), the text body is not processed, but the reference list is "
+"appended in the form that corresponds to the used style."
+msgstr ""
+"Pro pybliotext jsou navrženy tři rozdílné <em>styly</em>. Použití "
+"<em>abbrvbib</em> dává jako výsledky klíče tak, jak jsou definovány v "
+"databázi. Se stylem <em>abbrvau</em> jsou generovány klíče typu autor-rok "
+"(např. Satrapa a kol., 2004). Použitím <em>abbrvnum</em> skript vyprodukuje "
+"jednoduše očíslovaný seznam. Pro abbrvau a abbrvnum je použit formát Textau "
+"resp. Textnum. Jedná se jen o lehce upravený formát Text, optimalizovaný pro "
+"tyto styly. Při použití jiných stylů Alpha, Abbrev nebo apa4e) není tělo "
+"textu zpracováno, akorát se připojí seznam odkazů ve formě odpovídající "
+"použitému stylu."
+
+#. (itstool) path: info/desc
+#: C/scripting-writeown.page:10
+msgid "Writing your own scripts."
+msgstr "Jak psát vlastní skripty."
+
+#. (itstool) path: page/title
+#: C/scripting-writeown.page:26
+msgid "Writing your own scripts"
+msgstr "Psaní vlastních skriptů"
+
+#. (itstool) path: page/p
+#: C/scripting-writeown.page:28
+msgid ""
+"To start writing your own script, you can read what follows, and then have a "
+"look at the existing scripts. Trying to adapt them to fit your personal "
+"needs can be a good way of testing what you read."
+msgstr ""
+"Pokud chcete začít psát své vlastní skripty, přečtete si následující "
+"informace a prostudujte existující skripty. Dobrým způsobem, jak si "
+"vyzkoušet to, co nastudujete, je zkoušet si upravit ty existující."
+
+#. (itstool) path: section/title
+#: C/scripting-writeown.page:34
+msgid "Some concepts"
+msgstr "Pár pojmů"
+
+#. (itstool) path: section/p
+#: C/scripting-writeown.page:36
+msgid ""
+"This section describes some basic classes and ideas that are useful to "
+"understand how <app>Pybliographer</app> works."
+msgstr ""
+"Tento oddíl popisuje základní třídy a filozofii systému, které jsou potřebné "
+"pro pochopení, jak <app>Pybliographer</app> pracuje."
+
+#. (itstool) path: section/p
+#: C/scripting-writeown.page:39
+msgid ""
+"In the following, all the modules that will be refered to belong to the "
+"<em>Pyblio</em> domain. So, to access the members of the <em>Open</em> "
+"module, you'll have to write at the beginning of your script something like"
+msgstr ""
+"Všechny dokumenty, které budu zmíněny v následujícím textu, náleží do domény "
+"<em>Pyblio</em>. Tzn., že pro přístup k členským funkcím modulu <em>Open</"
+"em> musíte na začátku skriptu napsat něco takovéhoto:"
+
+#. (itstool) path: section/screen
+#: C/scripting-writeown.page:44
+#, no-wrap
+msgid "from Pyblio import Open"
+msgstr "from Pyblio import Open"
+
+#. (itstool) path: section/p
+#: C/scripting-writeown.page:46
+msgid ""
+"The <em>Base</em> module contains some of the most basical classes used in "
+"the application:"
+msgstr ""
+"Modul <em>Base</em> obsahuje některé nejzákladnější třídy používané v "
+"aplikaci:"
+
+#. (itstool) path: item/p
+#: C/scripting-writeown.page:51
+msgid ""
+"<em>Base.Entry</em> represents a specific bibliographic entry, with all its "
+"fields. It behaves like a hash table which returns the content of a field "
+"given its name"
+msgstr ""
+"<em>Base.Entry</em> představuje konkrétní bibliografický záznam se všemi "
+"jeho poli. Chová se podobně jako hešovací tabulka, která vrací obsah na "
+"základě zadaného názvu"
+
+#. (itstool) path: item/p
+#: C/scripting-writeown.page:56
+msgid ""
+"<em>Base.DataBase</em> is the class from which every database type inherits. "
+"It behaves like a hash table that returns a Base.Entry given a Base.Key"
+msgstr ""
+"<em>Base.DataBase</em> je třída, ze které se odvozují všechny databázové "
+"typy. Chová se podobně jako hešovací tabulka, která vrací Base.Entry podle "
+"daného Base.Key"
+
+#. (itstool) path: section/p
+#: C/scripting-writeown.page:62
+msgid ""
+"<em>Key.Key</em> is the object that uniquely identifies an entry. This "
+"object must be unique over the whole application, and is composed of a "
+"database part and an entry part."
+msgstr ""
+"<em>Key.Key</em> je objekt, který jednoznačně určuje záznam. Tento objekt "
+"musí být jedinečný v rámci celé aplikace a skládá se z databázové části a "
+"záznamové části."
+
+#. (itstool) path: section/p
+#: C/scripting-writeown.page:67
+msgid ""
+"An <em>Iterator</em> is an object that provides a way to access a sequence "
+"of items in order. These iterators are used extensively in "
+"<app>Pybliographer</app>, because they hide the underlying access mechanism, "
+"and provide the same access on any database. They are also perfectly suited "
+"for implementing transparent filtering and sorting of entries: the "
+"<em>Selection.Selection</em> class for example takes an iterator (on a "
+"database for example) and return a new one which will only iterate on a "
+"subset of the entries, according to a search criterion."
+msgstr ""
+"<em>Iterator</em> je objekt, který poskytuje způsob přístupu k sekvenci "
+"položek. Tento iterátor je v aplikaci <app>Pybliographer</app> intenzivně "
+"využíván, protože skrývá mechanizmus přístupu vespod a poskytuje totožný "
+"přístup do libovolné databáze. Je také výborně uzpůsoben pro implementaci "
+"transparentního filtrování a řazení záznamů: Například třída <em>Selection."
+"Selection</em> vezme iterátor (kupříkladu na databázi) a vrátí jiný nový, "
+"který iteruje na podmnožině záznamů podle kritérií vyhledávání."
+
+#. (itstool) path: info/desc
+#: C/typcon.page:10
+msgid "Typographical conventions used in this documentation."
+msgstr "Typografické konvence použité v tomto dokumentu."
+
+#. (itstool) path: page/title
+#: C/typcon.page:26
+msgid "Typographical Conventions"
+msgstr "Typografické konvence"
+
+#. (itstool) path: page/p
+#: C/typcon.page:27
+msgid "In this book, we'll mark some words with special typography:"
+msgstr "V této příručce jsou některá slova vyznačena odlišnou typografií:"
+
+#. (itstool) path: item/p
+#: C/typcon.page:31
+msgid "<app>Applications</app>"
+msgstr "<app>Aplikace</app>"
+
+#. (itstool) path: item/p
+#: C/typcon.page:32
+msgid "<cmd>Commands</cmd> you type at the command line"
+msgstr "<cmd>Příkazy</cmd>, které píšete v příkazovém řádku"
+
+#. (itstool) path: item/p
+#: C/typcon.page:33
+msgid "<file>Filenames</file>"
+msgstr "<file>Názvy souborů</file>"
+
+#. (itstool) path: item/p
+#: C/typcon.page:34
+msgid "<var>Replaceable text</var>"
+msgstr "<var>Text, který se má nahradit</var>"
+
+#. (itstool) path: item/p
+#: C/typcon.page:35
+msgid ""
+"<gui>Labels</gui> for buttons and other portions of the graphical interface"
+msgstr "<gui>Popisky</gui> tlačítek a dalších prvků grafického rozhraní"
+
+#. (itstool) path: item/p
+#: C/typcon.page:37
+msgid ""
+"Menu selections look like this: <guiseq><gui>Menu</gui> <gui>Submenu</"
+"gui><gui>Menu Item</gui></guiseq>"
+msgstr ""
+"Výběry z nabídky vypadají takto: <guiseq><gui>Nabídka</gui> <gui>Podnabídka</"
+"gui><gui>Položka nabídky</gui></guiseq>"
+
+#. (itstool) path: item/p
+#: C/typcon.page:39
+msgid "<gui>Buttons</gui> you can click"
+msgstr "<gui>Tlačítka</gui>, na která můžete kliknout"
+
+#. (itstool) path: item/p
+#: C/typcon.page:40
+msgid "<input>Anything you type in</input>"
+msgstr "<input>Cokoliv, co píšete vy</input>"
+
+#. (itstool) path: page/p
+#: C/typcon.page:43
+msgid ""
+"We'll provide assorted bits of additional information in tips and notes as "
+"well."
+msgstr "Různorodé doplňující informace jsou podávány ve formě tipů a poznámek."
+
+#. (itstool) path: note/title
+#: C/typcon.page:47
+msgid "Tip"
+msgstr "Tip"
+
+#. (itstool) path: note/p
+#: C/typcon.page:48
+msgid "Tips and bits of extra information will look like this."
+msgstr "Tipy a informace, které jsou trochu extra, budou vypadat takto."
+
+#. (itstool) path: note/title
+#: C/typcon.page:55
+msgid "Note"
+msgstr "Poznámka"
+
+#. (itstool) path: note/p
+#: C/typcon.page:56
+msgid "Notes will look like this."
+msgstr "Poznámky budou vypadat takto."
+
+#. (itstool) path: page/p
+#: C/typcon.page:61
+msgid "We'll have warnings, in cases where you should be careful:"
+msgstr "V případech, kdy musíte být opravdu opatrní, jsou tu varování."
+
+#. (itstool) path: note/title
+#: C/typcon.page:65
+msgid "Example Warning"
+msgstr "Příklad varování"
+
+#. (itstool) path: note/p
+#: C/typcon.page:66
+msgid ""
+"This is what a warning looks like. If there's a chance you'll run into "
+"trouble, we'll warn you beforehand."
+msgstr ""
+"Takto vypadá varování. Pokud je tu možnost, že se můžete dostat do problémů, "
+"budete před tím varování."
+
+#. (itstool) path: info/desc
+#: C/whatsnew.page:10
+msgid "New features in <app>Pybliographer</app> 1.2.15."
+msgstr "Nové funkce v <app>Pybliographer</app> 1.2.15."
+
+#. (itstool) path: page/title
+#: C/whatsnew.page:26
+msgid "What's New in Pybliographer 1.2.15"
+msgstr "Co je nového v Pybliographer 1.2.15"
+
+#. (itstool) path: page/p
+#: C/whatsnew.page:27
+msgid ""
+"You can find a list of bugs fixed and features added in the <file>NEWS</"
+"file> and <file>ChangeLog</file> files supplied with the package. See the "
+"source tarball of pybliographer, or the default doc directory of your "
+"distribution (e.g. <file>/usr/share/doc/pybliographer</file>)."
+msgstr ""
+"Seznam chyb, které byly opraveny a funkcí, které byly přidány, můžete najít "
+"v souborech <file>NEWS</file> a <file>ChangeLog</file> šířených v rámci "
+"balíčku. Podívejte se do balíčku se zdrojovým kódem pybliographer nebo do "
+"výchozí složky s dokumentací ve vaší distribuci (např. <file>/usr/share/doc/"
+"pybliographer</file>). Informace v těchto souborech jsou v angličtině."
