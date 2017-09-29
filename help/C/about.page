@@ -53,7 +53,7 @@
       </p>
     <p>
       This manual was written with the help of the 
-	<link href="http://live.gnome.org/DocumentationProject" type="http">GNOME
+	<link href="https://wiki.gnome.org/DocumentationProject">GNOME
 	Documentation Project</link>.
     </p>         
     <p>
@@ -62,7 +62,7 @@
     </p>
    <p>
       For more information please visit the
-      <link href="http://pybliographer.org/"
-	 type="http"><app>Pybliographer</app> website</link>.
+      <link href="http://pybliographer.org/"><app>Pybliographer</app>
+      website</link>.
    </p>
 </page>

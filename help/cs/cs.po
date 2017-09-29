@@ -6,8 +6,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pybliographer master\n"
-"POT-Creation-Date: 2017-09-21 13:31+0000\n"
-"PO-Revision-Date: 2017-09-21 21:56+0200\n"
+"POT-Creation-Date: 2017-09-26 14:32+0000\n"
+"PO-Revision-Date: 2017-09-26 19:58+0200\n"
 "Last-Translator: Marek Černocký <marek@manet.cz>\n"
 "Language-Team: čeština <gnome-cs-list@gnome.org>\n"
 "Language: cs\n"
@@ -171,11 +171,11 @@ msgstr ""
 #. (itstool) path: page/p
 #: C/about.page:54
 msgid ""
-"This manual was written with the help of the <link href=\"http://live.gnome."
-"org/DocumentationProject\" type=\"http\">GNOME Documentation Project</link>."
+"This manual was written with the help of the <link href=\"https://wiki.gnome."
+"org/DocumentationProject\">GNOME Documentation Project</link>."
 msgstr ""
-"Tato příručka byla napsána s pomocí <link href=\"http://live.gnome.org/"
-"DocumentationProject\" type=\"http\">Dokumentačního projektu GNOME</link>."
+"Tato příručka byla napsána s pomocí <link href=\"https://wiki.gnome.org/"
+"DocumentationProject\">Dokumentačního projektu GNOME</link>."
 
 #. (itstool) path: page/p
 #: C/about.page:59
@@ -190,10 +190,10 @@ msgstr ""
 #: C/about.page:63
 msgid ""
 "For more information please visit the <link href=\"http://pybliographer.org/"
-"\" type=\"http\"><app>Pybliographer</app> website</link>."
+"\"><app>Pybliographer</app> website</link>."
 msgstr ""
 "Pro další informace prosím navštivte <link href=\"http://pybliographer.org/"
-"\" type=\"http\">webové stránky <app>Pybliographer</app></link>."
+"\">webové stránky <app>Pybliographer</app></link>."
 
 #. (itstool) path: info/desc
 #: C/addhelp.page:10
@@ -209,16 +209,14 @@ msgstr "Další zdroje nápovědy"
 #: C/addhelp.page:27
 msgid ""
 "For additional information, please, visit the <link href=\"http://"
-"pybliographer.org/\" type=\"http\">Pybliographer website</link>. There is a "
-"<link href=\"http://pybliographer.org/Mailing_lists\" type=\"http\">mailing "
-"list</link> also, where you can get answers for your questions, you can "
-"report bugs, etc."
+"pybliographer.org/\">Pybliographer website</link>. There is a <link href="
+"\"http://pybliographer.org/Mailing_lists\">mailing list</link> also, where "
+"you can get answers for your questions, you can report bugs, etc."
 msgstr ""
-"Pro další informace navštivte prosím <link href=\"http://pybliographer.org/"
-"\" type=\"http\">webové stránky Pybliographer</link>. K dispozici je také "
-"<link href=\"http://pybliographer.org/Mailing_lists\" type=\"http\">poštovní "
-"konference</link>, ve které můžete získat odpovědi na své dotazy, hlásit "
-"chyby atd."
+"Pro další informace navštivte prosím <link href=\"http://pybliographer.org/\">"
+"webové stránky Pybliographer</link>. K dispozici je také <link href=\"http://"
+"pybliographer.org/Mailing_lists\">poštovní konference</link>, ve které můžete "
+"získat odpovědi na své dotazy, hlásit chyby atd."
 
 #. (itstool) path: info/desc
 #: C/command-line.page:10
@@ -1166,18 +1164,17 @@ msgid ""
 "a simple access to the most common features of the underlying engine, "
 "<app>Pybliographer</app> and lets you search, sort and modify bibliographic "
 "entries. Moreover, direct insertion of references into <link href=\"http://"
-"www.lyx.org/\" type=\"http\"><app>Lyx</app></link> and <link href=\"http://"
-"kile.sourceforge.net/\" type=\"http\"><app>Kile</app></link>, direct queries "
-"on Medline, and saving selected references in different formats are also "
-"possible."
+"www.lyx.org/\"><app>Lyx</app></link> and <link href=\"http://kile."
+"sourceforge.net/\"><app>Kile</app></link>, direct queries on Medline, and "
+"saving selected references in different formats are also possible."
 msgstr ""
-"Grafické uživatelské rozhraní je nazýváno <app>Pybliographic</app>. "
-"Poskytuje snadný přístup k většině běžných funkcí výkonného jádra "
-"<app>Pybliographer</app> na pozadí a umožňuje vám hledat, řadit a upravovat "
-"bibliografické záznamy. Navíc je možné přímé vkládání odkazů do <link href="
-"\"http://www.lyx.org/\" type=\"http\"><app>Lyx</app></link> a <link href="
-"\"http://kile.sourceforge.net/\" type=\"http\"><app>Kile</app></link>, přímé "
-"dotazy na Medline a ukládání vybraných dotazů v jiných formátech."
+"Grafické uživatelské rozhraní je nazýváno <app>Pybliographic</app>. Poskytuje "
+"snadný přístup k většině běžných funkcí výkonného jádra <app>Pybliographer"
+"</app> na pozadí a umožňuje vám hledat, řadit a upravovat bibliografické "
+"záznamy. Navíc je možné přímé vkládání odkazů do <link href=\"http://www.lyx."
+"org/\"><app>Lyx</app></link> a <link href=\"http://kile.sourceforge.net/\">"
+"<app>Kile</app></link>, přímé dotazy na Medline a ukládání vybraných dotazů v "
+"jiných formátech."
 
 #. (itstool) path: info/desc
 #: C/gui-pubmed.page:10
@@ -1945,8 +1942,8 @@ msgstr "Správce bibliografie Pybliographer"
 #. whatever you like once you have updated your copy of the file.
 #: C/index.page:25
 msgctxt "_"
-msgid "external ref='figures/logo.png' md5='d473ab564d496bb6a48457155655f562'"
-msgstr "external ref='figures/logo.png' md5='d473ab564d496bb6a48457155655f562'"
+msgid "external ref='figures/logo.png' md5='787ee332876d583e1618567210508fb8'"
+msgstr "external ref='figures/logo.png' md5='787ee332876d583e1618567210508fb8'"
 
 #. (itstool) path: page/title
 #: C/index.page:24

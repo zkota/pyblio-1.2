@@ -29,8 +29,8 @@
     provides a simple access to the most common features of the underlying
     engine, <app>Pybliographer</app> and lets you search, sort and modify
     bibliographic entries. Moreover, direct insertion of references into 
-    <link href="http://www.lyx.org/" type="http"><app>Lyx</app></link> and
-    <link href="http://kile.sourceforge.net/" type="http"><app>Kile</app></link>,
+    <link href="http://www.lyx.org/"><app>Lyx</app></link> and
+    <link href="http://kile.sourceforge.net/"><app>Kile</app></link>,
     direct queries on Medline, and saving selected references in different
     formats are also possible.
   </p>

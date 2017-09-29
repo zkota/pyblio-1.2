@@ -25,7 +25,7 @@
 
 	<title>Getting Started</title>
 
-	 <section>
+	 <section id="what">
 	  <title>What is <app>Pybliographer</app>?</title>
 	   <p>
 	   Pybliographer  is a  tool for  working  with bibliographic
@@ -36,12 +36,12 @@
 	   </p>
 	 </section>
 
-	 <section>
+	 <section id="start">
 	  <title>How to start <app>Pybliographer</app>?</title>
 	   <p>
 	    You can start <app>Pybliographer</app> in the following ways:
 	   </p>
-	   <section>
+	   <section id="start-graphical">
 	     <title>Graphical mode</title>
 	      <p>	
 	       To start <app>Pybliographer</app> in graphical mode from a
@@ -67,7 +67,7 @@
 
 	   </section>
 
-	   <section>
+	   <section id="start-commandline">
 		<title>Command line mode</title>
 	      <p>
 	       You can start <app>Pybliographer</app> also in command
@@ -77,7 +77,7 @@
 
 	     </section>
 
-	     <section>
+	     <section id="start-menu">
 	     <title>From the GNOME menu</title>
 	      <p>
 	       If the <file>*.desktop</file> file of the package is correctly
