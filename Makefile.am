@@ -40,9 +40,6 @@ pixmapsdir = $(datadir)/pixmaps
 pixmaps_DATA = pybliographic-logo.png pybliographic-viewer.png
 
 
-Mimedir = $(datadir)/mime-info
-Mime_DATA = pybliographic.keys pybliographic.mime
-
 app_DATA = pybliographic.desktop
 
 appdatadir = $(datadir)/appdata
@@ -79,11 +76,6 @@ install-data-local:
 	mv -f $(DESTDIR)$(pybdir)/pybrc.py $(DESTDIR)$(pybdir)/pybrc.old || true
 	$(INSTALL_DATA) $(srcdir)/pybrc.py $(DESTDIR)$(pybdir)
 	$(Python) -c "import compileall ; compileall.compile_dir ('"$(DESTDIR)$(pybdir)"');"
-
-pybliographic.keys: pybliographic.keys.in Makefile
-	sed -e 's^\@icondir\@^$(appicondir)^g' \
-	< $(srcdir)/pybliographic.keys.in > pybliographic.keys.tmp \
-	&& mv pybliographic.keys.tmp pybliographic.keys
 
 update_desktop_database = update-desktop-database $(DESTDIR)$(appdir) \
 	|| echo "**** Warning: cannot update mime cache (recommended for Gnome >= 2.8)"
