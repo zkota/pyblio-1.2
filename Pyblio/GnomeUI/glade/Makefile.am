@@ -1,5 +1,5 @@
 gladedir = $(datadir)/$(PACKAGE)/Pyblio/GnomeUI/glade
-appicondir = $(datadir)/pixmaps
+appicondir = $(datadir)/$(PACKAGE)/pixmaps
 
 glade_DATA = 					\
 	fields1.glade				\

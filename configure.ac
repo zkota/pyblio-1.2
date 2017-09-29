@@ -104,6 +104,10 @@ AC_CONFIG_FILES(
 	Pyblio/Style/Makefile
 	help/Makefile
 	Styles/Makefile
+	data/Makefile
+	data/icons/Makefile
+	data/pixmaps/Makefile
+	data/src/Makefile
 )
 
 

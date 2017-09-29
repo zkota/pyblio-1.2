@@ -1,0 +1,4 @@
+SUBDIRS = 	icons	\
+		pixmaps	\
+		src
+

@@ -72,7 +72,7 @@ class Index (Connector.Publisher):
 
         i = 0
         self.gvpixbuf = gtk.gdk.pixbuf_new_from_file(
-            os.path.join (version.datadir, 'pixmaps', 'pybliographic-viewer.png'))
+            os.path.join (version.pybdir, 'pixmaps', 'pybliographic-viewer.png'))
         if True:
             rend = gtk.CellRendererPixbuf ()
             col = gtk.TreeViewColumn ('P', rend, pixbuf = len(fields))

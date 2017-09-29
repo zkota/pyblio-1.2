@@ -30,14 +30,8 @@ SUBDIRS = 	Pyblio 		\
 		tests		\
 		Styles		\
 		po		\
-		help
-
-
-appicondir = $(datadir)/pixmaps
-appicon_DATA = pybliographic.png 
-
-pixmapsdir = $(datadir)/pixmaps
-pixmaps_DATA = pybliographic-logo.png pybliographic-viewer.png
+		help		\
+		data
 
 
 app_DATA = pybliographic.desktop
@@ -53,13 +47,7 @@ EXTRA_DIST = 	setup-check.py			\
 	 	pybliographer.py 		\
 		etc/installer.in		\
 		pybliographic.appdata.xml	\
-		pybliographic.keys.in		\
-		pybliographic.mime		\
-		pybliographic.desktop.in	\
-		pybliographic.png		\
-		pybliographic-logo.png		\
-		pybliographic-viewer.png
-
+		pybliographic.desktop.in
 
 dist-hook:
 	intltool-merge -d po pybliographic.desktop.in $(distdir)/pybliographic.desktop
