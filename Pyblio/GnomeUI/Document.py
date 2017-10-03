@@ -1224,7 +1224,9 @@ class Document (Connector.Publisher):
         return
     
     def about (self, *arg):
-        
+
+	pybliologo = gtk.gdk.pixbuf_new_from_file(
+			os.path.join (version.pybdir, 'pixmaps', 'pybliographic-logo.png'))
         about = ui.About ('Pybliographic',
                           version.version,
                           _("This program is copyrighted under the GNU GPL"),
@@ -1239,7 +1241,8 @@ class Document (Connector.Publisher):
                           ['Yuri Bongiorno',
                            'Frédéric Gobry',
                            'Zoltán Kóta'],
-                          _('GNOME Translation Team'))
+                          _('GNOME Translation Team'),
+                          pybliologo)
 
         about.set_transient_for (self.w)
         
