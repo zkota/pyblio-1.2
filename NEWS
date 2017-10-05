@@ -1,5 +1,13 @@
 -*- text -*-
 
+New in 1.2.18 - 2017-10-05
+
+       * Updated help system
+       * Updated installation system
+       * New icons in different sizes to follow desktop
+         specifications
+       * New and updated translations (Gnome I18n team)
+
 New in 1.2.17 - 2014-11-27
 
        * Fixed exit issues in command line
